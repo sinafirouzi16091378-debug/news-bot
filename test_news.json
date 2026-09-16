@@ -1,0 +1,119 @@
+{
+  "dataset_name": "news_ai_model_test_set",
+  "version": "1.0",
+  "created_at": "2026-09-16",
+  "language": "en",
+  "purpose": "Benchmark candidate free AI APIs for a Persian daily-news pipeline.",
+  "evaluation_dimensions": [
+    "factual_accuracy",
+    "fact_vs_claim_separation",
+    "importance_assessment",
+    "duplicate_detection",
+    "Persian_summarization",
+    "source_attribution",
+    "hallucination_control",
+    "structured_output_quality"
+  ],
+  "articles": [
+    {
+      "article_id": "news_001",
+      "category": "ai_technology",
+      "subcategory": "AI safety and regulation",
+      "title": "EU's von der Leyen backs AI slowdown, to invite frontier labs for talks",
+      "source": "Reuters",
+      "published_at": "2026-09-16",
+      "url": "https://www.reuters.com/world/eus-von-der-leyen-invite-frontier-labs-talks-tackling-ai-risks-2026-09-16/",
+      "content": "European Commission President Ursula von der Leyen backed calls from leading U.S. AI labs for a pause in frontier AI development and said she would invite major frontier AI labs to discuss how to address risks. She cited concerns about increasingly capable models and advanced hacking, and mentioned cooperation on model evaluation, verification and AI security."
+    },
+    {
+      "article_id": "news_002",
+      "category": "ai_technology",
+      "subcategory": "AI infrastructure and energy",
+      "title": "Europe's AI race is increasingly tied to electricity and energy infrastructure",
+      "source": "Reuters",
+      "published_at": "2026-09-15",
+      "url": "https://www.reuters.com/sustainability/climate-energy/why-next-industrial-race-will-be-won-electricity--ecmii-2026-09-15/",
+      "content": "A Reuters commentary argues that access to cheap, scalable and clean electricity is becoming a major determinant of competitiveness in AI and other electricity-intensive industries. It highlights rising demand from data centers, electric vehicles and electrification, while pointing to grid modernization, storage and financing as constraints. The piece is commentary rather than a straight news report."
+    },
+    {
+      "article_id": "news_003",
+      "category": "ai_technology",
+      "subcategory": "AI safety debate",
+      "title": "Meta's Zuckerberg says AI labs have enough incentive to build safely",
+      "source": "Reuters",
+      "published_at": "2026-09-16",
+      "url": "https://www.reuters.com/business/metas-zuckerberg-says-ai-labs-have-enough-incentive-build-safely-2026-09-16/",
+      "content": "Meta CEO Mark Zuckerberg said competition and potential legal liability give AI companies incentives to manage safety without a coordinated slowdown in development. His position contrasts with calls from other AI leaders for a slower pace. Zuckerberg also described Meta's use of independent evaluators and a delay of an AI-agent release to improve security."
+    },
+    {
+      "article_id": "news_004",
+      "category": "health_science",
+      "subcategory": "AI governance in health",
+      "title": "Third meeting of the Global Initiative on AI for Health begins in Hangzhou",
+      "source": "World Health Organization",
+      "published_at": "2026-09-16",
+      "url": "https://www.who.int/news-room/events/detail/2026/09/16/default-calendar/third-meeting-of-the-global-initiative-on-ai-for-health",
+      "content": "WHO, the International Telecommunication Union and the World Intellectual Property Organization are holding the third meeting of the Global Initiative on AI for Health from September 16 to 18, 2026, in Hangzhou, China. The initiative brings together expertise in health, telecommunications, technical standards and intellectual property, with work covering governance, standards, collaboration, capacity building and responsible use of AI in health."
+    },
+    {
+      "article_id": "news_005",
+      "category": "economy_markets",
+      "subcategory": "oil and energy",
+      "title": "Oil slips as Saudi Arabia offers more crude via Oman; diesel near record high",
+      "source": "Reuters",
+      "published_at": "2026-09-16",
+      "url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/",
+      "content": "Oil prices fell after Saudi Arabia increased crude deliveries via Oman, easing some concerns about Middle East supply disruptions. Reuters reported Brent at $107.06 per barrel and WTI at $103.23 at 1128 GMT. European diesel prices remained near record highs, while U.S. crude inventories increased by 7.1 million barrels in the previous week according to API data cited by Reuters."
+    },
+    {
+      "article_id": "news_006",
+      "category": "economy_markets",
+      "subcategory": "monetary policy",
+      "title": "Surging bond yields could factor into Federal Reserve deliberations",
+      "source": "Reuters",
+      "published_at": "2026-09-16",
+      "url": "https://www.reuters.com/business/bond-market-woes-likely-factor-fed-intervention-seen-unlikely-2026-09-16/",
+      "content": "Reuters reported that rising U.S. government bond yields are increasing credit costs and could factor into Federal Reserve deliberations. The report said analysts expect the central bank to resist explicit pressure to intervene in the bond market, while Treasury Secretary Scott Bessent has taken an active role in trying to reduce yields he considers inconsistent with the U.S. economic outlook."
+    },
+    {
+      "article_id": "news_007",
+      "category": "economy_markets",
+      "subcategory": "UK inflation",
+      "title": "UK inflation hits 3.1% in August",
+      "source": "Reuters",
+      "published_at": "2026-09-16",
+      "url": "https://www.reuters.com/world/uk/uk-inflation-speeds-up-31-august-2026-09-16/",
+      "content": "UK inflation accelerated to 3.1% in August, a five-month high, according to official figures reported by Reuters. Core inflation was 2.6% for a fourth consecutive month and services inflation was 3.4%. The data came ahead of an expected Bank of England decision to keep interest rates unchanged."
+    },
+    {
+      "article_id": "news_008",
+      "category": "economy_markets",
+      "subcategory": "European energy security",
+      "title": "German minister plans market incentives to boost gas storage",
+      "source": "Reuters",
+      "published_at": "2026-09-16",
+      "url": "https://www.reuters.com/business/energy/german-minister-plans-market-incentives-boost-gas-storage-source-says-2026-09-16/",
+      "content": "Germany's Economy Minister Katherina Reiche plans to use market incentives to encourage traders to keep more gas available for winter, while avoiding direct government purchases. A planned autumn tender for long-term options is expected to be increased by an amount that had not yet been determined. The proposal comes amid concerns about energy supply and storage."
+    },
+    {
+      "article_id": "news_009",
+      "category": "world",
+      "subcategory": "U.S. Congress and Iran war",
+      "title": "US House votes for a third time to end the Iran war as conflict drags on",
+      "source": "Associated Press",
+      "published_at": "2026-09-16",
+      "url": "https://apnews.com/article/iran-war-powers-resolution-8519dae8197214b4edf2192e174c82f4",
+      "content": "The U.S. House of Representatives approved a war-powers resolution for the third time that would halt President Donald Trump's ability to continue military action related to the Iran war without congressional approval. The item is included to test whether an AI system can distinguish reported facts, political statements and attributed claims in a politically sensitive story."
+    },
+    {
+      "article_id": "news_010",
+      "category": "world_economy",
+      "subcategory": "global development",
+      "title": "World Bank names Nobel laureate Michael Kremer as next chief economist",
+      "source": "Reuters",
+      "published_at": "2026-09-16",
+      "url": "https://www.reuters.com/world/world-bank-names-nobel-laureate-michael-kremer-next-chief-economist-2026-09-16/",
+      "content": "The World Bank named Nobel laureate and University of Chicago professor Michael Kremer as its next chief economist, succeeding Indermit Gill, who retired the previous month. Kremer won the 2019 Nobel Prize in Economic Sciences jointly with Esther Duflo and Abhijit Banerjee for experimental work on alleviating global poverty."
+    }
+  ]
+}
