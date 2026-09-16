@@ -1,0 +1,144 @@
+name: Groq News Benchmark
+
+on:
+  workflow_dispatch:
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run benchmark
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import requests
+          from pathlib import Path
+
+          API_URL = "https://api.groq.com/openai/v1/chat/completions"
+          MODEL = "openai/gpt-oss-120b"
+
+          prompt_template = """You are an editor for a high-quality Persian daily news briefing.
+
+          Analyze the following news article.
+
+          Your task is NOT to add outside information. Use only the information provided
+          in the article. Clearly distinguish reported facts from claims, opinions,
+          predictions, and statements attributed to people or organizations.
+
+          Return valid JSON with exactly these fields:
+
+          {
+            "importance": 1-5,
+            "importance_reason": "...",
+            "category": "...",
+            "summary_fa": "...",
+            "key_facts": ["...", "..."],
+            "claims_or_opinions": ["...", "..."],
+            "sources_mentioned": ["...", "..."],
+            "is_potentially_duplicate": true/false,
+            "uncertainties": ["...", "..."]
+          }
+
+          Rules:
+          - Write all explanatory text in natural, concise Persian.
+          - Do not invent facts.
+          - Do not turn an attributed claim into an established fact.
+          - Do not make political recommendations or political judgments.
+          - If information is insufficient, explicitly say so.
+          - importance means importance for a general Persian-speaking daily-news audience,
+            not whether the event is good or bad.
+          - Keep summary_fa to 3-5 sentences.
+          - Return JSON only.
+
+          ARTICLE:
+          """
+
+          with open("test_news.json", "r", encoding="utf-8") as f:
+              dataset = json.load(f)
+
+          results = []
+
+          headers = {
+              "Content-Type": "application/json",
+              "Authorization": f"Bearer {os.environ['GROQ_API_KEY']}"
+          }
+
+          for article in dataset["articles"]:
+              article_text = (
+                  f"Title: {article['title']}\n"
+                  f"Source: {article['source']}\n"
+                  f"Published: {article['published_at']}\n"
+                  f"Content: {article['content']}"
+              )
+
+              payload = {
+                  "model": MODEL,
+                  "messages": [
+                      {
+                          "role": "user",
+                          "content": prompt_template + article_text
+                      }
+                  ],
+                  "temperature": 0
+              }
+
+              response = requests.post(
+                  API_URL,
+                  headers=headers,
+                  json=payload,
+                  timeout=120
+              )
+
+              response.raise_for_status()
+              data = response.json()
+
+              raw_output = data["choices"][0]["message"]["content"]
+
+              try:
+                  parsed = json.loads(raw_output)
+                  valid_json = True
+              except json.JSONDecodeError:
+                  parsed = {"raw_output": raw_output}
+                  valid_json = False
+
+              results.append({
+                  "article_id": article["article_id"],
+                  "title": article["title"],
+                  "valid_json": valid_json,
+                  "model_output": parsed
+              })
+
+              print(f"Completed: {article['article_id']}")
+
+          output = {
+              "model": MODEL,
+              "dataset": dataset["dataset_name"],
+              "results": results
+          }
+
+          Path("groq_benchmark_results.json").write_text(
+              json.dumps(output, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+          PY
+
+      - name: Upload benchmark results
+        uses: actions/upload-artifact@v4
+        with:
+          name: groq-benchmark-results
+          path: groq_benchmark_results.json
