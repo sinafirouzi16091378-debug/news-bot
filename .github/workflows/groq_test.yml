@@ -1,0 +1,27 @@
+name: Test Groq API
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-groq:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test Groq API
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          curl -s https://api.groq.com/openai/v1/chat/completions \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer $GROQ_API_KEY" \
+            -d '{
+              "model": "openai/gpt-oss-120b",
+              "messages": [
+                {
+                  "role": "user",
+                  "content": "Reply with exactly: GROQ TEST OK"
+                }
+              ],
+              "temperature": 0
+            }'
