@@ -19,20 +19,29 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run benchmark
+      - name: Run Groq benchmark
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python - <<'PY'
           import json
           import os
+          import time
           import requests
-          from pathlib import Path
+
+          INPUT_FILE = "test_news.json"
+          OUTPUT_FILE = "groq_benchmark_results.json"
 
           API_URL = "https://api.groq.com/openai/v1/chat/completions"
           MODEL = "openai/gpt-oss-120b"
 
-          prompt_template = """You are an editor for a high-quality Persian daily news briefing.
+          with open(INPUT_FILE, "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          articles = data["articles"]
+
+          prompt_template = """
+          You are an editor for a high-quality Persian daily news briefing.
 
           Analyze the following news article.
 
@@ -68,73 +77,94 @@ jobs:
           ARTICLE:
           """
 
-          with open("test_news.json", "r", encoding="utf-8") as f:
-              dataset = json.load(f)
-
           results = []
 
-          headers = {
-              "Content-Type": "application/json",
-              "Authorization": f"Bearer {os.environ['GROQ_API_KEY']}"
-          }
+          for article in articles:
+              article_id = article.get("id", "unknown")
+              article_text = article.get("content", "")
 
-          for article in dataset["articles"]:
-              article_text = (
-                  f"Title: {article['title']}\n"
-                  f"Source: {article['source']}\n"
-                  f"Published: {article['published_at']}\n"
-                  f"Content: {article['content']}"
-              )
+              prompt = prompt_template + "\n" + article_text
 
               payload = {
                   "model": MODEL,
                   "messages": [
                       {
                           "role": "user",
-                          "content": prompt_template + article_text
+                          "content": prompt
                       }
                   ],
-                  "temperature": 0
+                  "temperature": 0.1,
+                  "response_format": {
+                      "type": "json_object"
+                  }
               }
 
-              response = requests.post(
-                  API_URL,
-                  headers=headers,
-                  json=payload,
-                  timeout=120
+              headers = {
+                  "Authorization": f"Bearer {os.environ['GROQ_API_KEY']}",
+                  "Content-Type": "application/json"
+              }
+
+              success = False
+
+              for attempt in range(5):
+                  try:
+                      response = requests.post(
+                          API_URL,
+                          headers=headers,
+                          json=payload,
+                          timeout=120
+                      )
+
+                      if response.status_code == 429:
+                          wait_time = 10 * (attempt + 1)
+                          print(
+                              f"Rate limit for {article_id}. "
+                              f"Waiting {wait_time} seconds before retry..."
+                          )
+                          time.sleep(wait_time)
+                          continue
+
+                      response.raise_for_status()
+
+                      result = response.json()
+                      content = result["choices"][0]["message"]["content"]
+
+                      parsed = json.loads(content)
+
+                      results.append({
+                          "id": article_id,
+                          "model": MODEL,
+                          "result": parsed
+                      })
+
+                      print(f"Completed: {article_id}")
+                      success = True
+                      break
+
+                  except Exception as e:
+                      if attempt < 4:
+                          wait_time = 5 * (attempt + 1)
+                          print(
+                              f"Error on {article_id}: {e}. "
+                              f"Retrying in {wait_time} seconds..."
+                          )
+                          time.sleep(wait_time)
+                      else:
+                          print(f"Failed: {article_id}: {e}")
+
+              # فاصله بین درخواست‌های موفق
+              if success:
+                  time.sleep(8)
+
+          with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+              json.dump(
+                  results,
+                  f,
+                  ensure_ascii=False,
+                  indent=2
               )
 
-              response.raise_for_status()
-              data = response.json()
-
-              raw_output = data["choices"][0]["message"]["content"]
-
-              try:
-                  parsed = json.loads(raw_output)
-                  valid_json = True
-              except json.JSONDecodeError:
-                  parsed = {"raw_output": raw_output}
-                  valid_json = False
-
-              results.append({
-                  "article_id": article["article_id"],
-                  "title": article["title"],
-                  "valid_json": valid_json,
-                  "model_output": parsed
-              })
-
-              print(f"Completed: {article['article_id']}")
-
-          output = {
-              "model": MODEL,
-              "dataset": dataset["dataset_name"],
-              "results": results
-          }
-
-          Path("groq_benchmark_results.json").write_text(
-              json.dumps(output, ensure_ascii=False, indent=2),
-              encoding="utf-8"
-          )
+          print(f"Saved {len(results)} results to {OUTPUT_FILE}")
           PY
 
       - name: Upload benchmark results
