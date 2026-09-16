@@ -2,17 +2,31 @@ name: News Bot
 
 on:
   workflow_dispatch:
+
   schedule:
+    # Collect new news every 30 minutes
     - cron: "*/30 * * * *"
 
+    # Daily digest at 21:35 Iran time
+    # Iran = UTC+3:30
+    # 21:35 Iran = 18:05 UTC
+    - cron: "5 18 * * *"
+
 jobs:
-  news:
+
+  # ==========================================================
+  # COLLECT NEWS
+  # ==========================================================
+
+  collect:
+    if: github.event.schedule == '*/30 * * * *'
     runs-on: ubuntu-latest
 
     permissions:
       contents: write
 
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -24,17 +38,57 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run news bot
+      - name: Collect news
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: python news_bot.py
+        run: python news_bot.py collect
 
-      - name: Save state
+      - name: Save collected news
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add seen.json
-          git diff --cached --quiet || git commit -m "Update news state"
+          git add pending_news.json seen.json
+          git diff --cached --quiet || git commit -m "Collect daily news"
+          git push
+
+
+  # ==========================================================
+  # DAILY DIGEST
+  # ==========================================================
+
+  digest:
+    if: github.event.schedule == '5 18 * * *'
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create daily digest
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python news_bot.py digest
+
+      - name: Save digest state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pending_news.json seen.json
+          git diff --cached --quiet || git commit -m "Create daily news digest"
           git push
