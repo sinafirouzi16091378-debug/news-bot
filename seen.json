@@ -57,6 +57,7 @@
   ],
   "The Guardian AI": [
     "https://www.theguardian.com/technology/2026/sep/15/could-ai-really-wipe-out-humanity-and-hijack-the-internet",
+    "https://www.theguardian.com/australia-news/audio/2026/sep/16/why-wont-donald-trump-regulate-ai-decoding-america-podcast",
     "https://www.theguardian.com/commentisfree/picture/2026/sep/16/i-used-to-think-ai-would-kill-us-all-until-the-techbro-ceos-said-ai-will-kill-us-all-and-now-im-not-so-sure",
     "https://www.theguardian.com/world/2026/sep/16/wednesday-briefing-why-tech-companies-might-be-only-too-happy-for-us-to-believe-ai-will-kill-us-all",
     "https://www.theguardian.com/technology/2026/sep/16/anthropic-lands-31bn-datacentre-deal-in-western-queensland",
@@ -75,9 +76,9 @@
     "https://www.theguardian.com/technology/2026/sep/15/ai-can-wipe-us-out-so-why-cant-it-do-guardian-cryptic-crosswords",
     "https://www.theguardian.com/australia-news/2026/sep/16/datacentre-giant-accused-of-using-ai-while-lobbying-for-victorian-ministers-support-for-hyperscale-factory",
     "https://www.theguardian.com/tv-and-radio/2026/sep/15/no-big-deal-review-is-this-how-ai-ends-humanity-with-a-sitcom-so-bad-it-bores-you-to-death",
+    "https://www.theguardian.com/global/2026/sep/15/ai-doomsday-warning-jacob-coxon-anthropic",
     "https://www.theguardian.com/technology/2026/sep/15/ai-grief-bot-death-isolation",
-    "https://www.theguardian.com/us-news/2026/sep/15/datacenters-local-elections",
-    "https://www.theguardian.com/global/2026/sep/15/ai-doomsday-warning-jacob-coxon-anthropic"
+    "https://www.theguardian.com/us-news/2026/sep/15/datacenters-local-elections"
   ],
   "European Central Bank": [
     "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html",
@@ -119,12 +120,14 @@
     "https://fedinprint.org/item/d00001/103755"
   ],
   "BBC World": [
+    "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o#0",
     "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o#0",
-    "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo#0",
+    "https://www.bbc.co.uk/news/articles/cw4gq0j5jg10o#0",
     "https://www.bbc.co.uk/news/articles/cqy0z5y7wnp2o#0",
     "https://www.bbc.co.uk/news/articles/cmy4zqgk97wlo#0",
     "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo#0",
     "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo#0",
+    "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo#1",
     "https://www.bbc.co.uk/news/articles/crgqde1nex2vo#1",
     "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo#1",
     "https://www.bbc.co.uk/news/articles/cmq8jdgel128o#1",
@@ -137,9 +140,61 @@
     "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo#1",
     "https://www.bbc.co.uk/news/articles/cmqjkg121kr9o#1",
     "https://www.bbc.co.uk/news/articles/ck20989806e9o#1",
-    "https://www.bbc.co.uk/news/articles/cmpq04wx8l4eo#1",
     "https://www.bbc.co.uk/news/articles/cy459y5y9yxo#1",
-    "https://www.bbc.co.uk/news/articles/c65yw2gq2nrno#2",
-    "https://www.bbc.co.uk/news/articles/crgqde1nex2vo#0"
+    "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo#0",
+    "https://www.bbc.co.uk/news/articles/crgqde1nex2vo#0",
+    "https://www.bbc.co.uk/news/articles/cmpq04wx8l4eo#1",
+    "https://www.bbc.co.uk/news/articles/c65yw2gq2nrno#2"
+  ],
+  "Reuters YouTube": [
+    "yt:video:_iZuv5bOQDc",
+    "yt:video:E9W5Y1OqLto",
+    "yt:video:OgWPcSghJFc",
+    "yt:video:GA9AveJ4DZk",
+    "yt:video:1mlsODQmtuY",
+    "yt:video:0fBaEMYVR64",
+    "yt:video:xg4OqTR4H4U",
+    "yt:video:gwYQUjmpqsE",
+    "yt:video:_2pXPwK52_E",
+    "yt:video:BWTzvXhe0vg",
+    "yt:video:ewh15VnpeU0",
+    "yt:video:vASivcNF4HY",
+    "yt:video:imtPO_wqtMc",
+    "yt:video:Ap6GJ4hc2bU",
+    "yt:video:moYQbRZM1oA"
+  ],
+  "Radio Farda YouTube": [
+    "yt:video:aFKMG6iZq40",
+    "yt:video:oKfwtLnz3P8",
+    "yt:video:W1h4JG_WC6Q",
+    "yt:video:dYuKhN0-9wM",
+    "yt:video:EJrlR2wF06c",
+    "yt:video:ipJPyHXZxFY",
+    "yt:video:JqejW45Hzc8",
+    "yt:video:pkb8YPUQHTk",
+    "yt:video:6Fz6VuJ64zA",
+    "yt:video:2rGODttLAAA",
+    "yt:video:FJ3xDBwCskk",
+    "yt:video:B5VV5ZPZU0A",
+    "yt:video:pcL-VHzCTII",
+    "yt:video:M6PtTTYax1c",
+    "yt:video:aRScGK4lU60"
+  ],
+  "BBC Persian YouTube": [
+    "yt:video:HmWhKpDgWBU",
+    "yt:video:0PbeAcgk9mI",
+    "yt:video:aZFlW3rRlAM",
+    "yt:video:2SwpX35Fnu4",
+    "yt:video:b2JYIbRtBrE",
+    "yt:video:k7zO0JB0qCU",
+    "yt:video:I-pYXvPo5aM",
+    "yt:video:VHtFItoeZtc",
+    "yt:video:3eu2ustJeXk",
+    "yt:video:3lXzwZv5rIY",
+    "yt:video:cLC9HvTa3Vs",
+    "yt:video:C7djDH_ayRw",
+    "yt:video:xblFpUrr2q4",
+    "yt:video:B4EFn3ySSfM",
+    "yt:video:6OyxGDHq0qA"
   ]
 }
