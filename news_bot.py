@@ -16,7 +16,7 @@ import requests
 # =========================================================
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL = "openai/gpt-oss-120b"
+GROQ_MODEL = "openai/gpt-oss-20b"
 
 SEEN_FILE = "seen.json"
 PENDING_FILE = "pending_news.json"
