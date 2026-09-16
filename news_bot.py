@@ -1,4 +1,3 @@
-
 import os
 import sys
 import json
@@ -1337,14 +1336,14 @@ def build_digest_message(
 
     lines = []
 
-    lines.append(
+    # FIXED: avoid nested quotes inside f-string
+    digest_title = final_selection.get(
+        "digest_title",
+        "گزارش اخبار مهم روز"
+    )
 
-        f"📰 <b>"
-        f"{escape(str(final_selection.get("
-            "digest_title",
-            "گزارش اخبار مهم روز"
-        )))}"
-        f"</b>"
+    lines.append(
+        f"📰 <b>{escape(str(digest_title))}</b>"
     )
 
     lines.append("")
