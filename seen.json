@@ -9,7 +9,14 @@
     "March 2026",
     "February 2026",
     "January 2026",
-    "December 2025"
+    "December 2025",
+    "5111fc9c431a95819de05d5453474ca8e5eb854ff504f0deab815daf22d0237e",
+    "152639e220cd47e0ab94beb1331692ae1ab1211d71595e82cb5e7c8572d0c52e",
+    "012fc02ad463fc1836b2f8419ed95387e523f3a311e414277ad729f59dd4859d",
+    "4f7d169525e16819fdde8b0a2a48db134b369fa7ba8e6abc115f221262b94419",
+    "af669edb611a567d0bcf52f5ae9834fbb797bb296c7c50581c7720bfe31a722a",
+    "fc437294ca9e51d4f75277fe74dc3b0aa18e23f3e70f3339279a2109738eb968",
+    "1c2e7d7242d4937bffeb7ae2ac5b4071b084298424eb1637e9c216f6f292d64f"
   ],
   "World Health Organization": [
     "urn:uuid:0ce5fa04-9ac3-465f-89cf-15a8e5a748dd",
@@ -239,5 +246,8 @@
     "yt:video:6OyxGDHq0qA",
     "yt:video:B4EFn3ySSfM",
     "yt:video:xblFpUrr2q4"
+  ],
+  "WHO": [
+    "10d30315881dceb19867deba279b24bbd68a545ea69bc32a4ed411398998c0cf"
   ]
 }
