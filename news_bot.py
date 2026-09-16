@@ -101,6 +101,7 @@ def send_telegram(message):
         data={
             "chat_id": TELEGRAM_CHAT_ID,
             "text": message,
+            "parse_mode": "HTML",
             "disable_web_page_preview": False,
         },
         timeout=30,
@@ -116,6 +117,80 @@ def entry_id(entry):
         or entry.get("link")
         or entry.get("title")
     )
+
+
+def get_category_icon(category):
+    icons = {
+        "Medicine & Health": "🩺",
+        "Science": "🔬",
+        "AI & Technology": "🤖",
+        "Economy": "💰",
+        "World": "🌍",
+        "Iran": "🇮🇷",
+    }
+
+    return icons.get(category, "📰")
+
+
+def get_published_time(entry):
+    parsed_time = None
+
+    if entry.get("published_parsed"):
+        parsed_time = entry.published_parsed
+    elif entry.get("updated_parsed"):
+        parsed_time = entry.updated_parsed
+
+    if not parsed_time:
+        return ""
+
+    try:
+        dt = datetime(
+            parsed_time.tm_year,
+            parsed_time.tm_mon,
+            parsed_time.tm_mday,
+            parsed_time.tm_hour,
+            parsed_time.tm_min,
+            parsed_time.tm_sec,
+            tzinfo=timezone.utc,
+        )
+
+        return dt.strftime("%Y-%m-%d %H:%M UTC")
+
+    except Exception:
+        return ""
+
+
+def create_message(feed, entry):
+    category = feed["category"]
+    name = feed["name"]
+
+    title = clean_text(entry.get("title", "Untitled"))
+    link = entry.get("link", "")
+
+    icon = get_category_icon(category)
+    published = get_published_time(entry)
+
+    is_youtube = "YouTube" in name
+
+    if is_youtube:
+        link_text = "▶️ مشاهده ویدئو"
+    else:
+        link_text = "🔗 مطالعه خبر"
+
+    message = (
+        f"<b>{icon} {html.escape(category.upper())}</b>\n\n"
+        f"<b>{html.escape(title)}</b>\n\n"
+        f"📰 {html.escape(name)}"
+    )
+
+    if published:
+        message += f"\n🕒 {published}"
+
+    if link:
+        safe_link = html.escape(link, quote=True)
+        message += f'\n\n<a href="{safe_link}">{link_text}</a>'
+
+    return message
 
 
 def main():
@@ -157,28 +232,24 @@ def main():
                 if first_run:
                     continue
 
-                title = clean_text(entry.get("title", "Untitled"))
-                link = entry.get("link", "")
-
-                message = (
-                    f"📰 {feed['category']}\n\n"
-                    f"{title}\n\n"
-                    f"منبع: {feed['name']}\n"
-                    f"{link}"
-                )
+                message = create_message(feed, entry)
 
                 try:
                     send_telegram(message)
                     total_new += 1
-                    print(f"  Sent: {title}")
+
+                    print(
+                        f"  Sent: {clean_text(entry.get('title', 'Untitled'))}"
+                    )
 
                 except Exception as e:
                     print(f"  Telegram error: {e}")
                     continue
 
             if current_ids:
-                # Keep only the latest 100 IDs for each feed
-                combined = list(dict.fromkeys(current_ids + list(feed_seen)))
+                combined = list(
+                    dict.fromkeys(current_ids + list(feed_seen))
+                )
                 new_state[feed["name"]] = combined[:100]
 
         except Exception as e:
