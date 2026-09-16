@@ -394,11 +394,80 @@ def groq_request(messages, timeout=GROQ_REQUEST_TIMEOUT):
                 flush=True,
             )
 
+            # -----------------------------------------
+            # RATE LIMIT DIAGNOSTICS
+            # -----------------------------------------
+
             if response.status_code == 429:
+
+                print(
+                    "========== GROQ RATE LIMIT ==========",
+                    flush=True,
+                )
+
+                print(
+                    "Response body:",
+                    flush=True,
+                )
+
+                print(
+                    response.text[:3000],
+                    flush=True,
+                )
+
+                print(
+                    "Relevant response headers:",
+                    flush=True,
+                )
+
+                rate_headers = [
+                    "retry-after",
+                    "x-ratelimit-limit-requests",
+                    "x-ratelimit-remaining-requests",
+                    "x-ratelimit-reset-requests",
+                    "x-ratelimit-limit-tokens",
+                    "x-ratelimit-remaining-tokens",
+                    "x-ratelimit-reset-tokens",
+                ]
+
+                for header_name in rate_headers:
+
+                    value = response.headers.get(
+                        header_name
+                    )
+
+                    if value is not None:
+
+                        print(
+                            f"{header_name}: {value}",
+                            flush=True,
+                        )
+
+                print(
+                    "======================================",
+                    flush=True,
+                )
 
                 if attempt < MAX_GROQ_RETRIES:
 
-                    wait_time = 30 * attempt
+                    retry_after = response.headers.get(
+                        "retry-after"
+                    )
+
+                    try:
+                        wait_time = float(
+                            retry_after
+                        )
+                    except (
+                        TypeError,
+                        ValueError
+                    ):
+                        wait_time = 30 * attempt
+
+                    wait_time = max(
+                        5,
+                        min(wait_time, 180)
+                    )
 
                     print(
                         f"Rate limit. Waiting "
@@ -414,6 +483,10 @@ def groq_request(messages, timeout=GROQ_REQUEST_TIMEOUT):
                     "maximum retries."
                 )
 
+            # -----------------------------------------
+            # OTHER HTTP ERRORS
+            # -----------------------------------------
+
             if response.status_code >= 400:
 
                 try:
@@ -425,6 +498,10 @@ def groq_request(messages, timeout=GROQ_REQUEST_TIMEOUT):
                     f"Groq HTTP {response.status_code}: "
                     f"{detail}"
                 )
+
+            # -----------------------------------------
+            # SUCCESS
+            # -----------------------------------------
 
             data = response.json()
 
@@ -447,6 +524,7 @@ def groq_request(messages, timeout=GROQ_REQUEST_TIMEOUT):
             )
 
             if attempt < MAX_GROQ_RETRIES:
+
                 time.sleep(10)
                 continue
 
@@ -460,14 +538,15 @@ def groq_request(messages, timeout=GROQ_REQUEST_TIMEOUT):
             )
 
             if attempt < MAX_GROQ_RETRIES:
+
                 time.sleep(10)
                 continue
 
             raise
 
-    raise RuntimeError("Groq request failed.")
-
-
+    raise RuntimeError(
+        "Groq request failed."
+    )
 # =========================================================
 # BATCH ARTICLE ANALYSIS
 # =========================================================
