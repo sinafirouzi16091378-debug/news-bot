@@ -115,7 +115,8 @@
     "b3cec96f6ad0ab7608cd2cb9d337d57a7b0206eb7e0f0c47c8620b4c6b1d09d9",
     "85589cb5d4141aa73f457ab3c4e64f7d16c761e0b5f27707b8af59be62355d13",
     "6bae24e1744b54d0e0033a049b0568ab8b538750975c4e223e17be89548ff4a1",
-    "c5b4907c3e95cac92fd9d6aa1c0458048d9b34c74baf14e1f9b1db2f2dd7e75f"
+    "c5b4907c3e95cac92fd9d6aa1c0458048d9b34c74baf14e1f9b1db2f2dd7e75f",
+    "371d5373f6063d126a7f59177157e8d2af135fe8c3345e3c80586a070302d4fb"
   ],
   "European Central Bank": [
     "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html",
@@ -155,7 +156,12 @@
     "https://fedinprint.org/item/d00067/103758",
     "https://fedinprint.org/item/d00067/103756",
     "https://fedinprint.org/item/d00067/103757",
-    "https://fedinprint.org/item/d00001/103755"
+    "https://fedinprint.org/item/d00001/103755",
+    "c5ac064233f67071ae1613b95d8da88559a6744476a4cad0ea17bee19b0eddc9",
+    "55c9e2ed4c13d96d574ed7a019b7dd6f8776258337b844844c3248e961469813",
+    "7444e5b6bcb45b762142265e7116e5044af7f34ec58d626984fbbc6037cab2f6",
+    "597ef3a5d77ee429db35b1841b12a2742f9d0d2ba71c8b899ae1868f7829073f",
+    "857f04a910498b64ec77957b3b6bfc2ea1e571114418d6a25e4ceabb6100bf97"
   ],
   "BBC World": [
     "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko#0",
@@ -290,6 +296,8 @@
     "44be4f6a261f5c1d4596b30eece4b6a25d5c205642fb82999c2ad72a3dbd9dc2",
     "1ae938a05da8f5a6e8d4ee48acd434574429faff7de6de6d157b8083d9c2163e",
     "0274b8d7df0f013f80526e2f44dd4cf284f900ef69479bbcd6512353dae0c2a4",
-    "17fc1cfd49833ceda36e0d8d4e9ca69e0f6b8ca2260b8fac6f5ba33c49f3ef52"
+    "17fc1cfd49833ceda36e0d8d4e9ca69e0f6b8ca2260b8fac6f5ba33c49f3ef52",
+    "b140761048bccaed0ac3f4b5e986882ab2d04054076c51363f915a4a4605ddca",
+    "a22ba3d02154aeb26e639926162572f602ef6e17157a0faa0593c434cd72cd40"
   ]
 }
