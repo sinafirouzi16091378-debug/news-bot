@@ -1,15 +1,5 @@
 [
   {
-    "id": "https://www.bbc.co.uk/news/articles/ck62m0r4r1y3o?at_medium=RSS&at_campaign=rss",
-    "title": "Rosenberg: Russia's elections will have few surprises, but for the Kremlin they matter",
-    "url": "https://www.bbc.co.uk/news/articles/ck62m0r4r1y3o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "جهان",
-    "published": "2026-09-17T08:30:36+03:30",
-    "summary": "There is no doubt over the outcome of this vote, but for the Kremlin they are still an important moment.",
-    "content": "There is no doubt over the outcome of this vote, but for the Kremlin they are still an important moment."
-  },
-  {
     "id": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
     "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
     "url": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
@@ -2065,5 +2055,15 @@
     "published": "2026-09-18T03:30:00+03:30",
     "summary": "",
     "content": ""
+  },
+  {
+    "id": "https://www.bbc.co.uk/sport/football/articles/cmeq8v8e3ql7o?at_medium=RSS&at_campaign=rss",
+    "title": "Ronaldo named in first Portugal squad since World Cup - at age of 41",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmeq8v8e3ql7o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "جهان",
+    "published": "2026-09-18T16:15:25+03:30",
+    "summary": "Cristiano Ronaldo is named in the first squad selected by new Portugal coach Jorge Jesus for their upcoming Nations League games.",
+    "content": "Cristiano Ronaldo is named in the first squad selected by new Portugal coach Jorge Jesus for their upcoming Nations League games."
   }
 ]
