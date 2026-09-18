@@ -1,25 +1,5 @@
 [
   {
-    "id": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss",
-    "title": "Swedish PM Kristersson resigns after election loss",
-    "url": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "جهان",
-    "published": "2026-09-17T15:34:27+03:30",
-    "summary": "Left-wing opposition parties led by Magdalena Andersson look set to form the next government.",
-    "content": "Left-wing opposition parties led by Magdalena Andersson look set to form the next government."
-  },
-  {
-    "id": "https://www.youtube.com/shorts/xRr_N3n_gks",
-    "title": "EU proposes under-13s social media ban",
-    "url": "https://www.youtube.com/shorts/xRr_N3n_gks",
-    "source": "Reuters",
-    "category": "جهان",
-    "published": "2026-09-17T15:18:08+03:30",
-    "summary": "European Commission President Ursula von der Leyen unveiled sweeping plans to protect children online, proposing to ban social media for anyone under-13 and require supervised accounts for those aged 13-15. The proposed EU Kids Act would also limit children's daily social media use to one hour maximum. #EU #socialmediaban #socialmedia #onlinesaftey #tech",
-    "content": "European Commission President Ursula von der Leyen unveiled sweeping plans to protect children online, proposing to ban social media for anyone under-13 and require supervised accounts for those aged 13-15. The proposed EU Kids Act would also limit children's daily social media use to one hour maximum. #EU #socialmediaban #socialmedia #onlinesaftey #tech"
-  },
-  {
     "id": "https://www.youtube.com/watch?v=_sAAQpm99qo",
     "title": "Space drug companies seek zero gravity as ISS retirement nears",
     "url": "https://www.youtube.com/watch?v=_sAAQpm99qo",
@@ -2065,5 +2045,25 @@
     "published": "2026-09-18T02:59:17+03:30",
     "summary": "Queensland's Fitzroy River has been selected for the 2032 Games, despite concerns over the course - and its inhabitants.",
     "content": "Queensland's Fitzroy River has been selected for the 2032 Games, despite concerns over the course - and its inhabitants."
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&at_campaign=rss",
+    "title": "At least one dead and multiple injured in Philippines school shooting",
+    "url": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "جهان",
+    "published": "2026-09-18T11:58:27+03:30",
+    "summary": "At least one person is believed to have died and several injured after the shooting in Banga in Mindanao province.",
+    "content": "At least one person is believed to have died and several injured after the shooting in Banga in Mindanao province."
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/c3x2zrn01pxko?at_medium=RSS&at_campaign=rss",
+    "title": "Why US plan to sell F-35 warplanes to Saudi Arabia is controversial",
+    "url": "https://www.bbc.co.uk/news/articles/c3x2zrn01pxko?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "جهان",
+    "published": "2026-09-18T05:01:43+03:30",
+    "summary": "Saudi Arabia has lobbied the US for years to buy F35s, the world's most advanced fighter jet.",
+    "content": "Saudi Arabia has lobbied the US for years to buy F35s, the world's most advanced fighter jet."
   }
 ]
