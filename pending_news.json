@@ -1,15 +1,5 @@
 [
   {
-    "id": "https://www.youtube.com/shorts/DgfV0XSrnXI",
-    "title": "Detainees arrested in Nigeria mining raids die in custody",
-    "url": "https://www.youtube.com/shorts/DgfV0XSrnXI",
-    "source": "Reuters",
-    "category": "جهان",
-    "published": "2026-09-18T14:54:14+03:30",
-    "summary": "GRAPHIC WARNING: This video contains sensitive footage that may disturb some viewers. Residents of Minna in central Nigeria took to the streets to protest overnight after 37 detainees were found dead in the custody of a paramilitary force that had raided suspected illegal gold mines. #nigeria #westafrica #protest #goldmining #minna",
-    "content": "GRAPHIC WARNING: This video contains sensitive footage that may disturb some viewers. Residents of Minna in central Nigeria took to the streets to protest overnight after 37 detainees were found dead in the custody of a paramilitary force that had raided suspected illegal gold mines. #nigeria #westafrica #protest #goldmining #minna"
-  },
-  {
     "id": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot",
     "title": "OpenAI ‘ethically hacked’ with help of Anthropic’s Claude chatbot",
     "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot",
@@ -2065,5 +2055,15 @@
     "published": "2026-09-19T02:33:38+03:30",
     "summary": "Increasingly frequent and ferocious attacks on the Ukrainian capital have left many on edge.",
     "content": "Increasingly frequent and ferocious attacks on the Ukrainian capital have left many on edge."
+  },
+  {
+    "id": "https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack",
+    "title": "Google says its Gemini AI model hacked three other companies",
+    "url": "https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "published": "2026-09-19T04:23:20+03:30",
+    "summary": "<p>Disclosure comes after OpenAI and Anthropic hacks amid fears that tech firms unable to control powerful AI models </p><p>In a first for Google, the company confirmed that its AI model, Gemini, breached the security of three other companies in May. The hacks occurred during a cybersecurity evaluation by AI-security firm Irregular.</p><p>Irregular, an Israel-based startup that scrutinizes the security of advanced AI systems, was also at the center of some of the recent <a href=\"https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents\">OpenAI</a> and <a href=\"https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack\">Anthropic</a> hacks of third-party entities, including OpenAI’s <a href=\"https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident\">breach</a> of AI software company, Hugging Face.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack\">Continue reading...</a>",
+    "content": "<p>Disclosure comes after OpenAI and Anthropic hacks amid fears that tech firms unable to control powerful AI models </p><p>In a first for Google, the company confirmed that its AI model, Gemini, breached the security of three other companies in May. The hacks occurred during a cybersecurity evaluation by AI-security firm Irregular.</p><p>Irregular, an Israel-based startup that scrutinizes the security of advanced AI systems, was also at the center of some of the recent <a href=\"https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents\">OpenAI</a> and <a href=\"https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack\">Anthropic</a> hacks of third-party entities, including OpenAI’s <a href=\"https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident\">breach</a> of AI software company, Hugging Face.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack\">Continue reading...</a>"
   }
 ]
