@@ -1,25 +1,5 @@
 [
   {
-    "id": "https://www.bbc.co.uk/news/articles/cw980qp2n3p4o?at_medium=RSS&at_campaign=rss",
-    "title": "Dozens of suspected illegal miners die in Nigerian custody",
-    "url": "https://www.bbc.co.uk/news/articles/cw980qp2n3p4o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "جهان",
-    "published": "2026-09-18T14:05:59+03:30",
-    "summary": "Authorities linked the deaths to disease, but this has been disputed by intelligence reports and relatives of the accused.",
-    "content": "Authorities linked the deaths to disease, but this has been disputed by intelligence reports and relatives of the accused."
-  },
-  {
-    "id": "https://www.youtube.com/watch?v=8Z7XokReXpo",
-    "title": "LIVE: Russia votes in parliamentary election",
-    "url": "https://www.youtube.com/watch?v=8Z7XokReXpo",
-    "source": "Reuters",
-    "category": "جهان",
-    "published": "2026-09-18T13:48:36+03:30",
-    "summary": "Russians began voting in a three-day parliamentary election that President Vladimir Putin has framed as a barometer of support for the war in Ukraine. It is the first parliamentary election since Russia launched its full-scale invasion of Ukraine in February 2022. #russia #russiaelection #putin #ukraine #moscow #russiaukrainewar #live #Reuters #News Keep up with the latest news from around the world: https://www.reuters.com/",
-    "content": "Russians began voting in a three-day parliamentary election that President Vladimir Putin has framed as a barometer of support for the war in Ukraine. It is the first parliamentary election since Russia launched its full-scale invasion of Ukraine in February 2022. #russia #russiaelection #putin #ukraine #moscow #russiaukrainewar #live #Reuters #News Keep up with the latest news from around the world: https://www.reuters.com/"
-  },
-  {
     "id": "https://www.youtube.com/watch?v=XTK1ccVYsZ4",
     "title": "Saudi Arabia squeezed as Houthis advance toward shipping chokepoint | Reuters World News",
     "url": "https://www.youtube.com/watch?v=XTK1ccVYsZ4",
@@ -2065,5 +2045,25 @@
     "published": "2026-09-19T03:38:19+03:30",
     "summary": "French soccer star Kylian Mbappe has ended a two-decade partnership with Nike to join fast-growing Swiss sportswear brand On, giving the Roger Federer-backed company a marquee name for its push into soccer. #News #Reuters #Newsfeed #kylianmbappe #soccer #nike #on #sportswear Read the story here: https://reut.rs/3UZ3hFa 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en",
     "content": "French soccer star Kylian Mbappe has ended a two-decade partnership with Nike to join fast-growing Swiss sportswear brand On, giving the Roger Federer-backed company a marquee name for its push into soccer. #News #Reuters #Newsfeed #kylianmbappe #soccer #nike #on #sportswear Read the story here: https://reut.rs/3UZ3hFa 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
+    "title": "Google's Gemini AI hacked three companies in security test",
+    "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "جهان",
+    "published": "2026-09-19T07:57:11+03:30",
+    "summary": "The AI model accessed the internet and guessed credentials to three websites, a Google official told the BBC.",
+    "content": "The AI model accessed the internet and guessed credentials to three websites, a Google official told the BBC."
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/cmed7el18dxpo?at_medium=RSS&at_campaign=rss",
+    "title": "Saudi Arabia issues first air raid alerts for Riyadh since Houthis escalated attacks",
+    "url": "https://www.bbc.co.uk/news/articles/cmed7el18dxpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "جهان",
+    "published": "2026-09-19T07:50:47+03:30",
+    "summary": "Residents later received the all-clear after explosions were reported in the capital.",
+    "content": "Residents later received the all-clear after explosions were reported in the capital."
   }
 ]
