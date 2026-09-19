@@ -1,35 +1,5 @@
 [
   {
-    "id": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot",
-    "title": "OpenAI ‘ethically hacked’ with help of Anthropic’s Claude chatbot",
-    "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "published": "2026-09-18T14:50:44+03:30",
-    "summary": "<p>US cybersecurity researchers who conducted hack say ‘scope of what we could theoretically access was huge’</p><p>Cybersecurity researchers have hacked into OpenAI with the help of Anthropic’s Claude chatbot, in the latest example of <a href=\"https://www.theguardian.com/technology/2026/aug/26/openai-staff-observed-warning-signs-before-ai-agent-hacking-crusade-caused-global-alarm\">security issues</a> at the company.</p><p>A team at a US-based startup compromised multiple OpenAI employees’ ChatGPT accounts, starting a process that enabled them to access their target’s software cache – and potentially more.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot\">Continue reading...</a>",
-    "content": "<p>US cybersecurity researchers who conducted hack say ‘scope of what we could theoretically access was huge’</p><p>Cybersecurity researchers have hacked into OpenAI with the help of Anthropic’s Claude chatbot, in the latest example of <a href=\"https://www.theguardian.com/technology/2026/aug/26/openai-staff-observed-warning-signs-before-ai-agent-hacking-crusade-caused-global-alarm\">security issues</a> at the company.</p><p>A team at a US-based startup compromised multiple OpenAI employees’ ChatGPT accounts, starting a process that enabled them to access their target’s software cache – and potentially more.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot\">Continue reading...</a>"
-  },
-  {
-    "id": "https://www.theguardian.com/politics/video/2026/sep/18/is-trumps-ai-obsession-walking-the-world-into-disaster-politics-weekly-america",
-    "title": "Is Trump’s AI obsession walking the world into disaster? | Politics Weekly America",
-    "url": "https://www.theguardian.com/politics/video/2026/sep/18/is-trumps-ai-obsession-walking-the-world-into-disaster-politics-weekly-america",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "published": "2026-09-18T14:30:17+03:30",
-    "summary": "<p>Tech bosses have called for a slowdown in artificial intelligence and formal guardrails to be introduced by the US government. But President Trump is not moved by the doomsday predictions, calling them a ‘hoax'. What is behind his affection for the AI industry? Jonathan Freedland and Guardian US tech editor Blake Montgomery discuss</p> <a href=\"https://www.theguardian.com/politics/video/2026/sep/18/is-trumps-ai-obsession-walking-the-world-into-disaster-politics-weekly-america\">Continue reading...</a>",
-    "content": "<p>Tech bosses have called for a slowdown in artificial intelligence and formal guardrails to be introduced by the US government. But President Trump is not moved by the doomsday predictions, calling them a ‘hoax'. What is behind his affection for the AI industry? Jonathan Freedland and Guardian US tech editor Blake Montgomery discuss</p> <a href=\"https://www.theguardian.com/politics/video/2026/sep/18/is-trumps-ai-obsession-walking-the-world-into-disaster-politics-weekly-america\">Continue reading...</a>"
-  },
-  {
-    "id": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss",
-    "title": "At least 16 killed in attack on mosque in Pakistan",
-    "url": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "جهان",
-    "published": "2026-09-18T14:09:31+03:30",
-    "summary": "A vehicle loaded with explosives rammed into a mosque building during Friday prayers, a senior police official told the BBC.",
-    "content": "A vehicle loaded with explosives rammed into a mosque building during Friday prayers, a senior police official told the BBC."
-  },
-  {
     "id": "https://www.bbc.co.uk/news/articles/cw980qp2n3p4o?at_medium=RSS&at_campaign=rss",
     "title": "Dozens of suspected illegal miners die in Nigerian custody",
     "url": "https://www.bbc.co.uk/news/articles/cw980qp2n3p4o?at_medium=RSS&at_campaign=rss",
@@ -2065,5 +2035,35 @@
     "published": "2026-09-19T04:23:20+03:30",
     "summary": "<p>Disclosure comes after OpenAI and Anthropic hacks amid fears that tech firms unable to control powerful AI models </p><p>In a first for Google, the company confirmed that its AI model, Gemini, breached the security of three other companies in May. The hacks occurred during a cybersecurity evaluation by AI-security firm Irregular.</p><p>Irregular, an Israel-based startup that scrutinizes the security of advanced AI systems, was also at the center of some of the recent <a href=\"https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents\">OpenAI</a> and <a href=\"https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack\">Anthropic</a> hacks of third-party entities, including OpenAI’s <a href=\"https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident\">breach</a> of AI software company, Hugging Face.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack\">Continue reading...</a>",
     "content": "<p>Disclosure comes after OpenAI and Anthropic hacks amid fears that tech firms unable to control powerful AI models </p><p>In a first for Google, the company confirmed that its AI model, Gemini, breached the security of three other companies in May. The hacks occurred during a cybersecurity evaluation by AI-security firm Irregular.</p><p>Irregular, an Israel-based startup that scrutinizes the security of advanced AI systems, was also at the center of some of the recent <a href=\"https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents\">OpenAI</a> and <a href=\"https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack\">Anthropic</a> hacks of third-party entities, including OpenAI’s <a href=\"https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident\">breach</a> of AI software company, Hugging Face.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack\">Continue reading...</a>"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=V_kDkiIMQK0",
+    "title": "The politics behind chess, with Russia as a major fault line",
+    "url": "https://www.youtube.com/watch?v=V_kDkiIMQK0",
+    "source": "Reuters",
+    "category": "جهان",
+    "published": "2026-09-19T04:01:35+03:30",
+    "summary": "The international governing body of chess is in the process of choosing a new leader, as its president suspended his duties after being placed on a European Union sanctions list. Julien Pretot has more. #News #Reuters #Newsfeed #russia #chess #fide #russiaukrainewar #arkady Read the story here: https://reut.rs/4xxjpei 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en",
+    "content": "The international governing body of chess is in the process of choosing a new leader, as its president suspended his duties after being placed on a European Union sanctions list. Julien Pretot has more. #News #Reuters #Newsfeed #russia #chess #fide #russiaukrainewar #arkady Read the story here: https://reut.rs/4xxjpei 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=19g-_4vjzgw",
+    "title": "Trump wants some childhood vaccines given in five doses",
+    "url": "https://www.youtube.com/watch?v=19g-_4vjzgw",
+    "source": "Reuters",
+    "category": "جهان",
+    "published": "2026-09-19T03:54:42+03:30",
+    "summary": "Trump said his administration plans to demand vaccine makers split certain childhood shots into five separate doses, which he believes will result in a massive reduction in autism, an idea repeatedly debunked by scientists. #News #Reuters #Newsfeed #donaldtrump #unitedstates #vaccine #doses Read the story here: https://reut.rs/4769DVP 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en",
+    "content": "Trump said his administration plans to demand vaccine makers split certain childhood shots into five separate doses, which he believes will result in a massive reduction in autism, an idea repeatedly debunked by scientists. #News #Reuters #Newsfeed #donaldtrump #unitedstates #vaccine #doses Read the story here: https://reut.rs/4769DVP 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=4xj0djXldB4",
+    "title": "Mbappe leaves Nike, signs with On to shakes up soccer market",
+    "url": "https://www.youtube.com/watch?v=4xj0djXldB4",
+    "source": "Reuters",
+    "category": "جهان",
+    "published": "2026-09-19T03:38:19+03:30",
+    "summary": "French soccer star Kylian Mbappe has ended a two-decade partnership with Nike to join fast-growing Swiss sportswear brand On, giving the Roger Federer-backed company a marquee name for its push into soccer. #News #Reuters #Newsfeed #kylianmbappe #soccer #nike #on #sportswear Read the story here: https://reut.rs/3UZ3hFa 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en",
+    "content": "French soccer star Kylian Mbappe has ended a two-decade partnership with Nike to join fast-growing Swiss sportswear brand On, giving the Roger Federer-backed company a marquee name for its push into soccer. #News #Reuters #Newsfeed #kylianmbappe #soccer #nike #on #sportswear Read the story here: https://reut.rs/3UZ3hFa 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en"
   }
 ]
