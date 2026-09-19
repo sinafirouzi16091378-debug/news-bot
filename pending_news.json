@@ -1,25 +1,5 @@
 [
   {
-    "id": "https://www.youtube.com/shorts/NQdZJkO-axo",
-    "title": "⚖️ New legal drama 'WAR' goes inside the divorce of a movie star and a billionaire",
-    "url": "https://www.youtube.com/shorts/NQdZJkO-axo",
-    "source": "Reuters",
-    "category": "جهان",
-    "published": "2026-09-18T11:30:03+03:30",
-    "summary": "Movie-star glamor, billionaire wealth and rival firms collide in “WAR,” a new legal drama centered on high-profile divorce and power struggles. Actors Sienna Miller and Dominic West talk about the dynamic of their characters as a divorcing power couple at the show's premiere. #WAR #drama #legal #tvshow #billionaire",
-    "content": "Movie-star glamor, billionaire wealth and rival firms collide in “WAR,” a new legal drama centered on high-profile divorce and power struggles. Actors Sienna Miller and Dominic West talk about the dynamic of their characters as a divorcing power couple at the show's premiere. #WAR #drama #legal #tvshow #billionaire"
-  },
-  {
-    "id": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
-    "title": "ECB Consumer Expectations Survey results – August 2026",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
-    "source": "ECB",
-    "category": "اقتصاد و بازارها",
-    "published": "2026-09-18T11:30:00+03:30",
-    "summary": "",
-    "content": ""
-  },
-  {
     "id": "https://www.theguardian.com/australia-news/2026/sep/18/ai-copyright-t-shirt-designs-stolen-temu-sydney-clothing-label-lonely-kids-club",
     "title": "‘Brutal’: thousands of T-shirt designs stolen and listed on Temu, Sydney label claims",
     "url": "https://www.theguardian.com/australia-news/2026/sep/18/ai-copyright-t-shirt-designs-stolen-temu-sydney-clothing-label-lonely-kids-club",
@@ -2065,5 +2045,25 @@
     "published": "2026-09-19T12:49:12+03:30",
     "summary": "Police boats and helicopters are patrolling Perth's beaches as authorities continue their search for the swimmer's body, and the shark that attacked him.",
     "content": "Police boats and helicopters are patrolling Perth's beaches as authorities continue their search for the swimmer's body, and the shark that attacked him."
+  },
+  {
+    "id": "https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei",
+    "title": "China bogeyman looms large over American firms’ AI doomsday scenario",
+    "url": "https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "published": "2026-09-19T13:30:45+03:30",
+    "summary": "<p>Silicon Valley China hawks, Anthropic CEO Dario Amodei among them, fear the country surpassing US’s AI lead as much as superintelligence destroying humanity</p><p>When reporters asked Donald Trump this week if he supported calls to slow down the development of artificial intelligence out of growing fears for cybersecurity, public safety and<strong> </strong>the fate of humanity, he said no. His argument: China.</p><p>“We’re leading China in AI,” Trump said. “We’re the most sophisticated country in the world, and frankly, I want to ⁠keep it that way, because whoever wins AI, wins.”</p> <a href=\"https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei\">Continue reading...</a>",
+    "content": "<p>Silicon Valley China hawks, Anthropic CEO Dario Amodei among them, fear the country surpassing US’s AI lead as much as superintelligence destroying humanity</p><p>When reporters asked Donald Trump this week if he supported calls to slow down the development of artificial intelligence out of growing fears for cybersecurity, public safety and<strong> </strong>the fate of humanity, he said no. His argument: China.</p><p>“We’re leading China in AI,” Trump said. “We’re the most sophisticated country in the world, and frankly, I want to ⁠keep it that way, because whoever wins AI, wins.”</p> <a href=\"https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei\">Continue reading...</a>"
+  },
+  {
+    "id": "https://www.theguardian.com/money/2026/sep/19/domestic-datacentres-how-computer-power-can-help-heat-your-home",
+    "title": "Domestic datacentres: how computer power can help heat your home",
+    "url": "https://www.theguardian.com/money/2026/sep/19/domestic-datacentres-how-computer-power-can-help-heat-your-home",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "published": "2026-09-19T13:30:44+03:30",
+    "summary": "<p>Energy bills are scheduled to rise next month but there are innovative ways to heat your home and save money</p><p>‘When Giles Gibson turns on the hot tap in his home, the water that comes out of it is not heated by gas but by the tiny datacentre strapped to the tank.</p><p>Attached to the hot water cylinder in his London home is a compact computer server that generates heat and then transfers it as it operates.</p> <a href=\"https://www.theguardian.com/money/2026/sep/19/domestic-datacentres-how-computer-power-can-help-heat-your-home\">Continue reading...</a>",
+    "content": "<p>Energy bills are scheduled to rise next month but there are innovative ways to heat your home and save money</p><p>‘When Giles Gibson turns on the hot tap in his home, the water that comes out of it is not heated by gas but by the tiny datacentre strapped to the tank.</p><p>Attached to the hot water cylinder in his London home is a compact computer server that generates heat and then transfers it as it operates.</p> <a href=\"https://www.theguardian.com/money/2026/sep/19/domestic-datacentres-how-computer-power-can-help-heat-your-home\">Continue reading...</a>"
   }
 ]
