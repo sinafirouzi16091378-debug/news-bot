@@ -1,15 +1,5 @@
 [
   {
-    "id": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&at_campaign=rss",
-    "title": "At least one dead and multiple injured in Philippines school shooting",
-    "url": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "جهان",
-    "published": "2026-09-18T11:58:27+03:30",
-    "summary": "At least one person is believed to have died and several injured after the shooting in Banga in Mindanao province.",
-    "content": "At least one person is believed to have died and several injured after the shooting in Banga in Mindanao province."
-  },
-  {
     "id": "https://www.youtube.com/shorts/NQdZJkO-axo",
     "title": "⚖️ New legal drama 'WAR' goes inside the divorce of a movie star and a billionaire",
     "url": "https://www.youtube.com/shorts/NQdZJkO-axo",
@@ -2065,5 +2055,15 @@
     "published": "2026-09-19T03:33:53+03:30",
     "summary": "The BBC’s Caitríona Perry spoke to the late president's niece, as protesters gathered at the venue to condemn demolition threats.",
     "content": "The BBC’s Caitríona Perry spoke to the late president's niece, as protesters gathered at the venue to condemn demolition threats."
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/cqwyzdnk442lo?at_medium=RSS&at_campaign=rss",
+    "title": "Deadly shark attack prompts rare kill order in Western Australia",
+    "url": "https://www.bbc.co.uk/news/articles/cqwyzdnk442lo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "جهان",
+    "published": "2026-09-19T12:49:12+03:30",
+    "summary": "Police boats and helicopters are patrolling Perth's beaches as authorities continue their search for the swimmer's body, and the shark that attacked him.",
+    "content": "Police boats and helicopters are patrolling Perth's beaches as authorities continue their search for the swimmer's body, and the shark that attacked him."
   }
 ]
