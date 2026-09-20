@@ -1,25 +1,5 @@
 [
   {
-    "id": "https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack",
-    "title": "Google says its Gemini AI model hacked three other companies",
-    "url": "https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "published": "2026-09-19T04:23:20+03:30",
-    "summary": "<p>Disclosure comes after OpenAI and Anthropic hacks amid fears that tech firms unable to control powerful AI models </p><p>In a first for Google, the company confirmed that its AI model, Gemini, breached the security of three other companies in May. The hacks occurred during a cybersecurity evaluation by AI-security firm Irregular.</p><p>Irregular, an Israel-based startup that scrutinizes the security of advanced AI systems, was also at the center of some of the recent <a href=\"https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents\">OpenAI</a> and <a href=\"https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack\">Anthropic</a> hacks of third-party entities, including OpenAI’s <a href=\"https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident\">breach</a> of AI software company, Hugging Face.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack\">Continue reading...</a>",
-    "content": "<p>Disclosure comes after OpenAI and Anthropic hacks amid fears that tech firms unable to control powerful AI models </p><p>In a first for Google, the company confirmed that its AI model, Gemini, breached the security of three other companies in May. The hacks occurred during a cybersecurity evaluation by AI-security firm Irregular.</p><p>Irregular, an Israel-based startup that scrutinizes the security of advanced AI systems, was also at the center of some of the recent <a href=\"https://www.theguardian.com/technology/2026/sep/17/openai-reports-concerning-ai-behaviour-jailbreak-talking-to-other-agents\">OpenAI</a> and <a href=\"https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack\">Anthropic</a> hacks of third-party entities, including OpenAI’s <a href=\"https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident\">breach</a> of AI software company, Hugging Face.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack\">Continue reading...</a>"
-  },
-  {
-    "id": "https://www.youtube.com/watch?v=V_kDkiIMQK0",
-    "title": "The politics behind chess, with Russia as a major fault line",
-    "url": "https://www.youtube.com/watch?v=V_kDkiIMQK0",
-    "source": "Reuters",
-    "category": "جهان",
-    "published": "2026-09-19T04:01:35+03:30",
-    "summary": "The international governing body of chess is in the process of choosing a new leader, as its president suspended his duties after being placed on a European Union sanctions list. Julien Pretot has more. #News #Reuters #Newsfeed #russia #chess #fide #russiaukrainewar #arkady Read the story here: https://reut.rs/4xxjpei 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en",
-    "content": "The international governing body of chess is in the process of choosing a new leader, as its president suspended his duties after being placed on a European Union sanctions list. Julien Pretot has more. #News #Reuters #Newsfeed #russia #chess #fide #russiaukrainewar #arkady Read the story here: https://reut.rs/4xxjpei 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en"
-  },
-  {
     "id": "https://www.youtube.com/watch?v=19g-_4vjzgw",
     "title": "Trump wants some childhood vaccines given in five doses",
     "url": "https://www.youtube.com/watch?v=19g-_4vjzgw",
@@ -2065,5 +2045,25 @@
     "published": "2026-09-20T17:22:23+03:30",
     "summary": "Nearly 130 heads of state are gathering for the UN General Assembly to discuss AI, the Middle East and the organization's future, while Xi Jinping will skip the meeting for talks with Donald Trump in Washington. #News #Reuters #Newsfeed #unga #xijinping #donaldtrump Read the story here: https://reut.rs/4iE0vyQ 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en",
     "content": "Nearly 130 heads of state are gathering for the UN General Assembly to discuss AI, the Middle East and the organization's future, while Xi Jinping will skip the meeting for talks with Donald Trump in Washington. #News #Reuters #Newsfeed #unga #xijinping #donaldtrump Read the story here: https://reut.rs/4iE0vyQ 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=Ldr_4a5eRjs",
+    "title": "اخبار ساعت شش عصر یکشنبه ۲۹ شهریور: هشدار ایران درباره حمله احتمالی آمریکا با حمایت کشورهای منطقه",
+    "url": "https://www.youtube.com/watch?v=Ldr_4a5eRjs",
+    "source": "BBC Persian",
+    "category": "ایران",
+    "published": "2026-09-20T17:30:00+03:30",
+    "summary": "هشدار ایران درباره حمله احتمالی آمریکا با حمایت کشورهای منطقه؛ عمیق‌تر شدن رکود اقتصادی ایران؛ اولین انتخابات دومای روسیه بعد از حمله به اوکراین مهمترین سرخط خبرهای روز همراه با گزارش و گفتگو",
+    "content": "هشدار ایران درباره حمله احتمالی آمریکا با حمایت کشورهای منطقه؛ عمیق‌تر شدن رکود اقتصادی ایران؛ اولین انتخابات دومای روسیه بعد از حمله به اوکراین مهمترین سرخط خبرهای روز همراه با گزارش و گفتگو"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/cqdj4pez00dzo?at_medium=RSS&at_campaign=rss",
+    "title": "Trump says his planned triumphal arch will double as a military complex to store ammunition",
+    "url": "https://www.bbc.co.uk/news/articles/cqdj4pez00dzo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "جهان",
+    "published": "2026-09-20T17:20:51+03:30",
+    "summary": "Trump said the updated plans were at the request of the US military and for national security purposes.",
+    "content": "Trump said the updated plans were at the request of the US military and for national security purposes."
   }
 ]
