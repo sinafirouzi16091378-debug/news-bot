@@ -1,35 +1,5 @@
 [
   {
-    "id": "https://www.youtube.com/watch?v=Ldr_4a5eRjs",
-    "title": "اخبار ساعت شش عصر یکشنبه ۲۹ شهریور: هشدار ایران درباره حمله احتمالی آمریکا با حمایت کشورهای منطقه",
-    "url": "https://www.youtube.com/watch?v=Ldr_4a5eRjs",
-    "source": "BBC Persian",
-    "category": "ایران",
-    "published": "2026-09-20T17:30:00+03:30",
-    "summary": "هشدار ایران درباره حمله احتمالی آمریکا با حمایت کشورهای منطقه؛ عمیق‌تر شدن رکود اقتصادی ایران؛ اولین انتخابات دومای روسیه بعد از حمله به اوکراین مهمترین سرخط خبرهای روز همراه با گزارش و گفتگو",
-    "content": "هشدار ایران درباره حمله احتمالی آمریکا با حمایت کشورهای منطقه؛ عمیق‌تر شدن رکود اقتصادی ایران؛ اولین انتخابات دومای روسیه بعد از حمله به اوکراین مهمترین سرخط خبرهای روز همراه با گزارش و گفتگو"
-  },
-  {
-    "id": "https://www.youtube.com/watch?v=j6IuBZudd-0",
-    "title": "Global leaders head to UN, Xi Jinping will go to White House",
-    "url": "https://www.youtube.com/watch?v=j6IuBZudd-0",
-    "source": "Reuters",
-    "category": "جهان",
-    "published": "2026-09-20T17:22:23+03:30",
-    "summary": "Nearly 130 heads of state are gathering for the UN General Assembly to discuss AI, the Middle East and the organization's future, while Xi Jinping will skip the meeting for talks with Donald Trump in Washington. #News #Reuters #Newsfeed #unga #xijinping #donaldtrump Read the story here: https://reut.rs/4iE0vyQ 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en",
-    "content": "Nearly 130 heads of state are gathering for the UN General Assembly to discuss AI, the Middle East and the organization's future, while Xi Jinping will skip the meeting for talks with Donald Trump in Washington. #News #Reuters #Newsfeed #unga #xijinping #donaldtrump Read the story here: https://reut.rs/4iE0vyQ 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en"
-  },
-  {
-    "id": "https://www.bbc.co.uk/news/articles/cqdj4pez00dzo?at_medium=RSS&at_campaign=rss",
-    "title": "Trump says his planned triumphal arch will double as a military complex to store ammunition",
-    "url": "https://www.bbc.co.uk/news/articles/cqdj4pez00dzo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "جهان",
-    "published": "2026-09-20T17:20:51+03:30",
-    "summary": "Trump said the updated plans were at the request of the US military and for national security purposes.",
-    "content": "Trump said the updated plans were at the request of the US military and for national security purposes."
-  },
-  {
     "id": "https://www.youtube.com/watch?v=nQEI-seKsxQ",
     "title": "Deadly drone attack on Moscow region during wartime vote",
     "url": "https://www.youtube.com/watch?v=nQEI-seKsxQ",
@@ -2065,5 +2035,35 @@
     "published": "2026-09-20T20:28:03+03:30",
     "summary": "<p>OpenAI claims its agents have solved the Navier-Stokes problem. But questions remain about how useful and independent its work really is</p><p>On 8 September, OpenAI claimed that its AI agents had solved the Navier-Stokes problem, one of the most famous and difficult challenges in mathematics. Had a human solved it, they would have collected both prize money and plaudits from their fellows. The announcement instead ignited what some mathematicians have called an “<a href=\"https://www.science.org/content/article/openai-breakthrough-triggers-existential-crisis-math\">existential crisis</a>” in their field over the power of AI, and accusations that OpenAI <a href=\"https://www.nature.com/articles/d41586-026-02910-w\">misused human work</a>.</p><p>The maths behind Navier-Stokes is difficult to understand, but the critiques levelled by mathematicians will be familiar to artists, office workers, or anyone else concerned about AI. OpenAI’s results, like any arising from a large language model, depend on digesting work by human mathematicians. The OpenAI paper cites sources, but many believe the company didn’t give sufficient credit, especially to several mathematicians believed to be very close to a solution – bad form that erases human ingenuity and hogs all the glory. The mathematician Tristan Buckmaster also has concerns that work he was doing on Navier-Stokes using OpenAI’s Codex model was seen by the OpenAI team. OpenAI has denied directly accessing this material, but could not rule out that data from Buckmaster’s use of their products “helped improve our model”.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that\">Continue reading...</a>",
     "content": "<p>OpenAI claims its agents have solved the Navier-Stokes problem. But questions remain about how useful and independent its work really is</p><p>On 8 September, OpenAI claimed that its AI agents had solved the Navier-Stokes problem, one of the most famous and difficult challenges in mathematics. Had a human solved it, they would have collected both prize money and plaudits from their fellows. The announcement instead ignited what some mathematicians have called an “<a href=\"https://www.science.org/content/article/openai-breakthrough-triggers-existential-crisis-math\">existential crisis</a>” in their field over the power of AI, and accusations that OpenAI <a href=\"https://www.nature.com/articles/d41586-026-02910-w\">misused human work</a>.</p><p>The maths behind Navier-Stokes is difficult to understand, but the critiques levelled by mathematicians will be familiar to artists, office workers, or anyone else concerned about AI. OpenAI’s results, like any arising from a large language model, depend on digesting work by human mathematicians. The OpenAI paper cites sources, but many believe the company didn’t give sufficient credit, especially to several mathematicians believed to be very close to a solution – bad form that erases human ingenuity and hogs all the glory. The mathematician Tristan Buckmaster also has concerns that work he was doing on Navier-Stokes using OpenAI’s Codex model was seen by the OpenAI team. OpenAI has denied directly accessing this material, but could not rule out that data from Buckmaster’s use of their products “helped improve our model”.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that\">Continue reading...</a>"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=2MxduvpIIOM",
+    "title": "جام جهان‌نما",
+    "url": "https://www.youtube.com/watch?v=2MxduvpIIOM",
+    "source": "BBC Persian",
+    "category": "ایران",
+    "published": "2026-09-20T20:32:34+03:30",
+    "summary": "مجله خبری – تحلیلی نیم ساعته که تازه‌ترین تحولات را برای شنوندگان رادیو روی موج متوسط و بینندگان بی‌بی‌سی فارسی روی ماهواره ارائه می‌کند.",
+    "content": "مجله خبری – تحلیلی نیم ساعته که تازه‌ترین تحولات را برای شنوندگان رادیو روی موج متوسط و بینندگان بی‌بی‌سی فارسی روی ماهواره ارائه می‌کند."
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=e4cyNmmUghM",
+    "title": "Ukraine's biggest Moscow drone attack and Houthis say they strike Riyadh | Reuters World News",
+    "url": "https://www.youtube.com/watch?v=e4cyNmmUghM",
+    "source": "Reuters",
+    "category": "جهان",
+    "published": "2026-09-20T18:05:31+03:30",
+    "summary": "Yemen's Houthis said they attacked \"sensitive\" sites in the Saudi capital Riyadh with missiles and drones. Ukraine launches its largest drone attack yet on Moscow as Russians vote in parliamentary elections. The ​White House denies access to journalists from CNN, MS NOW and Politico. And Ed Sheeran calls Israel's treatment of Gazans \"unjustifiable\". #News #Reuters #Newsfeed Read the story here: 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en",
+    "content": "Yemen's Houthis said they attacked \"sensitive\" sites in the Saudi capital Riyadh with missiles and drones. Ukraine launches its largest drone attack yet on Moscow as Russians vote in parliamentary elections. The ​White House denies access to journalists from CNN, MS NOW and Politico. And Ed Sheeran calls Israel's treatment of Gazans \"unjustifiable\". #News #Reuters #Newsfeed Read the story here: 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=-uloIf6dv7s",
+    "title": "Germans vote in state polls as far-right rise pressures Merz",
+    "url": "https://www.youtube.com/watch?v=-uloIf6dv7s",
+    "source": "Reuters",
+    "category": "جهان",
+    "published": "2026-09-20T17:31:00+03:30",
+    "summary": "Germans vote in Mecklenburg-Western Pomerania and Berlin, with rising support for the far-right AfD posing challenges for Chancellor Friedrich Merz. #News #Reuters #Newsfeed #germanyelections #AfD #far-rightparty Read the story here: https://reut.rs/4As3FME 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en",
+    "content": "Germans vote in Mecklenburg-Western Pomerania and Berlin, with rising support for the far-right AfD posing challenges for Chancellor Friedrich Merz. #News #Reuters #Newsfeed #germanyelections #AfD #far-rightparty Read the story here: https://reut.rs/4As3FME 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en"
   }
 ]
