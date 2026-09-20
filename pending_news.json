@@ -1,25 +1,5 @@
 [
   {
-    "id": "https://www.bbc.co.uk/news/videos/cv8e3jw1kr4lo?at_medium=RSS&at_campaign=rss",
-    "title": "Kerry Kennedy: 'It would be a tragedy' if Kennedy Center is demolished",
-    "url": "https://www.bbc.co.uk/news/videos/cv8e3jw1kr4lo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "جهان",
-    "published": "2026-09-19T03:33:53+03:30",
-    "summary": "The BBC’s Caitríona Perry spoke to the late president's niece, as protesters gathered at the venue to condemn demolition threats.",
-    "content": "The BBC’s Caitríona Perry spoke to the late president's niece, as protesters gathered at the venue to condemn demolition threats."
-  },
-  {
-    "id": "https://www.bbc.co.uk/news/articles/cw5y4jz6k2p3o?at_medium=RSS&at_campaign=rss",
-    "title": "I found love at an Irish matchmaking festival - and I want others to do the same",
-    "url": "https://www.bbc.co.uk/news/articles/cw5y4jz6k2p3o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "جهان",
-    "published": "2026-09-19T02:48:02+03:30",
-    "summary": "Mary Timby flew to Ireland on a whim last year and met her boyfriend at a matchmaking festival.",
-    "content": "Mary Timby flew to Ireland on a whim last year and met her boyfriend at a matchmaking festival."
-  },
-  {
     "id": "https://www.bbc.co.uk/news/articles/c670lkvdzkn2o?at_medium=RSS&at_campaign=rss",
     "title": "Tata Sons: India's corporate crown braces for upheaval amid boardroom revolt",
     "url": "https://www.bbc.co.uk/news/articles/c670lkvdzkn2o?at_medium=RSS&at_campaign=rss",
@@ -2065,5 +2045,25 @@
     "published": "2026-09-20T19:30:00+03:30",
     "summary": "مجله خبری – تحلیلی نیم ساعته که تازه‌ترین تحولات را برای شنوندگان رادیو روی موج متوسط و بینندگان بی‌بی‌سی فارسی روی ماهواره ارائه می‌کند.",
     "content": "مجله خبری – تحلیلی نیم ساعته که تازه‌ترین تحولات را برای شنوندگان رادیو روی موج متوسط و بینندگان بی‌بی‌سی فارسی روی ماهواره ارائه می‌کند."
+  },
+  {
+    "id": "https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that",
+    "title": "The Guardian view on AI v mathematicians: humans are still vital to the field, but tech firms refuse to see that | Editorial",
+    "url": "https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "published": "2026-09-20T20:28:03+03:30",
+    "summary": "<p>OpenAI claims its agents have solved the Navier-Stokes problem. But questions remain about how useful and independent its work really is</p><p>On 8 September, OpenAI claimed that its AI agents had solved the Navier-Stokes problem, one of the most famous and difficult challenges in mathematics. Had a human solved it, they would have collected both prize money and plaudits from their fellows. The announcement instead ignited what some mathematicians have called an “<a href=\"https://www.science.org/content/article/openai-breakthrough-triggers-existential-crisis-math\">existential crisis</a>” in their field over the power of AI, and accusations that OpenAI <a href=\"https://www.nature.com/articles/d41586-026-02910-w\">misused human work</a>.</p><p>The maths behind Navier-Stokes is difficult to understand, but the critiques levelled by mathematicians will be familiar to artists, office workers, or anyone else concerned about AI. OpenAI’s results, like any arising from a large language model, depend on digesting work by human mathematicians. The OpenAI paper cites sources, but many believe the company didn’t give sufficient credit, especially to several mathematicians believed to be very close to a solution – bad form that erases human ingenuity and hogs all the glory. The mathematician Tristan Buckmaster also has concerns that work he was doing on Navier-Stokes using OpenAI’s Codex model was seen by the OpenAI team. OpenAI has denied directly accessing this material, but could not rule out that data from Buckmaster’s use of their products “helped improve our model”.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that\">Continue reading...</a>",
+    "content": "<p>OpenAI claims its agents have solved the Navier-Stokes problem. But questions remain about how useful and independent its work really is</p><p>On 8 September, OpenAI claimed that its AI agents had solved the Navier-Stokes problem, one of the most famous and difficult challenges in mathematics. Had a human solved it, they would have collected both prize money and plaudits from their fellows. The announcement instead ignited what some mathematicians have called an “<a href=\"https://www.science.org/content/article/openai-breakthrough-triggers-existential-crisis-math\">existential crisis</a>” in their field over the power of AI, and accusations that OpenAI <a href=\"https://www.nature.com/articles/d41586-026-02910-w\">misused human work</a>.</p><p>The maths behind Navier-Stokes is difficult to understand, but the critiques levelled by mathematicians will be familiar to artists, office workers, or anyone else concerned about AI. OpenAI’s results, like any arising from a large language model, depend on digesting work by human mathematicians. The OpenAI paper cites sources, but many believe the company didn’t give sufficient credit, especially to several mathematicians believed to be very close to a solution – bad form that erases human ingenuity and hogs all the glory. The mathematician Tristan Buckmaster also has concerns that work he was doing on Navier-Stokes using OpenAI’s Codex model was seen by the OpenAI team. OpenAI has denied directly accessing this material, but could not rule out that data from Buckmaster’s use of their products “helped improve our model”.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that\">Continue reading...</a>"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss",
+    "title": "German Chancellor Merz vows to stay on despite 'disaster' in state election",
+    "url": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "جهان",
+    "published": "2026-09-20T20:20:21+03:30",
+    "summary": "Exit polls show damaging losses for Merz's centre-right CDU party in the states of Berlin and Mecklenburg-Vorpommern.",
+    "content": "Exit polls show damaging losses for Merz's centre-right CDU party in the states of Berlin and Mecklenburg-Vorpommern."
   }
 ]
