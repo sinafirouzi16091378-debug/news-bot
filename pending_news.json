@@ -1,15 +1,5 @@
 [
   {
-    "id": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss",
-    "title": "Trump signs sweeping Russia sanctions bill",
-    "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "جهان",
-    "published": "2026-09-19T01:35:47+03:30",
-    "summary": "The bill is named after the late Senator Lindsey Graham, a staunch advocate of aid for Ukraine.",
-    "content": "The bill is named after the late Senator Lindsey Graham, a staunch advocate of aid for Ukraine."
-  },
-  {
     "id": "https://www.youtube.com/shorts/Wp-jziamREw",
     "title": "👸 Up close and personal with Diana's 'revenge dress'",
     "url": "https://www.youtube.com/shorts/Wp-jziamREw",
@@ -2065,5 +2055,15 @@
     "published": "2026-09-21T13:30:31+03:30",
     "summary": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.",
     "content": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait."
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss",
+    "title": "CNN, MS NOW and Politico to file lawsuit against Trump's White House ban",
+    "url": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "جهان",
+    "published": "2026-09-21T14:27:03+03:30",
+    "summary": "The US media outlets say they are defending \"the principle that the government does not decide what the press reports or publishes\".",
+    "content": "The US media outlets say they are defending \"the principle that the government does not decide what the press reports or publishes\"."
   }
 ]
