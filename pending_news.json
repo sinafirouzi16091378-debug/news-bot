@@ -1,15 +1,5 @@
 [
   {
-    "id": "https://www.youtube.com/watch?v=MwdbAdUtWzk",
-    "title": "LIVE: World leaders address the UN General Assembly",
-    "url": "https://www.youtube.com/watch?v=MwdbAdUtWzk",
-    "source": "Reuters",
-    "category": "جهان",
-    "published": "2026-09-22T16:47:43+03:30",
-    "summary": "Nearly 130 world leaders are gathering for the UN General Assembly in New York to discuss pressing concerns including the wars in Ukraine and the Middle East and the risks of rapid AI development. Trump will address the assembly on Tuesday and meet 11 leaders including Ukraine's Volodymyr Zelenskiy and Venezuela's Delcy Rodríguez. Follow our live coverage here: https://reut.rs/4hFYy3P #un #unga #trump #newyorkcity #unitednations #ai #ukraine #middleeast #live #Reuters #News Keep up with the latest news from around the world: https://www.reuters.com/",
-    "content": "Nearly 130 world leaders are gathering for the UN General Assembly in New York to discuss pressing concerns including the wars in Ukraine and the Middle East and the risks of rapid AI development. Trump will address the assembly on Tuesday and meet 11 leaders including Ukraine's Volodymyr Zelenskiy and Venezuela's Delcy Rodríguez. Follow our live coverage here: https://reut.rs/4hFYy3P #un #unga #trump #newyorkcity #unitednations #ai #ukraine #middleeast #live #Reuters #News Keep up with the latest news from around the world: https://www.reuters.com/"
-  },
-  {
     "id": "https://www.bbc.co.uk/sport/football/articles/ckz7z5w7ey2jo?at_medium=RSS&at_campaign=rss",
     "title": "Neutral venues and no 'away' fans - how Israel v Republic of Ireland became so contentious",
     "url": "https://www.bbc.co.uk/sport/football/articles/ckz7z5w7ey2jo?at_medium=RSS&at_campaign=rss",
@@ -2065,5 +2055,15 @@
     "published": "2026-09-23T04:21:57+03:30",
     "summary": "<p>From a dangerous new bioweapon to total societal breakdown, is a ‘superintelligent’ AI capable of wiping out humanity?</p><p>Earlier this month, artificial intelligence researcher <a href=\"https://www.theguardian.com/technology/2026/sep/09/anthropic-researchers-ai-human-extinction\">Jacob Coxon resigned from Anthropic </a>after just four months. In an announcement on X, <a href=\"https://x.com/hilbertspaess/status/2097476196791709843\">he stated</a>: “The people building AI earnestly believe that it could kill us all by the end of the decade.”</p><p>A senior member of Anthropic’s staff, Evan Hubinger, actually agreed with Coxon, adding he personally thinks the chance of this happening in the next decade <a href=\"https://x.com/EvanHub/status/2097497037956891126\">is more than 10%</a>.</p> <a href=\"https://www.theguardian.com/australia-news/commentisfree/2026/sep/23/how-would-ai-actually-kill-all-humans-here-are-the-top-five-most-likely-scenarios\">Continue reading...</a>",
     "content": "<p>From a dangerous new bioweapon to total societal breakdown, is a ‘superintelligent’ AI capable of wiping out humanity?</p><p>Earlier this month, artificial intelligence researcher <a href=\"https://www.theguardian.com/technology/2026/sep/09/anthropic-researchers-ai-human-extinction\">Jacob Coxon resigned from Anthropic </a>after just four months. In an announcement on X, <a href=\"https://x.com/hilbertspaess/status/2097476196791709843\">he stated</a>: “The people building AI earnestly believe that it could kill us all by the end of the decade.”</p><p>A senior member of Anthropic’s staff, Evan Hubinger, actually agreed with Coxon, adding he personally thinks the chance of this happening in the next decade <a href=\"https://x.com/EvanHub/status/2097497037956891126\">is more than 10%</a>.</p> <a href=\"https://www.theguardian.com/australia-news/commentisfree/2026/sep/23/how-would-ai-actually-kill-all-humans-here-are-the-top-five-most-likely-scenarios\">Continue reading...</a>"
+  },
+  {
+    "id": "https://www.theguardian.com/technology/2026/sep/23/andy-burnham-national-centre-russian-disinformation-deepfakes",
+    "title": "New UK agency will tackle ‘information warfare’ from likes of Russia, Burnham says",
+    "url": "https://www.theguardian.com/technology/2026/sep/23/andy-burnham-national-centre-russian-disinformation-deepfakes",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "published": "2026-09-23T08:30:16+03:30",
+    "summary": "<p>PM aims to ‘stem poisonous tide’ of disinformation and deepfakes with National Centre for Information Defence</p><p>Security chiefs will set up a new national centre to tackle disinformation and deepfakes from hostile states such as Russia, Andy Burnham has announced, saying the government had a duty to “stem the poisonous tide” from damaging British interests.</p><p>The National Centre for Information Defence will “detect, attribute and disrupt” information attacks by foreign powers, many of which are enabled by <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a>, bringing together the intelligence agencies, law enforcement and social media companies.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/23/andy-burnham-national-centre-russian-disinformation-deepfakes\">Continue reading...</a>",
+    "content": "<p>PM aims to ‘stem poisonous tide’ of disinformation and deepfakes with National Centre for Information Defence</p><p>Security chiefs will set up a new national centre to tackle disinformation and deepfakes from hostile states such as Russia, Andy Burnham has announced, saying the government had a duty to “stem the poisonous tide” from damaging British interests.</p><p>The National Centre for Information Defence will “detect, attribute and disrupt” information attacks by foreign powers, many of which are enabled by <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a>, bringing together the intelligence agencies, law enforcement and social media companies.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/23/andy-burnham-national-centre-russian-disinformation-deepfakes\">Continue reading...</a>"
   }
 ]
