@@ -1,7 +1,5 @@
-```python
 import requests
 import xml.etree.ElementTree as ET
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 FEEDS = [
@@ -51,16 +49,8 @@ FEEDS = [
 ]
 
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (compatible; PersonalNewsBot/1.0; "
-        "+https://github.com/sinafirouzi16091378-debug/news-bot)"
-    )
-}
-
-
-def get_local_name(tag):
-    """Remove XML namespace from a tag."""
+def local_name(tag):
+    """Remove XML namespace and return the simple tag name."""
     if "}" in tag:
         tag = tag.split("}", 1)[1]
 
@@ -70,209 +60,93 @@ def get_local_name(tag):
     return tag.lower()
 
 
-def count_articles(root):
-    """Count RSS item / Atom entry elements regardless of namespace."""
-    count = 0
-
-    for element in root.iter():
-        tag = get_local_name(element.tag)
-
-        if tag in ("item", "entry"):
-            count += 1
-
-    return count
-
-
-def test_feed(feed):
-    name, category, url = feed
-
+def test_feed(name, category, url):
     try:
         response = requests.get(
             url,
-            headers=HEADERS,
             timeout=20,
-            allow_redirects=True
+            headers={
+                "User-Agent": (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/153.0 Safari/537.36"
+                )
+            },
         )
 
-        if response.status_code != 200:
-            return {
-                "name": name,
-                "category": category,
-                "url": url,
-                "status": "FAIL",
-                "message": f"HTTP {response.status_code}"
-            }
+        response.raise_for_status()
 
-        if not response.content:
-            return {
-                "name": name,
-                "category": category,
-                "url": url,
-                "status": "FAIL",
-                "message": "Empty response"
-            }
+        root = ET.fromstring(response.content)
+        root_name = local_name(root.tag)
 
-        try:
-            root = ET.fromstring(response.content)
-        except ET.ParseError as e:
-            return {
-                "name": name,
-                "category": category,
-                "url": url,
-                "status": "FAIL",
-                "message": f"Invalid XML: {e}"
-            }
-
-        root_name = get_local_name(root.tag)
-
-        # RSS 2.0
-        # RDF/RSS 1.0
-        # Atom
         if root_name not in ("rss", "rdf", "feed"):
-            return {
-                "name": name,
-                "category": category,
-                "url": url,
-                "status": "FAIL",
-                "message": f"Unknown XML root: {root.tag}"
-            }
+            return "FAIL", f"Unknown XML root: {root.tag}"
 
-        article_count = count_articles(root)
+        article_count = 0
+
+        for element in root.iter():
+            tag = local_name(element.tag)
+
+            if tag in ("item", "entry"):
+                article_count += 1
 
         if article_count == 0:
-            return {
-                "name": name,
-                "category": category,
-                "url": url,
-                "status": "WARN",
-                "message": "Valid RSS/Atom/RDF but 0 articles"
-            }
+            return "WARN", "Valid RSS/Atom but 0 articles"
 
-        return {
-            "name": name,
-            "category": category,
-            "url": url,
-            "status": "OK",
-            "message": f"{article_count} articles"
-        }
+        return "OK", f"{article_count} articles"
+
+    except requests.exceptions.Timeout:
+        return "FAIL", "Request timeout"
+
+    except requests.exceptions.HTTPError as e:
+        status = e.response.status_code if e.response is not None else "unknown"
+        return "FAIL", f"HTTP {status}"
+
+    except ET.ParseError as e:
+        return "FAIL", f"XML parse error: {e}"
 
     except requests.exceptions.RequestException as e:
-        return {
-            "name": name,
-            "category": category,
-            "url": url,
-            "status": "FAIL",
-            "message": f"Request error: {e}"
-        }
+        return "FAIL", f"Request error: {e}"
 
     except Exception as e:
-        return {
-            "name": name,
-            "category": category,
-            "url": url,
-            "status": "FAIL",
-            "message": f"Unexpected error: {e}"
-        }
+        return "FAIL", f"{type(e).__name__}: {e}"
 
 
 def main():
-    print("=" * 70)
+    print()
     print("RSS FEED TEST")
-    print("=" * 70)
+    print("=" * 60)
 
-    results = []
-
-    with ThreadPoolExecutor(max_workers=6) as executor:
-        futures = [
-            executor.submit(test_feed, feed)
-            for feed in FEEDS
-        ]
-
-        for future in as_completed(futures):
-            results.append(future.result())
-
-    # حفظ ترتیب اصلی فیدها
-    feed_order = {
-        feed[0]: index
-        for index, feed in enumerate(FEEDS)
+    results = {
+        "OK": 0,
+        "WARN": 0,
+        "FAIL": 0,
     }
 
-    results.sort(
-        key=lambda result: feed_order[result["name"]]
-    )
+    current_category = None
 
-    # دسته‌بندی نتایج
-    categories = {}
+    for name, category, url in FEEDS:
 
-    for result in results:
-        categories.setdefault(
-            result["category"],
-            []
-        ).append(result)
+        if category != current_category:
+            print()
+            print(f"### {category}")
+            current_category = category
 
-    # نمایش نتایج
-    for category, category_results in categories.items():
+        status, message = test_feed(name, category, url)
 
-        print()
-        print(f"### {category}")
-        print("-" * 70)
+        results[status] += 1
 
-        for result in category_results:
-
-            if result["status"] == "OK":
-                icon = "OK"
-            elif result["status"] == "WARN":
-                icon = "WARN"
-            else:
-                icon = "FAIL"
-
-            print(
-                f"[{icon}] "
-                f"{result['name']}: "
-                f"{result['message']}"
-            )
-
-            if result["status"] != "OK":
-                print(
-                    f"     URL: {result['url']}"
-                )
-
-    # خلاصه
-    ok_count = sum(
-        result["status"] == "OK"
-        for result in results
-    )
-
-    warn_count = sum(
-        result["status"] == "WARN"
-        for result in results
-    )
-
-    fail_count = sum(
-        result["status"] == "FAIL"
-        for result in results
-    )
+        print(f"[{status}] {name}: {message}")
 
     print()
-    print("=" * 70)
+    print("=" * 60)
     print("SUMMARY")
-    print("=" * 70)
-
-    print(f"Total feeds : {len(results)}")
-    print(f"OK          : {ok_count}")
-    print(f"WARN        : {warn_count}")
-    print(f"FAIL        : {fail_count}")
-
-    print()
-
-    if fail_count == 0:
-        print("All feeds are working!")
-    elif ok_count == 0:
-        print("All feeds failed!")
-    else:
-        print("Some feeds need attention.")
+    print(f"Total feeds: {len(FEEDS)}")
+    print(f"OK: {results['OK']}")
+    print(f"WARN: {results['WARN']}")
+    print(f"FAIL: {results['FAIL']}")
+    print("=" * 60)
 
 
 if __name__ == "__main__":
     main()
-```
