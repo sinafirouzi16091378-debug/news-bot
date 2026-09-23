@@ -1,3 +1,4 @@
+```python
 import requests
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -58,6 +59,30 @@ HEADERS = {
 }
 
 
+def get_local_name(tag):
+    """Remove XML namespace from a tag."""
+    if "}" in tag:
+        tag = tag.split("}", 1)[1]
+
+    if ":" in tag:
+        tag = tag.split(":", 1)[1]
+
+    return tag.lower()
+
+
+def count_articles(root):
+    """Count RSS item / Atom entry elements regardless of namespace."""
+    count = 0
+
+    for element in root.iter():
+        tag = get_local_name(element.tag)
+
+        if tag in ("item", "entry"):
+            count += 1
+
+    return count
+
+
 def test_feed(feed):
     name, category, url = feed
 
@@ -78,9 +103,7 @@ def test_feed(feed):
                 "message": f"HTTP {response.status_code}"
             }
 
-        content = response.content
-
-        if not content:
+        if not response.content:
             return {
                 "name": name,
                 "category": category,
@@ -90,7 +113,7 @@ def test_feed(feed):
             }
 
         try:
-            root = ET.fromstring(content)
+            root = ET.fromstring(response.content)
         except ET.ParseError as e:
             return {
                 "name": name,
@@ -100,12 +123,12 @@ def test_feed(feed):
                 "message": f"Invalid XML: {e}"
             }
 
-        root_tag = root.tag.lower()
+        root_name = get_local_name(root.tag)
 
-        if not (
-            root_tag.endswith("rss")
-            or root_tag.endswith("feed")
-        ):
+        # RSS 2.0
+        # RDF/RSS 1.0
+        # Atom
+        if root_name not in ("rss", "rdf", "feed"):
             return {
                 "name": name,
                 "category": category,
@@ -114,12 +137,7 @@ def test_feed(feed):
                 "message": f"Unknown XML root: {root.tag}"
             }
 
-        items = root.findall(".//item")
-        entries = root.findall(
-            ".//{http://www.w3.org/2005/Atom}entry"
-        )
-
-        article_count = len(items) + len(entries)
+        article_count = count_articles(root)
 
         if article_count == 0:
             return {
@@ -127,7 +145,7 @@ def test_feed(feed):
                 "category": category,
                 "url": url,
                 "status": "WARN",
-                "message": "Valid RSS/Atom but 0 articles"
+                "message": "Valid RSS/Atom/RDF but 0 articles"
             }
 
         return {
@@ -173,26 +191,34 @@ def main():
         for future in as_completed(futures):
             results.append(future.result())
 
-    order = {
+    # حفظ ترتیب اصلی فیدها
+    feed_order = {
         feed[0]: index
         for index, feed in enumerate(FEEDS)
     }
 
-    results.sort(key=lambda x: order[x["name"]])
+    results.sort(
+        key=lambda result: feed_order[result["name"]]
+    )
 
+    # دسته‌بندی نتایج
     categories = {}
 
     for result in results:
         categories.setdefault(
-            result["category"], []
+            result["category"],
+            []
         ).append(result)
 
+    # نمایش نتایج
     for category, category_results in categories.items():
+
         print()
         print(f"### {category}")
         print("-" * 70)
 
         for result in category_results:
+
             if result["status"] == "OK":
                 icon = "OK"
             elif result["status"] == "WARN":
@@ -201,36 +227,42 @@ def main():
                 icon = "FAIL"
 
             print(
-                f"[{icon}] {result['name']}: "
+                f"[{icon}] "
+                f"{result['name']}: "
                 f"{result['message']}"
             )
 
             if result["status"] != "OK":
-                print(f"     URL: {result['url']}")
+                print(
+                    f"     URL: {result['url']}"
+                )
 
+    # خلاصه
     ok_count = sum(
-        1 for r in results
-        if r["status"] == "OK"
+        result["status"] == "OK"
+        for result in results
     )
 
     warn_count = sum(
-        1 for r in results
-        if r["status"] == "WARN"
+        result["status"] == "WARN"
+        for result in results
     )
 
     fail_count = sum(
-        1 for r in results
-        if r["status"] == "FAIL"
+        result["status"] == "FAIL"
+        for result in results
     )
 
     print()
     print("=" * 70)
     print("SUMMARY")
     print("=" * 70)
+
     print(f"Total feeds : {len(results)}")
     print(f"OK          : {ok_count}")
     print(f"WARN        : {warn_count}")
     print(f"FAIL        : {fail_count}")
+
     print()
 
     if fail_count == 0:
@@ -243,3 +275,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
