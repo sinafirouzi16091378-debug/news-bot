@@ -73,5 +73,131 @@
   "https://www.youtube.com/watch?v=VUkljFXG8WM",
   "https://www.bbc.co.uk/news/articles/c6790yrgzq25o?at_medium=RSS&at_campaign=rss",
   "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
-  "https://www.theguardian.com/australia-news/commentisfree/2026/sep/23/how-would-ai-actually-kill-all-humans-here-are-the-top-five-most-likely-scenarios"
+  "https://www.theguardian.com/australia-news/commentisfree/2026/sep/23/how-would-ai-actually-kill-all-humans-here-are-the-top-five-most-likely-scenarios",
+  {
+    "id": "https://www.youtube.com/watch?v=OaCvfFzdjk4",
+    "title": "UN chief calls for AI curbs in his last assembly address",
+    "source": "Reuters",
+    "processed_at": "2026-09-23T13:48:04.015502+00:00"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=9eGhLOacDdc",
+    "title": "LIVE: Zelenskiy speaks during Crimea Platform Summit",
+    "source": "Reuters",
+    "processed_at": "2026-09-23T13:48:04.015518+00:00"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=sCjoUY5fd1s",
+    "title": "به‌زودی: سخنرانی مسعود پزشکیان در اجلاس سازمان ملل متحد",
+    "source": "BBC Persian",
+    "processed_at": "2026-09-23T13:48:04.015521+00:00"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/c8750ykkglq1o?at_medium=RSS&at_campaign=rss",
+    "title": "South Sudan's president dissolves government ahead of country's first elections",
+    "source": "BBC World",
+    "processed_at": "2026-09-23T13:48:04.015524+00:00"
+  },
+  {
+    "id": "https://fedinprint.org/item/fedreb/103808",
+    "title": "How Bank Lending Standards Shape the U.S. Macroeconomy",
+    "source": "Federal Reserve",
+    "processed_at": "2026-09-23T13:48:04.015526+00:00"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=gVUMuz8ZTb0",
+    "title": "Mexico urges vigilance as Hurricane Polo intensifies",
+    "source": "Reuters",
+    "processed_at": "2026-09-23T13:48:04.015529+00:00"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+    "title": "Trump threatens to 'annihilate' Iran in UN speech as officials meet on sidelines",
+    "source": "BBC World",
+    "processed_at": "2026-09-23T13:48:04.015531+00:00"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=ABHv7UcRblY",
+    "title": "Can Trump make an Iran deal after his UN speech? | Reuters World News",
+    "source": "Reuters",
+    "processed_at": "2026-09-23T13:48:04.015534+00:00"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=3962z1C700I",
+    "title": "LIVE: WHO gives update on Ebola outbreak",
+    "source": "Reuters",
+    "processed_at": "2026-09-23T13:48:04.015536+00:00"
+  },
+  {
+    "id": "https://www.youtube.com/shorts/aBjEebjMx9g",
+    "title": "Wife of detained scientist hopes Trump will help free her husband",
+    "source": "Reuters",
+    "processed_at": "2026-09-23T13:48:04.015538+00:00"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/cm5ydz4kl65ro?at_medium=RSS&at_campaign=rss",
+    "title": "A new skyline of data centres is rising in rural China",
+    "source": "BBC World",
+    "processed_at": "2026-09-23T13:48:04.015541+00:00"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=KfvJYjpuJ9U",
+    "title": "Trump says US, Iran held 'very good meeting' at UN",
+    "source": "Reuters",
+    "processed_at": "2026-09-23T13:48:04.015543+00:00"
+  },
+  {
+    "id": "https://www.youtube.com/shorts/K1o8YsltaDw",
+    "title": "Trump says he's working with Zelenskiy on Ukraine war solution",
+    "source": "Reuters",
+    "processed_at": "2026-09-23T13:48:04.015546+00:00"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/cr6241825757o?at_medium=RSS&at_campaign=rss",
+    "title": "US judge blocks deportation of DoorDash driver shot by ICE",
+    "source": "BBC World",
+    "processed_at": "2026-09-23T13:48:04.015549+00:00"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/c8r4v7n6py97o?at_medium=RSS&at_campaign=rss",
+    "title": "How Ceuta, football and Israel are shaping Morocco's election",
+    "source": "BBC World",
+    "processed_at": "2026-09-23T13:48:04.015551+00:00"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=sWBE1IfyRi8",
+    "title": "LIVE: Chrysler Building in New York evacuated due to possible bomb threat",
+    "source": "Reuters",
+    "processed_at": "2026-09-23T13:48:04.015553+00:00"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=1fndSiG81LI",
+    "title": "Trump says US-UK ties better under Burnham",
+    "source": "Reuters",
+    "processed_at": "2026-09-23T13:48:04.015556+00:00"
+  },
+  {
+    "id": "https://www.theguardian.com/us-news/2026/sep/22/trump-says-relations-better-with-burnham-than-starmer-after-first-face-to-face-meeting",
+    "title": "Trump says relations better with Burnham than Starmer after first face-to-face meeting",
+    "source": "The Guardian AI",
+    "processed_at": "2026-09-23T13:48:04.015558+00:00"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=lq2qalmgNtQ",
+    "title": "ترامپ: اگر توافق نشود، جمهوری اسلامی ایران را نابود می‌کنم - ۶۰ دقیقه سه‌شنبه ۳۱ شهریور",
+    "source": "BBC Persian",
+    "processed_at": "2026-09-23T13:48:04.015561+00:00"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=iWRk4n4Owdg",
+    "title": "Trump's speech at the UN: From threats to 'super intelligence'",
+    "source": "Reuters",
+    "processed_at": "2026-09-23T13:48:04.015563+00:00"
+  },
+  {
+    "id": "https://www.youtube.com/watch?v=OcrKfMR7eMk",
+    "title": "LIVE: Trump, Zelenskiy meet at UNGA",
+    "source": "Reuters",
+    "processed_at": "2026-09-23T13:48:04.015565+00:00"
+  }
 ]
