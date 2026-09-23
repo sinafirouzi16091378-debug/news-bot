@@ -11,13 +11,37 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+      - name: Check environment
+        run: |
+          echo "=== SYSTEM ==="
+          uname -a
+          echo ""
+          echo "=== PYTHON ==="
+          python3 --version
+          echo ""
+          echo "=== PIP ==="
+          python3 -m pip --version
+          echo ""
+          echo "=== FILES ==="
+          ls -la
+          echo ""
+          echo "=== RSS TEST FILE ==="
+          ls -l rss_test.py
 
       - name: Install requests
-        run: pip install requests
+        run: |
+          python3 -m pip install requests
+          echo "REQUESTS INSTALLED SUCCESSFULLY"
 
       - name: Test RSS feeds
-        run: python rss_test.py
+        run: |
+          echo "STARTING RSS TEST"
+          python3 rss_test.py
+          echo "RSS TEST FINISHED"
+
+      - name: Final status
+        if: always()
+        run: |
+          echo "================================"
+          echo "WORKFLOW REACHED FINAL STEP"
+          echo "================================"
