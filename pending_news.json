@@ -1,15 +1,5 @@
 [
   {
-    "id": "https://www.bbc.co.uk/sport/football/articles/ckd68e40ze3jo?at_medium=RSS&at_campaign=rss",
-    "title": "Arteta agrees new deal with Premier League champions Arsenal",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckd68e40ze3jo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "جهان",
-    "published": "2026-09-22T15:18:23+03:30",
-    "summary": "Mikel Arteta agrees an improved new contract with Premier League champions Arsenal.",
-    "content": "Mikel Arteta agrees an improved new contract with Premier League champions Arsenal."
-  },
-  {
     "id": "https://www.theguardian.com/politics/2026/sep/22/george-osborne-ai-datacentre-nimbys-holding-back-britain",
     "title": "OpenAI’s George Osborne says datacentre nimbys holding back Britain",
     "url": "https://www.theguardian.com/politics/2026/sep/22/george-osborne-ai-datacentre-nimbys-holding-back-britain",
@@ -2065,5 +2055,15 @@
     "published": "2026-09-23T11:30:34+03:30",
     "summary": "The Organisation for Economic Co-operation and Development’s Secretary-General Mathias Cormann and Chief Economist Stefano Scarpetta hold a briefing as they present the organization's latest Interim Economic Outlook, containing analysis and projections for the world economy and all G20 countries. #oecd #mathiascorman #stefanoscarpetta #economicoutlook #globaleconomy #live #Reuters #News Keep up with the latest news from around the world: https://www.reuters.com/",
     "content": "The Organisation for Economic Co-operation and Development’s Secretary-General Mathias Cormann and Chief Economist Stefano Scarpetta hold a briefing as they present the organization's latest Interim Economic Outlook, containing analysis and projections for the world economy and all G20 countries. #oecd #mathiascorman #stefanoscarpetta #economicoutlook #globaleconomy #live #Reuters #News Keep up with the latest news from around the world: https://www.reuters.com/"
+  },
+  {
+    "id": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
+    "title": "Almost ten million people took part in ECB survey on new euro banknotes",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
+    "source": "ECB",
+    "category": "اقتصاد و بازارها",
+    "published": "2026-09-23T12:30:00+03:30",
+    "summary": "",
+    "content": ""
   }
 ]
