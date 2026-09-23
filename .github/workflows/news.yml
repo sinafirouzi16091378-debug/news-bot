@@ -16,9 +16,9 @@ on:
     # Collect news every 30 minutes
     - cron: "*/30 * * * *"
 
-    # Daily digest at 21:35 Iran time
+    # Daily digest at 21:30 Iran time
     # Iran = UTC+3:30
-    - cron: "5 18 * * *"
+    - cron: "0 18 * * *"
 
 jobs:
 
@@ -67,7 +67,7 @@ jobs:
   # ==========================================================
 
   digest:
-    if: github.event_name == 'schedule' && github.event.schedule == '5 18 * * *' || github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'digest'
+    if: github.event_name == 'schedule' && github.event.schedule == '0 18 * * *' || github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'digest'
     runs-on: ubuntu-latest
 
     permissions:
