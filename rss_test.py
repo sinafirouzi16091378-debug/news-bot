@@ -178,5 +178,96 @@ def test_feed(feed):
 
 def main():
     print("=" * 70)
-    pr
+    print("RSS FEED TEST")
+    print("=" * 70)
+    print()
+
+    results = []
+
+    # Test feeds concurrently
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        futures = [
+            executor.submit(test_feed, feed)
+            for feed in FEEDS
+        ]
+
+        for future in as_completed(futures):
+            results.append(future.result())
+
+    # Keep original FEEDS order
+    order = {
+        feed[0]: index
+        for index, feed in enumerate(FEEDS)
+    }
+
+    results.sort(key=lambda x: order[x["name"]])
+
+    # Group by category
+    categories = {}
+
+    for result in results:
+        categories.setdefault(result["category"], []).append(result)
+
+    # Print results
+    for category, category_results in categories.items():
+        print()
+        print(f"### {category}")
+        print("-" * 70)
+
+        for result in category_results:
+            status = result["status"]
+
+            if status == "OK":
+                icon = "✅"
+            elif status == "WARN":
+                icon = "⚠️"
+            else:
+                icon = "❌"
+
+            print(
+                f"{icon} {result['name']}: "
+                f"{result['message']}"
+            )
+
+            if status != "OK":
+                print(f"   URL: {result['url']}")
+
+    # Summary
+    ok_count = sum(
+        1 for r in results
+        if r["status"] == "OK"
+    )
+
+    warn_count = sum(
+        1 for r in results
+        if r["status"] == "WARN"
+    )
+
+    fail_count = sum(
+        1 for r in results
+        if r["status"] == "FAIL"
+    )
+
+    print()
+    print("=" * 70)
+    print("SUMMARY")
+    print("=" * 70)
+
+    print(f"Total feeds : {len(results)}")
+    print(f"OK          : {ok_count}")
+    print(f"WARN        : {warn_count}")
+    print(f"FAIL        : {fail_count}")
+
+    print()
+
+    if fail_count == 0:
+        print("🎉 All feeds are working!")
+    elif ok_count == 0:
+        print("🚨 All feeds failed!")
+    else:
+        print("⚠️ Some feeds need attention.")
+
+
+if __name__ == "__main__":
+    main()
 ```
