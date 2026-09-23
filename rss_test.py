@@ -24,10 +24,15 @@ FEEDS = [
      "https://www.federalreserve.gov/feeds/press_all.xml"),
     ("ECB", "اقتصاد و بازارها",
      "https://www.ecb.europa.eu/rss/press.html"),
-    ("IMF", "اقتصاد و بازارها",
-     "https://www.imf.org/en/News/RSS"),
-    ("World Bank", "اقتصاد و بازارها",
-     "https://www.worldbank.org/en/news/all?display=feed"),
+
+    # IMF replacement
+    ("BIS Media Releases", "اقتصاد و بازارها",
+     "https://www.bis.org/rss/press.xml"),
+
+    # World Bank replacement
+    ("BIS Research", "اقتصاد و بازارها",
+     "https://www.bis.org/rss/research.xml"),
+
     ("CNBC", "اقتصاد و بازارها",
      "https://www.cnbc.com/id/100003114/device/rss/rss.html"),
     ("Financial Times", "اقتصاد و بازارها",
@@ -54,8 +59,11 @@ FEEDS = [
     # =========================
     ("Nature", "علم",
      "https://www.nature.com/nature.rss"),
-    ("Science", "علم",
-     "https://www.science.org/rss/news_current.xml"),
+
+    # Science replacement
+    ("APS Physics", "علم",
+     "https://feeds.aps.org/rss/recent/physics.xml"),
+
     ("NASA", "علم",
      "https://www.nasa.gov/news-release/feed/"),
     ("New Scientist", "علم",
@@ -70,8 +78,10 @@ FEEDS = [
     # =========================
     ("BBC Persian", "ایران",
      "https://feeds.bbci.co.uk/persian/rss.xml"),
+
     ("Radio Farda", "ایران",
-     "https://en.radiofarda.com/api/zp_qmtl-vomx-tpe_bimr"),
+     "https://en.radiofarda.com/api/zgmqmrl-vomx-tpe--imq"),
+
     ("Tasnim", "ایران",
      "https://www.tasnimnews.ir/en/rss/feed/0/0/0/0/AllStories"),
 
