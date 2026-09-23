@@ -1,25 +1,5 @@
 [
   {
-    "id": "https://www.bbc.co.uk/news/articles/cje3rezd92y3o?at_medium=RSS&at_campaign=rss",
-    "title": "Major US outlets boycott shared Trump coverage in protest at media ban",
-    "url": "https://www.bbc.co.uk/news/articles/cje3rezd92y3o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "جهان",
-    "published": "2026-09-22T11:47:15+03:30",
-    "summary": "Regular coverage of the president has been disrupted after he banned CNN, MS NOW and Politico from the White House.",
-    "content": "Regular coverage of the president has been disrupted after he banned CNN, MS NOW and Politico from the White House."
-  },
-  {
-    "id": "https://www.youtube.com/watch?v=ldLcevhSlNI",
-    "title": "Bond markets are cause for concern and celebration",
-    "url": "https://www.youtube.com/watch?v=ldLcevhSlNI",
-    "source": "Reuters",
-    "category": "جهان",
-    "published": "2026-09-22T11:46:21+03:30",
-    "summary": "With US debt at $40 trln and yields near two-decade highs, government bonds are causing economic jitters. On this episode of The Big View, financial journalist Robin Wigglesworth tells Peter Thal Larsen how state borrowing built the modern world – with many bumps along the way. #News #Reuters #Newsfeed #bonds #finance #usa #useconomy #debt #economy 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en",
-    "content": "With US debt at $40 trln and yields near two-decade highs, government bonds are causing economic jitters. On this episode of The Big View, financial journalist Robin Wigglesworth tells Peter Thal Larsen how state borrowing built the modern world – with many bumps along the way. #News #Reuters #Newsfeed #bonds #finance #usa #useconomy #debt #economy 👉 Subscribe: https://reut.rs/4b8fRGn Keep up with the latest news from around the world: https://www.reuters.com/ Follow Reuters on Facebook: https://www.facebook.com/Reuters Follow Reuters on X: https://twitter.com/Reuters Follow Reuters on Instagram: https://www.instagram.com/reuters/?hl=en"
-  },
-  {
     "id": "https://www.bbc.co.uk/news/articles/cw8r687nedzgo?at_medium=RSS&at_campaign=rss",
     "title": "Sri Lankan court to deliver verdict on deadly Easter bombings",
     "url": "https://www.bbc.co.uk/news/articles/cw8r687nedzgo?at_medium=RSS&at_campaign=rss",
@@ -2065,5 +2045,25 @@
     "published": "2026-09-23T15:31:37+03:30",
     "summary": "Ukraine will get access to OpenAI's advanced GPT 5.6 Sol model under the deal - a rival to Anthropic's Mythos and Fable",
     "content": "Ukraine will get access to OpenAI's advanced GPT 5.6 Sol model under the deal - a rival to Anthropic's Mythos and Fable"
+  },
+  {
+    "id": "https://www.bbc.co.uk/news/articles/c6vgy55lm8z1o?at_medium=RSS&at_campaign=rss",
+    "title": "Dramatic eviction of woman aged 87 highlights Spain's housing shortage",
+    "url": "https://www.bbc.co.uk/news/articles/c6vgy55lm8z1o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "category": "جهان",
+    "published": "2026-09-23T16:01:31+03:30",
+    "summary": "The tenant of the flat in Madrid, Maricarmen, was unable to pay the rent set by the firm which recently bought it.",
+    "content": "The tenant of the flat in Madrid, Maricarmen, was unable to pay the rent set by the firm which recently bought it."
+  },
+  {
+    "id": "https://fedinprint.org/item/fedreb/103808",
+    "title": "How Bank Lending Standards Shape the U.S. Macroeconomy",
+    "url": "https://fedinprint.org/item/fedreb/103808",
+    "source": "Federal Reserve",
+    "category": "اقتصاد و بازارها",
+    "published": "2026-09-23T03:30:00+03:30",
+    "summary": "Changes in lending standards affect GDP performance, with changes to business lending standards having a greater impact on overall U.S. economic growth than changes to household lending standards. The tightening of business lending standards is associated with a significant and persistent drop in real GDP growth. The magnitude of the effect depends on economic conditions, as it is significantly stronger when GDP is below its long-run trend, interest rates are away from their effective lower bound or economic uncertainty is elevated. A tightening of bank lending standards has a larger, more immediate negative impact on GDP growth than the positive effect of an easing in lending standards.",
+    "content": "Changes in lending standards affect GDP performance, with changes to business lending standards having a greater impact on overall U.S. economic growth than changes to household lending standards. The tightening of business lending standards is associated with a significant and persistent drop in real GDP growth. The magnitude of the effect depends on economic conditions, as it is significantly stronger when GDP is below its long-run trend, interest rates are away from their effective lower bound or economic uncertainty is elevated. A tightening of bank lending standards has a larger, more immediate negative impact on GDP growth than the positive effect of an easing in lending standards."
   }
 ]
