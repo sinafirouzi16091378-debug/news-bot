@@ -44,30 +44,27 @@ MAX_FINAL_NEWS = 10
 # =========================================================
 
 FEEDS = [
-    # پزشکی و سلامت
     ("پزشکی و سلامت", "NIH", "https://newsinhealth.nih.gov/rss"),
     ("پزشکی و سلامت", "WHO", "https://www.who.int/rss-feeds/news-english.xml"),
 
-    # هوش مصنوعی و فناوری
-    ("هوش مصنوعی و فناوری", "MIT CSAIL", "https://www.csail.mit.edu/news/feed"),
+    ("هوش مصنوعی و فناوری", "MIT CSAIL",
+     "https://www.csail.mit.edu/news/feed"),
+
     ("هوش مصنوعی و فناوری", "The Guardian AI",
      "https://www.theguardian.com/technology/artificialintelligenceai/rss"),
 
-    # اقتصاد و بازارها
     ("اقتصاد و بازارها", "ECB",
      "https://www.ecb.europa.eu/rss/press.html"),
+
     ("اقتصاد و بازارها", "Federal Reserve",
      "https://www.federalreserve.gov/feeds/press_all.xml"),
 
-    # جهان
     ("جهان", "BBC World",
      "https://feeds.bbci.co.uk/news/world/rss.xml"),
 
-    # خبرگزاری‌ها
     ("جهان", "Reuters",
      "https://www.youtube.com/feeds/videos.xml?channel_id=UCmC3M5e1s8wM3l6Y8J3j7Vw"),
 
-    # ایران
     ("ایران", "Tasnim",
      "https://www.tasnimnews.com/fa/rss/feed/1/0/0/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1"),
 
@@ -150,7 +147,6 @@ def clean_url(url):
 
     url = str(url).strip()
 
-    # Remove tracking parameters
     url = re.sub(
         r"([?&])(utm_[^&]+|fbclid|gclid)=[^&]*",
         "",
@@ -189,11 +185,15 @@ def today_iran():
 # =========================================================
 
 def gregorian_to_jalali(gy, gm, gd):
-    g_days_in_month = [31, 28, 31, 30, 31, 30,
-                       31, 31, 30, 31, 30, 31]
+    g_days_in_month = [
+        31, 28, 31, 30, 31, 30,
+        31, 31, 30, 31, 30, 31
+    ]
 
-    j_days_in_month = [31, 31, 31, 31, 31, 31,
-                       30, 30, 30, 30, 30, 29]
+    j_days_in_month = [
+        31, 31, 31, 31, 31, 31,
+        30, 30, 30, 30, 30, 29
+    ]
 
     gy2 = gy - 1600
     gm2 = gm - 1
@@ -210,7 +210,8 @@ def gregorian_to_jalali(gy, gm, gd):
         g_day_no += g_days_in_month[i]
 
     if gm2 > 1 and (
-        gy % 4 == 0 and (gy % 100 != 0 or gy % 400 == 0)
+        gy % 4 == 0 and
+        (gy % 100 != 0 or gy % 400 == 0)
     ):
         g_day_no += 1
 
@@ -323,14 +324,20 @@ def collect_news():
             feed = feedparser.parse(url)
 
             if getattr(feed, "bozo", False):
-                print(f"WARNING: feed parser warning for {source}")
+                print(
+                    f"WARNING: feed parser warning for {source}"
+                )
 
             entries = feed.entries[:30]
 
-            print(f"{source}: {len(entries)} entries")
+            print(
+                f"{source}: {len(entries)} entries"
+            )
 
             for entry in entries:
-                title = normalize_text(entry.get("title", ""))
+                title = normalize_text(
+                    entry.get("title", "")
+                )
 
                 if not title:
                     continue
@@ -340,12 +347,16 @@ def collect_news():
                 if not published:
                     continue
 
-                published_iran = published.astimezone(IRAN_TZ)
+                published_iran = published.astimezone(
+                    IRAN_TZ
+                )
 
                 if published_iran.date() != today:
                     continue
 
-                link = clean_url(entry.get("link", ""))
+                link = clean_url(
+                    entry.get("link", "")
+                )
 
                 article_id = (
                     f"{source}|"
@@ -353,7 +364,9 @@ def collect_news():
                     f"{link}"
                 )
 
-                article_id = normalize_text(article_id)
+                article_id = normalize_text(
+                    article_id
+                )
 
                 if article_id in seen_ids:
                     continue
@@ -361,47 +374,83 @@ def collect_news():
                 if article_id in pending_ids:
                     continue
 
-                summary = entry.get("summary", "")
-                content = entry.get("content", "")
+                summary = entry.get(
+                    "summary",
+                    ""
+                )
+
+                content = entry.get(
+                    "content",
+                    ""
+                )
 
                 if isinstance(content, list) and content:
-                    content = content[0].get("value", "")
+                    content = content[0].get(
+                        "value",
+                        ""
+                    )
 
                 if not content:
                     content = summary
 
                 article = {
                     "id": article_id,
-                    "title": entry.get("title", "").strip(),
+                    "title": entry.get(
+                        "title",
+                        ""
+                    ).strip(),
                     "category": category,
                     "source": source,
                     "url": link,
                     "published": published_iran.isoformat(),
-                    "content": normalize_text(content)[:MAX_CONTENT_CHARS],
-                    "summary": normalize_text(summary)[:MAX_SUMMARY_CHARS],
+                    "content": normalize_text(
+                        content
+                    )[:MAX_CONTENT_CHARS],
+                    "summary": normalize_text(
+                        summary
+                    )[:MAX_SUMMARY_CHARS],
                 }
 
-                if is_duplicate(article, pending, threshold=0.75):
+                if is_duplicate(
+                    article,
+                    pending,
+                    threshold=0.75
+                ):
                     continue
 
-                if is_duplicate(article, collected, threshold=0.75):
+                if is_duplicate(
+                    article,
+                    collected,
+                    threshold=0.75
+                ):
                     continue
 
                 collected.append(article)
 
         except Exception as e:
-            print(f"ERROR: {source}: {e}")
+            print(
+                f"ERROR: {source}: {e}"
+            )
 
     pending.extend(collected)
 
-    # Keep queue bounded
     if len(pending) > 200:
         pending = pending[-200:]
 
-    save_json(PENDING_FILE, pending)
+    save_json(
+        PENDING_FILE,
+        pending
+    )
 
-    print(f"\nDEBUG: collected {len(collected)} new articles.")
-    print(f"DEBUG: pending queue now contains {len(pending)} articles.")
+    print(
+        f"\nDEBUG: collected "
+        f"{len(collected)} new articles."
+    )
+
+    print(
+        f"DEBUG: pending queue now contains "
+        f"{len(pending)} articles."
+    )
 
     return collected
 
@@ -412,7 +461,9 @@ def collect_news():
 
 def groq_request(messages):
     if not GROQ_API_KEY:
-        raise RuntimeError("GROQ_API_KEY is missing.")
+        raise RuntimeError(
+            "GROQ_API_KEY is missing."
+        )
 
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
@@ -423,7 +474,9 @@ def groq_request(messages):
         "model": GROQ_MODEL,
         "messages": messages,
         "temperature": 0.3,
-        "max_completion_tokens": GROQ_MAX_COMPLETION_TOKENS,
+        "max_completion_tokens": (
+            GROQ_MAX_COMPLETION_TOKENS
+        ),
         "reasoning_effort": "low",
         "include_reasoning": False,
         "response_format": {
@@ -441,37 +494,52 @@ def groq_request(messages):
             )
 
             print(
-                f"Groq HTTP {response.status_code}"
+                f"Groq HTTP "
+                f"{response.status_code}"
             )
 
             if response.status_code == 200:
                 data = response.json()
 
                 content = (
-                    data["choices"][0]["message"]["content"]
+                    data["choices"][0]
+                    ["message"]["content"]
                 )
 
                 return json.loads(content)
 
             if response.status_code == 429:
-                retry_after = response.headers.get("retry-after")
+                retry_after = (
+                    response.headers.get(
+                        "retry-after"
+                    )
+                )
 
                 wait_seconds = 30
 
                 if retry_after:
                     try:
-                        wait_seconds = int(float(retry_after))
+                        wait_seconds = int(
+                            float(retry_after)
+                        )
                     except Exception:
                         pass
 
-                wait_seconds = min(wait_seconds, 120)
+                wait_seconds = min(
+                    wait_seconds,
+                    120
+                )
 
                 print(
                     f"Rate limit reached. "
-                    f"Waiting {wait_seconds} seconds..."
+                    f"Waiting "
+                    f"{wait_seconds} seconds..."
                 )
 
-                time.sleep(wait_seconds)
+                time.sleep(
+                    wait_seconds
+                )
+
                 continue
 
             print(
@@ -480,7 +548,9 @@ def groq_request(messages):
             )
 
         except Exception as e:
-            print(f"Groq request error: {e}")
+            print(
+                f"Groq request error: {e}"
+            )
 
             if attempt < 2:
                 time.sleep(15)
@@ -511,8 +581,6 @@ def analyze_batch(batch):
 برای هر خبر:
 1. اهمیت آن را از 1 تا 5 تعیین کن.
 2. یک خلاصه فارسی بسیار کوتاه و دقیق بنویس.
-
-فقط اخبار واقعاً مهم را با اهمیت 3 یا بالاتر در نظر بگیر.
 
 اهمیت:
 5 = بسیار مهم و دارای اثر گسترده
@@ -556,14 +624,22 @@ def analyze_batch(batch):
         },
     ]
 
-    result = groq_request(messages)
+    result = groq_request(
+        messages
+    )
 
     if not result:
         return []
 
-    analyses = result.get("articles", [])
+    analyses = result.get(
+        "articles",
+        []
+    )
 
-    if not isinstance(analyses, list):
+    if not isinstance(
+        analyses,
+        list
+    ):
         return []
 
     return analyses
@@ -572,34 +648,50 @@ def analyze_batch(batch):
 def analyze_articles(articles):
     batches = [
         articles[i:i + BATCH_SIZE]
-        for i in range(0, len(articles), BATCH_SIZE)
+        for i in range(
+            0,
+            len(articles),
+            BATCH_SIZE
+        )
     ]
 
     print(
-        f"DEBUG: analyzing {len(articles)} articles "
-        f"in {len(batches)} batches of up to {BATCH_SIZE} articles."
+        f"DEBUG: analyzing "
+        f"{len(articles)} articles "
+        f"in {len(batches)} batches "
+        f"of up to {BATCH_SIZE} articles."
     )
 
     all_analyses = []
 
-    for index, batch in enumerate(batches, start=1):
+    for index, batch in enumerate(
+        batches,
+        start=1
+    ):
 
         print(
-            f"DEBUG: analyzing batch {index}/{len(batches)}..."
+            f"DEBUG: analyzing batch "
+            f"{index}/{len(batches)}..."
         )
 
-        analyses = analyze_batch(batch)
+        analyses = analyze_batch(
+            batch
+        )
 
         returned_ids = {
             item.get("id")
             for item in analyses
-            if isinstance(item, dict)
+            if isinstance(
+                item,
+                dict
+            )
         }
 
         missing = [
             article["title"]
             for article in batch
-            if article["id"] not in returned_ids
+            if article["id"]
+            not in returned_ids
         ]
 
         print(
@@ -613,72 +705,235 @@ def analyze_articles(articles):
                     f"  missing: {title}"
                 )
 
-        all_analyses.extend(analyses)
+        all_analyses.extend(
+            analyses
+        )
 
         if index < len(batches):
-            time.sleep(GROQ_DELAY_SECONDS)
+            time.sleep(
+                GROQ_DELAY_SECONDS
+            )
 
     print(
-        f"DEBUG: total successfully analyzed: "
-        f"{len(all_analyses)}"
+        f"DEBUG: total successfully "
+        f"analyzed: {len(all_analyses)}"
     )
 
     return all_analyses
 
 
 # =========================================================
-# SEMANTIC / NEAR-DUPLICATE REMOVAL
+# TEXT / TOPIC SIMILARITY
 # =========================================================
 
-def combined_similarity(a, b):
-    """
-    مقایسه عنوان و خلاصه برای پیدا کردن اخبار
-    تقریباً یکسان، بدون استفاده از API.
-    """
+def title_similarity(a, b):
+    title_a = normalize_text(
+        a.get("title", "")
+    )
 
-    title_a = normalize_text(a.get("title", ""))
-    title_b = normalize_text(b.get("title", ""))
+    title_b = normalize_text(
+        b.get("title", "")
+    )
 
-    summary_a = normalize_text(a.get("summary_fa", ""))
-    summary_b = normalize_text(b.get("summary_fa", ""))
+    if not title_a or not title_b:
+        return 0.0
 
-    title_similarity = SequenceMatcher(
+    return SequenceMatcher(
         None,
         title_a,
         title_b
     ).ratio()
 
-    summary_similarity = SequenceMatcher(
+
+def combined_similarity(a, b):
+    title_a = normalize_text(
+        a.get("title", "")
+    )
+
+    title_b = normalize_text(
+        b.get("title", "")
+    )
+
+    summary_a = normalize_text(
+        a.get("summary_fa", "")
+    )
+
+    summary_b = normalize_text(
+        b.get("summary_fa", "")
+    )
+
+    if not title_a or not title_b:
+        return 0.0
+
+    title_score = SequenceMatcher(
         None,
-        summary_a,
-        summary_b
+        title_a,
+        title_b
     ).ratio()
 
-    # عنوان وزن بیشتری دارد.
+    summary_score = 0.0
+
+    if summary_a and summary_b:
+        summary_score = SequenceMatcher(
+            None,
+            summary_a,
+            summary_b
+        ).ratio()
+
     return (
-        title_similarity * 0.7
-        + summary_similarity * 0.3
+        title_score * 0.7
+        + summary_score * 0.3
     )
 
 
-def semantic_deduplicate(analyzed_articles):
-    """
-    اخبار تقریباً تکراری را بعد از تحلیل AI حذف می‌کند.
+# =========================================================
+# TOKEN-BASED TOPIC SIMILARITY
+# =========================================================
 
-    اگر دو خبر یک داستان خبری باشند:
-    - خبر با اهمیت بالاتر حفظ می‌شود.
-    - اگر اهمیت برابر باشد، خبر جدیدتر حفظ می‌شود.
+STOPWORDS = {
+    "the", "a", "an", "and", "or", "of",
+    "to", "in", "on", "for", "with",
+    "as", "is", "are", "from", "by",
+    "at", "after", "before", "during",
+    "says", "said", "new", "news",
+    "live", "how", "what", "why",
+
+    "و", "در", "به", "از", "با",
+    "برای", "که", "این", "آن",
+    "را", "بر", "تا", "یک",
+    "می", "شود", "شد", "است",
+    "های", "ای", "اگر", "پس",
+    "اما", "یا", "هم", "کرد",
+    "کرده", "درباره", "روی",
+}
+
+
+def meaningful_tokens(text):
+    text = normalize_text(text)
+
+    # نگه داشتن کلمات فارسی و انگلیسی
+    tokens = re.findall(
+        r"[a-zA-Z0-9\u0600-\u06FF]+",
+        text
+    )
+
+    result = set()
+
+    for token in tokens:
+
+        if len(token) < 3:
+            continue
+
+        if token in STOPWORDS:
+            continue
+
+        result.add(token)
+
+    return result
+
+
+def token_overlap(a, b):
+    tokens_a = meaningful_tokens(
+        a.get("title", "")
+    )
+
+    tokens_b = meaningful_tokens(
+        b.get("title", "")
+    )
+
+    if not tokens_a or not tokens_b:
+        return 0.0
+
+    intersection = (
+        tokens_a & tokens_b
+    )
+
+    union = (
+        tokens_a | tokens_b
+    )
+
+    if not union:
+        return 0.0
+
+    return len(intersection) / len(union)
+
+
+def topic_similarity(a, b):
+    """
+    ترکیب چند معیار برای تشخیص اینکه دو خبر
+    احتمالاً درباره یک رویداد/موضوع واحد هستند.
+    """
+
+    title_score = title_similarity(
+        a,
+        b
+    )
+
+    combined_score = combined_similarity(
+        a,
+        b
+    )
+
+    overlap_score = token_overlap(
+        a,
+        b
+    )
+
+    # اگر عنوان تقریباً یکسان باشد،
+    # تقریباً قطعی است که خبر تکراری است.
+    if title_score >= 0.82:
+        return 1.0
+
+    # اگر چند کلمه کلیدی اصلی مشترک باشند
+    # و عنوان‌ها هم شباهت مناسبی داشته باشند.
+    if (
+        overlap_score >= 0.45
+        and title_score >= 0.55
+    ):
+        return 0.90
+
+    # اگر عنوان‌ها خیلی نزدیک باشند.
+    if combined_score >= 0.78:
+        return 0.85
+
+    return max(
+        combined_score,
+        overlap_score * 0.85
+    )
+
+
+# =========================================================
+# SEMANTIC / TOPIC DEDUPLICATION
+# =========================================================
+
+def semantic_deduplicate(
+    analyzed_articles
+):
+    """
+    حذف خبرهای تقریباً تکراری یا مربوط به
+    یک رویداد واحد.
+
+    در صورت تشخیص شباهت:
+    - اهمیت بالاتر اولویت دارد.
+    - در اهمیت برابر، خبر جدیدتر حفظ می‌شود.
     """
 
     if not analyzed_articles:
         return []
 
-    # ابتدا اهمیت بیشتر و سپس زمان جدیدتر
     sorted_articles = sorted(
         analyzed_articles,
         key=lambda x: (
-            int(x.get("importance", 0)),
-            x.get("published", "")
+            int(
+                x.get(
+                    "importance",
+                    0
+                )
+            ),
+            x.get(
+                "published",
+                ""
+            )
         ),
         reverse=True
     )
@@ -691,37 +946,47 @@ def semantic_deduplicate(analyzed_articles):
 
         for existing in kept:
 
-            similarity = combined_similarity(
+            score = topic_similarity(
                 article,
                 existing
             )
 
-            # آستانه نسبتاً محافظه‌کارانه است تا
-            # خبرهای متفاوت اشتباهاً حذف نشوند.
-            if similarity >= 0.82:
+            if score >= 0.85:
+
                 duplicate_found = True
 
                 print(
-                    "DEBUG: near-duplicate removed:"
+                    "DEBUG: related/duplicate "
+                    "story removed:"
                 )
+
                 print(
-                    f"  REMOVE: {article.get('title')}"
+                    f"  REMOVE: "
+                    f"{article.get('title')}"
                 )
+
                 print(
-                    f"  KEEP:   {existing.get('title')}"
+                    f"  KEEP:   "
+                    f"{existing.get('title')}"
                 )
+
                 print(
-                    f"  similarity: {similarity:.2f}"
+                    f"  topic similarity: "
+                    f"{score:.2f}"
                 )
 
                 break
 
         if not duplicate_found:
-            kept.append(article)
+            kept.append(
+                article
+            )
 
     print(
-        f"DEBUG: semantic deduplication: "
-        f"{len(analyzed_articles)} -> {len(kept)}"
+        f"DEBUG: semantic/topic "
+        f"deduplication: "
+        f"{len(analyzed_articles)} "
+        f"-> {len(kept)}"
     )
 
     return kept
@@ -731,14 +996,19 @@ def semantic_deduplicate(analyzed_articles):
 # FINAL SELECTION
 # =========================================================
 
-def select_final_news(analyzed_articles):
+def select_final_news(
+    analyzed_articles
+):
     candidates = []
 
     for article in analyzed_articles:
 
         try:
             importance = int(
-                article.get("importance", 0)
+                article.get(
+                    "importance",
+                    0
+                )
             )
         except Exception:
             importance = 0
@@ -746,21 +1016,41 @@ def select_final_news(analyzed_articles):
         if importance < MIN_IMPORTANCE:
             continue
 
-        article = dict(article)
-        article["importance"] = importance
+        article = dict(
+            article
+        )
 
-        candidates.append(article)
+        article["importance"] = (
+            importance
+        )
 
-    # اهمیت بیشتر، سپس جدیدتر
+        candidates.append(
+            article
+        )
+
+    # -----------------------------------------------------
+    # مرحله اول:
+    # اول اهمیت، سپس تازگی
+    # -----------------------------------------------------
+
     candidates.sort(
         key=lambda x: (
             x["importance"],
-            x.get("published", "")
+            x.get(
+                "published",
+                ""
+            )
         ),
         reverse=True
     )
 
-    # تنوع موضوعی
+    # -----------------------------------------------------
+    # مرحله دوم:
+    # تنوع دسته‌ها
+    #
+    # حداکثر 2 خبر از هر دسته در پاس اول
+    # -----------------------------------------------------
+
     selected = []
     category_counts = {}
 
@@ -779,13 +1069,21 @@ def select_final_news(analyzed_articles):
         if count >= 2:
             continue
 
-        selected.append(article)
-        category_counts[category] = count + 1
+        selected.append(
+            article
+        )
+
+        category_counts[category] = (
+            count + 1
+        )
 
         if len(selected) >= MAX_FINAL_NEWS:
             break
 
-    # اگر هنوز کمتر از 10 خبر داریم، باقی را پر کن
+    # -----------------------------------------------------
+    # اگر کمتر از 10 خبر داشتیم، از باقی خبرها پر می‌کنیم
+    # -----------------------------------------------------
+
     if len(selected) < MAX_FINAL_NEWS:
 
         selected_ids = {
@@ -798,10 +1096,28 @@ def select_final_news(analyzed_articles):
             if article["id"] in selected_ids:
                 continue
 
-            selected.append(article)
+            selected.append(
+                article
+            )
 
             if len(selected) >= MAX_FINAL_NEWS:
                 break
+
+    # -----------------------------------------------------
+    # مرتب‌سازی نهایی:
+    # اهمیت بالاتر همیشه بالاتر نمایش داده شود.
+    # -----------------------------------------------------
+
+    selected.sort(
+        key=lambda x: (
+            x["importance"],
+            x.get(
+                "published",
+                ""
+            )
+        ),
+        reverse=True
+    )
 
     return selected
 
@@ -810,12 +1126,14 @@ def select_final_news(analyzed_articles):
 # TELEGRAM MESSAGE
 # =========================================================
 
-def build_digest_message(final_news):
+def build_digest_message(
+    final_news
+):
     if not final_news:
         return (
             "📰 <b>خبرنامه روزانه</b>\n\n"
-            "امروز خبر مهمی با اهمیت کافی برای "
-            "ارسال پیدا نشد."
+            "امروز خبر مهمی با اهمیت کافی "
+            "برای ارسال پیدا نشد."
         )
 
     lines = []
@@ -825,7 +1143,8 @@ def build_digest_message(final_news):
     )
 
     lines.append(
-        "📅 " + jalali_date_string(
+        "📅 "
+        + jalali_date_string(
             datetime.now(IRAN_TZ)
         )
     )
@@ -838,22 +1157,37 @@ def build_digest_message(final_news):
     ):
 
         title = escape(
-            article.get("title", "")
+            article.get(
+                "title",
+                ""
+            )
         )
 
         category = escape(
-            article.get("category", "")
+            article.get(
+                "category",
+                ""
+            )
         )
 
         source = escape(
-            article.get("source", "")
+            article.get(
+                "source",
+                ""
+            )
         )
 
         summary = escape(
-            article.get("summary_fa", "")
+            article.get(
+                "summary_fa",
+                ""
+            )
         )
 
-        url = article.get("url", "")
+        url = article.get(
+            "url",
+            ""
+        )
 
         lines.append(
             f"<b>{index}. {title}</b>"
@@ -870,20 +1204,25 @@ def build_digest_message(final_news):
 
         if url:
             lines.append(
-                f'🔗 <a href="{html.escape(url, quote=True)}">'
-                f"منبع خبر</a>"
+                f'<a href="'
+                f'{html.escape(url, quote=True)}'
+                f'">🔗 منبع خبر</a>'
             )
 
         lines.append("")
 
-    return "\n".join(lines)
+    return "\n".join(
+        lines
+    )
 
 
 # =========================================================
 # TELEGRAM
 # =========================================================
 
-def send_telegram(message):
+def send_telegram(
+    message
+):
     if not TELEGRAM_BOT_TOKEN:
         raise RuntimeError(
             "TELEGRAM_BOT_TOKEN is missing."
@@ -913,7 +1252,8 @@ def send_telegram(message):
     )
 
     print(
-        f"Telegram HTTP {response.status_code}"
+        f"Telegram HTTP "
+        f"{response.status_code}"
     )
 
     if response.status_code != 200:
@@ -931,7 +1271,9 @@ def send_telegram(message):
 # =========================================================
 
 def create_digest():
-    print("DEBUG: starting daily digest...")
+    print(
+        "DEBUG: starting daily digest..."
+    )
 
     pending = load_json(
         PENDING_FILE,
@@ -939,8 +1281,8 @@ def create_digest():
     )
 
     print(
-        f"DEBUG: pending queue contains "
-        f"{len(pending)} articles."
+        f"DEBUG: pending queue "
+        f"contains {len(pending)} articles."
     )
 
     if not pending:
@@ -949,7 +1291,6 @@ def create_digest():
         )
         return
 
-    # جدیدترین 25 خبر برای AI
     pending_sorted = sorted(
         pending,
         key=lambda x: x.get(
@@ -959,9 +1300,11 @@ def create_digest():
         reverse=True
     )
 
-    articles_for_ai = pending_sorted[
-        :MAX_ARTICLES_FOR_AI
-    ]
+    articles_for_ai = (
+        pending_sorted[
+            :MAX_ARTICLES_FOR_AI
+        ]
+    )
 
     print(
         f"DEBUG: sending "
@@ -975,7 +1318,8 @@ def create_digest():
 
     if not analyses:
         print(
-            "DEBUG: no successful AI analyses."
+            "DEBUG: no successful "
+            "AI analyses."
         )
         return
 
@@ -988,10 +1332,15 @@ def create_digest():
 
     for analysis in analyses:
 
-        if not isinstance(analysis, dict):
+        if not isinstance(
+            analysis,
+            dict
+        ):
             continue
 
-        article_id = analysis.get("id")
+        article_id = analysis.get(
+            "id"
+        )
 
         if article_id not in article_map:
             continue
@@ -1010,7 +1359,9 @@ def create_digest():
         except Exception:
             importance = 0
 
-        article["importance"] = importance
+        article["importance"] = (
+            importance
+        )
 
         article["summary_fa"] = (
             str(
@@ -1025,14 +1376,21 @@ def create_digest():
             article
         )
 
-    # -----------------------------------------------------
-    # NEW:
-    # حذف اخبار تقریباً تکراری قبل از انتخاب نهایی
-    # -----------------------------------------------------
+    # =====================================================
+    # STEP 1:
+    # حذف اخبار تکراری / مربوط به یک رویداد
+    # =====================================================
 
-    analyzed_articles = semantic_deduplicate(
-        analyzed_articles
+    analyzed_articles = (
+        semantic_deduplicate(
+            analyzed_articles
+        )
     )
+
+    # =====================================================
+    # STEP 2:
+    # انتخاب نهایی با تنوع موضوعی
+    # =====================================================
 
     final_news = select_final_news(
         analyzed_articles
@@ -1057,7 +1415,9 @@ def create_digest():
         final_news
     )
 
-    sent = send_telegram(message)
+    sent = send_telegram(
+        message
+    )
 
     if not sent:
         print(
@@ -1066,17 +1426,13 @@ def create_digest():
         return
 
     print(
-        "DEBUG: Telegram message sent successfully."
+        "DEBUG: Telegram message "
+        "sent successfully."
     )
 
-    # -----------------------------------------------------
-    # فقط خبرهایی که AI با موفقیت تحلیل کرده‌اند
-    # از pending حذف و به seen منتقل می‌شوند.
-    #
-    # خبرهایی که AI برایشان پاسخ نداده،
-    # در pending باقی می‌مانند تا در اجرای بعدی دوباره
-    # امتحان شوند.
-    # -----------------------------------------------------
+    # =====================================================
+    # حذف خبرهای تحلیل‌شده موفق از pending
+    # =====================================================
 
     successful_ids = {
         article["id"]
@@ -1093,7 +1449,10 @@ def create_digest():
         existing_seen_ids = set()
 
         for item in seen:
-            if isinstance(item, dict):
+            if isinstance(
+                item,
+                dict
+            ):
                 existing_seen_ids.add(
                     item.get("id")
                 )
@@ -1111,11 +1470,19 @@ def create_digest():
 
             seen.append({
                 "id": article_id,
-                "title": article.get("title", ""),
-                "source": article.get("source", ""),
-                "processed_at": datetime.now(
-                    timezone.utc
-                ).isoformat()
+                "title": article.get(
+                    "title",
+                    ""
+                ),
+                "source": article.get(
+                    "source",
+                    ""
+                ),
+                "processed_at": (
+                    datetime.now(
+                        timezone.utc
+                    ).isoformat()
+                )
             })
 
         save_json(
@@ -1136,12 +1503,13 @@ def create_digest():
         )
 
     print(
-        f"DEBUG: {len(successful_ids)} analyzed "
-        f"articles processed."
+        f"DEBUG: {len(successful_ids)} "
+        f"analyzed articles processed."
     )
 
     print(
-        f"DEBUG: {len(pending)} articles remain pending."
+        f"DEBUG: {len(pending)} "
+        f"articles remain pending."
     )
 
 
