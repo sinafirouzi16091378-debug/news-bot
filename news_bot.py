@@ -15,6 +15,10 @@ import requests
 # CONFIG
 # =========================================================
 
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "openai/gpt-oss-20b"
 
@@ -23,105 +27,60 @@ PENDING_FILE = "pending_news.json"
 
 IRAN_TZ = timezone(timedelta(hours=3, minutes=30))
 
-MAX_ARTICLES_PER_FEED = 20
-
-# Maximum number of pending articles analyzed per digest
 MAX_ARTICLES_FOR_AI = 25
-
-# Minimum importance kept
-MIN_IMPORTANCE = 3
-
-# Maximum final news items in Telegram
-MAX_FINAL_NEWS = 10
-
-# Groq batch size
 BATCH_SIZE = 5
 
-# Keep article input compact to reduce token usage
 MAX_CONTENT_CHARS = 1200
 MAX_SUMMARY_CHARS = 600
-
-# Groq limits
 GROQ_MAX_COMPLETION_TOKENS = 1800
-GROQ_REQUEST_TIMEOUT = 60
-
-TELEGRAM_TIMEOUT = 30
-
-# Retries
-MAX_GROQ_RETRIES = 3
-
-# Delay between Groq batches
 GROQ_DELAY_SECONDS = 12
 
-# Maximum wait after rate limit
-MAX_RATE_LIMIT_WAIT = 120
+MIN_IMPORTANCE = 3
+MAX_FINAL_NEWS = 10
 
 
 # =========================================================
-# FEEDS
+# RSS FEEDS
 # =========================================================
 
 FEEDS = [
-    {
-        "name": "NIH News in Health",
-        "category": "پزشکی و سلامت",
-        "url": "https://newsinhealth.nih.gov/rss",
-    },
-    {
-        "name": "WHO",
-        "category": "پزشکی و سلامت",
-        "url": "https://www.who.int/rss-feeds/news-english.xml",
-    },
-    {
-        "name": "MIT CSAIL",
-        "category": "علم",
-        "url": "https://web.mit.edu/newsoffice/topic/mitcomputers-rss.xml",
-    },
-    {
-        "name": "The Guardian AI",
-        "category": "هوش مصنوعی و فناوری",
-        "url": "https://www.guardian.co.uk/technology/artificialintelligenceai/rss",
-    },
-    {
-        "name": "ECB",
-        "category": "اقتصاد و بازارها",
-        "url": "https://www.ecb.int/rss/press.html",
-    },
-    {
-        "name": "Federal Reserve",
-        "category": "اقتصاد و بازارها",
-        "url": "https://www.fedinprint.org/rss/system.rss",
-    },
-    {
-        "name": "BBC World",
-        "category": "جهان",
-        "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-    },
-    {
-        "name": "Reuters",
-        "category": "جهان",
-        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChqUTb7kYRX8-EiaN3XFrSQ",
-    },
-    {
-        "name": "Tasnim",
-        "category": "ایران",
-        "url": "https://www.tasnimnews.com/fa/rss/feed/0/8/0/%D9%85%D9%87%D9%85%D8%AA%D8%B1%DB%8C%D9%86-%D8%B9%D9%86%D8%A7%D9%88%DB%8C%D9%86",
-    },
-    {
-        "name": "Radio Farda",
-        "category": "ایران",
-        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqYCssczpdf9f9oNJPQKiIQ",
-    },
-    {
-        "name": "BBC Persian",
-        "category": "ایران",
-        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHZk9MrT3DGWmVqdsj5y0EA",
-    },
+    # پزشکی و سلامت
+    ("پزشکی و سلامت", "NIH", "https://newsinhealth.nih.gov/rss"),
+    ("پزشکی و سلامت", "WHO", "https://www.who.int/rss-feeds/news-english.xml"),
+
+    # هوش مصنوعی و فناوری
+    ("هوش مصنوعی و فناوری", "MIT CSAIL", "https://www.csail.mit.edu/news/feed"),
+    ("هوش مصنوعی و فناوری", "The Guardian AI",
+     "https://www.theguardian.com/technology/artificialintelligenceai/rss"),
+
+    # اقتصاد و بازارها
+    ("اقتصاد و بازارها", "ECB",
+     "https://www.ecb.europa.eu/rss/press.html"),
+    ("اقتصاد و بازارها", "Federal Reserve",
+     "https://www.federalreserve.gov/feeds/press_all.xml"),
+
+    # جهان
+    ("جهان", "BBC World",
+     "https://feeds.bbci.co.uk/news/world/rss.xml"),
+
+    # خبرگزاری‌ها
+    ("جهان", "Reuters",
+     "https://www.youtube.com/feeds/videos.xml?channel_id=UCmC3M5e1s8wM3l6Y8J3j7Vw"),
+
+    # ایران
+    ("ایران", "Tasnim",
+     "https://www.tasnimnews.com/fa/rss/feed/1/0/0/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1"),
+
+    ("ایران", "Radio Farda",
+     "https://www.youtube.com/feeds/videos.xml?channel_id=UCxJ4Qb7Wf1b8GJY7XJQkXxQ"),
+
+    ("ایران", "BBC Persian",
+     "https://www.youtube.com/feeds/videos.xml?channel_id=UCc5P6Y5Jx5dG4j7n7QxQW2A"),
 ]
 
 
 # =========================================================
-# HELPERS
+# BASIC HELPERS
 # =========================================================
 
 def normalize_text(text):
@@ -130,96 +89,91 @@ def normalize_text(text):
 
     text = html.unescape(str(text))
     text = re.sub(r"\s+", " ", text)
-    return text.strip()
+    text = text.strip().lower()
+
+    replacements = {
+        "ي": "ی",
+        "ى": "ی",
+        "ك": "ک",
+        "ۀ": "ه",
+        "ة": "ه",
+    }
+
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+
+    return text
 
 
 def escape(text):
-    return html.escape(str(text), quote=False)
+    return html.escape(str(text or ""), quote=False)
 
 
-def load_json(filename, default):
-    if not os.path.exists(filename):
-        return default
-
+def load_json(path, default):
     try:
-        with open(filename, "r", encoding="utf-8") as f:
+        if not os.path.exists(path):
+            return default
+
+        with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
-    except Exception as e:
-        print(
-            f"WARNING: Could not read {filename}: {e}",
-            flush=True,
-        )
+
+    except Exception:
         return default
 
 
-def save_json(filename, data):
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(
-            data,
-            f,
-            ensure_ascii=False,
-            indent=2,
-        )
+def save_json(path, data):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
 
 def article_similarity(a, b):
-    text_a = normalize_text(
-        f"{a.get('title', '')} {a.get('summary', '')}"
-    ).lower()
+    title_a = normalize_text(a.get("title", ""))
+    title_b = normalize_text(b.get("title", ""))
 
-    text_b = normalize_text(
-        f"{b.get('title', '')} {b.get('summary', '')}"
-    ).lower()
-
-    if not text_a or not text_b:
+    if not title_a or not title_b:
         return 0
 
-    return SequenceMatcher(
-        None,
-        text_a,
-        text_b,
-    ).ratio()
+    return SequenceMatcher(None, title_a, title_b).ratio()
 
 
-def is_duplicate(article, articles, threshold=0.75):
-    for existing in articles:
-        if article_similarity(
-            article,
-            existing,
-        ) >= threshold:
+def is_duplicate(article, existing_articles, threshold=0.75):
+    for existing in existing_articles:
+        if article_similarity(article, existing) >= threshold:
             return True
 
     return False
 
 
+def clean_url(url):
+    if not url:
+        return ""
+
+    url = str(url).strip()
+
+    # Remove tracking parameters
+    url = re.sub(
+        r"([?&])(utm_[^&]+|fbclid|gclid)=[^&]*",
+        "",
+        url,
+        flags=re.IGNORECASE
+    )
+
+    url = url.replace("?&", "?").rstrip("?&")
+
+    return url
+
+
+# =========================================================
+# DATE HELPERS
+# =========================================================
+
 def get_entry_date(entry):
-    """
-    Try several RSS date fields and convert to Iran time.
-    """
+    for key in ["published_parsed", "updated_parsed", "created_parsed"]:
+        value = entry.get(key)
 
-    for field in (
-        "published_parsed",
-        "updated_parsed",
-        "created_parsed",
-    ):
-
-        parsed = entry.get(field)
-
-        if parsed:
-
+        if value:
             try:
-                dt = datetime(
-                    parsed.tm_year,
-                    parsed.tm_mon,
-                    parsed.tm_mday,
-                    parsed.tm_hour,
-                    parsed.tm_min,
-                    parsed.tm_sec,
-                    tzinfo=timezone.utc,
-                )
-
-                return dt.astimezone(IRAN_TZ)
-
+                return datetime(*value[:6], tzinfo=timezone.utc)
             except Exception:
                 pass
 
@@ -230,34 +184,16 @@ def today_iran():
     return datetime.now(IRAN_TZ).date()
 
 
-def clean_url(url):
-    if not url:
-        return ""
-
-    return str(url).strip()
-
-
 # =========================================================
-# JALALI / SHAMSI DATE CONVERSION
+# JALALI / SHAMSI
 # =========================================================
 
 def gregorian_to_jalali(gy, gm, gd):
-    """
-    Convert Gregorian date to Jalali (Persian) date.
+    g_days_in_month = [31, 28, 31, 30, 31, 30,
+                       31, 31, 30, 31, 30, 31]
 
-    Returns:
-        (jy, jm, jd)
-    """
-
-    g_days_in_month = [
-        31, 28, 31, 30, 31, 30,
-        31, 31, 30, 31, 30, 31
-    ]
-
-    j_days_in_month = [
-        31, 31, 31, 31, 31, 31,
-        30, 30, 30, 30, 30, 29
-    ]
+    j_days_in_month = [31, 31, 31, 31, 31, 31,
+                       30, 30, 30, 30, 30, 29]
 
     gy2 = gy - 1600
     gm2 = gm - 1
@@ -274,11 +210,7 @@ def gregorian_to_jalali(gy, gm, gd):
         g_day_no += g_days_in_month[i]
 
     if gm2 > 1 and (
-        gy % 4 == 0
-        and (
-            gy % 100 != 0
-            or gy % 400 == 0
-        )
+        gy % 4 == 0 and (gy % 100 != 0 or gy % 400 == 0)
     ):
         g_day_no += 1
 
@@ -299,10 +231,7 @@ def gregorian_to_jalali(gy, gm, gd):
 
     i = 0
 
-    while (
-        i < 11
-        and j_day_no >= j_days_in_month[i]
-    ):
+    while i < 11 and j_day_no >= j_days_in_month[i]:
         j_day_no -= j_days_in_month[i]
         i += 1
 
@@ -330,562 +259,273 @@ PERSIAN_MONTHS = [
 
 PERSIAN_DIGITS = str.maketrans(
     "0123456789",
-    "۰۱۲۳۴۵۶۷۸۹",
+    "۰۱۲۳۴۵۶۷۸۹"
 )
 
 
-def to_persian_digits(value):
-    return str(value).translate(
-        PERSIAN_DIGITS
-    )
+def to_persian_digits(text):
+    return str(text).translate(PERSIAN_DIGITS)
 
 
-def jalali_datetime_string(dt):
-    """
-    Convert datetime to a Persian/Jalali
-    date and Persian digits.
-    """
+def jalali_date_string(dt):
+    if not dt:
+        return ""
+
+    dt = dt.astimezone(IRAN_TZ)
 
     jy, jm, jd = gregorian_to_jalali(
         dt.year,
         dt.month,
-        dt.day,
+        dt.day
     )
 
-    date_part = (
+    return (
         f"{to_persian_digits(jd)} "
         f"{PERSIAN_MONTHS[jm - 1]} "
         f"{to_persian_digits(jy)}"
     )
 
-    time_part = (
-        f"{to_persian_digits(dt.hour):>2}:"
-        f"{to_persian_digits(dt.minute):>2}"
-    )
-
-    return (
-        f"{date_part}، ساعت {time_part}"
-    )
-
 
 # =========================================================
-# RSS COLLECTION
+# COLLECT
 # =========================================================
 
 def collect_news():
+    print("DEBUG: starting collection...")
 
-    print(
-        "DEBUG: starting news collection...",
-        flush=True,
-    )
+    seen = load_json(SEEN_FILE, [])
+    pending = load_json(PENDING_FILE, [])
 
-    seen = load_json(
-        SEEN_FILE,
-        [],
-    )
+    seen_ids = set()
 
-    pending = load_json(
-        PENDING_FILE,
-        [],
-    )
+    for item in seen:
+        if isinstance(item, dict):
+            article_id = item.get("id")
+            if article_id:
+                seen_ids.add(article_id)
+        else:
+            seen_ids.add(str(item))
 
-    if not isinstance(seen, list):
-        seen = []
-
-    if not isinstance(pending, list):
-        pending = []
+    pending_ids = {
+        item.get("id")
+        for item in pending
+        if isinstance(item, dict) and item.get("id")
+    }
 
     today = today_iran()
 
     collected = []
 
-    total_feeds = len(FEEDS)
-
-    for feed_index, feed_info in enumerate(
-        FEEDS,
-        start=1,
-    ):
-
-        print(
-            f"\nDEBUG: collecting feed "
-            f"{feed_index}/{total_feeds}: "
-            f"{feed_info['name']}",
-            flush=True,
-        )
+    for category, source, url in FEEDS:
+        print(f"\n### {category} / {source}")
 
         try:
+            feed = feedparser.parse(url)
 
-            parsed = feedparser.parse(
-                feed_info["url"]
-            )
+            if getattr(feed, "bozo", False):
+                print(f"WARNING: feed parser warning for {source}")
 
-            if getattr(
-                parsed,
-                "bozo",
-                False,
-            ):
+            entries = feed.entries[:30]
 
-                print(
-                    f"WARNING: feed parser warning "
-                    f"for {feed_info['name']}",
-                    flush=True,
-                )
-
-            entries = parsed.entries[
-                :MAX_ARTICLES_PER_FEED
-            ]
-
-            print(
-                f"DEBUG: {len(entries)} "
-                f"entries found",
-                flush=True,
-            )
+            print(f"{source}: {len(entries)} entries")
 
             for entry in entries:
+                title = normalize_text(entry.get("title", ""))
 
-                title = normalize_text(
-                    entry.get(
-                        "title",
-                        "",
-                    )
-                )
-
-                url = clean_url(
-                    entry.get(
-                        "link",
-                        "",
-                    )
-                )
-
-                if not title or not url:
+                if not title:
                     continue
 
-                published_dt = get_entry_date(
-                    entry
+                published = get_entry_date(entry)
+
+                if not published:
+                    continue
+
+                published_iran = published.astimezone(IRAN_TZ)
+
+                if published_iran.date() != today:
+                    continue
+
+                link = clean_url(entry.get("link", ""))
+
+                article_id = (
+                    f"{source}|"
+                    f"{title}|"
+                    f"{link}"
                 )
 
-                if published_dt is None:
+                article_id = normalize_text(article_id)
+
+                if article_id in seen_ids:
                     continue
 
-                if published_dt.date() != today:
+                if article_id in pending_ids:
                     continue
 
-                article_id = url
+                summary = entry.get("summary", "")
+                content = entry.get("content", "")
 
-                if article_id in seen:
-                    continue
-
-                if any(
-                    x.get("id") == article_id
-                    for x in pending
-                ):
-                    continue
-
-                summary = normalize_text(
-                    entry.get(
-                        "summary",
-                        "",
-                    )
-                )
-
-                content = normalize_text(
-                    entry.get(
-                        "description",
-                        "",
-                    )
-                )
+                if isinstance(content, list) and content:
+                    content = content[0].get("value", "")
 
                 if not content:
                     content = summary
 
                 article = {
                     "id": article_id,
-                    "title": title,
-                    "url": url,
-                    "source": feed_info["name"],
-                    "category": feed_info["category"],
-                    "published":
-                        published_dt.isoformat(),
-                    "summary": summary,
-                    "content": content,
+                    "title": entry.get("title", "").strip(),
+                    "category": category,
+                    "source": source,
+                    "url": link,
+                    "published": published_iran.isoformat(),
+                    "content": normalize_text(content)[:MAX_CONTENT_CHARS],
+                    "summary": normalize_text(summary)[:MAX_SUMMARY_CHARS],
                 }
 
-                if is_duplicate(
-                    article,
-                    collected,
-                ):
+                if is_duplicate(article, pending, threshold=0.75):
                     continue
 
-                if is_duplicate(
-                    article,
-                    pending,
-                ):
+                if is_duplicate(article, collected, threshold=0.75):
                     continue
 
                 collected.append(article)
 
         except Exception as e:
+            print(f"ERROR: {source}: {e}")
 
-            print(
-                f"ERROR collecting "
-                f"{feed_info['name']}: {e}",
-                flush=True,
-            )
+    pending.extend(collected)
 
-    collected.sort(
-        key=lambda x: x.get(
-            "published",
-            "",
-        ),
-        reverse=True,
-    )
+    # Keep queue bounded
+    if len(pending) > 200:
+        pending = pending[-200:]
 
-    print(
-        f"\nDEBUG: collected "
-        f"{len(collected)} new articles",
-        flush=True,
-    )
+    save_json(PENDING_FILE, pending)
 
-    if collected:
-        pending.extend(collected)
+    print(f"\nDEBUG: collected {len(collected)} new articles.")
+    print(f"DEBUG: pending queue now contains {len(pending)} articles.")
 
-    # Keep pending bounded
-    pending = pending[-200:]
-
-    save_json(
-        PENDING_FILE,
-        pending,
-    )
-
-    save_json(
-        SEEN_FILE,
-        seen,
-    )
-
-    print(
-        f"DEBUG: pending queue now contains "
-        f"{len(pending)} articles",
-        flush=True,
-    )
+    return collected
 
 
 # =========================================================
 # GROQ REQUEST
 # =========================================================
 
-def groq_request(
-    messages,
-    timeout=GROQ_REQUEST_TIMEOUT,
-):
-
-    api_key = os.environ.get(
-        "GROQ_API_KEY"
-    )
-
-    if not api_key:
-        raise RuntimeError(
-            "GROQ_API_KEY is not set."
-        )
+def groq_request(messages):
+    if not GROQ_API_KEY:
+        raise RuntimeError("GROQ_API_KEY is missing.")
 
     headers = {
-        "Authorization":
-            f"Bearer {api_key}",
-        "Content-Type":
-            "application/json",
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json",
     }
 
     payload = {
         "model": GROQ_MODEL,
         "messages": messages,
-
-        # Low randomness for consistent news analysis
         "temperature": 0.3,
-
-        # Important for GPT-OSS token control
+        "max_completion_tokens": GROQ_MAX_COMPLETION_TOKENS,
         "reasoning_effort": "low",
         "include_reasoning": False,
-
-        # Prevent excessively long responses
-        "max_completion_tokens":
-            GROQ_MAX_COMPLETION_TOKENS,
-
         "response_format": {
             "type": "json_object"
         },
     }
 
-    for attempt in range(
-        1,
-        MAX_GROQ_RETRIES + 1,
-    ):
-
-        print(
-            f"DEBUG: Groq request starting "
-            f"(attempt {attempt})...",
-            flush=True,
-        )
-
+    for attempt in range(3):
         try:
-
             response = requests.post(
                 GROQ_URL,
                 headers=headers,
                 json=payload,
-                timeout=timeout,
+                timeout=180
             )
 
             print(
-                f"DEBUG: Groq response received "
-                f"with HTTP "
-                f"{response.status_code}",
-                flush=True,
+                f"Groq HTTP {response.status_code}"
             )
 
-            # -----------------------------------------
-            # RATE LIMIT
-            # -----------------------------------------
+            if response.status_code == 200:
+                data = response.json()
+
+                content = (
+                    data["choices"][0]["message"]["content"]
+                )
+
+                return json.loads(content)
 
             if response.status_code == 429:
+                retry_after = response.headers.get("retry-after")
 
-                print(
-                    "========== GROQ RATE LIMIT ==========",
-                    flush=True,
-                )
+                wait_seconds = 30
 
-                print(
-                    response.text[:3000],
-                    flush=True,
-                )
-
-                retry_after = response.headers.get(
-                    "retry-after"
-                )
-
-                reset_tokens = response.headers.get(
-                    "x-ratelimit-reset-tokens"
-                )
-
-                wait_time = None
-
-                # Prefer Retry-After
-                try:
-
-                    if retry_after is not None:
-                        wait_time = float(
-                            retry_after
-                        )
-
-                except (
-                    TypeError,
-                    ValueError,
-                ):
-                    wait_time = None
-
-                # If unavailable, use token reset
-                if wait_time is None:
-
+                if retry_after:
                     try:
+                        wait_seconds = int(float(retry_after))
+                    except Exception:
+                        pass
 
-                        if reset_tokens:
-                            reset_clean = (
-                                reset_tokens
-                                .replace("s", "")
-                                .strip()
-                            )
+                wait_seconds = min(wait_seconds, 120)
 
-                            wait_time = float(
-                                reset_clean
-                            )
-
-                    except (
-                        TypeError,
-                        ValueError,
-                    ):
-                        wait_time = None
-
-                if wait_time is None:
-                    wait_time = 30 * attempt
-
-                # Add a small safety margin
-                wait_time += 2
-
-                wait_time = max(
-                    5,
-                    min(
-                        wait_time,
-                        MAX_RATE_LIMIT_WAIT,
-                    ),
+                print(
+                    f"Rate limit reached. "
+                    f"Waiting {wait_seconds} seconds..."
                 )
 
-                if attempt < MAX_GROQ_RETRIES:
-
-                    print(
-                        f"Rate limit detected. "
-                        f"Waiting {wait_time:.1f}s...",
-                        flush=True,
-                    )
-
-                    time.sleep(
-                        wait_time
-                    )
-
-                    continue
-
-                raise RuntimeError(
-                    "Groq rate limit persisted "
-                    "after maximum retries."
-                )
-
-            # -----------------------------------------
-            # OTHER HTTP ERRORS
-            # -----------------------------------------
-
-            if response.status_code >= 400:
-
-                try:
-                    detail = response.json()
-
-                except Exception:
-                    detail = response.text
-
-                raise RuntimeError(
-                    f"Groq HTTP "
-                    f"{response.status_code}: "
-                    f"{detail}"
-                )
-
-            # -----------------------------------------
-            # SUCCESS
-            # -----------------------------------------
-
-            data = response.json()
-
-            content = (
-                data[
-                    "choices"
-                ][0][
-                    "message"
-                ]["content"]
-            )
-
-            result = json.loads(
-                content
-            )
-
-            print(
-                "DEBUG: Groq JSON parsed "
-                "successfully.",
-                flush=True,
-            )
-
-            return result
-
-        except requests.exceptions.Timeout:
-
-            print(
-                "WARNING: Groq request timed out.",
-                flush=True,
-            )
-
-            if attempt < MAX_GROQ_RETRIES:
-
-                time.sleep(
-                    10 * attempt
-                )
-
+                time.sleep(wait_seconds)
                 continue
 
-            raise
-
-        except json.JSONDecodeError:
-
             print(
-                "WARNING: Groq returned "
-                "invalid JSON.",
-                flush=True,
+                "Groq error:",
+                response.text[:1000]
             )
 
-            if attempt < MAX_GROQ_RETRIES:
+        except Exception as e:
+            print(f"Groq request error: {e}")
 
-                time.sleep(
-                    5 * attempt
-                )
+            if attempt < 2:
+                time.sleep(15)
 
-                continue
-
-            raise
-
-    raise RuntimeError(
-        "Groq request failed."
-    )
+    return None
 
 
 # =========================================================
-# BATCH ARTICLE ANALYSIS
+# AI ANALYSIS
 # =========================================================
 
-def analyze_batch(articles):
-
+def analyze_batch(batch):
     compact_articles = []
 
-    for article in articles:
-
-        content = normalize_text(
-            article.get(
-                "content",
-                "",
-            )
-        )[:MAX_CONTENT_CHARS]
-
-        summary = normalize_text(
-            article.get(
-                "summary",
-                "",
-            )
-        )[:MAX_SUMMARY_CHARS]
-
-        compact_articles.append(
-            {
-                "id": article["id"],
-                "title": article["title"],
-                "source": article["source"],
-                "category": article["category"],
-                "published": article["published"],
-                "summary": summary,
-                "content": content,
-            }
-        )
-
-    articles_json = json.dumps(
-        compact_articles,
-        ensure_ascii=False,
-        separators=(",", ":"),
-    )
+    for article in batch:
+        compact_articles.append({
+            "id": article["id"],
+            "title": article["title"],
+            "category": article["category"],
+            "source": article["source"],
+            "summary": article["summary"],
+            "content": article["content"],
+        })
 
     system_prompt = """
-تو یک سردبیر خبری دقیق و بی‌طرف هستی.
+تو سردبیر یک خبرنامه روزانه فارسی هستی.
 
-برای هر خبر فقط این موارد را تعیین کن:
+برای هر خبر:
+1. اهمیت آن را از 1 تا 5 تعیین کن.
+2. یک خلاصه فارسی بسیار کوتاه و دقیق بنویس.
 
-1. importance از 1 تا 5
-2. یک summary_fa کوتاه و دقیق
+فقط اخبار واقعاً مهم را با اهمیت 3 یا بالاتر در نظر بگیر.
 
-مقیاس اهمیت:
-5 = بسیار مهم و دارای اثر گسترده یا فوری
-4 = مهم و ارزشمند برای پیگیری
+اهمیت:
+5 = بسیار مهم و دارای اثر گسترده
+4 = مهم و قابل توجه
 3 = نسبتاً مهم
 2 = کم‌اهمیت
-1 = حاشیه‌ای یا کم‌ارزش
+1 = کم‌ارزش برای خبرنامه
 
-فقط بر اساس اطلاعات موجود در خبر قضاوت کن.
-اطلاعات جدید نساز.
-ادعاها را به‌عنوان واقعیت قطعی بازنویسی نکن.
+از حدس زدن یا اضافه کردن اطلاعاتی که در متن نیست خودداری کن.
 
-برای هر ورودی حتماً همان id را برگردان.
+برای هر خبر حداکثر دو جمله خلاصه بنویس.
 
-خلاصه فارسی هر خبر حداکثر دو جمله باشد.
-
-فقط JSON معتبر برگردان:
+خروجی فقط JSON باشد:
 
 {
   "articles": [
@@ -896,472 +536,324 @@ def analyze_batch(articles):
     }
   ]
 }
+
+تمام شناسه‌های ورودی را حفظ کن.
 """
 
-    user_prompt = (
-        system_prompt
-        + "\n\n"
-        + "خبرهای زیر را تحلیل کن:\n"
-        + articles_json
+    user_prompt = json.dumps(
+        compact_articles,
+        ensure_ascii=False
     )
 
     messages = [
         {
+            "role": "system",
+            "content": system_prompt,
+        },
+        {
             "role": "user",
             "content": user_prompt,
-        }
+        },
     ]
 
-    return groq_request(
-        messages
-    )
+    result = groq_request(messages)
+
+    if not result:
+        return []
+
+    analyses = result.get("articles", [])
+
+    if not isinstance(analyses, list):
+        return []
+
+    return analyses
 
 
 def analyze_articles(articles):
-
-    all_results = []
-
-    total = len(articles)
-
     batches = [
-        articles[
-            i:i + BATCH_SIZE
-        ]
-        for i in range(
-            0,
-            total,
-            BATCH_SIZE,
-        )
+        articles[i:i + BATCH_SIZE]
+        for i in range(0, len(articles), BATCH_SIZE)
     ]
 
     print(
-        f"\nDEBUG: analyzing "
-        f"{total} articles in "
-        f"{len(batches)} batches "
-        f"of up to {BATCH_SIZE} articles.",
-        flush=True,
+        f"DEBUG: analyzing {len(articles)} articles "
+        f"in {len(batches)} batches of up to {BATCH_SIZE} articles."
     )
 
-    for batch_index, batch in enumerate(
-        batches,
-        start=1,
-    ):
+    all_analyses = []
+
+    for index, batch in enumerate(batches, start=1):
 
         print(
-            f"\nDEBUG: analyzing batch "
-            f"{batch_index}/{len(batches)} "
-            f"({len(batch)} articles)...",
-            flush=True,
+            f"DEBUG: analyzing batch {index}/{len(batches)}..."
         )
 
-        try:
+        analyses = analyze_batch(batch)
 
-            result = analyze_batch(
-                batch
-            )
-
-            analyzed_items = result.get(
-                "articles",
-                [],
-            )
-
-            if not isinstance(
-                analyzed_items,
-                list,
-            ):
-
-                raise RuntimeError(
-                    "Groq returned invalid "
-                    "articles list."
-                )
-
-            result_map = {}
-
-            for item in analyzed_items:
-
-                if not isinstance(
-                    item,
-                    dict,
-                ):
-                    continue
-
-                item_id = item.get(
-                    "id"
-                )
-
-                if item_id:
-                    result_map[
-                        item_id
-                    ] = item
-
-            returned_count = 0
-
-            for article in batch:
-
-                analysis = result_map.get(
-                    article["id"]
-                )
-
-                if analysis is None:
-
-                    print(
-                        "WARNING: Groq did not "
-                        "return analysis for: "
-                        f"{article['title']}",
-                        flush=True,
-                    )
-
-                    continue
-
-                try:
-
-                    importance = int(
-                        analysis.get(
-                            "importance",
-                            1,
-                        )
-                    )
-
-                except (
-                    TypeError,
-                    ValueError,
-                ):
-
-                    importance = 1
-
-                importance = max(
-                    1,
-                    min(
-                        importance,
-                        5,
-                    ),
-                )
-
-                summary_fa = normalize_text(
-                    analysis.get(
-                        "summary_fa",
-                        "",
-                    )
-                )
-
-                article_copy = dict(
-                    article
-                )
-
-                article_copy.update(
-                    {
-                        "importance":
-                            importance,
-
-                        "summary_fa":
-                            summary_fa,
-                    }
-                )
-
-                all_results.append(
-                    article_copy
-                )
-
-                returned_count += 1
-
-            print(
-                f"DEBUG: batch "
-                f"{batch_index} completed. "
-                f"{returned_count} analyses "
-                f"returned.",
-                flush=True,
-            )
-
-        except Exception as e:
-
-            print(
-                f"ERROR: batch "
-                f"{batch_index} failed: {e}",
-                flush=True,
-            )
-
-        if batch_index < len(batches):
-
-            print(
-                f"DEBUG: waiting "
-                f"{GROQ_DELAY_SECONDS}s "
-                f"before next batch...",
-                flush=True,
-            )
-
-            time.sleep(
-                GROQ_DELAY_SECONDS
-            )
-
-    print(
-        f"\nDEBUG: total successfully "
-        f"analyzed articles: "
-        f"{len(all_results)}",
-        flush=True,
-    )
-
-    return all_results
-
-
-# =========================================================
-# LOCAL FINAL SELECTION
-# =========================================================
-
-def select_final_news(
-    analyzed_articles
-):
-
-    candidates = [
-        article
-        for article in analyzed_articles
-        if article.get(
-            "importance",
-            1,
-        ) >= MIN_IMPORTANCE
-    ]
-
-    if not candidates:
-
-        print(
-            "DEBUG: no articles passed "
-            "importance threshold.",
-            flush=True,
-        )
-
-        return {
-            "digest_title":
-                "گزارش اخبار مهم روز",
-            "selected_ids": [],
+        returned_ids = {
+            item.get("id")
+            for item in analyses
+            if isinstance(item, dict)
         }
 
-    # Newest first inside the same importance level
-    candidates.sort(
-        key=lambda x: (
-            x.get(
-                "importance",
-                1,
-            ),
-            x.get(
-                "published",
-                "",
-            ),
-        ),
-        reverse=True,
+        missing = [
+            article["title"]
+            for article in batch
+            if article["id"] not in returned_ids
+        ]
+
+        print(
+            f"batch {index}: "
+            f"{len(analyses)} analyses"
+        )
+
+        if missing:
+            for title in missing:
+                print(
+                    f"  missing: {title}"
+                )
+
+        all_analyses.extend(analyses)
+
+        if index < len(batches):
+            time.sleep(GROQ_DELAY_SECONDS)
+
+    print(
+        f"DEBUG: total successfully analyzed: "
+        f"{len(all_analyses)}"
     )
 
+    return all_analyses
+
+
+# =========================================================
+# SEMANTIC / NEAR-DUPLICATE REMOVAL
+# =========================================================
+
+def combined_similarity(a, b):
+    """
+    مقایسه عنوان و خلاصه برای پیدا کردن اخبار
+    تقریباً یکسان، بدون استفاده از API.
+    """
+
+    title_a = normalize_text(a.get("title", ""))
+    title_b = normalize_text(b.get("title", ""))
+
+    summary_a = normalize_text(a.get("summary_fa", ""))
+    summary_b = normalize_text(b.get("summary_fa", ""))
+
+    title_similarity = SequenceMatcher(
+        None,
+        title_a,
+        title_b
+    ).ratio()
+
+    summary_similarity = SequenceMatcher(
+        None,
+        summary_a,
+        summary_b
+    ).ratio()
+
+    # عنوان وزن بیشتری دارد.
+    return (
+        title_similarity * 0.7
+        + summary_similarity * 0.3
+    )
+
+
+def semantic_deduplicate(analyzed_articles):
+    """
+    اخبار تقریباً تکراری را بعد از تحلیل AI حذف می‌کند.
+
+    اگر دو خبر یک داستان خبری باشند:
+    - خبر با اهمیت بالاتر حفظ می‌شود.
+    - اگر اهمیت برابر باشد، خبر جدیدتر حفظ می‌شود.
+    """
+
+    if not analyzed_articles:
+        return []
+
+    # ابتدا اهمیت بیشتر و سپس زمان جدیدتر
+    sorted_articles = sorted(
+        analyzed_articles,
+        key=lambda x: (
+            int(x.get("importance", 0)),
+            x.get("published", "")
+        ),
+        reverse=True
+    )
+
+    kept = []
+
+    for article in sorted_articles:
+
+        duplicate_found = False
+
+        for existing in kept:
+
+            similarity = combined_similarity(
+                article,
+                existing
+            )
+
+            # آستانه نسبتاً محافظه‌کارانه است تا
+            # خبرهای متفاوت اشتباهاً حذف نشوند.
+            if similarity >= 0.82:
+                duplicate_found = True
+
+                print(
+                    "DEBUG: near-duplicate removed:"
+                )
+                print(
+                    f"  REMOVE: {article.get('title')}"
+                )
+                print(
+                    f"  KEEP:   {existing.get('title')}"
+                )
+                print(
+                    f"  similarity: {similarity:.2f}"
+                )
+
+                break
+
+        if not duplicate_found:
+            kept.append(article)
+
+    print(
+        f"DEBUG: semantic deduplication: "
+        f"{len(analyzed_articles)} -> {len(kept)}"
+    )
+
+    return kept
+
+
+# =========================================================
+# FINAL SELECTION
+# =========================================================
+
+def select_final_news(analyzed_articles):
+    candidates = []
+
+    for article in analyzed_articles:
+
+        try:
+            importance = int(
+                article.get("importance", 0)
+            )
+        except Exception:
+            importance = 0
+
+        if importance < MIN_IMPORTANCE:
+            continue
+
+        article = dict(article)
+        article["importance"] = importance
+
+        candidates.append(article)
+
+    # اهمیت بیشتر، سپس جدیدتر
+    candidates.sort(
+        key=lambda x: (
+            x["importance"],
+            x.get("published", "")
+        ),
+        reverse=True
+    )
+
+    # تنوع موضوعی
     selected = []
-
-    selected_ids = set()
-
     category_counts = {}
-
-    # -----------------------------------------
-    # Pass 1:
-    # Prefer diversity.
-    # Maximum 2 from each category.
-    # -----------------------------------------
 
     for article in candidates:
 
-        if len(selected) >= MAX_FINAL_NEWS:
-            break
-
         category = article.get(
             "category",
-            "سایر",
+            "سایر"
         )
 
         count = category_counts.get(
             category,
-            0,
+            0
         )
 
         if count >= 2:
             continue
 
-        article_id = article.get(
-            "id"
-        )
+        selected.append(article)
+        category_counts[category] = count + 1
 
-        if not article_id:
-            continue
+        if len(selected) >= MAX_FINAL_NEWS:
+            break
 
-        if article_id in selected_ids:
-            continue
-
-        selected.append(
-            article
-        )
-
-        selected_ids.add(
-            article_id
-        )
-
-        category_counts[
-            category
-        ] = count + 1
-
-    # -----------------------------------------
-    # Pass 2:
-    # Fill remaining positions by importance.
-    # -----------------------------------------
-
+    # اگر هنوز کمتر از 10 خبر داریم، باقی را پر کن
     if len(selected) < MAX_FINAL_NEWS:
 
+        selected_ids = {
+            article["id"]
+            for article in selected
+        }
+
         for article in candidates:
+
+            if article["id"] in selected_ids:
+                continue
+
+            selected.append(article)
 
             if len(selected) >= MAX_FINAL_NEWS:
                 break
 
-            article_id = article.get(
-                "id"
-            )
-
-            if not article_id:
-                continue
-
-            if article_id in selected_ids:
-                continue
-
-            selected.append(
-                article
-            )
-
-            selected_ids.add(
-                article_id
-            )
-
-    # Final order:
-    # importance first, then newest
-    selected.sort(
-        key=lambda x: (
-            x.get(
-                "importance",
-                1,
-            ),
-            x.get(
-                "published",
-                "",
-            ),
-        ),
-        reverse=True,
-    )
-
-    print(
-        f"DEBUG: locally selected "
-        f"{len(selected)} final articles.",
-        flush=True,
-    )
-
-    for index, article in enumerate(
-        selected,
-        start=1,
-    ):
-
-        print(
-            f"DEBUG: final #{index}: "
-            f"[{article.get('importance', 1)}] "
-            f"{article.get('title', '')}",
-            flush=True,
-        )
-
-    return {
-        "digest_title":
-            "گزارش اخبار مهم روز",
-        "selected_ids": [
-            article["id"]
-            for article in selected
-        ],
-    }
+    return selected
 
 
 # =========================================================
 # TELEGRAM MESSAGE
 # =========================================================
 
-def build_digest_message(
-    final_selection,
-    analyzed_articles,
-):
-
-    article_map = {
-        article["id"]: article
-        for article in analyzed_articles
-    }
-
-    selected_ids = final_selection.get(
-        "selected_ids",
-        [],
-    )
-
-    digest_title = final_selection.get(
-        "digest_title",
-        "گزارش اخبار مهم روز",
-    )
+def build_digest_message(final_news):
+    if not final_news:
+        return (
+            "📰 <b>خبرنامه روزانه</b>\n\n"
+            "امروز خبر مهمی با اهمیت کافی برای "
+            "ارسال پیدا نشد."
+        )
 
     lines = []
 
     lines.append(
-        f"📰 <b>{escape(str(digest_title))}</b>"
+        "📰 <b>خبرنامه روزانه</b>"
+    )
+
+    lines.append(
+        "📅 " + jalali_date_string(
+            datetime.now(IRAN_TZ)
+        )
     )
 
     lines.append("")
 
-    selected_articles = []
-
-    for article_id in selected_ids:
-
-        article = article_map.get(
-            article_id
-        )
-
-        if article:
-            selected_articles.append(
-                article
-            )
-
     for index, article in enumerate(
-        selected_articles,
-        start=1,
+        final_news,
+        start=1
     ):
 
         title = escape(
-            article.get(
-                "title",
-                "",
-            )
-        )
-
-        source = escape(
-            article.get(
-                "source",
-                "",
-            )
+            article.get("title", "")
         )
 
         category = escape(
-            article.get(
-                "category",
-                "",
-            )
+            article.get("category", "")
+        )
+
+        source = escape(
+            article.get("source", "")
         )
 
         summary = escape(
-            article.get(
-                "summary_fa",
-                "",
-            )
+            article.get("summary_fa", "")
         )
 
-        url = article.get(
-            "url",
-            "",
-        )
-
-        importance = article.get(
-            "importance",
-            1,
-        )
+        url = article.get("url", "")
 
         lines.append(
             f"<b>{index}. {title}</b>"
@@ -1373,111 +865,65 @@ def build_digest_message(
 
         if summary:
             lines.append(
-                summary
+                f"📝 {summary}"
             )
 
-        lines.append(
-            f"⭐ اهمیت: {importance}/5"
-        )
-
         if url:
-
             lines.append(
-                f'🔗 <a href="{escape(url)}">'
+                f'🔗 <a href="{html.escape(url, quote=True)}">'
                 f"منبع خبر</a>"
             )
 
         lines.append("")
 
-    # Current Iran time
-    now_iran = datetime.now(
-        IRAN_TZ
-    )
+    return "\n".join(lines)
 
-    lines.append(
-        "⏱ زمان تهیه: "
-        + escape(
-            jalali_datetime_string(
-                now_iran
-            )
-        )
-        + " به وقت ایران"
-    )
 
-    return "\n".join(
-        lines
-    )
-
+# =========================================================
+# TELEGRAM
+# =========================================================
 
 def send_telegram(message):
-
-    bot_token = os.environ.get(
-        "TELEGRAM_BOT_TOKEN"
-    )
-
-    chat_id = os.environ.get(
-        "TELEGRAM_CHAT_ID"
-    )
-
-    if not bot_token:
+    if not TELEGRAM_BOT_TOKEN:
         raise RuntimeError(
-            "TELEGRAM_BOT_TOKEN is not set."
+            "TELEGRAM_BOT_TOKEN is missing."
         )
 
-    if not chat_id:
+    if not TELEGRAM_CHAT_ID:
         raise RuntimeError(
-            "TELEGRAM_CHAT_ID is not set."
+            "TELEGRAM_CHAT_ID is missing."
         )
 
     url = (
         f"https://api.telegram.org/bot"
-        f"{bot_token}/sendMessage"
+        f"{TELEGRAM_BOT_TOKEN}/sendMessage"
     )
 
     payload = {
-        "chat_id":
-            chat_id,
-
-        "text":
-            message,
-
-        "parse_mode":
-            "HTML",
-
-        "disable_web_page_preview":
-            True,
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": message,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": True,
     }
-
-    print(
-        "DEBUG: sending digest "
-        "to Telegram...",
-        flush=True,
-    )
 
     response = requests.post(
         url,
         json=payload,
-        timeout=TELEGRAM_TIMEOUT,
+        timeout=60
     )
 
     print(
-        f"DEBUG: Telegram response "
-        f"HTTP {response.status_code}",
-        flush=True,
+        f"Telegram HTTP {response.status_code}"
     )
 
-    if response.status_code >= 400:
-
-        raise RuntimeError(
-            f"Telegram error: "
-            f"{response.text}"
+    if response.status_code != 200:
+        print(
+            "Telegram error:",
+            response.text[:1000]
         )
+        return False
 
-    print(
-        "DEBUG: Telegram message "
-        "sent successfully.",
-        flush=True,
-    )
+    return True
 
 
 # =========================================================
@@ -1485,173 +931,217 @@ def send_telegram(message):
 # =========================================================
 
 def create_digest():
-
-    print(
-        "DEBUG: starting daily digest...",
-        flush=True,
-    )
+    print("DEBUG: starting daily digest...")
 
     pending = load_json(
         PENDING_FILE,
-        [],
+        []
     )
-
-    seen = load_json(
-        SEEN_FILE,
-        [],
-    )
-
-    if not pending:
-
-        print(
-            "DEBUG: pending queue is empty.",
-            flush=True,
-        )
-
-        return
 
     print(
         f"DEBUG: pending queue contains "
-        f"{len(pending)} articles.",
-        flush=True,
+        f"{len(pending)} articles."
     )
 
-    # Newest first
-    pending.sort(
+    if not pending:
+        print(
+            "DEBUG: no pending articles."
+        )
+        return
+
+    # جدیدترین 25 خبر برای AI
+    pending_sorted = sorted(
+        pending,
         key=lambda x: x.get(
             "published",
-            "",
+            ""
         ),
-        reverse=True,
+        reverse=True
     )
 
-    articles_for_ai = pending[
+    articles_for_ai = pending_sorted[
         :MAX_ARTICLES_FOR_AI
     ]
 
     print(
         f"DEBUG: sending "
-        f"{len(articles_for_ai)} "
-        f"articles to batch analysis.",
-        flush=True,
+        f"{len(articles_for_ai)} articles "
+        f"to batch analysis."
     )
 
-    analyzed_articles = analyze_articles(
+    analyses = analyze_articles(
         articles_for_ai
     )
 
-    if not analyzed_articles:
-
+    if not analyses:
         print(
-            "ERROR: no articles were "
-            "successfully analyzed. "
-            "Digest will not be sent.",
-            flush=True,
+            "DEBUG: no successful AI analyses."
         )
-
         return
 
-    # -----------------------------------------
-    # Local final selection
-    # No second Groq request.
-    # -----------------------------------------
+    article_map = {
+        article["id"]: article
+        for article in articles_for_ai
+    }
 
-    final_selection = select_final_news(
+    analyzed_articles = []
+
+    for analysis in analyses:
+
+        if not isinstance(analysis, dict):
+            continue
+
+        article_id = analysis.get("id")
+
+        if article_id not in article_map:
+            continue
+
+        article = dict(
+            article_map[article_id]
+        )
+
+        try:
+            importance = int(
+                analysis.get(
+                    "importance",
+                    0
+                )
+            )
+        except Exception:
+            importance = 0
+
+        article["importance"] = importance
+
+        article["summary_fa"] = (
+            str(
+                analysis.get(
+                    "summary_fa",
+                    ""
+                )
+            ).strip()
+        )
+
+        analyzed_articles.append(
+            article
+        )
+
+    # -----------------------------------------------------
+    # NEW:
+    # حذف اخبار تقریباً تکراری قبل از انتخاب نهایی
+    # -----------------------------------------------------
+
+    analyzed_articles = semantic_deduplicate(
         analyzed_articles
     )
 
-    selected_ids = set(
-        final_selection.get(
-            "selected_ids",
-            [],
-        )
+    final_news = select_final_news(
+        analyzed_articles
     )
 
-    if not selected_ids:
+    print(
+        f"DEBUG: locally selected "
+        f"{len(final_news)} final articles."
+    )
 
+    for index, article in enumerate(
+        final_news,
+        start=1
+    ):
         print(
-            "ERROR: final selection "
-            "is empty. "
-            "Digest will not be sent.",
-            flush=True,
+            f"#{index} "
+            f"[{article.get('importance')}] "
+            f"{article.get('title')}"
         )
-
-        return
 
     message = build_digest_message(
-        final_selection,
-        analyzed_articles,
+        final_news
     )
 
-    send_telegram(
-        message
+    sent = send_telegram(message)
+
+    if not sent:
+        print(
+            "ERROR: Telegram message failed."
+        )
+        return
+
+    print(
+        "DEBUG: Telegram message sent successfully."
     )
 
-    # -----------------------------------------
-    # Mark ALL successfully analyzed articles
-    # as seen.
+    # -----------------------------------------------------
+    # فقط خبرهایی که AI با موفقیت تحلیل کرده‌اند
+    # از pending حذف و به seen منتقل می‌شوند.
     #
-    # This prevents the same unselected
-    # articles from being analyzed again
-    # every day.
-    # -----------------------------------------
+    # خبرهایی که AI برایشان پاسخ نداده،
+    # در pending باقی می‌مانند تا در اجرای بعدی دوباره
+    # امتحان شوند.
+    # -----------------------------------------------------
 
-    analyzed_ids = {
+    successful_ids = {
         article["id"]
         for article in analyzed_articles
-        if article.get("id")
     }
 
-    for article_id in analyzed_ids:
+    if successful_ids:
 
-        if article_id not in seen:
-            seen.append(
-                article_id
-            )
+        seen = load_json(
+            SEEN_FILE,
+            []
+        )
 
-    # -----------------------------------------
-    # Remove ALL successfully analyzed
-    # articles from pending.
-    #
-    # Failed / unanalyzed articles remain
-    # in pending and can be retried later.
-    # -----------------------------------------
+        existing_seen_ids = set()
 
-    pending = [
-        article
-        for article in pending
-        if article.get("id")
-        not in analyzed_ids
-    ]
+        for item in seen:
+            if isinstance(item, dict):
+                existing_seen_ids.add(
+                    item.get("id")
+                )
+            else:
+                existing_seen_ids.add(
+                    str(item)
+                )
 
-    save_json(
-        SEEN_FILE,
-        seen,
-    )
+        for article in analyzed_articles:
 
-    save_json(
-        PENDING_FILE,
-        pending,
+            article_id = article["id"]
+
+            if article_id in existing_seen_ids:
+                continue
+
+            seen.append({
+                "id": article_id,
+                "title": article.get("title", ""),
+                "source": article.get("source", ""),
+                "processed_at": datetime.now(
+                    timezone.utc
+                ).isoformat()
+            })
+
+        save_json(
+            SEEN_FILE,
+            seen
+        )
+
+        pending = [
+            article
+            for article in pending
+            if article.get("id")
+            not in successful_ids
+        ]
+
+        save_json(
+            PENDING_FILE,
+            pending
+        )
+
+    print(
+        f"DEBUG: {len(successful_ids)} analyzed "
+        f"articles processed."
     )
 
     print(
-        f"DEBUG: digest completed "
-        f"successfully. "
-        f"Sent {len(selected_ids)} articles.",
-        flush=True,
-    )
-
-    print(
-        f"DEBUG: "
-        f"{len(analyzed_ids)} analyzed articles "
-        f"were processed.",
-        flush=True,
-    )
-
-    print(
-        f"DEBUG: {len(pending)} articles "
-        f"remain in pending queue.",
-        flush=True,
+        f"DEBUG: {len(pending)} articles remain pending."
     )
 
 
@@ -1660,33 +1150,25 @@ def create_digest():
 # =========================================================
 
 def main():
-
     if len(sys.argv) < 2:
-
         print(
             "Usage: python news_bot.py "
             "[collect|digest]"
         )
+        return
 
-        sys.exit(1)
-
-    mode = sys.argv[1].strip().lower()
+    mode = sys.argv[1].lower()
 
     if mode == "collect":
-
         collect_news()
 
     elif mode == "digest":
-
         create_digest()
 
     else:
-
         print(
             f"Unknown mode: {mode}"
         )
-
-        sys.exit(1)
 
 
 if __name__ == "__main__":
