@@ -6,11 +6,14 @@ FEEDS = [
     # =========================
     # 🩺 پزشکی و سلامت
     # =========================
-    ("NIH News in Health", "پزشکی و سلامت", "https://newsinhealth.nih.gov/rss.xml"),
-    ("WHO", "پزشکی و سلامت", "https://www.who.int/rss-feeds/news-english.xml"),
-    ("STAT", "پزشکی و سلامت", "https://www.statnews.com/feed/"),
-    ("Medical Xpress", "پزشکی و سلامت", "https://medicalxpress.com/rss-feed/"),
-    ("Nature Medicine", "پزشکی و سلامت", "https://www.nature.com/nm.rss"),
+    ("WHO", "پزشکی و سلامت",
+     "https://www.who.int/rss-feeds/news-english.xml"),
+    ("STAT", "پزشکی و سلامت",
+     "https://www.statnews.com/feed/"),
+    ("Medical Xpress", "پزشکی و سلامت",
+     "https://medicalxpress.com/rss-feed/"),
+    ("Nature Medicine", "پزشکی و سلامت",
+     "https://www.nature.com/nm.rss"),
     ("ScienceDaily Health", "پزشکی و سلامت",
      "https://www.sciencedaily.com/rss/top/health.xml"),
 
@@ -54,7 +57,7 @@ FEEDS = [
     ("Science", "علم",
      "https://www.science.org/rss/news_current.xml"),
     ("NASA", "علم",
-     "https://www.nasa.gov/rss/dyn/breaking_news.rss"),
+     "https://www.nasa.gov/news-release/feed/"),
     ("New Scientist", "علم",
      "https://www.newscientist.com/feed/home/"),
     ("MIT News", "علم",
@@ -68,9 +71,9 @@ FEEDS = [
     ("BBC Persian", "ایران",
      "https://feeds.bbci.co.uk/persian/rss.xml"),
     ("Radio Farda", "ایران",
-     "https://en.radiofarda.com/api/zyrvmq"),
+     "https://en.radiofarda.com/api/zp_qmtl-vomx-tpe_bimr"),
     ("Tasnim", "ایران",
-     "https://www.tasnimnews.ir/en/rss"),
+     "https://www.tasnimnews.ir/en/rss/feed/0/0/0/0/AllStories"),
 
     # =========================
     # 🌍 جهان
