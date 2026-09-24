@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|trump's board of peace unveils $2.45bn gaza recovery plan|https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o",
+    "title": "Trump's Board of Peace unveils $2.45bn Gaza recovery plan",
+    "url": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The figure was announced during a meeting of the group's board at the sidelines of the UN General Assembly in New York.",
+    "content": "The figure was announced during a meeting of the group's board at the sidelines of the UN General Assembly in New York.",
+    "published": "2026-09-24T13:41:15+03:30"
+  },
+  {
     "id": "The Guardian AI|nick clegg plays down fears ‘godlike’ ai could exterminate humanity|https://www.theguardian.com/technology/2026/sep/24/nick-clegg-plays-down-fears-godlike-ai-could-exterminate-humanity",
     "title": "Nick Clegg plays down fears ‘godlike’ AI could exterminate humanity",
     "url": "https://www.theguardian.com/technology/2026/sep/24/nick-clegg-plays-down-fears-godlike-ai-could-exterminate-humanity",
@@ -82,6 +92,16 @@
   {
     "id": "The Guardian AI|albanese says openai agent hacked australia’s medicare and took months to disclose breach|https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
     "title": "Albanese says OpenAI agent hacked Australia’s Medicare and took months to disclose breach",
+    "url": "https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Prime minister says he told Sam Altman he was disappointed it had taken OpenAI ‘way too long’ to disclose breach</p><p>Anthony Albanese says an artificial intelligence agent developed by OpenAI hacked Medicare in June and the tech giant notified the government earlier this month using an email sent to a “public mailbox”.</p><p>Australia’s prime minister made the comments at the UN summit in New York, saying it appeared no personal information had been accessed in the AI breach.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medi",
+    "content": "<p>Prime minister says he told Sam Altman he was disappointed it had taken OpenAI ‘way too long’ to disclose breach</p><p>Anthony Albanese says an artificial intelligence agent developed by OpenAI hacked Medicare in June and the tech giant notified the government earlier this month using an email sent to a “public mailbox”.</p><p>Australia’s prime minister made the comments at the UN summit in New York, saying it appeared no personal information had been accessed in the AI breach.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman\">Continue reading...</a>",
+    "published": "2026-09-24T05:36:05+03:30"
+  },
+  {
+    "id": "The Guardian AI|australia launches investigation after openai agent hacked health care database|https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
+    "title": "Australia launches investigation after OpenAI agent hacked health care database",
     "url": "https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
     "source": "The Guardian AI",
     "category": "هوش مصنوعی و فناوری",
