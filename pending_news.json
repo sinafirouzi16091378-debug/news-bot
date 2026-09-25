@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|pope warns against 'losing humanity' to ai machines|https://www.bbc.co.uk/news/articles/cmq8j904212po",
+    "title": "Pope warns against 'losing humanity' to AI machines",
+    "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The pontiff delivered the warning on the first day of his trip to France on Friday.",
+    "content": "The pontiff delivered the warning on the first day of his trip to France on Friday.",
+    "published": "2026-09-25T16:14:08+03:30"
+  },
+  {
     "id": "The Guardian AI|the comedians turning ai anxiety into punchlines: ‘it’s so good, it’ll completely alter our grasp on reality’|https://www.theguardian.com/technology/2026/sep/25/ai-anxiety-comedy",
     "title": "The comedians turning AI anxiety into punchlines: ‘It’s so good, it’ll completely alter our grasp on reality’",
     "url": "https://www.theguardian.com/technology/2026/sep/25/ai-anxiety-comedy",
@@ -1998,17 +2008,6 @@
     "content": "The stark reality is this: we don’t know how to maintain control of these systems. But there are actions we can take With Jacob Coxon’s resignation from Anthropic , we have reached the AI risk tipping point. Millions of people are finally coming to understand what experts have known for years: AI companies have been gambling with all of our lives, and the odds are not good. In response, the Anthropic CEO, Dario Amodei, has introduced a proposal for “pacing the frontier”, endorsed by Sam Altman and Elon Musk. Can we breathe a sigh of relief? Are we about to step back from the edge of extinction? Amodei envisions a slowdown of one to two years, resulting in “profound progress” on technical safety measures. But that’s not what humanity needs right now. What we need is a plan in which we’re confident AI isn’t going to kill us, and this isn’t it. Continue reading...",
     "published_utc": "2026-09-16T09:00:16+00:00",
     "published_iran": "2026/09/16 - 12:30",
-    "feed_name": "The Guardian AI",
-    "feed_category": "هوش مصنوعی و فناوری",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "96fd6f86f6b17172cea08bc936b1acb75956bc66d7c502918e257651abd16750",
-    "title": "Decoding America: Why won't Donald Trump regulate AI? - podcast",
-    "link": "https://www.theguardian.com/australia-news/audio/2026/sep/16/why-wont-donald-trump-regulate-ai-decoding-america-podcast",
-    "content": "In this episode of Guardian Australia’s weekly US politics podcast, co-hosts Jonathan Yerushalmy and Reged Ahmad look at whether there is any appetite across the political spectrum to put guardrails on artificial intelligence as around the world existential fears mount that the technology is developing too quickly. They also explain what the latest supreme court ruling on the Trump administration’s mail-in ballot restrictions means for the midterms. And they look at what happened when the US president waded into the Irish reunification debate Read more: Trump facing AI backlash in Congress as push for guardrails intensifies John Crace: AI on course to kill us all within 10 years? Donald Trump says: ‘Hold my Coke’ Continue reading...",
-    "published_utc": "2026-09-16T06:52:47+00:00",
-    "published_iran": "2026/09/16 - 10:22",
     "feed_name": "The Guardian AI",
     "feed_category": "هوش مصنوعی و فناوری",
     "date": "2026-09-16"
