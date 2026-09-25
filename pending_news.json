@@ -1,5 +1,25 @@
 [
   {
+    "id": "BBC World|media outlets banned by trump denied access to white house dinner despite judge's order|https://www.bbc.co.uk/news/articles/cqe8ek7608mlo",
+    "title": "Media outlets banned by Trump denied access to White House dinner despite judge's order",
+    "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "CNN and MS NOW said reporters were denied access to covering White House arrivals for a state dinner, despite a judge ruling their passes must be restored.",
+    "content": "CNN and MS NOW said reporters were denied access to covering White House arrivals for a state dinner, despite a judge ruling their passes must be restored.",
+    "published": "2026-09-25T04:40:35+03:30"
+  },
+  {
+    "id": "The Guardian AI|news live: hume says ai hack shows australia needs more ai; albanese posts selfie with greek pm after trump controversy|https://www.theguardian.com/australia-news/live/2026/sep/25/anthony-albanese-open-ai-hack-united-nations-angus-taylor-coalition-ntwnfb",
+    "title": "News live: Hume says AI hack shows Australia needs more AI; Albanese posts selfie with Greek PM after Trump controversy",
+    "url": "https://www.theguardian.com/australia-news/live/2026/sep/25/anthony-albanese-open-ai-hack-united-nations-angus-taylor-coalition-ntwnfb",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Follow the day’s news live</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><strong>AI hack of Medicare exposes Australia’s vulnerabilities</strong></p><p>Technology experts have warned revelations an artificial intelligence agent hacked Medicare’s internal systems will not be the only dangerous breach of government data and have called for Austral",
+    "content": "<p>Follow the day’s news live</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><strong>AI hack of Medicare exposes Australia’s vulnerabilities</strong></p><p>Technology experts have warned revelations an artificial intelligence agent hacked Medicare’s internal systems will not be the only dangerous breach of government data and have called for Australia to boost its protections against the growing risk.</p><p>Frontier AI now has capability to expose those vulnerabilities at a rate quicker than we can keep up, quicker than we can patch them.</p><p>What if it was a less benign breach? What if it was a less benign actor? Let’s face it, clearly, Services Australia’s cybersecurity is woefully inadequate.</p><p>I mean the irony here is that you actually need AI to fight AI. This should hasten, if anything, our move over in the US to less finger wagging and Trump one-upmanship, and <strong>more about embracing these AI companies and bringing them",
+    "published": "2026-09-25T04:38:53+03:30"
+  },
+  {
     "id": "The Guardian AI|trump touts ‘great meeting’ with xi at white house – as it happened|https://www.theguardian.com/us-news/live/2026/sep/24/trump-xi-jinping-china-ai-trade-summit-latest-news-updates",
     "title": "Trump touts ‘great meeting’ with Xi at White House – as it happened",
     "url": "https://www.theguardian.com/us-news/live/2026/sep/24/trump-xi-jinping-china-ai-trade-summit-latest-news-updates",
@@ -2014,28 +2034,6 @@
     "published_utc": "2026-09-15T22:46:20+00:00",
     "published_iran": "2026/09/16 - 02:16",
     "feed_name": "BBC World",
-    "feed_category": "جهان",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "fe5b758498cd895ed01e4ec847f5896566469ea6e21853fcfe2f1f4a1f31e63a",
-    "title": "LIVE: Independence Day celebrations in Mexico City",
-    "link": "https://www.youtube.com/watch?v=luk-ExqY94s",
-    "content": "Mexican President Claudia Sheinbaum hosts a military parade celebrating Mexico's Independence Day in Mexico City. #Mexico #ClaudiaSheinbaum #MilitaryParade #IndependenceDay #MexicoIndependece #Live #Reuters #News Keep up with the latest news from around the world: https://www.reuters.com/",
-    "published_utc": "2026-09-16T16:09:52+00:00",
-    "published_iran": "2026/09/16 - 19:39",
-    "feed_name": "Reuters",
-    "feed_category": "جهان",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "0bc00e2700117b8831cb02ef208ac812af71ca2df603613a09445cd3aaac4839",
-    "title": "Meet the young Russian underdog risking jail to campaign for peace",
-    "link": "https://www.youtube.com/shorts/ELwia96k5po",
-    "content": "As Russia gears up for its upcoming parliamentary elections, underdog candidate Polina Lermant of the liberal Yabloko party, the only registered political force inside Russia to oppose the war in Ukraine, braves the odds. #russia #politics #russiaukrainewar #candidate #election",
-    "published_utc": "2026-09-16T17:54:43+00:00",
-    "published_iran": "2026/09/16 - 21:24",
-    "feed_name": "Reuters",
     "feed_category": "جهان",
     "date": "2026-09-16"
   }
