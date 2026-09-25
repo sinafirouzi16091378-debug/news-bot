@@ -1,5 +1,25 @@
 [
   {
+    "id": "BBC World|supreme court revives controversial us data system for citizenship checks|https://www.bbc.co.uk/news/articles/ck05rrj3jeylo",
+    "title": "Supreme Court revives controversial US data system for citizenship checks",
+    "url": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The system uses citizenship information and other sensitive data to filter alleged non-citizen voting.",
+    "content": "The system uses citizenship information and other sensitive data to filter alleged non-citizen voting.",
+    "published": "2026-09-25T20:05:01+03:30"
+  },
+  {
+    "id": "The Guardian AI|the dark art of maths and the ai revolution | letter|https://www.theguardian.com/technology/2026/sep/25/the-dark-art-of-maths-and-the-ai-revolution",
+    "title": "The dark art of maths and the AI revolution | Letter",
+    "url": "https://www.theguardian.com/technology/2026/sep/25/the-dark-art-of-maths-and-the-ai-revolution",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p><strong>Bev Littlewood </strong>reminds us that mathematics has been the prime driver of the rise in AI, in response to an editorial</p><p>You report in your leader that some mathematicians feel discomfiture at the AI solution to a Navier-Stokes problem (<a href=\"https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that\">The Guardian view on AI v mathematicians: humans are still vital to the field, but tech firms refuse to see that, 20 September</a>). I fear that they have been hoist b",
+    "content": "<p><strong>Bev Littlewood </strong>reminds us that mathematics has been the prime driver of the rise in AI, in response to an editorial</p><p>You report in your leader that some mathematicians feel discomfiture at the AI solution to a Navier-Stokes problem (<a href=\"https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that\">The Guardian view on AI v mathematicians: humans are still vital to the field, but tech firms refuse to see that, 20 September</a>). I fear that they have been hoist by their own petard: mathematics, after all, has been the prime mover of the AI revolution.</p><p>As a somewhat lowly mathematician, let me remind others of the famous quote of Augustine: “The good Christian should beware the mathematician and all those who make empty promises. The danger already exists that the mathematicians have made a covenant with the devil to darken the spirit and to confine man in the bonds of hell.”</p> <a href=\"https://www.theguardian.com/technology/2026/sep/25/the-dark-art-of-maths-and-the-ai-revolution\">Continue reading...</a>",
+    "published": "2026-09-25T19:58:05+03:30"
+  },
+  {
     "id": "The Guardian AI|pope leo warns of ai threat to humanity at start of three-day france visit|https://www.theguardian.com/world/2026/sep/25/pope-leo-ai-threat-to-humanity-three-day-france-visit",
     "title": "Pope Leo warns of AI threat to humanity at start of three-day France visit",
     "url": "https://www.theguardian.com/world/2026/sep/25/pope-leo-ai-threat-to-humanity-three-day-france-visit",
@@ -1978,25 +1998,5 @@
     "published": "2026-09-16T02:16:20+03:30",
     "summary": "A $1tn sales pitch, more than 160 projects on offer, pivot to the EU amid a bitter trade war with the US - takeaways from the first Canada Investment Summit.",
     "content": "A $1tn sales pitch, more than 160 projects on offer, pivot to the EU amid a bitter trade war with the US - takeaways from the first Canada Investment Summit."
-  },
-  {
-    "id": "https://www.theguardian.com/us-news/video/2026/sep/15/why-the-real-ai-apocalypse-is-already-here-stateside-with-kai-and-carter",
-    "title": "Why the real AI apocalypse is already here – Stateside with Kai and Carter",
-    "url": "https://www.theguardian.com/us-news/video/2026/sep/15/why-the-real-ai-apocalypse-is-already-here-stateside-with-kai-and-carter",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "published": "2026-09-16T02:09:14+03:30",
-    "summary": "<p>A former Anthropic researcher’s apocalyptic declaration about artificial intelligence has led to a global panic that the technology might be the end of us all. At an event in Washington today to warn about the dangers of AI, US senator Bernie Sanders said that Congress has been ‘asleep at the wheel'. Oddly, Steve Bannon appeared at the same event. But is this response a distraction from the more immediate problems AI is already causing? Kai Wright and Carter Sherman are joined by Guardian tech reporter Johana Bhuyian to put this moment in context, and she explains why we should be cynical about industry calls for regulation</p> <a href=\"https://www.theguardian.com/us-news/video/2026/sep/15/why-the-real-ai-apocalypse-is-already-here-stateside-with-kai-and-carter\">Continue reading...</a>",
-    "content": "<p>A former Anthropic researcher’s apocalyptic declaration about artificial intelligence has led to a global panic that the technology might be the end of us all. At an event in Washington today to warn about the dangers of AI, US senator Bernie Sanders said that Congress has been ‘asleep at the wheel'. Oddly, Steve Bannon appeared at the same event. But is this response a distraction from the more immediate problems AI is already causing? Kai Wright and Carter Sherman are joined by Guardian tech reporter Johana Bhuyian to put this moment in context, and she explains why we should be cynical about industry calls for regulation</p> <a href=\"https://www.theguardian.com/us-news/video/2026/sep/15/why-the-real-ai-apocalypse-is-already-here-stateside-with-kai-and-carter\">Continue reading...</a>"
-  },
-  {
-    "id": "https://www.youtube.com/watch?v=HmWhKpDgWBU",
-    "title": "چهار سال پس از کشته شدن مهسا امینی؛ آیا جنبش زن، زندگی، آزادی هنوز ادامه دارد؟",
-    "url": "https://www.youtube.com/watch?v=HmWhKpDgWBU",
-    "source": "BBC Persian",
-    "category": "ایران",
-    "published": "2026-09-16T01:14:48+03:30",
-    "summary": "چهار سال از کشته شدن مهسا امینی در بازداشت گشت ارشاد می گذرد و با اینکه قانون حجاب در ایران هنوز رسما تغییر نکرده این روزها برخی زنان با پوشش اختیاری در اماکن عمومی و حتی برخی مراسم رسمی حضور پیدا می کنند. چهار سال پس از جنبش زن، زندگی، آزادی، وضعیت زنان ایزان چگونه است؟ این حرکت تمام شده یا هنوز ادامه دارد؟ پریا منظرزاده گزارش می دهد:.",
-    "content": "چهار سال از کشته شدن مهسا امینی در بازداشت گشت ارشاد می گذرد و با اینکه قانون حجاب در ایران هنوز رسما تغییر نکرده این روزها برخی زنان با پوشش اختیاری در اماکن عمومی و حتی برخی مراسم رسمی حضور پیدا می کنند. چهار سال پس از جنبش زن، زندگی، آزادی، وضعیت زنان ایزان چگونه است؟ این حرکت تمام شده یا هنوز ادامه دارد؟ پریا منظرزاده گزارش می دهد:."
   }
 ]
