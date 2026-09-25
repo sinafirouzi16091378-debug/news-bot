@@ -1,5 +1,25 @@
 [
   {
+    "id": "The Guardian AI|australia news live: pm says he learned of openai’s medicare breach in new york; retrial date set in yung filly rape case|https://www.theguardian.com/australia-news/live/2026/sep/25/anthony-albanese-open-ai-hack-united-nations-angus-taylor-coalition-ntwnfb",
+    "title": "Australia news live: PM says he learned of OpenAI’s Medicare breach in New York; retrial date set in Yung Filly rape case",
+    "url": "https://www.theguardian.com/australia-news/live/2026/sep/25/anthony-albanese-open-ai-hack-united-nations-angus-taylor-coalition-ntwnfb",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Follow the day’s news live</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><strong>AI hack of Medicare exposes Australia’s vulnerabilities</strong></p><p>Technology experts have warned revelations an artificial intelligence agent hacked Medicare’s internal systems will not be the only dangerous breach of government data and have called for Austral",
+    "content": "<p>Follow the day’s news live</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><strong>AI hack of Medicare exposes Australia’s vulnerabilities</strong></p><p>Technology experts have warned revelations an artificial intelligence agent hacked Medicare’s internal systems will not be the only dangerous breach of government data and have called for Australia to boost its protections against the growing risk.</p><p>Frontier AI now has capability to expose those vulnerabilities at a rate quicker than we can keep up, quicker than we can patch them.</p><p>What if it was a less benign breach? What if it was a less benign actor? Let’s face it, clearly, Services Australia’s cybersecurity is woefully inadequate.</p><p>I mean the irony here is that you actually need AI to fight AI. This should hasten, if anything, our move over in the US to less finger wagging and Trump one-upmanship, and <strong>more about embracing these AI companies and bringing them",
+    "published": "2026-09-25T10:16:08+03:30"
+  },
+  {
+    "id": "BBC World|us and china must act as responsible powers together, xi says as trump toasts friendship at state dinner|https://www.bbc.co.uk/news/articles/cxq63dqp93n1o",
+    "title": "US and China must act as responsible powers together, Xi says as Trump toasts friendship at state dinner",
+    "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Trump said he and Xi had \"never gotten along better\" as he hosted the Chinese president at the lavish White House event.",
+    "content": "Trump said he and Xi had \"never gotten along better\" as he hosted the Chinese president at the lavish White House event.",
+    "published": "2026-09-25T10:10:18+03:30"
+  },
+  {
     "id": "The Guardian AI|pm rejects ‘nonsense’ suggestion he delayed revealing openai medicare hack as labor considers changing laws|https://www.theguardian.com/australia-news/2026/sep/25/wake-up-call-labor-considers-changing-australian-laws-after-openai-medicare-hack",
     "title": "PM rejects ‘nonsense’ suggestion he delayed revealing OpenAI Medicare hack as Labor considers changing laws",
     "url": "https://www.theguardian.com/australia-news/2026/sep/25/wake-up-call-labor-considers-changing-australian-laws-after-openai-medicare-hack",
@@ -2001,28 +2021,6 @@
     "content": "The FBI says five men \"conspired to intimidate, threaten, or murder people on US soil and around the world\".",
     "published_utc": "2026-09-16T12:26:00+00:00",
     "published_iran": "2026/09/16 - 15:56",
-    "feed_name": "BBC World",
-    "feed_category": "جهان",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "a8c80afb81666c66ff6a9c3211da14880d30961c13355dcd72b706955fd6f611",
-    "title": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
-    "link": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
-    "content": "Sam Altman and other tech CEOs say there are incentives to limit advancements in AI, as fears grow over the threats it poses to humanity.",
-    "published_utc": "2026-09-16T10:02:05+00:00",
-    "published_iran": "2026/09/16 - 13:32",
-    "feed_name": "BBC World",
-    "feed_category": "جهان",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "13bc0b34ea6dfaaff137b37dafa8b2185614d059a57519c0f86ac900515135f7",
-    "title": "Eight German state premiers back Merz amid speculation over future",
-    "link": "https://www.bbc.co.uk/news/articles/c6dj4nn0n97ro?at_medium=RSS&at_campaign=rss",
-    "content": "Christian Democratic Union leadership throws its weight behind the chancellor ahead of two state elections this weekend.",
-    "published_utc": "2026-09-16T14:50:26+00:00",
-    "published_iran": "2026/09/16 - 18:20",
     "feed_name": "BBC World",
     "feed_category": "جهان",
     "date": "2026-09-16"
