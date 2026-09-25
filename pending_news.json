@@ -10,6 +10,16 @@
     "published": "2026-09-25T16:14:08+03:30"
   },
   {
+    "id": "BBC World|internet restricted after fighting breaks out in ethiopia's tigray region|https://www.bbc.co.uk/news/articles/cqp8dxxg325no",
+    "title": "Internet restricted after fighting breaks out in Ethiopia's Tigray region",
+    "url": "https://www.bbc.co.uk/news/articles/cqp8dxxg325no",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "During the two-year civil war in Tigray, the region was totally cut off from the outside world.",
+    "content": "During the two-year civil war in Tigray, the region was totally cut off from the outside world.",
+    "published": "2026-09-25T16:04:31+03:30"
+  },
+  {
     "id": "The Guardian AI|the comedians turning ai anxiety into punchlines: ‘it’s so good, it’ll completely alter our grasp on reality’|https://www.theguardian.com/technology/2026/sep/25/ai-anxiety-comedy",
     "title": "The comedians turning AI anxiety into punchlines: ‘It’s so good, it’ll completely alter our grasp on reality’",
     "url": "https://www.theguardian.com/technology/2026/sep/25/ai-anxiety-comedy",
@@ -1997,17 +2007,6 @@
     "content": "Artificial intelligence is not replacing the player, coach or analyst, but it is certainly allowing them to do more Daniel Kokotajlo, a former researcher at OpenAI, warned last week that it was possible we would end up “creating a new species that ends up ruling the world” . Once the initial shock wore off, and I’d considered what this could mean for my young children and the future of the planet, another thought popped into my head: will this new species be able to swing an old cricket ball or navigate a seaming green top? It sounds frivolous. It is frivolous. But the question is not quite as ridiculous as it first appears. Continue reading...",
     "published_utc": "2026-09-16T09:30:15+00:00",
     "published_iran": "2026/09/16 - 13:00",
-    "feed_name": "The Guardian AI",
-    "feed_category": "هوش مصنوعی و فناوری",
-    "date": "2026-09-16"
-  },
-  {
-    "id": "c5b4907c3e95cac92fd9d6aa1c0458048d9b34c74baf14e1f9b1db2f2dd7e75f",
-    "title": "‘Pacing’ won’t eliminate the risk of AI doom. Here’s what could | David Krueger",
-    "link": "https://www.theguardian.com/commentisfree/2026/sep/16/ai-safety-plan-dario-amodei-anthropic",
-    "content": "The stark reality is this: we don’t know how to maintain control of these systems. But there are actions we can take With Jacob Coxon’s resignation from Anthropic , we have reached the AI risk tipping point. Millions of people are finally coming to understand what experts have known for years: AI companies have been gambling with all of our lives, and the odds are not good. In response, the Anthropic CEO, Dario Amodei, has introduced a proposal for “pacing the frontier”, endorsed by Sam Altman and Elon Musk. Can we breathe a sigh of relief? Are we about to step back from the edge of extinction? Amodei envisions a slowdown of one to two years, resulting in “profound progress” on technical safety measures. But that’s not what humanity needs right now. What we need is a plan in which we’re confident AI isn’t going to kill us, and this isn’t it. Continue reading...",
-    "published_utc": "2026-09-16T09:00:16+00:00",
-    "published_iran": "2026/09/16 - 12:30",
     "feed_name": "The Guardian AI",
     "feed_category": "هوش مصنوعی و فناوری",
     "date": "2026-09-16"
