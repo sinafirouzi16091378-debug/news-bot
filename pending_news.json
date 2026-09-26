@@ -30,6 +30,16 @@
     "published": "2026-09-26T05:39:15+03:30"
   },
   {
+    "id": "BBC World|watch: karaoke and butterflies - us cities celebrate dolly parton day|https://www.bbc.co.uk/news/videos/crvgyye2w772o",
+    "title": "Watch: Karaoke and butterflies - US cities celebrate Dolly Parton Day",
+    "url": "https://www.bbc.co.uk/news/videos/crvgyye2w772o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The day is observed on 25 September, or 9/25, as a nod to the late Queen of Country's hit song 9 to 5.",
+    "content": "The day is observed on 25 September, or 9/25, as a nod to the late Queen of Country's hit song 9 to 5.",
+    "published": "2026-09-26T04:36:33+03:30"
+  },
+  {
     "id": "BBC World|openai investigating 'dozens' of instances of agents acting improperly|https://www.bbc.co.uk/news/articles/cw62jje658dlo",
     "title": "OpenAI investigating 'dozens' of instances of agents acting improperly",
     "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo",
@@ -1988,15 +1998,5 @@
     "published": "2026-09-16T12:30:16+03:30",
     "summary": "<p>The stark reality is this: we don’t know how to maintain control of these systems. But there are actions we can take</p><p>With Jacob Coxon’s <a href=\"https://abcnews.com/Politics/former-anthropic-openai-employee-sounds-alarm-ai-development/story?id=136401554\">resignation from Anthropic</a>, we have reached the AI risk tipping point. Millions of people are finally coming to understand what experts have known for years: AI companies have been gambling with all of our lives, and the odds are not good.</p><p>In response, the Anthropic CEO, Dario Amodei, has <a href=\"https://darioamodei.com/post/we-must-pace-the-frontier\">introduced a proposal</a> for “pacing the frontier”, endorsed by Sam Altman and Elon Musk. Can we breathe a sigh of relief? Are we about to step back from the edge of extinction?<br /><br /> Amodei envisions a slowdown of one to two years, resulting in “profound progress” on technical safety measures. But that’s not what humanity needs right now. What we need is a plan in which we’re confident AI isn’t going to kill us, and this isn’t it.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/16/ai-safety-plan-dario-amodei-anthropic\">Continue reading...</a>",
     "content": "<p>The stark reality is this: we don’t know how to maintain control of these systems. But there are actions we can take</p><p>With Jacob Coxon’s <a href=\"https://abcnews.com/Politics/former-anthropic-openai-employee-sounds-alarm-ai-development/story?id=136401554\">resignation from Anthropic</a>, we have reached the AI risk tipping point. Millions of people are finally coming to understand what experts have known for years: AI companies have been gambling with all of our lives, and the odds are not good.</p><p>In response, the Anthropic CEO, Dario Amodei, has <a href=\"https://darioamodei.com/post/we-must-pace-the-frontier\">introduced a proposal</a> for “pacing the frontier”, endorsed by Sam Altman and Elon Musk. Can we breathe a sigh of relief? Are we about to step back from the edge of extinction?<br /><br /> Amodei envisions a slowdown of one to two years, resulting in “profound progress” on technical safety measures. But that’s not what humanity needs right now. What we need is a plan in which we’re confident AI isn’t going to kill us, and this isn’t it.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/16/ai-safety-plan-dario-amodei-anthropic\">Continue reading...</a>"
-  },
-  {
-    "id": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
-    "title": "Saudi Arabia says it shot down Houthi drone south of Mecca",
-    "url": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "جهان",
-    "published": "2026-09-16T12:06:17+03:30",
-    "summary": "The Houthis deny targeting the Islamic holy city after the Saudi-led coalition in Yemen accuses them of a \"disgraceful act\".",
-    "content": "The Houthis deny targeting the Islamic holy city after the Saudi-led coalition in Yemen accuses them of a \"disgraceful act\"."
   }
 ]
