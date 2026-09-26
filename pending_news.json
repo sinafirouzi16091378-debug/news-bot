@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|at least two dead after explosion destroys building close to acropolis in athens|https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o",
+    "title": "At least two dead after explosion destroys building close to Acropolis in Athens",
+    "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Local media report the property included a holiday rental, with US tourists and a UK national among the missing.",
+    "content": "Local media report the property included a holiday rental, with US tourists and a UK national among the missing.",
+    "published": "2026-09-26T13:48:51+03:30"
+  },
+  {
     "id": "BBC World|one dead and five missing after explosion destroys building close to acropolis in athens|https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o",
     "title": "One dead and five missing after explosion destroys building close to Acropolis in Athens",
     "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o",
@@ -1988,15 +1998,5 @@
     "published": "2026-09-16T13:32:05+03:30",
     "summary": "Sam Altman and other tech CEOs say there are incentives to limit advancements in AI, as fears grow over the threats it poses to humanity.",
     "content": "Sam Altman and other tech CEOs say there are incentives to limit advancements in AI, as fears grow over the threats it poses to humanity."
-  },
-  {
-    "id": "https://www.theguardian.com/technology/2026/sep/16/us-government-failing-americans-ai",
-    "title": "The US government is failing Americans on AI | Shakeel Hashim",
-    "url": "https://www.theguardian.com/technology/2026/sep/16/us-government-failing-americans-ai",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "published": "2026-09-16T13:30:18+03:30",
-    "summary": "<p>Trump and Republicans want companies to regulate themselves. It’s a dereliction of duty that will make AI less safe</p><p>It is hard to get Sam Altman, Elon Musk and Dario Amodei to agree on much. But over the weekend, all three AI company CEOs called for AI development to slow down in the face of growing, alarming risks. Their employees are sounding the siren too, with one researcher publicly quitting and accusing OpenAI and Anthropic of “gambling with our lives”.</p><p>The combination of dire warnings from insiders and growing real-world evidence of rogue AIs should, in a sane world, lead to government action. Instead, Donald Trump and the Republican leadership have their heads in the sand.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/16/us-government-failing-americans-ai\">Continue reading...</a>",
-    "content": "<p>Trump and Republicans want companies to regulate themselves. It’s a dereliction of duty that will make AI less safe</p><p>It is hard to get Sam Altman, Elon Musk and Dario Amodei to agree on much. But over the weekend, all three AI company CEOs called for AI development to slow down in the face of growing, alarming risks. Their employees are sounding the siren too, with one researcher publicly quitting and accusing OpenAI and Anthropic of “gambling with our lives”.</p><p>The combination of dire warnings from insiders and growing real-world evidence of rogue AIs should, in a sane world, lead to government action. Instead, Donald Trump and the Republican leadership have their heads in the sand.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/16/us-government-failing-americans-ai\">Continue reading...</a>"
   }
 ]
