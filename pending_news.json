@@ -40,6 +40,16 @@
     "published": "2026-09-26T14:14:37+03:30"
   },
   {
+    "id": "BBC World|republic of ireland confirm rescheduled news conference before controversial israel game|https://www.bbc.co.uk/sport/football/articles/c962jjl18g3ro",
+    "title": "Republic of Ireland confirm rescheduled news conference before controversial Israel game",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c962jjl18g3ro",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The Republic of Ireland will now hold their delayed news conference at 14:30 BST before they face Israel in tomorrow's Nations League fixture in Hungary - a fixture campaigners have called on them to boycott.",
+    "content": "The Republic of Ireland will now hold their delayed news conference at 14:30 BST before they face Israel in tomorrow's Nations League fixture in Hungary - a fixture campaigners have called on them to boycott.",
+    "published": "2026-09-26T14:14:37+03:30"
+  },
+  {
     "id": "BBC World|at least two dead after explosion destroys building close to acropolis in athens|https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o",
     "title": "At least two dead after explosion destroys building close to Acropolis in Athens",
     "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o",
@@ -1988,15 +1998,5 @@
     "published": "2026-09-16T14:32:54+03:30",
     "summary": "The two countries accounted for 52% of killings of environmental activists in 2025, according to Global Witness.",
     "content": "The two countries accounted for 52% of killings of environmental activists in 2025, according to Global Witness."
-  },
-  {
-    "id": "https://www.theguardian.com/technology/2026/sep/16/ai-companies-collude-antitrust-laws",
-    "title": "Allowing AI firms to collude to ‘pace the frontier’ is a dangerous proposition",
-    "url": "https://www.theguardian.com/technology/2026/sep/16/ai-companies-collude-antitrust-laws",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "published": "2026-09-16T14:30:18+03:30",
-    "summary": "<p>Tech CEOs banding together is an old ruse recycled from corporate America to get a pass from antitrust laws</p><p>Anthropic’s Dario Amodei is not the first corporate CEO to suggest that excessive competition is driving the world to some socially undesirable outcome.</p><p>The safety breach <a href=\"https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf\">disclosed by OpenAI</a> after a swarm of its agents coordinated to breach their supposedly secure sandbox, get on the Internet and hack AI platform Hugging Face, warrants urgent action. It demonstrated the ease with which the technology can evade human control and gave concrete form to the existential fears about what it could do to humanity if not securely leashed.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/16/ai-companies-collude-antitrust-laws\">Continue reading...</a>",
-    "content": "<p>Tech CEOs banding together is an old ruse recycled from corporate America to get a pass from antitrust laws</p><p>Anthropic’s Dario Amodei is not the first corporate CEO to suggest that excessive competition is driving the world to some socially undesirable outcome.</p><p>The safety breach <a href=\"https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf\">disclosed by OpenAI</a> after a swarm of its agents coordinated to breach their supposedly secure sandbox, get on the Internet and hack AI platform Hugging Face, warrants urgent action. It demonstrated the ease with which the technology can evade human control and gave concrete form to the existential fears about what it could do to humanity if not securely leashed.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/16/ai-companies-collude-antitrust-laws\">Continue reading...</a>"
   }
 ]
