@@ -1,5 +1,25 @@
 [
   {
+    "id": "The Guardian AI|bill gates says unchecked ai could ‘cause a billion deaths’ in call for regulation|https://www.theguardian.com/us-news/2026/sep/27/bill-gates-artificial-intelligence-kristen-welker",
+    "title": "Bill Gates says unchecked AI could ‘cause a billion deaths’ in call for regulation",
+    "url": "https://www.theguardian.com/us-news/2026/sep/27/bill-gates-artificial-intelligence-kristen-welker",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Microsoft co-founder and philanthropist speaks with NBC’s Kristen Welker in interview airing on Sunday</p><p><a href=\"https://www.theguardian.com/us-news/bill-gates\">Bill Gates</a> has called on the US’s federal legislators and law enforcers to regulate the development of artificial intelligence (AI), saying in an interview airing on Sunday that the technology left unchecked could cause “a billion deaths” and “no one thinks self-regulation is enough”.</p><p>“You need law enforcement and the politicians to get into the discussion about what safeguards and monitoring look like,” the Microsoft",
+    "content": "<p>Microsoft co-founder and philanthropist speaks with NBC’s Kristen Welker in interview airing on Sunday</p><p><a href=\"https://www.theguardian.com/us-news/bill-gates\">Bill Gates</a> has called on the US’s federal legislators and law enforcers to regulate the development of artificial intelligence (AI), saying in an interview airing on Sunday that the technology left unchecked could cause “a billion deaths” and “no one thinks self-regulation is enough”.</p><p>“You need law enforcement and the politicians to get into the discussion about what safeguards and monitoring look like,” the Microsoft co-founder and philanthropist <a href=\"https://www.nbcnews.com/politics/politics-news/bill-gates-ai-companies-self-regulating-governments-monitoring-rcna599619\">said</a> to Kristen Welker, the NBC Meet the Press host. “And that has to be a required thing.”</p> <a href=\"https://www.theguardian.com/us-news/2026/sep/27/bill-gates-artificial-intelligence-kristen-welker\">Continue reading...</a>",
+    "published": "2026-09-27T12:30:01+03:30"
+  },
+  {
+    "id": "BBC World|two mass shootings in south africa leave 27 dead|https://www.bbc.co.uk/news/articles/ck5ywnp075d1o",
+    "title": "Two mass shootings in South Africa leave 27 dead",
+    "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The two attacks hours apart come as the country struggles to stop high levels of gang-related armed violence.",
+    "content": "The two attacks hours apart come as the country struggles to stop high levels of gang-related armed violence.",
+    "published": "2026-09-27T12:10:02+03:30"
+  },
+  {
     "id": "BBC World|iranian minister says only negotiation can end conflict after trump rejects hormuz deal|https://www.bbc.co.uk/news/articles/cmvgyyw2jeego",
     "title": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
     "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego",
@@ -1978,15 +1998,5 @@
     "published": "2026-09-16T18:30:23+03:30",
     "summary": "<p>Countries have come together before to make international agreements in the face of existential threats</p><p>With many technological developments, from algorithm-driven social media to AI, many people assume there’s a degree of inevitability to their widespread adoption in society.</p><p>The argument goes something like this: once the ideas and means to produce the tech are known, then it is inevitable that its usage will spread and we’ll essentially be stuck with it. So therefore we need to accept this and adjust our lives to live with the tech and use it (or at least tolerate it).</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/17/ai-future-not-inevitable-we-can-choose-better-safety-regulation\">Continue reading...</a>",
     "content": "<p>Countries have come together before to make international agreements in the face of existential threats</p><p>With many technological developments, from algorithm-driven social media to AI, many people assume there’s a degree of inevitability to their widespread adoption in society.</p><p>The argument goes something like this: once the ideas and means to produce the tech are known, then it is inevitable that its usage will spread and we’ll essentially be stuck with it. So therefore we need to accept this and adjust our lives to live with the tech and use it (or at least tolerate it).</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/17/ai-future-not-inevitable-we-can-choose-better-safety-regulation\">Continue reading...</a>"
-  },
-  {
-    "id": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
-    "title": "New AI technique could make minimally invasive surgeries safer and more precise",
-    "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
-    "source": "MIT CSAIL",
-    "category": "علم",
-    "published": "2026-09-16T18:30:00+03:30",
-    "summary": "This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.",
-    "content": "This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery."
   }
 ]
