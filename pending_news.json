@@ -1,5 +1,25 @@
 [
   {
+    "id": "BBC World|twelve women have been killed in one part of south africa since july. here's what we know so far|https://www.bbc.co.uk/news/articles/c6m27dprvzv7o",
+    "title": "Twelve women have been killed in one part of South Africa since July. Here's what we know so far",
+    "url": "https://www.bbc.co.uk/news/articles/c6m27dprvzv7o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "South African President Cyril Ramaphosa says the murders are a \"stain on our national conscience\".",
+    "content": "South African President Cyril Ramaphosa says the murders are a \"stain on our national conscience\".",
+    "published": "2026-09-28T20:56:21+03:30"
+  },
+  {
+    "id": "BBC World|iran court upholds lashes sentence for singer who performed without hijab|https://www.bbc.co.uk/news/articles/crn45ed1kqqgo",
+    "title": "Iran court upholds lashes sentence for singer who performed without hijab",
+    "url": "https://www.bbc.co.uk/news/articles/crn45ed1kqqgo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert.",
+    "content": "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert.",
+    "published": "2026-09-28T20:45:00+03:30"
+  },
+  {
     "id": "BBC World|people escape historic kyiv building hit by russian drone|https://www.bbc.co.uk/news/videos/cqj9xkdyrvgzo",
     "title": "People escape historic Kyiv building hit by Russian drone",
     "url": "https://www.bbc.co.uk/news/videos/cqj9xkdyrvgzo",
@@ -20,6 +40,16 @@
     "published": "2026-09-28T19:55:00+03:30"
   },
   {
+    "id": "BBC World|women protest in the streets of delhi after string of sexual assaults|https://www.bbc.co.uk/news/videos/cm70lpg5z45go",
+    "title": "Women protest in the streets of Delhi after string of sexual assaults",
+    "url": "https://www.bbc.co.uk/news/videos/cm70lpg5z45go",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "BBC correspondent Azadeh Moshiri reports from Delhi, where hundreds of women are protesting.",
+    "content": "BBC correspondent Azadeh Moshiri reports from Delhi, where hundreds of women are protesting.",
+    "published": "2026-09-28T19:45:57+03:30"
+  },
+  {
     "id": "BBC World|four bodies found after avalanche hits himalayan climbing group|https://www.bbc.co.uk/news/articles/cwjdvml9e897o",
     "title": "Four bodies found after avalanche hits Himalayan climbing group",
     "url": "https://www.bbc.co.uk/news/articles/cwjdvml9e897o",
@@ -28,6 +58,16 @@
     "summary": "Rescuers are still looking for 12 Nepalese cook staff who were preparing for climbers to ascend the Himlung Himal peak.",
     "content": "Rescuers are still looking for 12 Nepalese cook staff who were preparing for climbers to ascend the Himlung Himal peak.",
     "published": "2026-09-28T19:43:44+03:30"
+  },
+  {
+    "id": "BBC World|nigerian attempts to break world record by dancing non-stop for seven days|https://www.bbc.co.uk/news/articles/cq8r6z2gjzd1o",
+    "title": "Nigerian attempts to break world record by dancing non-stop for seven days",
+    "url": "https://www.bbc.co.uk/news/articles/cq8r6z2gjzd1o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Crowds have gathered in Lagos to watch Ben Dancer, who says he will carry on dancing until Tuesday morning.",
+    "content": "Crowds have gathered in Lagos to watch Ben Dancer, who says he will carry on dancing until Tuesday morning.",
+    "published": "2026-09-28T19:09:19+03:30"
   },
   {
     "id": "The Guardian AI|nvidia unveils security platform to rein in ai agents and $150bn stock buyback|https://www.theguardian.com/technology/2026/sep/28/nvidia-ai-agent-security-platform-stock-buyback",
@@ -1958,45 +1998,5 @@
     "summary": "The UN Population Fund also says there has been a \"severe escalation\" in the number of early and forced marriages.",
     "content": "The UN Population Fund also says there has been a \"severe escalation\" in the number of early and forced marriages.",
     "published": "2026-09-23T08:32:26+03:30"
-  },
-  {
-    "id": "BBC World|more than 170,000 respiratory cases recorded in haze-choked indonesia|https://www.bbc.co.uk/news/articles/cq62j13gnyrko",
-    "title": "More than 170,000 respiratory cases recorded in haze-choked Indonesia",
-    "url": "https://www.bbc.co.uk/news/articles/cq62j13gnyrko",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "More than 40,000 of the cases – which range from mild coughs to pneumonia – involve toddlers.",
-    "content": "More than 40,000 of the cases – which range from mild coughs to pneumonia – involve toddlers.",
-    "published": "2026-09-23T07:50:12+03:30"
-  },
-  {
-    "id": "BBC World|watch: key moments from andy burnham's first un speech|https://www.bbc.co.uk/news/videos/cq5y4zpn655ko",
-    "title": "Watch: Key moments from Andy Burnham's first UN speech",
-    "url": "https://www.bbc.co.uk/news/videos/cq5y4zpn655ko",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "In his first speech to the UN as UK prime minister, Burnham highlighted the risks posed by Russian disinformation.",
-    "content": "In his first speech to the UN as UK prime minister, Burnham highlighted the risks posed by Russian disinformation.",
-    "published": "2026-09-23T04:55:47+03:30"
-  },
-  {
-    "id": "The Guardian AI|how would ai actually ‘kill all humans’? here are the top five most likely scenarios | toby walsh|https://www.theguardian.com/australia-news/commentisfree/2026/sep/23/how-would-ai-actually-kill-all-humans-here-are-the-top-five-most-likely-scenarios",
-    "title": "How would AI actually ‘kill all humans’? Here are the top five most likely scenarios | Toby Walsh",
-    "url": "https://www.theguardian.com/australia-news/commentisfree/2026/sep/23/how-would-ai-actually-kill-all-humans-here-are-the-top-five-most-likely-scenarios",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>From a dangerous new bioweapon to total societal breakdown, is a ‘superintelligent’ AI capable of wiping out humanity?</p><p>Earlier this month, artificial intelligence researcher <a href=\"https://www.theguardian.com/technology/2026/sep/09/anthropic-researchers-ai-human-extinction\">Jacob Coxon resigned from Anthropic </a>after just four months. In an announcement on X, <a href=\"https://x.com/hilbertspaess/status/2097476196791709843\">he stated</a>: “The people building AI earnestly believe that it could kill us all by the end of the decade.”</p><p>A senior member of Anthropic’s staff, Evan H",
-    "content": "<p>From a dangerous new bioweapon to total societal breakdown, is a ‘superintelligent’ AI capable of wiping out humanity?</p><p>Earlier this month, artificial intelligence researcher <a href=\"https://www.theguardian.com/technology/2026/sep/09/anthropic-researchers-ai-human-extinction\">Jacob Coxon resigned from Anthropic </a>after just four months. In an announcement on X, <a href=\"https://x.com/hilbertspaess/status/2097476196791709843\">he stated</a>: “The people building AI earnestly believe that it could kill us all by the end of the decade.”</p><p>A senior member of Anthropic’s staff, Evan Hubinger, actually agreed with Coxon, adding he personally thinks the chance of this happening in the next decade <a href=\"https://x.com/EvanHub/status/2097497037956891126\">is more than 10%</a>.</p> <a href=\"https://www.theguardian.com/australia-news/commentisfree/2026/sep/23/how-would-ai-actually-kill-all-humans-here-are-the-top-five-most-likely-scenarios\">Continue reading...</a>",
-    "published": "2026-09-23T04:21:57+03:30"
-  },
-  {
-    "id": "BBC World|playing loud music on the bus? that will cost you hundreds of dollars in singapore|https://www.bbc.co.uk/news/articles/c3kg80ve7x0no",
-    "title": "Playing loud music on the bus? That will cost you hundreds of dollars in Singapore",
-    "url": "https://www.bbc.co.uk/news/articles/c3kg80ve7x0no",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Authorities are cracking down on \"disruptive behaviours\" including eating onboard and putting feet on seats.",
-    "content": "Authorities are cracking down on \"disruptive behaviours\" including eating onboard and putting feet on seats.",
-    "published": "2026-09-23T03:35:34+03:30"
   }
 ]
