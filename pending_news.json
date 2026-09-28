@@ -1,5 +1,15 @@
 [
   {
+    "id": "ECB|christine lagarde: hearing of the committee on economic and monetary affairs of the european parliament|https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
+    "title": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
+    "source": "ECB",
+    "category": "اقتصاد و بازارها",
+    "summary": "",
+    "content": "",
+    "published": "2026-09-28T17:00:00+03:30"
+  },
+  {
     "id": "BBC World|plan for controversial sydney data centre scrapped after push-back|https://www.bbc.co.uk/news/articles/c6n9wrqpj4yqo",
     "title": "Plan for controversial Sydney data centre scrapped after push-back",
     "url": "https://www.bbc.co.uk/news/articles/c6n9wrqpj4yqo",
@@ -1988,15 +1998,5 @@
     "summary": "Federal Reserve Board announces approval of application by BancFirst Corporation",
     "content": "Federal Reserve Board announces approval of application by BancFirst Corporation",
     "published": "2026-09-23T00:00:00+03:30"
-  },
-  {
-    "id": "https://www.bbc.co.uk/news/articles/c6dj4k98107do?at_medium=RSS&at_campaign=rss",
-    "title": "Ukraine anger as EU removes Russian oligarchs from sanctions list",
-    "url": "https://www.bbc.co.uk/news/articles/c6dj4k98107do?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "category": "جهان",
-    "published": "2026-09-22T22:36:06+03:30",
-    "summary": "Alisher Usmanov and Mikhail Fridman both have close ties to President Putin, and Kyiv said the move sent Moscow the wrong signals.",
-    "content": "Alisher Usmanov and Mikhail Fridman both have close ties to President Putin, and Kyiv said the move sent Moscow the wrong signals."
   }
 ]
