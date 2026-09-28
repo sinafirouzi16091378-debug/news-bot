@@ -1,5 +1,15 @@
 [
   {
+    "id": "The Guardian AI|openai scraps release of new model over safety concerns in internal testing|https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
+    "title": "OpenAI scraps release of new model over safety concerns in internal testing",
+    "url": "https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>GPT-6.1 Astra showed deceptive behavior and tried to use external tools despite knowing it would be unsafe</p><p>OpenAI is scrapping the release of GPT-6.1 Astra, a next-generation ⁠AI model planned for an October debut, over safety concerns raised by researchers ⁠during internal testing, the ⁠Wall ​Street Journal <a href=\"https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42?mod=hp_lead_pos1\">reported</a> on Monday.</p><p>The model, expected to appear in ChatGPT and ⁠Codex, was designed to handle more complex tasks without human assistance, the report said.</p> <a",
+    "content": "<p>GPT-6.1 Astra showed deceptive behavior and tried to use external tools despite knowing it would be unsafe</p><p>OpenAI is scrapping the release of GPT-6.1 Astra, a next-generation ⁠AI model planned for an October debut, over safety concerns raised by researchers ⁠during internal testing, the ⁠Wall ​Street Journal <a href=\"https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42?mod=hp_lead_pos1\">reported</a> on Monday.</p><p>The model, expected to appear in ChatGPT and ⁠Codex, was designed to handle more complex tasks without human assistance, the report said.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped\">Continue reading...</a>",
+    "published": "2026-09-29T02:32:28+03:30"
+  },
+  {
     "id": "BBC World|french pm warns against escalation of school protests after 164 arrested|https://www.bbc.co.uk/news/articles/cmqxvnn49rg2o",
     "title": "French PM warns against escalation of school protests after 164 arrested",
     "url": "https://www.bbc.co.uk/news/articles/cmqxvnn49rg2o",
