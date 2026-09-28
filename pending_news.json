@@ -1,5 +1,25 @@
 [
   {
+    "id": "BBC World|remains of dozens of suspected kidnap victims found in nigerian forests|https://www.bbc.co.uk/news/articles/c6e30x757nx4o",
+    "title": "Remains of dozens of suspected kidnap victims found in Nigerian forests",
+    "url": "https://www.bbc.co.uk/news/articles/c6e30x757nx4o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Investigations are ongoing to establish the identities of at least 28 people whose remains were recovered by police.",
+    "content": "Investigations are ongoing to establish the identities of at least 28 people whose remains were recovered by police.",
+    "published": "2026-09-28T19:55:00+03:30"
+  },
+  {
+    "id": "BBC World|four bodies found after avalanche hits himalayan climbing group|https://www.bbc.co.uk/news/articles/cwjdvml9e897o",
+    "title": "Four bodies found after avalanche hits Himalayan climbing group",
+    "url": "https://www.bbc.co.uk/news/articles/cwjdvml9e897o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Rescuers are still looking for 12 Nepalese cook staff who were preparing for climbers to ascend the Himlung Himal peak.",
+    "content": "Rescuers are still looking for 12 Nepalese cook staff who were preparing for climbers to ascend the Himlung Himal peak.",
+    "published": "2026-09-28T19:43:44+03:30"
+  },
+  {
     "id": "The Guardian AI|nvidia unveils security platform to rein in ai agents and $150bn stock buyback|https://www.theguardian.com/technology/2026/sep/28/nvidia-ai-agent-security-platform-stock-buyback",
     "title": "Nvidia unveils security platform to rein in AI agents and $150bn stock buyback",
     "url": "https://www.theguardian.com/technology/2026/sep/28/nvidia-ai-agent-security-platform-stock-buyback",
@@ -1978,25 +1998,5 @@
     "summary": "Delegations from across the world attended the United Nations General Assembly in New York.",
     "content": "Delegations from across the world attended the United Nations General Assembly in New York.",
     "published": "2026-09-23T02:03:44+03:30"
-  },
-  {
-    "id": "BBC World|huge data centres rise at 'china speed' to power its ai ambitions|https://www.bbc.co.uk/news/articles/cm5ydz4kl65ro",
-    "title": "Huge data centres rise at 'China speed' to power its AI ambitions",
-    "url": "https://www.bbc.co.uk/news/articles/cm5ydz4kl65ro",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The BBC visits Inner Mongolia, an unlikely frontier in Beijing's AI race with Washington.",
-    "content": "The BBC visits Inner Mongolia, an unlikely frontier in Beijing's AI race with Washington.",
-    "published": "2026-09-23T01:34:31+03:30"
-  },
-  {
-    "id": "BBC World|rare look at the remote engine rooms fuelling china's ai boom|https://www.bbc.co.uk/news/videos/cwe8ejvv0leno",
-    "title": "Rare look at the remote engine rooms fuelling China's AI boom",
-    "url": "https://www.bbc.co.uk/news/videos/cwe8ejvv0leno",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The BBC is in Inner Mongolia where dozen of Chinese data centres are being constructed, as the country aims to lead the world in artificial intelligence.",
-    "content": "The BBC is in Inner Mongolia where dozen of Chinese data centres are being constructed, as the country aims to lead the world in artificial intelligence.",
-    "published": "2026-09-23T01:33:48+03:30"
   }
 ]
