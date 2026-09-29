@@ -1,5 +1,15 @@
 [
   {
+    "id": "The Guardian AI|new campaign disclosures reveal how much american political campaigns spend on ai tools|https://www.theguardian.com/technology/2026/sep/29/political-campaigns-ai-tools-spending",
+    "title": "New campaign disclosures reveal how much American political campaigns spend on AI tools",
+    "url": "https://www.theguardian.com/technology/2026/sep/29/political-campaigns-ai-tools-spending",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Though politicians are quiet about how they use AI, the book Rewiring Democracy examines how AI is starting to influence American politics </p><p>New campaign finance disclosure data shines a light on which US political campaigns are using AI tools and how much they are spending on them.</p><p>Candidates’, parties’, and committees’ <a href=\"https://github.com/nesanders/federal-campaign-disclosure-ai/tree/claude/campaign-ai-usage-dashboard-0pzili/data/processed\">spending</a> reveals that AI is fast becoming an essential tool of politics. The candidates themselves are quiet about how they are",
+    "content": "<p>Though politicians are quiet about how they use AI, the book Rewiring Democracy examines how AI is starting to influence American politics </p><p>New campaign finance disclosure data shines a light on which US political campaigns are using AI tools and how much they are spending on them.</p><p>Candidates’, parties’, and committees’ <a href=\"https://github.com/nesanders/federal-campaign-disclosure-ai/tree/claude/campaign-ai-usage-dashboard-0pzili/data/processed\">spending</a> reveals that AI is fast becoming an essential tool of politics. The candidates themselves are quiet about how they are using the technology in their own campaigns<em>.</em> It’s a sensitive issue that we have been tracking closely since we started writing our book, <a href=\"https://mitpress.mit.edu/9780262049948/rewiring-democracy/\">Rewiring Democracy</a>, which examined how AI is beginning to influence politics. A September 2025 <a href=\"https://www.pewresearch.org/short-reads/2025/09/17/from-political-speeches-to-songs-how-would-americans-react-if-they-found-out-ai-was-involved/\">Pew</a> survey of Americans found that more than 70% would think less of a candidate if they used AI to help write a speech.</p> ",
+    "published": "2026-09-29T14:30:49+03:30"
+  },
+  {
     "id": "The Guardian AI|trump denies offering iran sanctions relief for nuclear concessions – us politics live|https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates",
     "title": "Trump denies offering Iran sanctions relief for nuclear concessions – US politics live",
     "url": "https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates",
@@ -1988,15 +1998,5 @@
     "summary": "The UK has jammed satellites to defend itself from hostile threats, the BBC has been told.",
     "content": "The UK has jammed satellites to defend itself from hostile threats, the BBC has been told.",
     "published": "2026-09-24T00:59:04+03:30"
-  },
-  {
-    "id": "BBC World|trump's board of peace unveils $2.45bn plan to begin gaza's reconstruction|https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o",
-    "title": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
-    "url": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The figure was announced during a meeting of the group's board at the sidelines of the UN General Assembly in New York.",
-    "content": "The figure was announced during a meeting of the group's board at the sidelines of the UN General Assembly in New York.",
-    "published": "2026-09-24T00:56:14+03:30"
   }
 ]
