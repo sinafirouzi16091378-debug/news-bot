@@ -30,6 +30,16 @@
     "published": "2026-09-29T18:20:09+03:30"
   },
   {
+    "id": "BBC World|watch: us journalist evan gershkovich describes being detained by russian agents|https://www.bbc.co.uk/news/videos/c862ep9w5g2vo",
+    "title": "Watch: US journalist Evan Gershkovich describes being detained by Russian agents",
+    "url": "https://www.bbc.co.uk/news/videos/c862ep9w5g2vo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "He was arrested in Russia in 2023 and later sentenced to 16 years on espionage charges.",
+    "content": "He was arrested in Russia in 2023 and later sentenced to 16 years on espionage charges.",
+    "published": "2026-09-29T18:15:03+03:30"
+  },
+  {
     "id": "The Guardian AI|rfk jr outlines expansive vision for collecting us health data at maha event|https://www.theguardian.com/us-news/2026/sep/29/rfk-jr-collect-health-data",
     "title": "RFK Jr outlines expansive vision for collecting US health data at Maha event",
     "url": "https://www.theguardian.com/us-news/2026/sep/29/rfk-jr-collect-health-data",
@@ -1988,15 +1998,5 @@
     "summary": "Meta has unveiled audio-only smart glasses, with some questioning whether it is a response to the backlash over privacy.",
     "content": "Meta has unveiled audio-only smart glasses, with some questioning whether it is a response to the backlash over privacy.",
     "published": "2026-09-24T04:20:24+03:30"
-  },
-  {
-    "id": "The Guardian AI|albanese says openai hacked medicare and told australia months later via email to generic inbox|https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
-    "title": "Albanese says OpenAI hacked Medicare and told Australia months later via email to generic inbox",
-    "url": "https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Prime minister says he told Sam Altman he was disappointed it had taken OpenAI ‘way too long’ to disclose breach</p><p>Anthony Albanese says an artificial intelligence agent developed by OpenAI hacked Medicare in June and the tech giant notified the government earlier this month using an email sent to a “public mailbox”.</p><p>Australia’s prime minister made the comments at the UN summit in New York, saying it appeared no personal information had been accessed in the AI breach.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medi",
-    "content": "<p>Prime minister says he told Sam Altman he was disappointed it had taken OpenAI ‘way too long’ to disclose breach</p><p>Anthony Albanese says an artificial intelligence agent developed by OpenAI hacked Medicare in June and the tech giant notified the government earlier this month using an email sent to a “public mailbox”.</p><p>Australia’s prime minister made the comments at the UN summit in New York, saying it appeared no personal information had been accessed in the AI breach.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman\">Continue reading...</a>",
-    "published": "2026-09-24T03:50:47+03:30"
   }
 ]
