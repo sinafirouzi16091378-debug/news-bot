@@ -1,5 +1,25 @@
 [
   {
+    "id": "The Guardian AI|anthropic warns of ‘existential risks to humanity’ from ai; astrazeneca makes $2bn cancer drug tie-up – business live|https://www.theguardian.com/business/live/2026/sep/29/anthropic-ipo-warning-existential-risks-to-humanity-from-ai-astrazeneca-2bn-cancer-drug-tie-up-diesel-stock-market-live-news-updates",
+    "title": "Anthropic warns of ‘existential risks to humanity’ from AI; AstraZeneca makes $2bn cancer drug tie-up – business live",
+    "url": "https://www.theguardian.com/business/live/2026/sep/29/anthropic-ipo-warning-existential-risks-to-humanity-from-ai-astrazeneca-2bn-cancer-drug-tie-up-diesel-stock-market-live-news-updates",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Rolling coverage of the latest economic and financial news</p><p><strong>Pharmaceuticals news: AstraZeneca is investing $2bn in biopharmaceutical oncology company Summit Therapeutics, as part of a tie-up to jointly develop and test anti-cancer drugs.</strong></p><p>Announcing the deal, <strong>AstraZeneca </strong>says the two companies will collaborate on a ‌series of studies testing their cancer treatments together.</p><p>“A core pillar of our oncology strategy is to broaden the reach of our ADC portfolio as the backbone of treatment across tumour types with combinations alongside next-ge",
+    "content": "<p>Rolling coverage of the latest economic and financial news</p><p><strong>Pharmaceuticals news: AstraZeneca is investing $2bn in biopharmaceutical oncology company Summit Therapeutics, as part of a tie-up to jointly develop and test anti-cancer drugs.</strong></p><p>Announcing the deal, <strong>AstraZeneca </strong>says the two companies will collaborate on a ‌series of studies testing their cancer treatments together.</p><p>“A core pillar of our oncology strategy is to broaden the reach of our ADC portfolio as the backbone of treatment across tumour types with combinations alongside next-generation immunotherapies.</p><p>Bispecifics targeting PD-1 and VEGF are rapidly advancing in development and have the potential to improve on current immunotherapies, particularly in lung, breast and gastrointestinal cancers. This opportunity to combine ivonescimab with AstraZeneca’s ADC portfolio, including with Sone-Ve, could enable new regimens that raise the bar for patients with cancer across the treatment landscape.”</p><p>“Our development of highly advanced models, platforms, and applications and expansion of use cases could further increase the risk that our models cause harm.”</p><p>“",
+    "published": "2026-09-29T10:13:11+03:30"
+  },
+  {
+    "id": "BBC World|watch: luxury units uncovered inside an indonesian prison|https://www.bbc.co.uk/news/videos/c6vgy293vvp3o",
+    "title": "Watch: Luxury units uncovered inside an Indonesian prison",
+    "url": "https://www.bbc.co.uk/news/videos/c6vgy293vvp3o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "A surprise inspection at the prison revealed apartment-like units appearing to house inmates, equipped with televisions, a gym and fridges stocked with alcohol.",
+    "content": "A surprise inspection at the prison revealed apartment-like units appearing to house inmates, equipped with televisions, a gym and fridges stocked with alcohol.",
+    "published": "2026-09-29T09:34:36+03:30"
+  },
+  {
     "id": "The Guardian AI|as ai models go rogue, do you still trust openai and anthropic to stop them? i don’t and neither should you | chris stokel-walker|https://www.theguardian.com/commentisfree/2026/sep/29/ai-models-security-risk-agents-openai-independent-security",
     "title": "As AI models go rogue, do you still trust OpenAI and Anthropic to stop them? I don’t and neither should you | Chris Stokel-Walker",
     "url": "https://www.theguardian.com/commentisfree/2026/sep/29/ai-models-security-risk-agents-openai-independent-security",
@@ -1978,25 +1998,5 @@
     "summary": "Bryan Seaver, who announced Parton's death to the world, is accused of trying to extort her estate.",
     "content": "Bryan Seaver, who announced Parton's death to the world, is accused of trying to extort her estate.",
     "published": "2026-09-23T15:52:53+03:30"
-  },
-  {
-    "id": "BBC World|openai gives cyber defence tools to ukraine|https://www.bbc.co.uk/news/articles/c90kly26d7pzo",
-    "title": "OpenAI gives cyber defence tools to Ukraine",
-    "url": "https://www.bbc.co.uk/news/articles/c90kly26d7pzo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Ukraine will get access to OpenAI's advanced GPT 5.6 Sol model under the deal - a rival to Anthropic's Mythos and Fable",
-    "content": "Ukraine will get access to OpenAI's advanced GPT 5.6 Sol model under the deal - a rival to Anthropic's Mythos and Fable",
-    "published": "2026-09-23T15:31:37+03:30"
-  },
-  {
-    "id": "BBC World|south sudan's president dissolves government ahead of country's first elections|https://www.bbc.co.uk/news/articles/c8750ykkglq1o",
-    "title": "South Sudan's president dissolves government ahead of country's first elections",
-    "url": "https://www.bbc.co.uk/news/articles/c8750ykkglq1o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "South Sudan has not held elections since independence in 2011 - polls have twice been postponed.",
-    "content": "South Sudan has not held elections since independence in 2011 - polls have twice been postponed.",
-    "published": "2026-09-23T14:46:25+03:30"
   }
 ]
