@@ -1,5 +1,15 @@
 [
   {
+    "id": "The Guardian AI|as ai models go rogue, do you still trust openai and anthropic to stop them? i don’t and neither should you | chris stokel-walker|https://www.theguardian.com/commentisfree/2026/sep/29/ai-models-security-risk-agents-openai-independent-security",
+    "title": "As AI models go rogue, do you still trust OpenAI and Anthropic to stop them? I don’t and neither should you | Chris Stokel-Walker",
+    "url": "https://www.theguardian.com/commentisfree/2026/sep/29/ai-models-security-risk-agents-openai-independent-security",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>The need for independent regulation grows more obvious by the day. We must keep this tech in check before it’s too late</p><p>Fool me once, shame on you. Fool me twice, shame on me. Fool me more than 16,000 times – as <a href=\"https://www.wsj.com/tech/ai/openai-agents-used-aggressive-techniques-to-access-u-n-website-522c70ff\">OpenAI agents did</a> to a UN public data hub while repeatedly trying to find its way around the UN’s cyber-blocks – and perhaps it’s time to admit the system we have for keeping AI agents under control isn’t working particularly well.</p><p>The news about AI systems c",
+    "content": "<p>The need for independent regulation grows more obvious by the day. We must keep this tech in check before it’s too late</p><p>Fool me once, shame on you. Fool me twice, shame on me. Fool me more than 16,000 times – as <a href=\"https://www.wsj.com/tech/ai/openai-agents-used-aggressive-techniques-to-access-u-n-website-522c70ff\">OpenAI agents did</a> to a UN public data hub while repeatedly trying to find its way around the UN’s cyber-blocks – and perhaps it’s time to admit the system we have for keeping AI agents under control isn’t working particularly well.</p><p>The news about AI systems cropping up in places they shouldn’t sounds alarming. Though the description of these as “hacks” is perhaps overstating things, AI has exploited issues in IT systems that humans simply haven’t got around to finding. It’s also important to note that we shouldn’t be worried that the machines have suddenly become sentient and decided to <a href=\"https://www.theguardian.com/technology/2026/sep/09/ai-superintelligence-risks-warnings-scientists-politicians\">rebel against humanity</a>. There is not enough evidence to suggest that’s what is happening. The systems are simply following instructions and t",
+    "published": "2026-09-29T08:30:54+03:30"
+  },
+  {
     "id": "BBC World|us ban on canadian alcohol and dairy comes into effect as trade war drags on|https://www.bbc.co.uk/news/articles/cm1j43y146d2o",
     "title": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
     "url": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o",
@@ -1988,15 +1998,5 @@
     "summary": "The BBC’s China correspondent and US editor explain everything you need to know ahead of the Trump-Xi meeting in Washington DC.",
     "content": "The BBC’s China correspondent and US editor explain everything you need to know ahead of the Trump-Xi meeting in Washington DC.",
     "published": "2026-09-23T14:30:09+03:30"
-  },
-  {
-    "id": "BBC World|trump meets us-backed venezuelan president for first time since maduro seized|https://www.bbc.co.uk/news/articles/cj207y30wp0lo",
-    "title": "Trump meets US-backed Venezuelan president for first time since Maduro seized",
-    "url": "https://www.bbc.co.uk/news/articles/cj207y30wp0lo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Rodriguez was handpicked by Trump as leader of Venezuela was arrested and taken to the US",
-    "content": "Rodriguez was handpicked by Trump as leader of Venezuela was arrested and taken to the US",
-    "published": "2026-09-23T13:18:50+03:30"
   }
 ]
