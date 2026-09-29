@@ -1,5 +1,25 @@
 [
   {
+    "id": "BBC World|spain announces ban on evictions after protests over 87-year-old woman's removal from flat|https://www.bbc.co.uk/news/articles/cwm2qmjgy93do",
+    "title": "Spain announces ban on evictions after protests over 87-year-old woman's removal from flat",
+    "url": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The ban is part of a number of proposals that must be approved in parliament within 30 days.",
+    "content": "The ban is part of a number of proposals that must be approved in parliament within 30 days.",
+    "published": "2026-09-29T19:53:58+03:30"
+  },
+  {
+    "id": "BBC World|trump rules out joint us-china venture to develop ai|https://www.bbc.co.uk/news/articles/cwly5lmvy38qo",
+    "title": "Trump rules out joint US-China venture to develop AI",
+    "url": "https://www.bbc.co.uk/news/articles/cwly5lmvy38qo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The US president continues to push back on calls to establish guardrails around artificial intelligence, arguing it will stifle growth.",
+    "content": "The US president continues to push back on calls to establish guardrails around artificial intelligence, arguing it will stifle growth.",
+    "published": "2026-09-29T19:39:26+03:30"
+  },
+  {
     "id": "BBC World|dutch police arrest suspected member of group that claimed fbi hack|https://www.bbc.co.uk/news/articles/cw5ym18znr0ro",
     "title": "Dutch police arrest suspected member of group that claimed FBI hack",
     "url": "https://www.bbc.co.uk/news/articles/cw5ym18znr0ro",
@@ -1978,25 +1998,5 @@
     "summary": "The US treasury secretary said that the US and China had reached an agreement to extend a trade truce as Xi began his visit.",
     "content": "The US treasury secretary said that the US and China had reached an agreement to extend a trade truce as Xi began his visit.",
     "published": "2026-09-24T07:22:21+03:30"
-  },
-  {
-    "id": "The Guardian AI|albanese says openai agent hacked australia’s medicare and took months to disclose breach|https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
-    "title": "Albanese says OpenAI agent hacked Australia’s Medicare and took months to disclose breach",
-    "url": "https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Prime minister says he told Sam Altman he was disappointed it had taken OpenAI ‘way too long’ to disclose breach</p><p>Anthony Albanese says an artificial intelligence agent developed by OpenAI hacked Medicare in June and the tech giant notified the government earlier this month using an email sent to a “public mailbox”.</p><p>Australia’s prime minister made the comments at the UN summit in New York, saying it appeared no personal information had been accessed in the AI breach.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medi",
-    "content": "<p>Prime minister says he told Sam Altman he was disappointed it had taken OpenAI ‘way too long’ to disclose breach</p><p>Anthony Albanese says an artificial intelligence agent developed by OpenAI hacked Medicare in June and the tech giant notified the government earlier this month using an email sent to a “public mailbox”.</p><p>Australia’s prime minister made the comments at the UN summit in New York, saying it appeared no personal information had been accessed in the AI breach.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman\">Continue reading...</a>",
-    "published": "2026-09-24T05:36:05+03:30"
-  },
-  {
-    "id": "The Guardian AI|australia launches investigation after openai agent hacked health care database|https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
-    "title": "Australia launches investigation after OpenAI agent hacked health care database",
-    "url": "https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Prime minister says he told Sam Altman he was disappointed it had taken OpenAI ‘way too long’ to disclose breach</p><p>Anthony Albanese says an artificial intelligence agent developed by OpenAI hacked Medicare in June and the tech giant notified the government earlier this month using an email sent to a “public mailbox”.</p><p>Australia’s prime minister made the comments at the UN summit in New York, saying it appeared no personal information had been accessed in the AI breach.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medi",
-    "content": "<p>Prime minister says he told Sam Altman he was disappointed it had taken OpenAI ‘way too long’ to disclose breach</p><p>Anthony Albanese says an artificial intelligence agent developed by OpenAI hacked Medicare in June and the tech giant notified the government earlier this month using an email sent to a “public mailbox”.</p><p>Australia’s prime minister made the comments at the UN summit in New York, saying it appeared no personal information had been accessed in the AI breach.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman\">Continue reading...</a>",
-    "published": "2026-09-24T05:36:05+03:30"
   }
 ]
