@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|dutch police arrest suspected member of group that claimed fbi hack|https://www.bbc.co.uk/news/articles/cw5ym18znr0ro",
+    "title": "Dutch police arrest suspected member of group that claimed FBI hack",
+    "url": "https://www.bbc.co.uk/news/articles/cw5ym18znr0ro",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The suspect, 24, was arrested before the alleged cyber attack took place.",
+    "content": "The suspect, 24, was arrested before the alleged cyber attack took place.",
+    "published": "2026-09-29T19:10:10+03:30"
+  },
+  {
     "id": "The Guardian AI|trump touts new ai tool he claims will streamline government information access – us politics live|https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates",
     "title": "Trump touts new AI tool he claims will streamline government information access – US politics live",
     "url": "https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates",
@@ -1988,15 +1998,5 @@
     "summary": "<p>Prime minister says he told Sam Altman he was disappointed it had taken OpenAI ‘way too long’ to disclose breach</p><p>Anthony Albanese says an artificial intelligence agent developed by OpenAI hacked Medicare in June and the tech giant notified the government earlier this month using an email sent to a “public mailbox”.</p><p>Australia’s prime minister made the comments at the UN summit in New York, saying it appeared no personal information had been accessed in the AI breach.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medi",
     "content": "<p>Prime minister says he told Sam Altman he was disappointed it had taken OpenAI ‘way too long’ to disclose breach</p><p>Anthony Albanese says an artificial intelligence agent developed by OpenAI hacked Medicare in June and the tech giant notified the government earlier this month using an email sent to a “public mailbox”.</p><p>Australia’s prime minister made the comments at the UN summit in New York, saying it appeared no personal information had been accessed in the AI breach.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman\">Continue reading...</a>",
     "published": "2026-09-24T05:36:05+03:30"
-  },
-  {
-    "id": "BBC World|they were labelled 'pervert glasses'. will a camera-free version transform their image?|https://www.bbc.co.uk/news/articles/cwp80l0my1x2o",
-    "title": "They were labelled 'pervert glasses'. Will a camera-free version transform their image?",
-    "url": "https://www.bbc.co.uk/news/articles/cwp80l0my1x2o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Meta has unveiled audio-only smart glasses, with some questioning whether it is a response to the backlash over privacy.",
-    "content": "Meta has unveiled audio-only smart glasses, with some questioning whether it is a response to the backlash over privacy.",
-    "published": "2026-09-24T04:20:24+03:30"
   }
 ]
