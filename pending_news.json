@@ -1,5 +1,15 @@
 [
   {
+    "id": "ECB|christine lagarde: interview with la croix|https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260930~10084a5f3d.en.html",
+    "title": "Christine Lagarde: Interview with La Croix",
+    "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260930~10084a5f3d.en.html",
+    "source": "ECB",
+    "category": "اقتصاد و بازارها",
+    "summary": "",
+    "content": "",
+    "published": "2026-09-30T20:30:00+03:30"
+  },
+  {
     "id": "The Guardian AI|‘president of the unites states’: white house’s ai accord includes spelling error|https://www.theguardian.com/us-news/2026/sep/30/trump-ai-accord-spelling-error",
     "title": "‘President of the Unites States’: White House’s AI accord includes spelling error",
     "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-ai-accord-spelling-error",
@@ -1988,15 +1998,5 @@
     "summary": "CNN and MS NOW said reporters were denied access to covering White House arrivals for a state dinner, despite a judge ruling their passes must be restored.",
     "content": "CNN and MS NOW said reporters were denied access to covering White House arrivals for a state dinner, despite a judge ruling their passes must be restored.",
     "published": "2026-09-25T04:40:35+03:30"
-  },
-  {
-    "id": "The Guardian AI|news live: hume says ai hack shows australia needs more ai; albanese posts selfie with greek pm after trump controversy|https://www.theguardian.com/australia-news/live/2026/sep/25/anthony-albanese-open-ai-hack-united-nations-angus-taylor-coalition-ntwnfb",
-    "title": "News live: Hume says AI hack shows Australia needs more AI; Albanese posts selfie with Greek PM after Trump controversy",
-    "url": "https://www.theguardian.com/australia-news/live/2026/sep/25/anthony-albanese-open-ai-hack-united-nations-angus-taylor-coalition-ntwnfb",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Follow the day’s news live</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><strong>AI hack of Medicare exposes Australia’s vulnerabilities</strong></p><p>Technology experts have warned revelations an artificial intelligence agent hacked Medicare’s internal systems will not be the only dangerous breach of government data and have called for Austral",
-    "content": "<p>Follow the day’s news live</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><strong>AI hack of Medicare exposes Australia’s vulnerabilities</strong></p><p>Technology experts have warned revelations an artificial intelligence agent hacked Medicare’s internal systems will not be the only dangerous breach of government data and have called for Australia to boost its protections against the growing risk.</p><p>Frontier AI now has capability to expose those vulnerabilities at a rate quicker than we can keep up, quicker than we can patch them.</p><p>What if it was a less benign breach? What if it was a less benign actor? Let’s face it, clearly, Services Australia’s cybersecurity is woefully inadequate.</p><p>I mean the irony here is that you actually need AI to fight AI. This should hasten, if anything, our move over in the US to less finger wagging and Trump one-upmanship, and <strong>more about embracing these AI companies and bringing them",
-    "published": "2026-09-25T04:38:53+03:30"
   }
 ]
