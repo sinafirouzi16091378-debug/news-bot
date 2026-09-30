@@ -1,5 +1,25 @@
 [
   {
+    "id": "BBC World|crackdown on south africa's unsafe streets ordered by president to keep women safe|https://www.bbc.co.uk/news/articles/c51kx9ze1mdzo",
+    "title": "Crackdown on South Africa's unsafe streets ordered by president to keep women safe",
+    "url": "https://www.bbc.co.uk/news/articles/c51kx9ze1mdzo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The murders of 12 women near Johannesburg has caused a outcry about the scale of violence against women.",
+    "content": "The murders of 12 women near Johannesburg has caused a outcry about the scale of violence against women.",
+    "published": "2026-09-30T12:10:01+03:30"
+  },
+  {
+    "id": "BBC World|africa's richest man to launch kenya oil refinery despite land protests|https://www.bbc.co.uk/news/articles/cmkg8dpwy25po",
+    "title": "Africa's richest man to launch Kenya oil refinery despite land protests",
+    "url": "https://www.bbc.co.uk/news/articles/cmkg8dpwy25po",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The Kenya refinery is part of Dangote's ambitious bid to expand and help industralise Africa by 2030.",
+    "content": "The Kenya refinery is part of Dangote's ambitious bid to expand and help industralise Africa by 2030.",
+    "published": "2026-09-30T11:42:43+03:30"
+  },
+  {
     "id": "BBC World|israel-bound flight diverted after fight between pilots|https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno",
     "title": "Israel-bound flight diverted after fight between pilots",
     "url": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno",
@@ -1978,25 +1998,5 @@
     "summary": "<p>Is the scrutiny tech firms are facing making you rethink your children’s relationship with technology? Let us know</p><p>AI and social media companies have drawn intense scrutiny in recent months for some of the ways the technology they’re building operates, especially when it comes to their younger users.</p><p>Parents and regulators have accused companies like Meta of designing products that are addictive to younger users. AI developer OpenAI is facing dozens of lawsuits that allege its ChatGPT bot lacks safety guardrails. Now, in the last few weeks, employees of the biggest AI firms say ",
     "content": "<p>Is the scrutiny tech firms are facing making you rethink your children’s relationship with technology? Let us know</p><p>AI and social media companies have drawn intense scrutiny in recent months for some of the ways the technology they’re building operates, especially when it comes to their younger users.</p><p>Parents and regulators have accused companies like Meta of designing products that are addictive to younger users. AI developer OpenAI is facing dozens of lawsuits that allege its ChatGPT bot lacks safety guardrails. Now, in the last few weeks, employees of the biggest AI firms say the companies are more focused on competing with each other than building their AI models safely.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/24/parents-children-ai-social-media\">Continue reading...</a>",
     "published": "2026-09-24T19:29:08+03:30"
-  },
-  {
-    "id": "The Guardian AI|xi says china and us must ensure ai ‘is always under human control’ as trump touts ‘great friendship’ before white house talks – live|https://www.theguardian.com/us-news/live/2026/sep/24/trump-xi-jinping-china-ai-trade-summit-latest-news-updates",
-    "title": "Xi says China and US must ensure AI ‘is always under human control’ as Trump touts ‘great friendship’ before White House talks – live",
-    "url": "https://www.theguardian.com/us-news/live/2026/sep/24/trump-xi-jinping-china-ai-trade-summit-latest-news-updates",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Xi arrived at the White House on Thursday morning ahead of major talks, which are expected to cover trade, AI, Taiwan and more</p><p>In the first row in front of the leaders sit US vice-president <strong>JD Vance</strong> and his wife Usha Vance, Trump’s daughter Ivanka Trump and her daughter Arabella, US secretary of state <strong>Marco Rubio</strong>, treasury secretary <strong>Scott Bessent</strong>, defence secretary <strong>Pete Hegseth</strong> and commerce secretary <strong>Howard Lutnick</strong>.</p><p><strong>Donald Trump</strong> is speaking now. He notes that <strong>Xi</strong>",
-    "content": "<p>Xi arrived at the White House on Thursday morning ahead of major talks, which are expected to cover trade, AI, Taiwan and more</p><p>In the first row in front of the leaders sit US vice-president <strong>JD Vance</strong> and his wife Usha Vance, Trump’s daughter Ivanka Trump and her daughter Arabella, US secretary of state <strong>Marco Rubio</strong>, treasury secretary <strong>Scott Bessent</strong>, defence secretary <strong>Pete Hegseth</strong> and commerce secretary <strong>Howard Lutnick</strong>.</p><p><strong>Donald Trump</strong> is speaking now. He notes that <strong>Xi</strong> is the first Chinese leader to make a second formal visit to the White House, and says the two have “forged a truly great friendship” since Trump was first elected in 2016.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/sep/24/trump-xi-jinping-china-ai-trade-summit-latest-news-updates\">Continue reading...</a>",
-    "published": "2026-09-24T18:41:07+03:30"
-  },
-  {
-    "id": "The Guardian AI|ai hack of medicare exposes australia’s vulnerabilities and experts warn ‘there is more of this to come’|https://www.theguardian.com/australia-news/2026/sep/25/ai-hack-medicare-australia-vulnerabilities",
-    "title": "AI hack of Medicare exposes Australia’s vulnerabilities and experts warn ‘there is more of this to come’",
-    "url": "https://www.theguardian.com/australia-news/2026/sep/25/ai-hack-medicare-australia-vulnerabilities",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Council on AI Strategy chief says incident unlikely to be isolated and country should enhance capability to detect and report incidents</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>Technology experts have warned revelations an <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extr",
-    "content": "<p>Council on AI Strategy chief says incident unlikely to be isolated and country should enhance capability to detect and report incidents</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>Technology experts have warned revelations an <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman\">artificial intelligence agent hacked Medicare’s internal systems</a> will not be the only dangerous breach of government data and have called for Australia to boost its protections against the growing risk.</p><p>The prime minister, Anthony Albanese, challenged the OpenAI boss, Sam Altman, on Thursday after the company’s agent infiltrated systems run by the Australian Institute of Health and Welfare, Victoria’s Department of Health, the New South Wales Bureau of Crime Statistics and Research, and the Medicare statistics reporting service portal of Services Australia.</p",
-    "published": "2026-09-24T18:30:21+03:30"
   }
 ]
