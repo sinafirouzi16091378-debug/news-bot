@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|ukraine's prized steel industry left in ruins by russian missile campaign|https://www.bbc.co.uk/news/articles/cjkg7k6z9296o",
+    "title": "Ukraine's prized steel industry left in ruins by Russian missile campaign",
+    "url": "https://www.bbc.co.uk/news/articles/cjkg7k6z9296o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Ukraine's remaining steelworks, a vital part of its economy, have all but ground to a halt because of relentless attacks.",
+    "content": "Ukraine's remaining steelworks, a vital part of its economy, have all but ground to a halt because of relentless attacks.",
+    "published": "2026-09-30T03:03:34+03:30"
+  },
+  {
     "id": "The Guardian AI|trump announces vague ‘morally binding’ ai deal among tech ceos for ‘tremendous self-policing’|https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence",
     "title": "Trump announces vague ‘morally binding’ AI deal among tech CEOs for ‘tremendous self-policing’",
     "url": "https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence",
@@ -8,6 +18,16 @@
     "summary": "<p>US president also issued executive order officially rebranding ‘artificial intelligence’ as ‘superintelligence’ </p><p>Donald Trump announced on Tuesday that the heads of the largest US tech and AI companies had signed onto a “morally binding” agreement to put controls on artificial intelligence. He announced the deal, called the “Joint Commitment On Frontier Responsibilities,” following a White House luncheon with top tech executives.</p><p>“It’s almost like a constitution in a way, and the biggest ​people in the world signed that, and ​I signed it as president, and it really ⁠is a form of",
     "content": "<p>US president also issued executive order officially rebranding ‘artificial intelligence’ as ‘superintelligence’ </p><p>Donald Trump announced on Tuesday that the heads of the largest US tech and AI companies had signed onto a “morally binding” agreement to put controls on artificial intelligence. He announced the deal, called the “Joint Commitment On Frontier Responsibilities,” following a White House luncheon with top tech executives.</p><p>“It’s almost like a constitution in a way, and the biggest ​people in the world signed that, and ​I signed it as president, and it really ⁠is a form of protection,” Trump said.</p> <a href=\"https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence\">Continue reading...</a>",
     "published": "2026-09-30T02:51:25+03:30"
+  },
+  {
+    "id": "BBC World|chinese ai tool told researchers how to make bioweapons|https://www.bbc.co.uk/news/articles/cmrergq3j7lgo",
+    "title": "Chinese AI tool told researchers how to make bioweapons",
+    "url": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Mindgard said it discovered in July that Kimi models K2.6 and K3 Swarm could evade developer's safety limits.",
+    "content": "Mindgard said it discovered in July that Kimi models K2.6 and K3 Swarm could evade developer's safety limits.",
+    "published": "2026-09-30T02:45:29+03:30"
   },
   {
     "id": "BBC World|south africa to clean up high-risk areas after 12 women killed|https://www.bbc.co.uk/news/articles/c51kx9ze1mdzo",
@@ -1978,25 +1998,5 @@
     "summary": "India's polling monitor is facing yet another crisis of credibility with fresh allegations against its chief.",
     "content": "India's polling monitor is facing yet another crisis of credibility with fresh allegations against its chief.",
     "published": "2026-09-24T11:56:19+03:30"
-  },
-  {
-    "id": "The Guardian AI|openai’s medicare hack is a bleak opportunity for australia to address its security shortcomings post-haste | van badham|https://www.theguardian.com/commentisfree/2026/sep/24/open-ai-medicare-records-hacked-australia-cyber-security",
-    "title": "OpenAI’s Medicare hack is a bleak opportunity for Australia to address its security shortcomings post-haste | Van Badham",
-    "url": "https://www.theguardian.com/commentisfree/2026/sep/24/open-ai-medicare-records-hacked-australia-cyber-security",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>All Australians should demand independent means to protect ourselves from Dr Sam Altman Frankenstein and Daddy America</p><p>Whoopsie! Dr Sam Altman Frankenstein regrets to inform you he’s lost control of his OpenAI monster.</p><p>It’s roving around doing things that provoke <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman\">international legal investigation</a>, and Australia has found out in the worst possible way.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/24/open-ai-medicare-",
-    "content": "<p>All Australians should demand independent means to protect ourselves from Dr Sam Altman Frankenstein and Daddy America</p><p>Whoopsie! Dr Sam Altman Frankenstein regrets to inform you he’s lost control of his OpenAI monster.</p><p>It’s roving around doing things that provoke <a href=\"https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman\">international legal investigation</a>, and Australia has found out in the worst possible way.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/24/open-ai-medicare-records-hacked-australia-cyber-security\">Continue reading...</a>",
-    "published": "2026-09-24T10:57:31+03:30"
-  },
-  {
-    "id": "BBC World|rogue openai agent 'infiltrated' australian government website in world first|https://www.bbc.co.uk/news/articles/c6vgy0333dppo",
-    "title": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-    "url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Australia criticised OpenAI for taking \"too long\" to tell them about the breach which happened in June.",
-    "content": "Australia criticised OpenAI for taking \"too long\" to tell them about the breach which happened in June.",
-    "published": "2026-09-24T10:40:58+03:30"
   }
 ]
