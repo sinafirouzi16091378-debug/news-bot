@@ -1,5 +1,35 @@
 [
   {
+    "id": "BBC World|botswana condemned for slaughtering elephants for independence celebrations|https://www.bbc.co.uk/news/articles/cxm2qmpy57ggo",
+    "title": "Botswana condemned for slaughtering elephants for independence celebrations",
+    "url": "https://www.bbc.co.uk/news/articles/cxm2qmpy57ggo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The government authorises the hunting of 23 elephants and dozens of other wild animals for independence day feasts.",
+    "content": "The government authorises the hunting of 23 elephants and dozens of other wild animals for independence day feasts.",
+    "published": "2026-09-30T15:36:28+03:30"
+  },
+  {
+    "id": "BBC World|russia launches largest attack on ukraine energy infrastructure since spring|https://www.bbc.co.uk/news/articles/ckjw5jx2l393o",
+    "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
+    "url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "At least six people were killed and 33 others injured across the country in the overnight attacks, local authorities reported.",
+    "content": "At least six people were killed and 33 others injured across the country in the overnight attacks, local authorities reported.",
+    "published": "2026-09-30T15:17:27+03:30"
+  },
+  {
+    "id": "BBC World|last uk and us troops leave iraq as anti-islamic state mission ends|https://www.bbc.co.uk/news/articles/c65ym1dyn92mo",
+    "title": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
+    "url": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The withdrawal of coalition forces, under a deal agreed two years ago, was a key demand of the Iraqi government.",
+    "content": "The withdrawal of coalition forces, under a deal agreed two years ago, was a key demand of the Iraqi government.",
+    "published": "2026-09-30T15:06:23+03:30"
+  },
+  {
     "id": "The Guardian AI|ai tool that copied actor’s ‘lustrous’ voice violated his rights, says tokyo court|https://www.theguardian.com/technology/2026/sep/30/ai-tool-copied-actor-kenjiro-tsuda-tokyo-court",
     "title": "AI tool that copied actor’s ‘lustrous’ voice violated his rights, says Tokyo court",
     "url": "https://www.theguardian.com/technology/2026/sep/30/ai-tool-copied-actor-kenjiro-tsuda-tokyo-court",
@@ -1968,35 +1998,5 @@
     "summary": "Pakistan says it struck 10 targets, adding the strikes were \"strictly limited to identified military objectives\".",
     "content": "Pakistan says it struck 10 targets, adding the strikes were \"strictly limited to identified military objectives\".",
     "published": "2026-09-24T22:32:36+03:30"
-  },
-  {
-    "id": "Federal Reserve|federal reserve board requests public comment on two proposals related to establishing a regulatory framework for board-supervised payment stablecoin issuers under the genius act|https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
-    "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-    "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
-    "source": "Federal Reserve",
-    "category": "اقتصاد و بازارها",
-    "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-    "content": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-    "published": "2026-09-24T22:00:00+03:30"
-  },
-  {
-    "id": "BBC World|watch: un delegates walk out of netanyahu speech|https://www.bbc.co.uk/news/videos/cqwyzmpm3pgdo",
-    "title": "Watch: UN delegates walk out of Netanyahu speech",
-    "url": "https://www.bbc.co.uk/news/videos/cqwyzmpm3pgdo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The Israeli delegation could be be seen cheering in support during Netanyahu's speech.",
-    "content": "The Israeli delegation could be be seen cheering in support during Netanyahu's speech.",
-    "published": "2026-09-24T21:59:29+03:30"
-  },
-  {
-    "id": "BBC World|why australia chose the world's biggest political stage to reveal openai hack|https://www.bbc.co.uk/news/articles/cr3eqk15ld14o",
-    "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-    "url": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
-    "content": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
-    "published": "2026-09-24T21:36:40+03:30"
   }
 ]
