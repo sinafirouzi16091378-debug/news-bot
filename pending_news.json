@@ -1,5 +1,25 @@
 [
   {
+    "id": "BBC World|flydubai passenger describes hugging his children as plane nosedived during attack|https://www.bbc.co.uk/news/articles/c6d949ydnw3po",
+    "title": "Flydubai passenger describes hugging his children as plane nosedived during attack",
+    "url": "https://www.bbc.co.uk/news/articles/c6d949ydnw3po",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Adam Polovincik tells the BBC he told his young children \"everything is going to be all right\" as flight plunged more than 17,000ft (5,200m).",
+    "content": "Adam Polovincik tells the BBC he told his young children \"everything is going to be all right\" as flight plunged more than 17,000ft (5,200m).",
+    "published": "2026-10-01T17:04:37+03:30"
+  },
+  {
+    "id": "ECB|christine lagarde: where ai risks meet|https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001~cf3c630379.en.html",
+    "title": "Christine Lagarde: Where AI risks meet",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001~cf3c630379.en.html",
+    "source": "ECB",
+    "category": "اقتصاد و بازارها",
+    "summary": "",
+    "content": "",
+    "published": "2026-10-01T17:00:00+03:30"
+  },
+  {
     "id": "BBC World|what happened in failed execution of christa pike - and what next?|https://www.bbc.co.uk/news/articles/ckge4eql4q7eo",
     "title": "What happened in failed execution of Christa Pike - and what next?",
     "url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo",
@@ -8,6 +28,16 @@
     "summary": "The convicted killer is in hospital in Tennessee after surviving two lethal injections, in a case that has raised many questions.",
     "content": "The convicted killer is in hospital in Tennessee after surviving two lethal injections, in a case that has raised many questions.",
     "published": "2026-10-01T16:21:14+03:30"
+  },
+  {
+    "id": "BBC World|watch: why are students protesting at schools in france?|https://www.bbc.co.uk/news/videos/cwy8z8rney97o",
+    "title": "Watch: Why are students protesting at schools in France?",
+    "url": "https://www.bbc.co.uk/news/videos/cwy8z8rney97o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The BBC's Hugh Schofield is in Paris as a wave of school protests over overcrowded classes and teacher shortages spreads across France.",
+    "content": "The BBC's Hugh Schofield is in Paris as a wave of school protests over overcrowded classes and teacher shortages spreads across France.",
+    "published": "2026-10-01T16:01:18+03:30"
   },
   {
     "id": "BBC World|kanye west's russia shows officially cancelled after weeks of uncertainty|https://www.bbc.co.uk/news/articles/cm74k417wpjxo",
@@ -1968,35 +1998,5 @@
     "summary": "<p>Pontiff continues to decry the rise of AI on his visit to France, stressing the importance of retaining 'ethical discernment' in an age when rapidly advancing technology threatens to undermine humanity</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/sep/25/pope-leo-france-paris-notre-dame-metz-ai-europe-latest-news-updates?CMP=share_btn_url&amp;page=with%3Ablock-6ab67bba8f089b24256fe8a0#block-6ab67bba8f089b24256fe8a0\">Europe live</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/sep/25/pope-leo-ai-threat-to-humanity-three-day-france-visit\">Pope Leo warns ",
     "content": "<p>Pontiff continues to decry the rise of AI on his visit to France, stressing the importance of retaining 'ethical discernment' in an age when rapidly advancing technology threatens to undermine humanity</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/sep/25/pope-leo-france-paris-notre-dame-metz-ai-europe-latest-news-updates?CMP=share_btn_url&amp;page=with%3Ablock-6ab67bba8f089b24256fe8a0#block-6ab67bba8f089b24256fe8a0\">Europe live</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/sep/25/pope-leo-ai-threat-to-humanity-three-day-france-visit\">Pope Leo warns of AI threat to humanity at start of three-day France visit</a></p></li></ul> <a href=\"https://www.theguardian.com/world/video/2026/sep/25/pope-leo-ai-warning-paris\">Continue reading...</a>",
     "published": "2026-09-25T20:19:55+03:30"
-  },
-  {
-    "id": "BBC World|supreme court revives controversial us data system for citizenship checks|https://www.bbc.co.uk/news/articles/ck05rrj3jeylo",
-    "title": "Supreme Court revives controversial US data system for citizenship checks",
-    "url": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The system uses citizenship information and other sensitive data to filter alleged non-citizen voting.",
-    "content": "The system uses citizenship information and other sensitive data to filter alleged non-citizen voting.",
-    "published": "2026-09-25T20:05:01+03:30"
-  },
-  {
-    "id": "The Guardian AI|the dark art of maths and the ai revolution | letter|https://www.theguardian.com/technology/2026/sep/25/the-dark-art-of-maths-and-the-ai-revolution",
-    "title": "The dark art of maths and the AI revolution | Letter",
-    "url": "https://www.theguardian.com/technology/2026/sep/25/the-dark-art-of-maths-and-the-ai-revolution",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p><strong>Bev Littlewood </strong>reminds us that mathematics has been the prime driver of the rise in AI, in response to an editorial</p><p>You report in your leader that some mathematicians feel discomfiture at the AI solution to a Navier-Stokes problem (<a href=\"https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that\">The Guardian view on AI v mathematicians: humans are still vital to the field, but tech firms refuse to see that, 20 September</a>). I fear that they have been hoist b",
-    "content": "<p><strong>Bev Littlewood </strong>reminds us that mathematics has been the prime driver of the rise in AI, in response to an editorial</p><p>You report in your leader that some mathematicians feel discomfiture at the AI solution to a Navier-Stokes problem (<a href=\"https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that\">The Guardian view on AI v mathematicians: humans are still vital to the field, but tech firms refuse to see that, 20 September</a>). I fear that they have been hoist by their own petard: mathematics, after all, has been the prime mover of the AI revolution.</p><p>As a somewhat lowly mathematician, let me remind others of the famous quote of Augustine: “The good Christian should beware the mathematician and all those who make empty promises. The danger already exists that the mathematicians have made a covenant with the devil to darken the spirit and to confine man in the bonds of hell.”</p> <a href=\"https://www.theguardian.com/technology/2026/sep/25/the-dark-art-of-maths-and-the-ai-revolution\">Continue reading...</a>",
-    "published": "2026-09-25T19:58:05+03:30"
-  },
-  {
-    "id": "The Guardian AI|nsw crackdown on ‘ai-doctored’ real estate listings hits mural-covered wall|https://www.theguardian.com/australia-news/2026/sep/26/nsw-crackdown-on-ai-doctored-real-estate-listings-hits-mural-covered-wall",
-    "title": "NSW crackdown on ‘AI-doctored’ real estate listings hits mural-covered wall",
-    "url": "https://www.theguardian.com/australia-news/2026/sep/26/nsw-crackdown-on-ai-doctored-real-estate-listings-hits-mural-covered-wall",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Apartment with strange view singled out in government’s fight against deceptive ads – but real estate agent says photo is no fake</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">new political email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>The New South Wales government’s crackdown on “AI-doctored” rental listings has hit a wall, after it made an example of a supposedly manipulated ad that turned out to be a",
-    "content": "<p>Apartment with strange view singled out in government’s fight against deceptive ads – but real estate agent says photo is no fake</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">new political email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>The New South Wales government’s crackdown on “AI-doctored” rental listings has hit a wall, after it made an example of a supposedly manipulated ad that turned out to be a genuine photograph of a $5,000 courtyard mural of Bondi beach.</p><p>In a media release on Friday announcing protections against misleading rental ads, the state government provided a link to a property in Leichhardt, claiming it was an “AI-doctored rental listing in Sydney’s Inner West”.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/26/nsw-crackdown-on-ai-doctored-real-estate-listings-hits-mural-covered-wall\">Continue reading...</a>",
-    "published": "2026-09-25T18:30:10+03:30"
   }
 ]
