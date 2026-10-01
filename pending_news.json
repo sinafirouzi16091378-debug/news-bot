@@ -50,6 +50,16 @@
     "published": "2026-10-01T09:04:41+03:30"
   },
   {
+    "id": "BBC World|k-pop star convicted of violating military service law|https://www.bbc.co.uk/news/articles/cjn5d52d3lk5o",
+    "title": "K-pop star convicted of violating military service law",
+    "url": "https://www.bbc.co.uk/news/articles/cjn5d52d3lk5o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The member of K-pop band Winner was given a suspended prison sentence for repeated absences from his national service work.",
+    "content": "The member of K-pop band Winner was given a suspended prison sentence for repeated absences from his national service work.",
+    "published": "2026-10-01T08:54:10+03:30"
+  },
+  {
     "id": "BBC World|plummeting israel flight like 'rollercoaster', says passenger|https://www.bbc.co.uk/news/videos/cwm2r2v42vdeo",
     "title": "Plummeting Israel flight like 'rollercoaster', says passenger",
     "url": "https://www.bbc.co.uk/news/videos/cwm2r2v42vdeo",
@@ -88,6 +98,16 @@
     "summary": "A pilot who stabbed another pilot on an Israel-bound plane is under investigation in Saudi Arabia, Benjamin Netanyahu says.",
     "content": "A pilot who stabbed another pilot on an Israel-bound plane is under investigation in Saudi Arabia, Benjamin Netanyahu says.",
     "published": "2026-10-01T07:13:06+03:30"
+  },
+  {
+    "id": "BBC World|japan raises permanent residency fee by 20 times|https://www.bbc.co.uk/news/articles/c6y8z8xeg8j1o",
+    "title": "Japan raises permanent residency fee by 20 times",
+    "url": "https://www.bbc.co.uk/news/articles/c6y8z8xeg8j1o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The hikes are part of immigration policy changes introduced to manage Japan's growing foreign population.",
+    "content": "The hikes are part of immigration policy changes introduced to manage Japan's growing foreign population.",
+    "published": "2026-10-01T06:27:43+03:30"
   },
   {
     "id": "The Guardian AI|how ai could ‘supercharge’ election risks across south-east asia|https://www.theguardian.com/technology/2026/oct/01/how-ai-could-supercharge-fake-news-elections-south-east-asia",
@@ -130,8 +150,28 @@
     "published": "2026-10-01T03:38:23+03:30"
   },
   {
+    "id": "BBC World|cornell case spotlights 'confusing' web of systems for reporting campus assaults|https://www.bbc.co.uk/news/articles/crpd0wdnlgxno",
+    "title": "Cornell case spotlights 'confusing' web of systems for reporting campus assaults",
+    "url": "https://www.bbc.co.uk/news/articles/crpd0wdnlgxno",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Victims often have to navigate both university and local law enforcement processes to find justice.",
+    "content": "Victims often have to navigate both university and local law enforcement processes to find justice.",
+    "published": "2026-10-01T03:23:54+03:30"
+  },
+  {
     "id": "BBC World|the children dying in india's remote tribal heartland|https://www.bbc.co.uk/news/articles/cmn9wr84v1qno",
     "title": "The children dying in India's remote tribal heartland",
+    "url": "https://www.bbc.co.uk/news/articles/cmn9wr84v1qno",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "At least 32 children have died in India's Balaghat district since May amid outbreaks of measles and malaria.",
+    "content": "At least 32 children have died in India's Balaghat district since May amid outbreaks of measles and malaria.",
+    "published": "2026-10-01T03:11:34+03:30"
+  },
+  {
+    "id": "BBC World|inside india's forest villages, where a dangerous mix of crises led to 32 child deaths|https://www.bbc.co.uk/news/articles/cmn9wr84v1qno",
+    "title": "Inside India's forest villages, where a dangerous mix of crises led to 32 child deaths",
     "url": "https://www.bbc.co.uk/news/articles/cmn9wr84v1qno",
     "source": "BBC World",
     "category": "جهان",
@@ -1958,45 +1998,5 @@
     "summary": "<p>This blog is now closed</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><strong>AI hack of Medicare exposes Australia’s vulnerabilities</strong></p><p>Technology experts have warned revelations an artificial intelligence agent hacked Medicare’s internal systems will not be the only dangerous breach of government data and have called for Australia ",
     "content": "<p>This blog is now closed</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><strong>AI hack of Medicare exposes Australia’s vulnerabilities</strong></p><p>Technology experts have warned revelations an artificial intelligence agent hacked Medicare’s internal systems will not be the only dangerous breach of government data and have called for Australia to boost its protections against the growing risk.</p><p>Frontier AI now has capability to expose those vulnerabilities at a rate quicker than we can keep up, quicker than we can patch them.</p><p>What if it was a less benign breach? What if it was a less benign actor? Let’s face it, clearly, Services Australia’s cybersecurity is woefully inadequate.</p><p>I mean the irony here is that you actually need AI to fight AI. This should hasten, if anything, our move over in the US to less finger wagging and Trump one-upmanship, and <strong>more about embracing these AI companies and bringing them he",
     "published": "2026-09-25T10:26:14+03:30"
-  },
-  {
-    "id": "BBC World|africa's richest man helps fund $660m fuel pipeline between ethiopia and djibouti|https://www.bbc.co.uk/news/articles/c6z9z7lv41wgo",
-    "title": "Africa's richest man helps fund $660m fuel pipeline between Ethiopia and Djibouti",
-    "url": "https://www.bbc.co.uk/news/articles/c6z9z7lv41wgo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The pipeline would strengthen energy security in landlocked Ethiopia, while creating jobs at Djibouti's port.",
-    "content": "The pipeline would strengthen energy security in landlocked Ethiopia, while creating jobs at Djibouti's port.",
-    "published": "2026-09-25T10:18:07+03:30"
-  },
-  {
-    "id": "The Guardian AI|australia news live: pm says he learned of openai’s medicare breach in new york; retrial date set in yung filly rape case|https://www.theguardian.com/australia-news/live/2026/sep/25/anthony-albanese-open-ai-hack-united-nations-angus-taylor-coalition-ntwnfb",
-    "title": "Australia news live: PM says he learned of OpenAI’s Medicare breach in New York; retrial date set in Yung Filly rape case",
-    "url": "https://www.theguardian.com/australia-news/live/2026/sep/25/anthony-albanese-open-ai-hack-united-nations-angus-taylor-coalition-ntwnfb",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Follow the day’s news live</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><strong>AI hack of Medicare exposes Australia’s vulnerabilities</strong></p><p>Technology experts have warned revelations an artificial intelligence agent hacked Medicare’s internal systems will not be the only dangerous breach of government data and have called for Austral",
-    "content": "<p>Follow the day’s news live</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><strong>AI hack of Medicare exposes Australia’s vulnerabilities</strong></p><p>Technology experts have warned revelations an artificial intelligence agent hacked Medicare’s internal systems will not be the only dangerous breach of government data and have called for Australia to boost its protections against the growing risk.</p><p>Frontier AI now has capability to expose those vulnerabilities at a rate quicker than we can keep up, quicker than we can patch them.</p><p>What if it was a less benign breach? What if it was a less benign actor? Let’s face it, clearly, Services Australia’s cybersecurity is woefully inadequate.</p><p>I mean the irony here is that you actually need AI to fight AI. This should hasten, if anything, our move over in the US to less finger wagging and Trump one-upmanship, and <strong>more about embracing these AI companies and bringing them",
-    "published": "2026-09-25T10:16:08+03:30"
-  },
-  {
-    "id": "BBC World|us and china must act as responsible powers together, xi says as trump toasts friendship at state dinner|https://www.bbc.co.uk/news/articles/cxq63dqp93n1o",
-    "title": "US and China must act as responsible powers together, Xi says as Trump toasts friendship at state dinner",
-    "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Trump said he and Xi had \"never gotten along better\" as he hosted the Chinese president at the lavish White House event.",
-    "content": "Trump said he and Xi had \"never gotten along better\" as he hosted the Chinese president at the lavish White House event.",
-    "published": "2026-09-25T10:10:18+03:30"
-  },
-  {
-    "id": "The Guardian AI|pm rejects ‘nonsense’ suggestion he delayed revealing openai medicare hack as labor considers changing laws|https://www.theguardian.com/australia-news/2026/sep/25/wake-up-call-labor-considers-changing-australian-laws-after-openai-medicare-hack",
-    "title": "PM rejects ‘nonsense’ suggestion he delayed revealing OpenAI Medicare hack as Labor considers changing laws",
-    "url": "https://www.theguardian.com/australia-news/2026/sep/25/wake-up-call-labor-considers-changing-australian-laws-after-openai-medicare-hack",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Expert says Australia’s criminal laws should be clarified to determine how fault is applied to a corporation when its AI agent commits a crime</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">new political email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>The federal government could change Australian laws if the current legal framework could not respond to the unprecedented OpenAI hack of Medicare, ministers h",
-    "content": "<p>Expert says Australia’s criminal laws should be clarified to determine how fault is applied to a corporation when its AI agent commits a crime</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">new political email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>The federal government could change Australian laws if the current legal framework could not respond to the unprecedented OpenAI hack of Medicare, ministers have confirmed.</p><p>It comes as the prime minister denied accusations from the opposition he had held onto the information before announcing it at the UN general assembly in New York, and said it was released at the first possible opportunity.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/25/wake-up-call-labor-considers-changing-australian-laws-after-openai-medicare-hack\">Continue reading...</a>",
-    "published": "2026-09-25T09:27:17+03:30"
   }
 ]
