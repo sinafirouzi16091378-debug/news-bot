@@ -1,5 +1,15 @@
 [
   {
+    "id": "The Guardian AI|anthropic pushes for opt-out model for australian content as abc warns of ‘cannibalisation’ of news|https://www.theguardian.com/technology/2026/oct/02/anthropic-ai-opt-out-australia-copyright-abc-cannibalisation-of-news",
+    "title": "Anthropic pushes for opt-out model for Australian content as ABC warns of ‘cannibalisation’ of news",
+    "url": "https://www.theguardian.com/technology/2026/oct/02/anthropic-ai-opt-out-australia-copyright-abc-cannibalisation-of-news",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Maker of Claude claims AI could transform economy but ABC and SBS say the technology should be subject to media regulations</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">new political email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>AI giant Anthropic has urged the Albanese government to consider giving “conditional approval” for big tech to train its models on Australian copyrighted works under an opt-out ",
+    "content": "<p>Maker of Claude claims AI could transform economy but ABC and SBS say the technology should be subject to media regulations</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">new political email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>AI giant Anthropic has urged the Albanese government to consider giving “conditional approval” for big tech to train its models on Australian copyrighted works under an opt-out model, after conceding it won’t secure a blanket copyright exemption.</p><p>But Australia’s public broadcasters, the ABC and SBS, have strongly criticised AI firms, calling on the government to enact strict new rules to compensate media organisations and protect public interest journalism.</p><p><strong><a href=\"https://www.theguardian.com/australia-news/2026/aug/28/politics-really-newsletter-guardian-australia-free-best-daily-auspol-email-subscribe?CMP=copyembed\">Sign up for Guardian Australia’s Politics, really newsletter here</a></strong></p> <a href=\"https://www.theguardian.com/technology/",
+    "published": "2026-10-01T18:30:53+03:30"
+  },
+  {
     "id": "BBC World|russian dissident garry kasparov says us warned him of danger to his life|https://www.bbc.co.uk/news/articles/c6y8z8kr5mk8o",
     "title": "Russian dissident Garry Kasparov says US warned him of danger to his life",
     "url": "https://www.bbc.co.uk/news/articles/c6y8z8kr5mk8o",
@@ -1988,15 +1998,5 @@
     "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
     "content": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
     "published": "2026-09-25T21:32:55+03:30"
-  },
-  {
-    "id": "BBC World|supreme court allows trump to use controversial database to check voter citizenship|https://www.bbc.co.uk/news/articles/ck05rrj3jeylo",
-    "title": "Supreme Court allows Trump to use controversial database to check voter citizenship",
-    "url": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Critics have questioned the reliability of the data, warning it could  result in US citizens being wrongly removed from electoral rolls.",
-    "content": "Critics have questioned the reliability of the data, warning it could  result in US citizens being wrongly removed from electoral rolls.",
-    "published": "2026-09-25T21:02:15+03:30"
   }
 ]
