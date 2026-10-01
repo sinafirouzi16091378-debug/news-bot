@@ -1,5 +1,15 @@
 [
   {
+    "id": "The Guardian AI|forget ‘superintelligence’: error-prone ai nearly sparked world war three this month | timnit gebru and emily m bender|https://www.theguardian.com/commentisfree/2026/oct/01/forget-superintelligence-error-prone-ai-nearly-sparked-world-war-iii-this-month",
+    "title": "Forget ‘superintelligence’: error-prone AI nearly sparked world war three this month | Timnit Gebru and Emily M Bender",
+    "url": "https://www.theguardian.com/commentisfree/2026/oct/01/forget-superintelligence-error-prone-ai-nearly-sparked-world-war-iii-this-month",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>The risks of AI aren’t what we think they are, as a recent security incident between China and the United States reveals</p><p>Amid a barrage of news stories warning about superintelligent machines rendering humanity extinct, a CNN story describing the opposite scenario – one in which the US military’s reliance on brittle chatbots almost brought the US into war with China – went mostly unnoticed by the public.</p><p>The biggest international AI news of the past three weeks was Anthropic engineer Jacob Coxon’s resignation. According to him, OpenAI and Anthropic are “racing straight towards s",
+    "content": "<p>The risks of AI aren’t what we think they are, as a recent security incident between China and the United States reveals</p><p>Amid a barrage of news stories warning about superintelligent machines rendering humanity extinct, a CNN story describing the opposite scenario – one in which the US military’s reliance on brittle chatbots almost brought the US into war with China – went mostly unnoticed by the public.</p><p>The biggest international AI news of the past three weeks was Anthropic engineer Jacob Coxon’s resignation. According to him, OpenAI and Anthropic are “racing straight towards self-improving superintelligence and gambling with our lives”. Coxon’s description of a “terminator” scenario, a machine becoming much smarter than humanity and deciding to wipe us out, captured the public, journalists’ and politicians’ attention, stirring waves of fear-inducing, credulous reporting, and policy actions.</p><p>Timnit Gebru is executive director of Dair and author of the forthcoming book <a href=\"https://urldefense.com/v3/__https://www.simonandschuster.com/books/Deep-Unlearning/Timnit-Gebru/9781668093078__;!!K-Hz7m0Vt54!nem3BjhbkuHcDDUYCSShlF7Q2tEqs1aE95DWuoZ2RIaYUfRPFEjZz_kQE9pq",
+    "published": "2026-10-01T12:30:33+03:30"
+  },
+  {
     "id": "BBC World|too early to say if iran involved in dubai-tel aviv flight attack, israeli pm says|https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo",
     "title": "Too early to say if Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
     "url": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo",
@@ -1988,15 +1998,5 @@
     "summary": "<p>Expert says Australia’s criminal laws should be clarified to determine how fault is applied to a corporation when its AI agent commits a crime</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">new political email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>The federal government could change Australian laws if the current legal framework could not respond to the unprecedented OpenAI hack of Medicare, ministers h",
     "content": "<p>Expert says Australia’s criminal laws should be clarified to determine how fault is applied to a corporation when its AI agent commits a crime</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">new political email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>The federal government could change Australian laws if the current legal framework could not respond to the unprecedented OpenAI hack of Medicare, ministers have confirmed.</p><p>It comes as the prime minister denied accusations from the opposition he had held onto the information before announcing it at the UN general assembly in New York, and said it was released at the first possible opportunity.</p> <a href=\"https://www.theguardian.com/australia-news/2026/sep/25/wake-up-call-labor-considers-changing-australian-laws-after-openai-medicare-hack\">Continue reading...</a>",
     "published": "2026-09-25T09:27:17+03:30"
-  },
-  {
-    "id": "BBC World|pomp and toasts: day 2 of trump and xi in dc|https://www.bbc.co.uk/news/videos/c9lykxx5zp70o",
-    "title": "Pomp and toasts: Day 2 of Trump and Xi in DC",
-    "url": "https://www.bbc.co.uk/news/videos/c9lykxx5zp70o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Xi’s first visit to Washington in a decade was a display of pomp and pageantry, with Trump offering his guest a two-month truce on the brewing tariff war.",
-    "content": "Xi’s first visit to Washington in a decade was a display of pomp and pageantry, with Trump offering his guest a two-month truce on the brewing tariff war.",
-    "published": "2026-09-25T09:24:07+03:30"
   }
 ]
