@@ -1,5 +1,25 @@
 [
   {
+    "id": "BBC World|netanyahu says flight attacker 'underwent islamist radical indoctrination'|https://www.bbc.co.uk/news/articles/crje8edqyej9o",
+    "title": "Netanyahu says flight attacker 'underwent Islamist radical indoctrination'",
+    "url": "https://www.bbc.co.uk/news/articles/crje8edqyej9o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
+    "content": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
+    "published": "2026-10-01T19:08:13+03:30"
+  },
+  {
+    "id": "ECB|isabel schnabel: central banks on-chain|https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001_1~a0be67193b.en.pdf",
+    "title": "Isabel Schnabel: Central banks on-chain",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001_1~a0be67193b.en.pdf",
+    "source": "ECB",
+    "category": "اقتصاد و بازارها",
+    "summary": "",
+    "content": "",
+    "published": "2026-10-01T19:00:00+03:30"
+  },
+  {
     "id": "The Guardian AI|anthropic pushes for opt-out model for australian content as abc warns of ‘cannibalisation’ of news|https://www.theguardian.com/technology/2026/oct/02/anthropic-ai-opt-out-australia-copyright-abc-cannibalisation-of-news",
     "title": "Anthropic pushes for opt-out model for Australian content as ABC warns of ‘cannibalisation’ of news",
     "url": "https://www.theguardian.com/technology/2026/oct/02/anthropic-ai-opt-out-australia-copyright-abc-cannibalisation-of-news",
@@ -1978,25 +1998,5 @@
     "summary": "US TV news coverage of the White House returns to normal after a judge lifted Trump's ban of three news outlets.",
     "content": "US TV news coverage of the White House returns to normal after a judge lifted Trump's ban of three news outlets.",
     "published": "2026-09-25T22:06:30+03:30"
-  },
-  {
-    "id": "BBC World|trump's plans for massive arch move ahead|https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo",
-    "title": "Trump's plans for massive arch move ahead",
-    "url": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Opposition to building the 250-foot arch, and using it for military purposes, is growing with one Democrat blasting Trump's plans as \"foolhardy\".",
-    "content": "Opposition to building the 250-foot arch, and using it for military purposes, is growing with one Democrat blasting Trump's plans as \"foolhardy\".",
-    "published": "2026-09-25T21:57:46+03:30"
-  },
-  {
-    "id": "BBC World|zelensky says russia has widened attacks to hit ukraine's data centres|https://www.bbc.co.uk/news/articles/c84gkwgk7d06o",
-    "title": "Zelensky says Russia has widened attacks to hit Ukraine's data centres",
-    "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
-    "content": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
-    "published": "2026-09-25T21:32:55+03:30"
   }
 ]
