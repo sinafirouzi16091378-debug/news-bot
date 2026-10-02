@@ -1,5 +1,15 @@
 [
   {
+    "id": "ECB|decisions taken by the governing council of the ecb (in addition to decisions setting interest rates)|https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html",
+    "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+    "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html",
+    "source": "ECB",
+    "category": "اقتصاد و بازارها",
+    "summary": "",
+    "content": "",
+    "published": "2026-10-02T16:30:00+03:30"
+  },
+  {
     "id": "ECB|boris vujčić: resilience, integration and competitiveness: building the future of european banking|https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261002_1~419efe18e0.en.html",
     "title": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
     "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261002_1~419efe18e0.en.html",
@@ -1988,15 +1998,5 @@
     "summary": "Voters are turning away from the centre in Germany as fears grow about the economy and migration.",
     "content": "Voters are turning away from the centre in Germany as fears grow about the economy and migration.",
     "published": "2026-09-26T02:38:02+03:30"
-  },
-  {
-    "id": "BBC World|inside the fbi hack: agents fearful and angry after 'dangerous' data breach|https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo",
-    "title": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
-    "url": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Current and former agents speak to the BBC about the devastating impact of the FBI hack.",
-    "content": "Current and former agents speak to the BBC about the devastating impact of the FBI hack.",
-    "published": "2026-09-26T02:35:40+03:30"
   }
 ]
