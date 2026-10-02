@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|hawaii's iconic 550-year-old hōlei sea arch collapses|https://www.bbc.co.uk/news/articles/crd6dy4xepgyo",
+    "title": "Hawaii's iconic 550-year-old Hōlei Sea Arch collapses",
+    "url": "https://www.bbc.co.uk/news/articles/crd6dy4xepgyo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The lava rock formation protruding from the rocky cliffs of Volcanoes National Park crumbled some time last weekend.",
+    "content": "The lava rock formation protruding from the rocky cliffs of Volcanoes National Park crumbled some time last weekend.",
+    "published": "2026-10-03T00:30:41+03:30"
+  },
+  {
     "id": "Federal Reserve|federal reserve board announces approval of application by fleur capital corporation|https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
     "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
     "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
@@ -8,6 +18,16 @@
     "summary": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
     "content": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
     "published": "2026-10-03T00:15:00+03:30"
+  },
+  {
+    "id": "BBC World|us murderer christa pike unconscious and on ventilator after failed execution, lawyers say|https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o",
+    "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
+    "url": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "As of Thursday night, Pike remained critically ill and is being treated at a hospital in Nashville, Tennessee.",
+    "content": "As of Thursday night, Pike remained critically ill and is being treated at a hospital in Nashville, Tennessee.",
+    "published": "2026-10-03T00:02:07+03:30"
   },
   {
     "id": "Federal Reserve|federal reserve board announces it will extend, until november 4, the comment period on its proposal to modernize regulation o|https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
