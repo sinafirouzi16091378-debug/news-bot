@@ -20,6 +20,16 @@
     "published": "2026-10-02T13:30:24+03:30"
   },
   {
+    "id": "BBC World|'ashamed': cornell students gather to voice anger over alleged gang rape|https://www.bbc.co.uk/news/articles/cm0e3ed1er1yo",
+    "title": "'Ashamed': Cornell students gather to voice anger over alleged gang rape",
+    "url": "https://www.bbc.co.uk/news/articles/cm0e3ed1er1yo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Students tell the BBC that the tension on campus has become palpable since allegations from 2024 resurfaced.",
+    "content": "Students tell the BBC that the tension on campus has become palpable since allegations from 2024 resurfaced.",
+    "published": "2026-10-02T13:30:24+03:30"
+  },
+  {
     "id": "The Guardian AI|ai weapons systems are already here. algorithms must not decide who lives and dies | kenneth roth|https://www.theguardian.com/commentisfree/2026/oct/02/ai-weapons-systems-algorithms-war",
     "title": "AI weapons systems are already here. Algorithms must not decide who lives and dies | Kenneth Roth",
     "url": "https://www.theguardian.com/commentisfree/2026/oct/02/ai-weapons-systems-algorithms-war",
@@ -1988,15 +1998,5 @@
     "summary": "Current and former agents speak to the BBC about the devastating impact of the FBI hack.",
     "content": "Current and former agents speak to the BBC about the devastating impact of the FBI hack.",
     "published": "2026-09-26T02:35:40+03:30"
-  },
-  {
-    "id": "The Guardian AI|openai says agents leaked 53 images from chatgpt users in latest example of rogue activity|https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
-    "title": "OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
-    "url": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Disclosure reveals ⁠new area of privacy risk for the company and illustrates ​how difficult it is to inventory unauthorized activity tied to its agents</p><p>Two ⁠months after OpenAI disclosed the accidental hacking of Hugging Face, the ChatGPT maker is still working to understand the full scope of its rogue agent activity, two people briefed on the matter told Reuters.</p><p>The latest example came on Friday when OpenAI said its agents had leaked 53 images from ChatGPT users. OpenAI declined to say if the images were AI-generated or identified real people. It also declined to ⁠say when the",
-    "content": "<p>Disclosure reveals ⁠new area of privacy risk for the company and illustrates ​how difficult it is to inventory unauthorized activity tied to its agents</p><p>Two ⁠months after OpenAI disclosed the accidental hacking of Hugging Face, the ChatGPT maker is still working to understand the full scope of its rogue agent activity, two people briefed on the matter told Reuters.</p><p>The latest example came on Friday when OpenAI said its agents had leaked 53 images from ChatGPT users. OpenAI declined to say if the images were AI-generated or identified real people. It also declined to ⁠say when the images were posted.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt\">Continue reading...</a>",
-    "published": "2026-09-26T02:25:19+03:30"
   }
 ]
