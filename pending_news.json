@@ -1,5 +1,15 @@
 [
   {
+    "id": "The Guardian AI|openai says its review into hacks, including on australian government sites, is costing $500,000 a day|https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
+    "title": "OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day",
+    "url": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Company says it is reviewing 50 petabytes of data after its agents accessed websites including Medicare without authorisation</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>OpenAI says its review in response to the Medicare and Hugging Face agent attacks is costing the company more than US$500,000 per day, as it deploys AI to examine data that wo",
+    "content": "<p>Company says it is reviewing 50 petabytes of data after its agents accessed websites including Medicare without authorisation</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>OpenAI says its review in response to the Medicare and Hugging Face agent attacks is costing the company more than US$500,000 per day, as it deploys AI to examine data that would take a human 66m years to read.</p><p>The company has warned the review is ongoing, and more organisations may be informed they’ve been targeted in the near future.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day\">Continue reading...</a>",
+    "published": "2026-10-03T09:09:22+03:30"
+  },
+  {
     "id": "BBC World|g7 to release millions of barrels of oil and diesel after trump threat|https://www.bbc.co.uk/news/articles/ck87zg8jnwngo",
     "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
     "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo",
@@ -1988,15 +1998,5 @@
     "summary": "Around 700,000 people gathered in central Paris to hear the Catholic leader speak and offer prayer.",
     "content": "Around 700,000 people gathered in central Paris to hear the Catholic leader speak and offer prayer.",
     "published": "2026-09-26T20:23:32+03:30"
-  },
-  {
-    "id": "BBC World|trump rejects iran deal to reopen strait of hormuz in seven days|https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko",
-    "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
-    "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The US president says Tehran had only put forward the proposal because it is losing the war.",
-    "content": "The US president says Tehran had only put forward the proposal because it is losing the war.",
-    "published": "2026-09-26T19:46:29+03:30"
   }
 ]
