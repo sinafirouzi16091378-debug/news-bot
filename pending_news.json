@@ -1,5 +1,35 @@
 [
   {
+    "id": "BBC World|yemeni military says it has retaken mokha and 'secured' red sea waterway|https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo",
+    "title": "Yemeni military says it has retaken Mokha and 'secured' Red Sea waterway",
+    "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Saudi-backed forces say they seized the port city of Mocha, near the Bab al-Mandab Strait, at the start of an offensive against the Houthis.",
+    "content": "Saudi-backed forces say they seized the port city of Mocha, near the Bab al-Mandab Strait, at the start of an offensive against the Houthis.",
+    "published": "2026-10-05T21:19:59+03:30"
+  },
+  {
+    "id": "The Guardian AI|the guardian view on sexual abuse in schools: teachers cannot deal with this alone | editorial|https://www.theguardian.com/commentisfree/2026/oct/05/the-guardian-view-on-sexual-abuse-in-schools-teachers-cannot-deal-with-this-alone",
+    "title": "The Guardian view on sexual abuse in schools: teachers cannot deal with this alone | Editorial",
+    "url": "https://www.theguardian.com/commentisfree/2026/oct/05/the-guardian-view-on-sexual-abuse-in-schools-teachers-cannot-deal-with-this-alone",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Politicians must redouble their efforts to tackle a disturbing pattern of pupils assaulting classmates</p><p>The Guardian’s findings about the <a href=\"https://www.theguardian.com/education/2026/oct/04/child-on-child-sexual-abuse-schools-england-and-wales\">extent of sexual abuse in schools</a> require an urgent, calibrated response. Data revealing multiple rapes committed each year on school premises in England and Wales is hard to comprehend. Yet this is what freedom of information requests to police forces, covering the period from 2021 until last year, have revealed. As well as the sever",
+    "content": "<p>Politicians must redouble their efforts to tackle a disturbing pattern of pupils assaulting classmates</p><p>The Guardian’s findings about the <a href=\"https://www.theguardian.com/education/2026/oct/04/child-on-child-sexual-abuse-schools-england-and-wales\">extent of sexual abuse in schools</a> require an urgent, calibrated response. Data revealing multiple rapes committed each year on school premises in England and Wales is hard to comprehend. Yet this is what freedom of information requests to police forces, covering the period from 2021 until last year, have revealed. As well as the severity of the offences, the youth of many of the victims is disturbing. More than 8,500 sexual offences at or near schools were committed against under-13s, most of them girls.</p><p>Data about perpetrators contains gaps, including their age and sex. While the overwhelming majority of&nbsp;such acts are carried out by <a href=\"https://www.theguardian.com/education/2026/oct/04/children-schools-struggle-cope-sexual-abuse-england-wales\">boys</a>, we don’t know the&nbsp;exact proportion, nor if there is an age gap between those carrying out abuse and those being targeted. Only 33 out of 43 police for",
+    "published": "2026-10-05T21:15:41+03:30"
+  },
+  {
+    "id": "BBC World|pentagon stops using anthropic ai tools after blacklisting company, bbc told|https://www.bbc.co.uk/news/articles/c5j9x9pr0240o",
+    "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
+    "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "It labelled Anthropic a \"supply chain risk\" in February after the firm refused to remove safety guardrails from its tools.",
+    "content": "It labelled Anthropic a \"supply chain risk\" in February after the firm refused to remove safety guardrails from its tools.",
+    "published": "2026-10-05T19:43:21+03:30"
+  },
+  {
     "id": "BBC World|teenager's hand blown off during confrontation between france school protesters and police|https://www.bbc.co.uk/news/articles/c9zrdmxp4vy6o",
     "title": "Teenager's hand blown off during confrontation between France school protesters and police",
     "url": "https://www.bbc.co.uk/news/articles/c9zrdmxp4vy6o",
@@ -48,6 +78,26 @@
     "summary": "The Omani national was a \"lone wolf\" extremist, according to the reports.",
     "content": "The Omani national was a \"lone wolf\" extremist, according to the reports.",
     "published": "2026-10-05T15:04:59+03:30"
+  },
+  {
+    "id": "BBC World|nobel prize awarded for revealing inner workings of the brain|https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o",
+    "title": "Nobel Prize awarded for revealing inner workings of the brain",
+    "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded for their work.",
+    "content": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded for their work.",
+    "published": "2026-10-05T14:34:37+03:30"
+  },
+  {
+    "id": "BBC World|watch: how spain's housing crisis has resulted in an early general election|https://www.bbc.co.uk/news/videos/c83vqk2k2k20o",
+    "title": "Watch: How Spain's housing crisis has resulted in an early general election",
+    "url": "https://www.bbc.co.uk/news/videos/c83vqk2k2k20o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "A series of measures to tackle the housing crisis were defeated in parliament on Friday",
+    "content": "A series of measures to tackle the housing crisis were defeated in parliament on Friday",
+    "published": "2026-10-05T12:33:30+03:30"
   },
   {
     "id": "BBC World|france closes up to 500 schools monday over student protests|https://www.bbc.co.uk/news/articles/cwkg5n7lm3y5o",
