@@ -1,5 +1,75 @@
 [
   {
+    "id": "The Guardian AI|internet watch foundation reports huge rise in ai child sexual abuse material|https://www.theguardian.com/technology/2026/oct/05/internet-watch-foundation-huge-rise-ai-child-sexual-abuse-material",
+    "title": "Internet Watch Foundation reports huge rise in AI child sexual abuse material",
+    "url": "https://www.theguardian.com/technology/2026/oct/05/internet-watch-foundation-huge-rise-ai-child-sexual-abuse-material",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Abuse material monitor says number of AI images assessed this year is already 40% higher than last year’s total</p><p>AI-generated child sexual abuse material is proliferating online, with the amount of illegal material investigated this year already exceeding the total for 2025.</p><p>Analysts at the Internet Watch Foundation have found more photorealistic child sexual abuse material in the first half of 2026 than for the whole of the prior year. The UK-based IWF, which monitors abuse material globally, said it had assessed 6,310 AI images that met the legal definition of child sexual abus",
+    "content": "<p>Abuse material monitor says number of AI images assessed this year is already 40% higher than last year’s total</p><p>AI-generated child sexual abuse material is proliferating online, with the amount of illegal material investigated this year already exceeding the total for 2025.</p><p>Analysts at the Internet Watch Foundation have found more photorealistic child sexual abuse material in the first half of 2026 than for the whole of the prior year. The UK-based IWF, which monitors abuse material globally, said it had assessed 6,310 AI images that met the legal definition of child sexual abuse, 40% higher than last year’s total of more than 4,500.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/05/internet-watch-foundation-huge-rise-ai-child-sexual-abuse-material\">Continue reading...</a>",
+    "published": "2026-10-05T08:30:49+03:30"
+  },
+  {
+    "id": "BBC World|us air force removes all bombers from british military base raf fairford|https://www.bbc.co.uk/news/articles/cmwyve191dlko",
+    "title": "US air force removes all bombers from British military base RAF Fairford",
+    "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "A statement says all bombers deployed to RAF Fairford have been \"re-deployed to their home stations\" in the US.",
+    "content": "A statement says all bombers deployed to RAF Fairford have been \"re-deployed to their home stations\" in the US.",
+    "published": "2026-10-05T08:28:56+03:30"
+  },
+  {
+    "id": "BBC World|watch: how brazil's dramatic election unfolded|https://www.bbc.co.uk/news/videos/cwp9g54v9xjlo",
+    "title": "Watch: How Brazil's dramatic election unfolded",
+    "url": "https://www.bbc.co.uk/news/videos/cwp9g54v9xjlo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Millions of Brazilians took to the polls on Sunday for the first round of the country's presidential elections.",
+    "content": "Millions of Brazilians took to the polls on Sunday for the first round of the country's presidential elections.",
+    "published": "2026-10-05T08:21:24+03:30"
+  },
+  {
+    "id": "BBC World|france closes up to 500 schools monday over student protests|https://www.bbc.co.uk/news/articles/cwkg5n7lm3y5o",
+    "title": "France closes up to 500 schools Monday over student protests",
+    "url": "https://www.bbc.co.uk/news/articles/cwkg5n7lm3y5o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Lessons will be \"totally or partly suspended\" in some high schools after clashes between riot police and student protesters, France's education minister says.",
+    "content": "Lessons will be \"totally or partly suspended\" in some high schools after clashes between riot police and student protesters, France's education minister says.",
+    "published": "2026-10-05T08:19:14+03:30"
+  },
+  {
+    "id": "BBC World|all six passengers presumed dead after plane went missing off us coast|https://www.bbc.co.uk/news/articles/cmze4g8r6nr9o",
+    "title": "All six passengers presumed dead after plane went missing off US coast",
+    "url": "https://www.bbc.co.uk/news/articles/cmze4g8r6nr9o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
+    "content": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
+    "published": "2026-10-05T07:30:35+03:30"
+  },
+  {
+    "id": "BBC World|supporters of jailed ex-pm imran khan march to pakistan capital|https://www.bbc.co.uk/news/articles/cmkg79z04w4zo",
+    "title": "Supporters of jailed ex-PM Imran Khan march to Pakistan capital",
+    "url": "https://www.bbc.co.uk/news/articles/cmkg79z04w4zo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Thousands have taken to the streets after talks between authorities and Khan's party ended in deadlock.",
+    "content": "Thousands have taken to the streets after talks between authorities and Khan's party ended in deadlock.",
+    "published": "2026-10-05T07:29:03+03:30"
+  },
+  {
+    "id": "BBC World|trump unveils 'super intelligence force' to oversee ai policy|https://www.bbc.co.uk/news/articles/cqj6jenp26zyo",
+    "title": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
+    "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The president named his national intelligence chief as the taskforce's head as worries over AI grow.",
+    "content": "The president named his national intelligence chief as the taskforce's head as worries over AI grow.",
+    "published": "2026-10-05T07:07:41+03:30"
+  },
+  {
     "id": "BBC World|brazil election goes to run-off as right-wing flávio bolsonaro wins first round|https://www.bbc.co.uk/news/articles/ck1l34ed592no",
     "title": "Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round",
     "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no",
@@ -18,6 +88,16 @@
     "summary": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
     "content": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
     "published": "2026-10-05T02:59:18+03:30"
+  },
+  {
+    "id": "BBC World|forced to call him 'dad': trial over sexual abuse in disabled care home shocks south korea|https://www.bbc.co.uk/news/articles/cmy4z93n9n1zo",
+    "title": "Forced to call him 'Dad': Trial over sexual abuse in disabled care home shocks South Korea",
+    "url": "https://www.bbc.co.uk/news/articles/cmy4z93n9n1zo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The BBC spoke to one of three residents at a care home who were sexually assaulted by a staff member.",
+    "content": "The BBC spoke to one of three residents at a care home who were sexually assaulted by a staff member.",
+    "published": "2026-10-05T01:41:33+03:30"
   },
   {
     "id": "BBC World|polls close in brazil as lula and flávio bolsonaro remain neck and neck|https://www.bbc.co.uk/news/articles/ck1l34ed592no",
