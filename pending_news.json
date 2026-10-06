@@ -1,5 +1,25 @@
 [
   {
+    "id": "BBC World|openai admits response to australian government hacks 'not good enough'|https://www.bbc.co.uk/news/articles/cmx2qne2j88wo",
+    "title": "OpenAI admits response to Australian government hacks 'not good enough'",
+    "url": "https://www.bbc.co.uk/news/articles/cmx2qne2j88wo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Top executive Jason Kwon tells hearing company has added \"more precautions\" to its training environments.",
+    "content": "Top executive Jason Kwon tells hearing company has added \"more precautions\" to its training environments.",
+    "published": "2026-10-06T09:30:53+03:30"
+  },
+  {
+    "id": "The Guardian AI|‘pull the plug’: protesters resort to direct action against ai firms|https://www.theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms",
+    "title": "‘Pull the plug’: protesters resort to direct action against AI firms",
+    "url": "https://www.theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Campaign groups report surge in membership after a spate of AI safety alerts and apocalyptic warnings</p><p>In a bar below Waterloo Bridge, a cell of a fast-growing anti-AI protest movement met last week to plot their latest move: disrupting a tech industry dinner being addressed by a senior executive from the chip maker Nvidia.</p><p>Emma, a 28-year-old bartender, had never before taken direct action and was the most nervous of the four plotters from Pull The Plug, one of a growing number of AI-focused campaign groups around the world.</p> <a href=\"https://www.theguardian.com/technology/20",
+    "content": "<p>Campaign groups report surge in membership after a spate of AI safety alerts and apocalyptic warnings</p><p>In a bar below Waterloo Bridge, a cell of a fast-growing anti-AI protest movement met last week to plot their latest move: disrupting a tech industry dinner being addressed by a senior executive from the chip maker Nvidia.</p><p>Emma, a 28-year-old bartender, had never before taken direct action and was the most nervous of the four plotters from Pull The Plug, one of a growing number of AI-focused campaign groups around the world.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms\">Continue reading...</a>",
+    "published": "2026-10-06T09:30:04+03:30"
+  },
+  {
     "id": "BBC World|watch: moment indonesian sneaker shop is torn apart by explosion|https://www.bbc.co.uk/news/videos/cmkg7dx8wpygo",
     "title": "Watch: Moment Indonesian sneaker shop is torn apart by explosion",
     "url": "https://www.bbc.co.uk/news/videos/cmkg7dx8wpygo",
@@ -110,6 +130,16 @@
     "published": "2026-10-06T04:23:48+03:30"
   },
   {
+    "id": "The Guardian AI|openai has ‘work to do to rebuild trust’ in australia, executive tells ai inquiry|https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon",
+    "title": "OpenAI has ‘work to do to rebuild trust’ in Australia, executive tells AI inquiry",
+    "url": "https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Anthropic tells inquiry it ‘never tried to dictate’ Australian copyright rules as the ABC says copyright laws do not need changing</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>OpenAI has used an appearance before a parliamentary inquiry on AI to apologise again to Australia about the hack on Medicare last month, as media and entertainment organ",
+    "content": "<p>Anthropic tells inquiry it ‘never tried to dictate’ Australian copyright rules as the ABC says copyright laws do not need changing</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>OpenAI has used an appearance before a parliamentary inquiry on AI to apologise again to Australia about the hack on Medicare last month, as media and entertainment organisations argued weakening copyright law for AI model training would leave artists as “roadkill”.</p><p>Meanwhile Anthropic told the inquiry it was not seeking to dictate copyright law on model training, but the current rules made it “impossible” to train AI in Australia.</p> <a href=\"https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon\">Continue reading...</a>",
+    "published": "2026-10-06T04:23:48+03:30"
+  },
+  {
     "id": "BBC World|a simple guide to the us midterms|https://www.bbc.co.uk/news/articles/c6wyz223j19po",
     "title": "A simple guide to the US midterms",
     "url": "https://www.bbc.co.uk/news/articles/c6wyz223j19po",
@@ -148,6 +178,16 @@
     "summary": "The city's space boom raises questions about the role of the state in backing important industries.",
     "content": "The city's space boom raises questions about the role of the state in backing important industries.",
     "published": "2026-10-06T02:37:08+03:30"
+  },
+  {
+    "id": "BBC World|blue planet and gandhi composer george fenton dies aged 76|https://www.bbc.co.uk/news/articles/cwz0v40r98n9o",
+    "title": "Blue Planet and Gandhi composer George Fenton dies aged 76",
+    "url": "https://www.bbc.co.uk/news/articles/cwz0v40r98n9o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The musician received five Oscar nominations, and soundtracked dozens of memorable nature films.",
+    "content": "The musician received five Oscar nominations, and soundtracked dozens of memorable nature films.",
+    "published": "2026-10-06T02:28:25+03:30"
   },
   {
     "id": "BBC World|saudi arabia urged to spare man sentenced to death over facebook post|https://www.bbc.co.uk/news/articles/cq14d438vx24o",
@@ -1958,45 +1998,5 @@
     "summary": "If the execution proceeds, Pike would be the first woman executed in Tennessee in more than 200 years.",
     "content": "If the execution proceeds, Pike would be the first woman executed in Tennessee in more than 200 years.",
     "published": "2026-09-29T01:57:33+03:30"
-  },
-  {
-    "id": "BBC World|french pm warns against escalation of school protests after 164 arrested|https://www.bbc.co.uk/news/articles/cmqxvnn49rg2o",
-    "title": "French PM warns against escalation of school protests after 164 arrested",
-    "url": "https://www.bbc.co.uk/news/articles/cmqxvnn49rg2o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Students are protesting over issues such as overcrowded classes, but the prime minister has condemned reports of violence.",
-    "content": "Students are protesting over issues such as overcrowded classes, but the prime minister has condemned reports of violence.",
-    "published": "2026-09-29T01:16:53+03:30"
-  },
-  {
-    "id": "BBC World|new york times executive fatally shot allegedly by elderly in-laws|https://www.bbc.co.uk/news/articles/cred737qdv2no",
-    "title": "New York Times executive fatally shot allegedly by elderly in-laws",
-    "url": "https://www.bbc.co.uk/news/articles/cred737qdv2no",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Jonathan McKinsey's in-laws, who are both 77 years old, face multiple charges including first-degree murder.",
-    "content": "Jonathan McKinsey's in-laws, who are both 77 years old, face multiple charges including first-degree murder.",
-    "published": "2026-09-29T00:20:03+03:30"
-  },
-  {
-    "id": "BBC World|stuck between superpowers: how australia navigates the china-us rivalry|https://www.bbc.co.uk/news/articles/c61wxyzr4rwyo",
-    "title": "Stuck between superpowers: How Australia navigates the China-US rivalry",
-    "url": "https://www.bbc.co.uk/news/articles/c61wxyzr4rwyo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Australia is increasingly concerned about China's military might - but Beijing is also its biggest trade partner.",
-    "content": "Australia is increasingly concerned about China's military might - but Beijing is also its biggest trade partner.",
-    "published": "2026-09-28T22:07:15+03:30"
-  },
-  {
-    "id": "BBC World|stand-up comic set for release after being convicted of insulting erdoğan|https://www.bbc.co.uk/news/articles/c8zxzlqwzw0eo",
-    "title": "Stand-up comic set for release after being convicted of insulting Erdoğan",
-    "url": "https://www.bbc.co.uk/news/articles/c8zxzlqwzw0eo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Turkish comedian Deniz Göktaş has been sentenced to almost 19 months, but is set to be released due to time served.",
-    "content": "Turkish comedian Deniz Göktaş has been sentenced to almost 19 months, but is set to be released due to time served.",
-    "published": "2026-09-28T21:41:58+03:30"
   }
 ]
