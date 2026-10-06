@@ -1,5 +1,25 @@
 [
   {
+    "id": "The Guardian AI|artificial review – luca guadagnino takes on openai in muddled tech satire|https://www.theguardian.com/film/2026/oct/06/artificial-sam-altman-ai-movie-review",
+    "title": "Artificial review – Luca Guadagnino takes on OpenAI in muddled tech satire",
+    "url": "https://www.theguardian.com/film/2026/oct/06/artificial-sam-altman-ai-movie-review",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p><strong>New York film festival:</strong> The origin story of Sam Altman’s company is reimagined as a campy comedy starring Andrew Garfield</p><p>On the day that <a href=\"https://www.theguardian.com/film/luca-guadagnino\">Luca Guadagnino</a>’s film about <a href=\"https://www.theguardian.com/technology/sam-altman\">Sam Altman</a> and <a href=\"https://www.theguardian.com/technology/openai\">OpenAI</a> premiered, Vanity Fair released a <a href=\"https://www.vanityfair.com/story/sam-altman-exclusive-interview-part-1\">cover story</a> on Altman. Alongside glossy portraits from Annie Leibovitz, the wor",
+    "content": "<p><strong>New York film festival:</strong> The origin story of Sam Altman’s company is reimagined as a campy comedy starring Andrew Garfield</p><p>On the day that <a href=\"https://www.theguardian.com/film/luca-guadagnino\">Luca Guadagnino</a>’s film about <a href=\"https://www.theguardian.com/technology/sam-altman\">Sam Altman</a> and <a href=\"https://www.theguardian.com/technology/openai\">OpenAI</a> premiered, Vanity Fair released a <a href=\"https://www.vanityfair.com/story/sam-altman-exclusive-interview-part-1\">cover story</a> on Altman. Alongside glossy portraits from Annie Leibovitz, the world’s pre-eminent portrait photographer, the story describes him as the Oppenheimer of his day, evoking the image of a man leading humanity towards its own inevitable demise at the hands of sentient robots. Altman doesn’t seem to be grappling with much existential angst about the whole thing though: in an <a href=\"https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks\">interview</a> also released this week, he said that we should be prepared to accept “bad things” in return for the benefits of AI.</p><p>How much worse can things get? AI agents have already ",
+    "published": "2026-10-06T20:28:15+03:30"
+  },
+  {
+    "id": "The Guardian AI|is regulation enough to stop ai systems killing us all? | letters|https://www.theguardian.com/technology/2026/oct/06/is-regulation-enough-to-stop-ai-systems-killing-us-all",
+    "title": "Is regulation enough to stop AI systems killing us all? | Letters",
+    "url": "https://www.theguardian.com/technology/2026/oct/06/is-regulation-enough-to-stop-ai-systems-killing-us-all",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p><strong>Martyn Thomas</strong> wonders how any rational person can argue that independent oversight and regulation will be sufficient</p><p>Once again a frontier AI model has been withdrawn because it fails safety tests (<a href=\"https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped\">OpenAI scraps release of new model over safety concerns in internal testing, 28 September</a>). There is the usual call for “independent oversight and regulation”, though never any explanation of how this would work or, most importantly, what evidence should persuade a regul",
+    "content": "<p><strong>Martyn Thomas</strong> wonders how any rational person can argue that independent oversight and regulation will be sufficient</p><p>Once again a frontier AI model has been withdrawn because it fails safety tests (<a href=\"https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped\">OpenAI scraps release of new model over safety concerns in internal testing, 28 September</a>). There is the usual call for “independent oversight and regulation”, though never any explanation of how this would work or, most importantly, what evidence should persuade a regulator that an AI system is adequately safe.</p><p>There is a long engineering tradition of regulating safety-critical software systems, such as those controlling aircraft or nuclear power stations; international standards require “safety cases” – rigorous analyses that show that the possible hazards have been identified and controlled and that the probability of an accident is extremely low.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/06/is-regulation-enough-to-stop-ai-systems-killing-us-all\">Continue reading...</a>",
+    "published": "2026-10-06T20:26:04+03:30"
+  },
+  {
     "id": "The Guardian AI|tell us: do you use ai agents to manage your finances?|https://www.theguardian.com/technology/2026/oct/06/tell-us-do-you-use-ai-agents-to-manage-your-finances",
     "title": "Tell us: do you use AI agents to manage your finances?",
     "url": "https://www.theguardian.com/technology/2026/oct/06/tell-us-do-you-use-ai-agents-to-manage-your-finances",
@@ -1978,25 +1998,5 @@
     "summary": "<p>The quality of life for people living next to one would be destroyed, writes <strong>Moira Brewer</strong>; plus a letter from <strong>Mark Davis</strong></p><p>So, George Osborne thinks people who don’t want an AI datacentre on their doorstep are nimbys (<a href=\"https://www.theguardian.com/politics/2026/sep/22/george-osborne-ai-datacentre-nimbys-holding-back-britain\">OpenAI’s George Osborne says datacentre nimbys holding back Britain, 22 September</a>). He ought to come and visit our small town in Devon, where there are plans to build one of the largest datacentres in Europe, along with a",
     "content": "<p>The quality of life for people living next to one would be destroyed, writes <strong>Moira Brewer</strong>; plus a letter from <strong>Mark Davis</strong></p><p>So, George Osborne thinks people who don’t want an AI datacentre on their doorstep are nimbys (<a href=\"https://www.theguardian.com/politics/2026/sep/22/george-osborne-ai-datacentre-nimbys-holding-back-britain\">OpenAI’s George Osborne says datacentre nimbys holding back Britain, 22 September</a>). He ought to come and visit our small town in Devon, where there are plans to build one of the largest datacentres in Europe, along with a battery energy storage system, on 850 acres of farmland.</p><p>The size of this proposed development is quite out of proportion to its location – larger than the town itself – and accessed by narrow lanes. It would be a huge blot on a beautiful rural landscape that is enjoyed by holidaymakers who are vital to the local economy.</p> <a href=\"https://www.theguardian.com/uk-news/2026/sep/29/even-george-osborne-might-be-a-nimby-if-an-ai-datacente-was-built-next-to-his-home\">Continue reading...</a>",
     "published": "2026-09-29T20:18:49+03:30"
-  },
-  {
-    "id": "BBC World|dutch police arrest suspected member of group that claimed fbi hack|https://www.bbc.co.uk/news/articles/cw5ym18znr0ro",
-    "title": "Dutch police arrest suspected member of group that claimed FBI hack",
-    "url": "https://www.bbc.co.uk/news/articles/cw5ym18znr0ro",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The suspect, 24, was arrested before the alleged cyber attack took place.",
-    "content": "The suspect, 24, was arrested before the alleged cyber attack took place.",
-    "published": "2026-09-29T19:10:10+03:30"
-  },
-  {
-    "id": "The Guardian AI|trump touts new ai tool he claims will streamline government information access – us politics live|https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates",
-    "title": "Trump touts new AI tool he claims will streamline government information access – US politics live",
-    "url": "https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>President says he will ‘never stifle’ AI development while unveiling sweeping tool to access federal government sites</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up to the US Breaking News email</a></p></li></ul><p>For some context, it’s worth remembering that Smith had a two-volume report of his findings as a result of his criminal investigatio",
-    "content": "<p>President says he will ‘never stifle’ AI development while unveiling sweeping tool to access federal government sites</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up to the US Breaking News email</a></p></li></ul><p>For some context, it’s worth remembering that Smith had a two-volume report of his findings as a result of his criminal investigations –&nbsp;that resulted in two indictments against the president after his first term. The first focused on Donald Trump’s attempts to overturn the 2020 election, while the second on the president’s retention of classified documents.</p><p>However, in February, a Trump-appointed federal judge <strong>permanently barred the justice department from releasing the second volume of Smith’s report</strong>.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates\">Continue reading...</a>",
-    "published": "2026-09-29T18:41:42+03:30"
   }
 ]
