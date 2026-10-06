@@ -1,5 +1,25 @@
 [
   {
+    "id": "The Guardian AI|openai admits misstep in handling ai agent interactions with australian government sites – video|https://www.theguardian.com/australia-news/video/2026/oct/06/openai-australia-parliamentary-inquiry-jason-kwon-video",
+    "title": "OpenAI admits misstep in handling AI agent interactions with Australian government sites – video",
+    "url": "https://www.theguardian.com/australia-news/video/2026/oct/06/openai-australia-parliamentary-inquiry-jason-kwon-video",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>In a parliamentary inquiry, OpenAI chief strategy officer Jason Kwon is questioned by independent senator David Pocock about the company's notification process after OpenAI agents accessed Australian government website data in June. Asked why OpenAI relied on an arbitrary department email rather than direct government contacts, Kwon acknowledges that 'in retrospect, we should have done what you're suggesting'. He explains that staff had treated the incident as a 'technical situation' and sought to contact technical counterparts, which he says was 'not good enough'</p><ul><li><p><a href=\"htt",
+    "content": "<p>In a parliamentary inquiry, OpenAI chief strategy officer Jason Kwon is questioned by independent senator David Pocock about the company's notification process after OpenAI agents accessed Australian government website data in June. Asked why OpenAI relied on an arbitrary department email rather than direct government contacts, Kwon acknowledges that 'in retrospect, we should have done what you're suggesting'. He explains that staff had treated the incident as a 'technical situation' and sought to contact technical counterparts, which he says was 'not good enough'</p><ul><li><p><a href=\"https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon\">OpenAI has 'work to do to rebuild trust' in Australia, executive tells AI inquiry</a></p></li></ul> <a href=\"https://www.theguardian.com/australia-news/video/2026/oct/06/openai-australia-parliamentary-inquiry-jason-kwon-video\">Continue reading...</a>",
+    "published": "2026-10-06T11:02:25+03:30"
+  },
+  {
+    "id": "BBC World|children brave snipers and mortars to go to school near yemen front line|https://www.bbc.co.uk/news/articles/c670pzpv9gk4o",
+    "title": "Children brave snipers and mortars to go to school near Yemen front line",
+    "url": "https://www.bbc.co.uk/news/articles/c670pzpv9gk4o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "In rare access to Taiz, the BBC World Service speaks to children, teachers and families affected by the war.",
+    "content": "In rare access to Taiz, the BBC World Service speaks to children, teachers and families affected by the war.",
+    "published": "2026-10-06T10:53:24+03:30"
+  },
+  {
     "id": "ECB|philip r. lane: interview with ansa|https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html",
     "title": "Philip R. Lane: Interview with Ansa",
     "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html",
@@ -8,6 +28,16 @@
     "summary": "",
     "content": "",
     "published": "2026-10-06T10:30:00+03:30"
+  },
+  {
+    "id": "BBC World|nigeria mourns as 32 killed in military plane crash|https://www.bbc.co.uk/news/articles/ck1wvjer20qqo",
+    "title": "Nigeria mourns as 32 killed in military plane crash",
+    "url": "https://www.bbc.co.uk/news/articles/ck1wvjer20qqo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "President Bola Tinubu describes the crash as a \"painful moment\" for the military and the entire nation.",
+    "content": "President Bola Tinubu describes the crash as a \"painful moment\" for the military and the entire nation.",
+    "published": "2026-10-06T10:03:13+03:30"
   },
   {
     "id": "BBC World|openai admits response to australian government hacks 'not good enough'|https://www.bbc.co.uk/news/articles/cmx2qne2j88wo",
@@ -208,6 +238,16 @@
     "summary": "Anojan Sivarasa faces execution after he was found guilty of blasphemy over a Facebook comment.",
     "content": "Anojan Sivarasa faces execution after he was found guilty of blasphemy over a Facebook comment.",
     "published": "2026-10-06T01:58:02+03:30"
+  },
+  {
+    "id": "BBC World|what prompted the us bombers to leave raf fairford?|https://www.bbc.co.uk/news/articles/ck87z09xe82qo",
+    "title": "What prompted the US bombers to leave RAF Fairford?",
+    "url": "https://www.bbc.co.uk/news/articles/ck87z09xe82qo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The mass evacuation of American bombers from the UK points to concern in the Pentagon, our security correspondent writes.",
+    "content": "The mass evacuation of American bombers from the UK points to concern in the Pentagon, our security correspondent writes.",
+    "published": "2026-10-06T01:27:26+03:30"
   },
   {
     "id": "BBC World|us 'watching closely' after plague researcher dies in russia|https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o",
@@ -1958,45 +1998,5 @@
     "summary": "A new anti-conversion law in Maharashtra is raising questions about faith, choice and freedom.",
     "content": "A new anti-conversion law in Maharashtra is raising questions about faith, choice and freedom.",
     "published": "2026-09-29T04:20:19+03:30"
-  },
-  {
-    "id": "BBC World|journalist to be crowned king in uganda after bitter succession dispute|https://www.bbc.co.uk/news/articles/cx7v4glz50elo",
-    "title": "Journalist to be crowned king in Uganda after bitter succession dispute",
-    "url": "https://www.bbc.co.uk/news/articles/cx7v4glz50elo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Kijanangoma is being crowned amid a dispute over a young heir whom the royal clan does not recognise.",
-    "content": "Kijanangoma is being crowned amid a dispute over a young heir whom the royal clan does not recognise.",
-    "published": "2026-09-29T03:14:49+03:30"
-  },
-  {
-    "id": "BBC World|hurricane polo unleashes threatening winds as it approaches mexico|https://www.bbc.co.uk/news/articles/cw8d3z5y7958o",
-    "title": "Hurricane Polo unleashes threatening winds as it approaches Mexico",
-    "url": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The category-three storm is expected to make landfall of north of Cabo San Lucas, a popular tourist area, on the Mexican peninsula of Baja California Sur.",
-    "content": "The category-three storm is expected to make landfall of north of Cabo San Lucas, a popular tourist area, on the Mexican peninsula of Baja California Sur.",
-    "published": "2026-09-29T03:07:49+03:30"
-  },
-  {
-    "id": "The Guardian AI|meta’s ai agent muse gives out user’s home address without permission, sending buyer to his house|https://www.theguardian.com/technology/2026/sep/28/metas-ai-agent-muse-home-address",
-    "title": "Meta’s AI agent Muse gives out user’s home address without permission, sending buyer to his house",
-    "url": "https://www.theguardian.com/technology/2026/sep/28/metas-ai-agent-muse-home-address",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>The new AI agent, Muse, was released last week and has been downloaded by 3 million users</p><p>When Usman asked if a keyboard for sale on Facebook Marketplace was still available on Saturday, he received an enthusiastic and immediate response.</p><p>“Yep still available!” wrote Matt Robb.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/28/metas-ai-agent-muse-home-address\">Continue reading...</a>",
-    "content": "<p>The new AI agent, Muse, was released last week and has been downloaded by 3 million users</p><p>When Usman asked if a keyboard for sale on Facebook Marketplace was still available on Saturday, he received an enthusiastic and immediate response.</p><p>“Yep still available!” wrote Matt Robb.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/28/metas-ai-agent-muse-home-address\">Continue reading...</a>",
-    "published": "2026-09-29T03:01:42+03:30"
-  },
-  {
-    "id": "The Guardian AI|openai scraps release of new model over safety concerns in internal testing|https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
-    "title": "OpenAI scraps release of new model over safety concerns in internal testing",
-    "url": "https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>GPT-6.1 Astra showed deceptive behavior and tried to use external tools despite knowing it would be unsafe</p><p>OpenAI is scrapping the release of GPT-6.1 Astra, a next-generation ⁠AI model planned for an October debut, over safety concerns raised by researchers ⁠during internal testing, the ⁠Wall ​Street Journal <a href=\"https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42?mod=hp_lead_pos1\">reported</a> on Monday.</p><p>The model, expected to appear in ChatGPT and ⁠Codex, was designed to handle more complex tasks without human assistance, the report said.</p> <a",
-    "content": "<p>GPT-6.1 Astra showed deceptive behavior and tried to use external tools despite knowing it would be unsafe</p><p>OpenAI is scrapping the release of GPT-6.1 Astra, a next-generation ⁠AI model planned for an October debut, over safety concerns raised by researchers ⁠during internal testing, the ⁠Wall ​Street Journal <a href=\"https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42?mod=hp_lead_pos1\">reported</a> on Monday.</p><p>The model, expected to appear in ChatGPT and ⁠Codex, was designed to handle more complex tasks without human assistance, the report said.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped\">Continue reading...</a>",
-    "published": "2026-09-29T02:32:28+03:30"
   }
 ]
