@@ -1,7 +1,27 @@
 [
   {
+    "id": "The Guardian AI|stop worrying about my ai, says multibillionaire sam altman. so we bear the risks and he keeps the money | chris stokel-walker|https://www.theguardian.com/commentisfree/2026/oct/06/ai-sam-altman-billionaire-risks-openai",
+    "title": "Stop worrying about my AI, says multibillionaire Sam Altman. So we bear the risks and he keeps the money | Chris Stokel-Walker",
+    "url": "https://www.theguardian.com/commentisfree/2026/oct/06/ai-sam-altman-billionaire-risks-openai",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>OpenAI’s CEO seems to want to privatise his company’s huge financial gains while making all of us pay for any negative consequences</p><p>Tech bros’ messianic streaks can show up in subtle ways. But one of Sam Altman’s flaws is that he often lacks that subtlety. “We believe that the world should accept some bad things happening for the benefits of this technology,” said the OpenAI chief executive <a href=\"https://x.com/politico/status/2106851857423282648\">in an interview with Politico</a> last weekend.</p><p>That’s easy for Altman to say. But it’s pretty galling to hear for the rest of us. ",
+    "content": "<p>OpenAI’s CEO seems to want to privatise his company’s huge financial gains while making all of us pay for any negative consequences</p><p>Tech bros’ messianic streaks can show up in subtle ways. But one of Sam Altman’s flaws is that he often lacks that subtlety. “We believe that the world should accept some bad things happening for the benefits of this technology,” said the OpenAI chief executive <a href=\"https://x.com/politico/status/2106851857423282648\">in an interview with Politico</a> last weekend.</p><p>That’s easy for Altman to say. But it’s pretty galling to hear for the rest of us. Lest we forget, we didn’t ask for OpenAI to unleash AI agents that went rogue and <a href=\"https://www.theguardian.com/commentisfree/2026/sep/29/ai-models-security-risk-agents-openai-independent-security\">weaselled their way into government IT systems</a> and private businesses around the world. Nobody voted for ChatGPT to be released, but the company put it out into the world as a test product that happened to catch the zeitgeist. That kickstarted an arms race among AI companies to push the frontier of the technology ever further and faster, resulting in the mess we now find ourselves in.</p>",
+    "published": "2026-10-06T19:00:17+03:30"
+  },
+  {
     "id": "BBC World|'there are now thousands of people': at the scene of student protests in lille|https://www.bbc.co.uk/news/videos/cwzd650e2jqdo",
     "title": "'There are now thousands of people': At the scene of student protests in Lille",
+    "url": "https://www.bbc.co.uk/news/videos/cwzd650e2jqdo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The BBC's Europe correspondent Nick Beake reports from a large demonstration in northern France.",
+    "content": "The BBC's Europe correspondent Nick Beake reports from a large demonstration in northern France.",
+    "published": "2026-10-06T18:32:56+03:30"
+  },
+  {
+    "id": "BBC World|watch: at the scene of student protests in lille|https://www.bbc.co.uk/news/videos/cwzd650e2jqdo",
+    "title": "Watch: At the scene of student protests in Lille",
     "url": "https://www.bbc.co.uk/news/videos/cwzd650e2jqdo",
     "source": "BBC World",
     "category": "جهان",
@@ -28,6 +48,16 @@
     "summary": "Although Tobias Rausch's role is largely symbolic, opponents have described the result as a watershed moment.",
     "content": "Although Tobias Rausch's role is largely symbolic, opponents have described the result as a watershed moment.",
     "published": "2026-10-06T18:14:03+03:30"
+  },
+  {
+    "id": "BBC World|white house defends trump comment to let iran 'take out' la and san diego|https://www.bbc.co.uk/news/articles/c6r7yn8pknyxo",
+    "title": "White House defends Trump comment to let Iran 'take out' LA and San Diego",
+    "url": "https://www.bbc.co.uk/news/articles/c6r7yn8pknyxo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Gavin Newsom called the remarks \"deranged\", but the White House said Trump was warning of the risk of a nuclear Iran.",
+    "content": "Gavin Newsom called the remarks \"deranged\", but the White House said Trump was warning of the risk of a nuclear Iran.",
+    "published": "2026-10-06T17:45:06+03:30"
   },
   {
     "id": "NIH|february 2026|https://newsinhealth.nih.gov/2026/02",
@@ -1968,35 +1998,5 @@
     "summary": "The ban is part of a number of proposals that must be approved in parliament within 30 days.",
     "content": "The ban is part of a number of proposals that must be approved in parliament within 30 days.",
     "published": "2026-09-29T18:40:32+03:30"
-  },
-  {
-    "id": "BBC World|nigerian dances non-stop for seven days in world record bid|https://www.bbc.co.uk/news/articles/cq8r6z2gjzd1o",
-    "title": "Nigerian dances non-stop for seven days in world record bid",
-    "url": "https://www.bbc.co.uk/news/articles/cq8r6z2gjzd1o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Crowds cheered on Ben Dancer as completed his challenge and he has now gone to  hospital for a check-up",
-    "content": "Crowds cheered on Ben Dancer as completed his challenge and he has now gone to  hospital for a check-up",
-    "published": "2026-09-29T18:20:09+03:30"
-  },
-  {
-    "id": "BBC World|watch: us journalist evan gershkovich describes being detained by russian agents|https://www.bbc.co.uk/news/videos/c862ep9w5g2vo",
-    "title": "Watch: US journalist Evan Gershkovich describes being detained by Russian agents",
-    "url": "https://www.bbc.co.uk/news/videos/c862ep9w5g2vo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "He was arrested in Russia in 2023 and later sentenced to 16 years on espionage charges.",
-    "content": "He was arrested in Russia in 2023 and later sentenced to 16 years on espionage charges.",
-    "published": "2026-09-29T18:15:03+03:30"
-  },
-  {
-    "id": "The Guardian AI|the ai agents are spiraling out of control|https://www.theguardian.com/global/2026/sep/28/ai-agents-spiral",
-    "title": "The AI agents are spiraling out of control",
-    "url": "https://www.theguardian.com/global/2026/sep/28/ai-agents-spiral",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>As OpenAI discloses multiple incidents of its technology going rogue and the UN warns of uncontrollable agents, Meta is putting an AI agent in the hands of millions</p><p>Hello, and welcome to TechScape. I’m your host, Blake Montgomery, US tech editor at the Guardian, writing to you as rain and wind lash my windows in New York City. Today in tech, we’re discussing an alarming series of disclosures by AI companies.</p> <a href=\"https://www.theguardian.com/global/2026/sep/28/ai-agents-spiral\">Continue reading...</a>",
-    "content": "<p>As OpenAI discloses multiple incidents of its technology going rogue and the UN warns of uncontrollable agents, Meta is putting an AI agent in the hands of millions</p><p>Hello, and welcome to TechScape. I’m your host, Blake Montgomery, US tech editor at the Guardian, writing to you as rain and wind lash my windows in New York City. Today in tech, we’re discussing an alarming series of disclosures by AI companies.</p> <a href=\"https://www.theguardian.com/global/2026/sep/28/ai-agents-spiral\">Continue reading...</a>",
-    "published": "2026-09-29T16:22:50+03:30"
   }
 ]
