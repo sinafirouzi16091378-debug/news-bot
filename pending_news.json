@@ -50,6 +50,16 @@
     "published": "2026-10-06T05:52:24+03:30"
   },
   {
+    "id": "BBC World|fort hood shooter to be executed by firing squad - a first for us military since world war two|https://www.bbc.co.uk/news/articles/cq8ezkkkrpy1o",
+    "title": "Fort Hood shooter to be executed by firing squad - a first for US military since World War Two",
+    "url": "https://www.bbc.co.uk/news/articles/cq8ezkkkrpy1o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Nidal Malik Hasan killed 13 unarmed US soldiers and injured another 32 and his execution will be the first by the US military since 1961.",
+    "content": "Nidal Malik Hasan killed 13 unarmed US soldiers and injured another 32 and his execution will be the first by the US military since 1961.",
+    "published": "2026-10-06T05:52:24+03:30"
+  },
+  {
     "id": "BBC World|trump says he will stop using taxpayer funds for ads after bipartisan pushback|https://www.bbc.co.uk/news/articles/cm9qzlvpqex9o",
     "title": "Trump says he will stop using taxpayer funds for ads after bipartisan pushback",
     "url": "https://www.bbc.co.uk/news/articles/cm9qzlvpqex9o",
@@ -178,6 +188,16 @@
     "summary": "France prepares for a day of protests in support of students who’ve been demanding more investment in education.",
     "content": "France prepares for a day of protests in support of students who’ve been demanding more investment in education.",
     "published": "2026-10-06T00:48:10+03:30"
+  },
+  {
+    "id": "BBC World|flávio bolsonaro rides right-wing wave to win first round of brazil election|https://www.bbc.co.uk/news/articles/cqj6je4jen6po",
+    "title": "Flávio Bolsonaro rides right-wing wave to win first round of Brazil election",
+    "url": "https://www.bbc.co.uk/news/articles/cqj6je4jen6po",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Flávio Bolsonaro's success could be the latest example of a resurgence of right-wing support in Latin America.",
+    "content": "Flávio Bolsonaro's success could be the latest example of a resurgence of right-wing support in Latin America.",
+    "published": "2026-10-06T00:12:19+03:30"
   },
   {
     "id": "Federal Reserve|federal reserve board announces approval of application by isabella bank corporation|https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
@@ -1978,25 +1998,5 @@
     "summary": "Turkish comedian Deniz Göktaş has been sentenced to almost 19 months, but is set to be released due to time served.",
     "content": "Turkish comedian Deniz Göktaş has been sentenced to almost 19 months, but is set to be released due to time served.",
     "published": "2026-09-28T21:41:58+03:30"
-  },
-  {
-    "id": "BBC World|us prosecutors reopen case of alleged gang rape at cornell university|https://www.bbc.co.uk/news/articles/c5wyzrm0n74ro",
-    "title": "US prosecutors reopen case of alleged gang rape at Cornell University",
-    "url": "https://www.bbc.co.uk/news/articles/c5wyzrm0n74ro",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "It comes after the woman filed a civil lawsuit alleging she was drugged and raped at a fraternity house in 2024.",
-    "content": "It comes after the woman filed a civil lawsuit alleging she was drugged and raped at a fraternity house in 2024.",
-    "published": "2026-09-28T21:41:07+03:30"
-  },
-  {
-    "id": "BBC World|watch: from launch to fiery splashdown, spacex's starship completes orbit test|https://www.bbc.co.uk/news/videos/c6ge4lp442npo",
-    "title": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
-    "url": "https://www.bbc.co.uk/news/videos/c6ge4lp442npo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "A thunderous lift off, rapid satellite deployments and a fiery ending. That's how SpaceX's 14th launch of its Starship rocket panned out today.",
-    "content": "A thunderous lift off, rapid satellite deployments and a fiery ending. That's how SpaceX's 14th launch of its Starship rocket panned out today.",
-    "published": "2026-09-28T17:29:06+03:30"
   }
 ]
