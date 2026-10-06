@@ -1,5 +1,15 @@
 [
   {
+    "id": "ECB|philip r. lane: interview with ansa|https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html",
+    "title": "Philip R. Lane: Interview with Ansa",
+    "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html",
+    "source": "ECB",
+    "category": "اقتصاد و بازارها",
+    "summary": "",
+    "content": "",
+    "published": "2026-10-06T10:30:00+03:30"
+  },
+  {
     "id": "BBC World|openai admits response to australian government hacks 'not good enough'|https://www.bbc.co.uk/news/articles/cmx2qne2j88wo",
     "title": "OpenAI admits response to Australian government hacks 'not good enough'",
     "url": "https://www.bbc.co.uk/news/articles/cmx2qne2j88wo",
@@ -1988,15 +1998,5 @@
     "summary": "<p>GPT-6.1 Astra showed deceptive behavior and tried to use external tools despite knowing it would be unsafe</p><p>OpenAI is scrapping the release of GPT-6.1 Astra, a next-generation ⁠AI model planned for an October debut, over safety concerns raised by researchers ⁠during internal testing, the ⁠Wall ​Street Journal <a href=\"https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42?mod=hp_lead_pos1\">reported</a> on Monday.</p><p>The model, expected to appear in ChatGPT and ⁠Codex, was designed to handle more complex tasks without human assistance, the report said.</p> <a",
     "content": "<p>GPT-6.1 Astra showed deceptive behavior and tried to use external tools despite knowing it would be unsafe</p><p>OpenAI is scrapping the release of GPT-6.1 Astra, a next-generation ⁠AI model planned for an October debut, over safety concerns raised by researchers ⁠during internal testing, the ⁠Wall ​Street Journal <a href=\"https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42?mod=hp_lead_pos1\">reported</a> on Monday.</p><p>The model, expected to appear in ChatGPT and ⁠Codex, was designed to handle more complex tasks without human assistance, the report said.</p> <a href=\"https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped\">Continue reading...</a>",
     "published": "2026-09-29T02:32:28+03:30"
-  },
-  {
-    "id": "BBC World|tennessee governor rejects clemency bid for christa pike as execution looms|https://www.bbc.co.uk/news/articles/ckr50yyddljlo",
-    "title": "Tennessee governor rejects clemency bid for Christa Pike as execution looms",
-    "url": "https://www.bbc.co.uk/news/articles/ckr50yyddljlo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "If the execution proceeds, Pike would be the first woman executed in Tennessee in more than 200 years.",
-    "content": "If the execution proceeds, Pike would be the first woman executed in Tennessee in more than 200 years.",
-    "published": "2026-09-29T01:57:33+03:30"
   }
 ]
