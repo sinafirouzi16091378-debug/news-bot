@@ -1,5 +1,15 @@
 [
   {
+    "id": "The Guardian AI|openai delivers a mea culpa to the australian government in person – but answers still elude|https://www.theguardian.com/technology/2026/oct/06/openai-delivers-a-mea-culpa-to-the-australian-government-in-person-but-answers-still-elude",
+    "title": "OpenAI delivers a mea culpa to the Australian government in person – but answers still elude",
+    "url": "https://www.theguardian.com/technology/2026/oct/06/openai-delivers-a-mea-culpa-to-the-australian-government-in-person-but-answers-still-elude",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Jason Kwon’s answers were provided in a helpful, quiet and calm manner. For a company under intense scrutiny, there were no missteps </p><p>Open AI’s Jason Kwon flew 15 hours from San Francisco to Sydney to give the company’s first in-person mea culpa after it admitted – <a href=\"https://www.theguardian.com/technology/2026/sep/29/openai-apology-rogue-agent-hacked-medicare-australian-government-websites\">in an unsigned email, to a public departmental inbox</a> – that one of its AI agents had accessed a Services Australia website without authorisation and grabbed data related to Medicare.</p>",
+    "content": "<p>Jason Kwon’s answers were provided in a helpful, quiet and calm manner. For a company under intense scrutiny, there were no missteps </p><p>Open AI’s Jason Kwon flew 15 hours from San Francisco to Sydney to give the company’s first in-person mea culpa after it admitted – <a href=\"https://www.theguardian.com/technology/2026/sep/29/openai-apology-rogue-agent-hacked-medicare-australian-government-websites\">in an unsigned email, to a public departmental inbox</a> – that one of its AI agents had accessed a Services Australia website without authorisation and grabbed data related to Medicare.</p><p>Kwon – polite, friendly, even-toned – got through a potentially dicey committee hearing unscathed, promising to do better and pledging assistance to Australia. No missteps, no viral moments, just delivering his answers helpfully, in a quiet and calm manner, sympathising with the questioner and the point they were making.</p><p><strong><a href=\"https://www.theguardian.com/australia-news/2026/aug/28/politics-really-newsletter-guardian-australia-free-best-daily-auspol-email-subscribe?CMP=copyembed\">Sign up for Guardian Australia’s Politics, really newsletter here</a></strong></p> <a href=\"http",
+    "published": "2026-10-06T14:42:41+03:30"
+  },
+  {
     "id": "The Guardian AI|misuse of ai is brands’ top reputational threat, new survey says|https://www.theguardian.com/technology/2026/oct/06/ai-misuse-brand-reputation",
     "title": "Misuse of AI is brands’ top reputational threat, new survey says",
     "url": "https://www.theguardian.com/technology/2026/oct/06/ai-misuse-brand-reputation",
@@ -12,6 +22,16 @@
   {
     "id": "BBC World|sailors missing after fresh attacks on black sea vessels, bulgaria says|https://www.bbc.co.uk/news/articles/c8ly0v5r602eo",
     "title": "Sailors missing after fresh attacks on Black Sea vessels, Bulgaria says",
+    "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "It is not clear who is behind the attacks which come as Russia intensifies strikes in the Black Sea as part of its war against Ukraine.",
+    "content": "It is not clear who is behind the attacks which come as Russia intensifies strikes in the Black Sea as part of its war against Ukraine.",
+    "published": "2026-10-06T14:07:19+03:30"
+  },
+  {
+    "id": "BBC World|ship sinks and crew missing after black sea drone attack|https://www.bbc.co.uk/news/articles/c8ly0v5r602eo",
+    "title": "Ship sinks and crew missing after Black Sea drone attack",
     "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo",
     "source": "BBC World",
     "category": "جهان",
@@ -1978,25 +1998,5 @@
     "summary": "As sellers waded through floodwaters to sell produce like fish and vegetables from floating platforms and foam boxes, buyers walked or paddled between the makeshift stalls to buy their groceries.",
     "content": "As sellers waded through floodwaters to sell produce like fish and vegetables from floating platforms and foam boxes, buyers walked or paddled between the makeshift stalls to buy their groceries.",
     "published": "2026-09-29T09:45:25+03:30"
-  },
-  {
-    "id": "BBC World|malaysia begins controversial repatriation of asylum seekers to myanmar|https://www.bbc.co.uk/news/articles/ckj06542e5neo",
-    "title": "Malaysia begins controversial repatriation of asylum seekers to Myanmar",
-    "url": "https://www.bbc.co.uk/news/articles/ckj06542e5neo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Human rights groups say some 5,000 returnees could face violence, persecution and forced conscription.",
-    "content": "Human rights groups say some 5,000 returnees could face violence, persecution and forced conscription.",
-    "published": "2026-09-29T09:36:20+03:30"
-  },
-  {
-    "id": "BBC World|watch: luxury units uncovered inside an indonesian prison|https://www.bbc.co.uk/news/videos/c6vgy293vvp3o",
-    "title": "Watch: Luxury units uncovered inside an Indonesian prison",
-    "url": "https://www.bbc.co.uk/news/videos/c6vgy293vvp3o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "A surprise inspection at the prison revealed apartment-like units appearing to house inmates, equipped with televisions, a gym and fridges stocked with alcohol.",
-    "content": "A surprise inspection at the prison revealed apartment-like units appearing to house inmates, equipped with televisions, a gym and fridges stocked with alcohol.",
-    "published": "2026-09-29T09:34:36+03:30"
   }
 ]
