@@ -1,5 +1,25 @@
 [
   {
+    "id": "BBC World|zelensky condemns 'vile' large-scale russian attacks that killed 15|https://www.bbc.co.uk/news/articles/ckr5ym098vdeo",
+    "title": "Zelensky condemns 'vile' large-scale Russian attacks that killed 15",
+    "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Rescue workers are continuing a search for residents after an apartment building in Pryluky was destroyed.",
+    "content": "Rescue workers are continuing a search for residents after an apartment building in Pryluky was destroyed.",
+    "published": "2026-10-07T14:35:37+03:30"
+  },
+  {
+    "id": "The Guardian AI|mcdonald’s sued for alleged antitrust violations by using ai tool to determine pricing for franchises|https://www.theguardian.com/business/2026/oct/07/mcdonalds-ai-prices-lawsuit",
+    "title": "McDonald’s sued for alleged antitrust violations by using AI tool to determine pricing for franchises",
+    "url": "https://www.theguardian.com/business/2026/oct/07/mcdonalds-ai-prices-lawsuit",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Suit says AI tool allows independently owned franchises to exchange nonpublic price and sales information</p><p>McDonald’s is facing a lawsuit in federal court over its alleged use of an <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a> tool to determine pricing across independent franchises, which prosecutors say violates antitrust laws and has unfairly inflated menu prices for Americans.</p><p>The vast majority of <a href=\"https://www.theguardian.com/business/mcdonalds\">McDonald’s</a> US stores are independently owned and are said to individually decide on p",
+    "content": "<p>Suit says AI tool allows independently owned franchises to exchange nonpublic price and sales information</p><p>McDonald’s is facing a lawsuit in federal court over its alleged use of an <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a> tool to determine pricing across independent franchises, which prosecutors say violates antitrust laws and has unfairly inflated menu prices for Americans.</p><p>The vast majority of <a href=\"https://www.theguardian.com/business/mcdonalds\">McDonald’s</a> US stores are independently owned and are said to individually decide on prices under company policy. Antitrust laws require businesses to set prices independently from their competitors, as coordinating prices can stifle market competition and push up costs for consumers.</p> <a href=\"https://www.theguardian.com/business/2026/oct/07/mcdonalds-ai-prices-lawsuit\">Continue reading...</a>",
+    "published": "2026-10-07T14:30:08+03:30"
+  },
+  {
     "id": "BBC World|chemistry nobel awarded for solving mystery of life's asymmetry|https://www.bbc.co.uk/news/articles/c6ly038jg0d4o",
     "title": "Chemistry Nobel awarded for solving mystery of life's asymmetry",
     "url": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o",
@@ -1978,25 +1998,5 @@
     "summary": "<p>The US president announces vague ‘morally binding’ AI agreement among tech CEOs for ‘tremendous self-policing’</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> announced on Tuesday that the heads of the largest US tech and <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a> companies had signed on to a “morally binding” agreement to put controls on artificial intelligence. He announced the deal, called the Joint Commitment On Frontier Responsibilities, following a White House luncheon with top tech executives.</p><p>“It’s almost l",
     "content": "<p>The US president announces vague ‘morally binding’ AI agreement among tech CEOs for ‘tremendous self-policing’</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> announced on Tuesday that the heads of the largest US tech and <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a> companies had signed on to a “morally binding” agreement to put controls on artificial intelligence. He announced the deal, called the Joint Commitment On Frontier Responsibilities, following a White House luncheon with top tech executives.</p><p>“It’s almost like a constitution in a way, and the biggest ​people in the world signed that, and ​I signed it as president, and it really ⁠is a form of protection,” Trump said.</p> <a href=\"https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence\">Continue reading...</a>",
     "published": "2026-09-30T02:51:25+03:30"
-  },
-  {
-    "id": "BBC World|chinese ai tool told researchers how to make bioweapons|https://www.bbc.co.uk/news/articles/cmrergq3j7lgo",
-    "title": "Chinese AI tool told researchers how to make bioweapons",
-    "url": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Mindgard said it discovered in July that Kimi models K2.6 and K3 Swarm could evade developer's safety limits.",
-    "content": "Mindgard said it discovered in July that Kimi models K2.6 and K3 Swarm could evade developer's safety limits.",
-    "published": "2026-09-30T02:45:29+03:30"
-  },
-  {
-    "id": "BBC World|south africa to clean up high-risk areas after 12 women killed|https://www.bbc.co.uk/news/articles/c51kx9ze1mdzo",
-    "title": "South Africa to clean up high-risk areas after 12 women killed",
-    "url": "https://www.bbc.co.uk/news/articles/c51kx9ze1mdzo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The deaths sparked a national outcry about the scale of violence against women in the country.",
-    "content": "The deaths sparked a national outcry about the scale of violence against women in the country.",
-    "published": "2026-09-30T02:03:39+03:30"
   }
 ]
