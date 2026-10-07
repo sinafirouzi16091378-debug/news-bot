@@ -1,5 +1,15 @@
 [
   {
+    "id": "The Guardian AI|openai’s release of mathematical findings draws concerns from experts|https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns",
+    "title": "OpenAI’s release of mathematical findings draws concerns from experts",
+    "url": "https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Leaders worry OpenAI is not doing due diligence to vet results and that AI models aren’t accessible to broader field of mathematicians </p><p>OpenAI has astounded mathematicians after <a href=\"https://github.com/openai/math\">releasing</a> hundreds of new mathematical findings on Tuesday.</p><p>The company published over 370 mathematical results across a variety of topics such as algebra, theoretical computer science and mathematical logic, showcasing what some of its most advanced artificial intelligence models are capable of.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/07/",
+    "content": "<p>Leaders worry OpenAI is not doing due diligence to vet results and that AI models aren’t accessible to broader field of mathematicians </p><p>OpenAI has astounded mathematicians after <a href=\"https://github.com/openai/math\">releasing</a> hundreds of new mathematical findings on Tuesday.</p><p>The company published over 370 mathematical results across a variety of topics such as algebra, theoretical computer science and mathematical logic, showcasing what some of its most advanced artificial intelligence models are capable of.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns\">Continue reading...</a>",
+    "published": "2026-10-07T19:10:51+03:30"
+  },
+  {
     "id": "The Guardian AI|mumsnet denies using ai for content after prompt appears on message board|https://www.theguardian.com/media/2026/oct/07/mumsnet-denies-using-ai-for-content-message-board-prompt",
     "title": "Mumsnet denies using AI for content after prompt appears on message board",
     "url": "https://www.theguardian.com/media/2026/oct/07/mumsnet-denies-using-ai-for-content-message-board-prompt",
@@ -1988,15 +1998,5 @@
     "summary": "The owner said he chose the name because he wanted to run the \"best Chinese restaurant\" in South Korea.",
     "content": "The owner said he chose the name because he wanted to run the \"best Chinese restaurant\" in South Korea.",
     "published": "2026-09-30T07:51:11+03:30"
-  },
-  {
-    "id": "BBC World|south korea demands apology from pyongyang for landmine blasts that injured three|https://www.bbc.co.uk/news/articles/cwj3dkvpm4e7o",
-    "title": "South Korea demands apology from Pyongyang for landmine blasts that injured three",
-    "url": "https://www.bbc.co.uk/news/articles/cwj3dkvpm4e7o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Blasts in the Demilitarised Zone (DMZ) injured three South Korean personnel earlier this month.",
-    "content": "Blasts in the Demilitarised Zone (DMZ) injured three South Korean personnel earlier this month.",
-    "published": "2026-09-30T07:08:09+03:30"
   }
 ]
