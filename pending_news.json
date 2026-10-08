@@ -1,5 +1,15 @@
 [
   {
+    "id": "ECB|meeting of 9-10 september 2026|https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html",
+    "title": "Meeting of 9-10 September 2026",
+    "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html",
+    "source": "ECB",
+    "category": "اقتصاد و بازارها",
+    "summary": "",
+    "content": "",
+    "published": "2026-10-08T15:00:00+03:30"
+  },
+  {
     "id": "BBC World|russian strike on buses kills 33, say officials, as deadly attacks on ukraine surge|https://www.bbc.co.uk/news/articles/c875pwq134l3o",
     "title": "Russian strike on buses kills 33, say officials, as deadly attacks on Ukraine surge",
     "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o",
@@ -1988,15 +1998,5 @@
     "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
     "content": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
     "published": "2026-09-30T16:30:00+03:30"
-  },
-  {
-    "id": "BBC World|what we know about the dubai-israel plane incident after reported stabbing|https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno",
-    "title": "What we know about the Dubai-Israel plane incident after reported stabbing",
-    "url": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The Saudi Arabian airport where the plane was diverted to said the captain and first officer were injured.",
-    "content": "The Saudi Arabian airport where the plane was diverted to said the captain and first officer were injured.",
-    "published": "2026-09-30T16:00:05+03:30"
   }
 ]
