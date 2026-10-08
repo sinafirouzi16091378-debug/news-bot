@@ -1,5 +1,25 @@
 [
   {
+    "id": "The Guardian AI|co-op legal services using ai to rate workers’ phone calls to customers|https://www.theguardian.com/technology/2026/oct/08/co-op-legal-services-ai-customer-phone-call-surveillance",
+    "title": "Co-op Legal Services using AI to rate workers’ phone calls to customers",
+    "url": "https://www.theguardian.com/technology/2026/oct/08/co-op-legal-services-ai-customer-phone-call-surveillance",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Whistleblower says recording and analysis of all probate calls is ‘oppressive and dystopian’</p><p>The Co-op has become the latest employer to place workers under AI surveillance with an automated listening technology that rates every phone call some of them make to customers.</p><p>In a system described as “oppressive and dystopian” by a whistleblower, Co-op Legal Services is using AI models to record, analyse and award a percentage score for interactions between agents and customers seeking advice about probate, wills and estates.</p> <a href=\"https://www.theguardian.com/technology/2026/o",
+    "content": "<p>Whistleblower says recording and analysis of all probate calls is ‘oppressive and dystopian’</p><p>The Co-op has become the latest employer to place workers under AI surveillance with an automated listening technology that rates every phone call some of them make to customers.</p><p>In a system described as “oppressive and dystopian” by a whistleblower, Co-op Legal Services is using AI models to record, analyse and award a percentage score for interactions between agents and customers seeking advice about probate, wills and estates.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/08/co-op-legal-services-ai-customer-phone-call-surveillance\">Continue reading...</a>",
+    "published": "2026-10-08T12:30:16+03:30"
+  },
+  {
+    "id": "The Guardian AI|‘someone else will do it for less’: refugees in kenya are powering tech for dwindling pay|https://www.theguardian.com/technology/ng-interactive/2026/oct/08/ai-gig-work-refugees-kenya",
+    "title": "‘Someone else will do it for less’: Refugees in Kenya are powering tech for dwindling pay",
+    "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/08/ai-gig-work-refugees-kenya",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Refugee gig workers for tech companies don’t know how much they’ll be paid – if AI hasn’t already taken their jobs</p><p><br />\n In a portable building in Kakuma, a refugee camp near <a href=\"https://www.theguardian.com/world/kenya\">Kenya</a>’s northern border with <a href=\"https://www.theguardian.com/world/south-sudan\">South Sudan</a>, Grace used <a href=\"https://www.theguardian.com/technology/chatgpt\">ChatGPT</a> to research translations of Christian hymns in languages she doesn’t speak. She didn’t know the client, the purpose of her work or whether she would be paid, but as a refugee una",
+    "content": "<p>Refugee gig workers for tech companies don’t know how much they’ll be paid – if AI hasn’t already taken their jobs</p><p><br />\n In a portable building in Kakuma, a refugee camp near <a href=\"https://www.theguardian.com/world/kenya\">Kenya</a>’s northern border with <a href=\"https://www.theguardian.com/world/south-sudan\">South Sudan</a>, Grace used <a href=\"https://www.theguardian.com/technology/chatgpt\">ChatGPT</a> to research translations of Christian hymns in languages she doesn’t speak. She didn’t know the client, the purpose of her work or whether she would be paid, but as a refugee unable to legally work in Kenya, she needed any opportunity she could get.</p><p>Grace, who requested anonymity due to a nondisclosure agreement, prompted ChatGPT to translate the hymn’s English text into the assigned east Asian language. She then used the translation to search for existing versions and find information about its translator, author and Christian denomination. She fed those details to AOP Connect, a crowdsourced research platform owned by British AI enterprise software company RWS.</p> <a href=\"https://www.theguardian.com/technology/ng-interactive/2026/oct/08/ai-gig-work-refugees-",
+    "published": "2026-10-08T12:30:15+03:30"
+  },
+  {
     "id": "BBC World|christa pike now walking after failed us execution, lawyer tells bbc|https://www.bbc.co.uk/news/articles/c60rln74yzvxo",
     "title": "Christa Pike now walking after failed US execution, lawyer tells BBC",
     "url": "https://www.bbc.co.uk/news/articles/c60rln74yzvxo",
@@ -1978,25 +1998,5 @@
     "summary": "Lowe and his wife Kim Painter announce the death of their daughter, who \"was the light of our lives\".",
     "content": "Lowe and his wife Kim Painter announce the death of their daughter, who \"was the light of our lives\".",
     "published": "2026-09-30T12:29:38+03:30"
-  },
-  {
-    "id": "BBC World|'he will never walk free': indian judge's letter promises child sex abuse survivor|https://www.bbc.co.uk/news/articles/cq7832kn4252o",
-    "title": "'He will never walk free': Indian judge's letter promises child sex abuse survivor",
-    "url": "https://www.bbc.co.uk/news/articles/cq7832kn4252o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "In the emotional letter, the judge describes the survivor as \"the bravest little girl this court has ever seen\".",
-    "content": "In the emotional letter, the judge describes the survivor as \"the bravest little girl this court has ever seen\".",
-    "published": "2026-09-30T12:15:45+03:30"
-  },
-  {
-    "id": "BBC World|crackdown on south africa's unsafe streets ordered by president to keep women safe|https://www.bbc.co.uk/news/articles/c51kx9ze1mdzo",
-    "title": "Crackdown on South Africa's unsafe streets ordered by president to keep women safe",
-    "url": "https://www.bbc.co.uk/news/articles/c51kx9ze1mdzo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The murders of 12 women near Johannesburg has caused a outcry about the scale of violence against women.",
-    "content": "The murders of 12 women near Johannesburg has caused a outcry about the scale of violence against women.",
-    "published": "2026-09-30T12:10:01+03:30"
   }
 ]
