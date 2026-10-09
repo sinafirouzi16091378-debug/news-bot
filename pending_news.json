@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|three saudi nationals killed in houthi attacks on riyadh airport|https://www.bbc.co.uk/news/articles/cmz7xe37g5wro",
+    "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
+    "url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The missile attacks come amid an escalation in fighting between the Iran-backed group and Saudi Arabia, which backs Yemen's government.",
+    "content": "The missile attacks come amid an escalation in fighting between the Iran-backed group and Saudi Arabia, which backs Yemen's government.",
+    "published": "2026-10-09T13:37:04+03:30"
+  },
+  {
     "id": "BBC World|fort hood survivor supports gunman's execution by firing squad but questions livestream|https://www.bbc.co.uk/news/articles/ck1wvqw4lzdvo",
     "title": "Fort Hood survivor supports gunman's execution by firing squad but questions livestream",
     "url": "https://www.bbc.co.uk/news/articles/ck1wvqw4lzdvo",
@@ -18,6 +28,16 @@
     "summary": "The AI firm instead claims the researchers were fired for mishandling sensitive information.",
     "content": "The AI firm instead claims the researchers were fired for mishandling sensitive information.",
     "published": "2026-10-09T13:00:49+03:30"
+  },
+  {
+    "id": "BBC World|thieves steal 30,000 wine bottles worth €5m in italy, reports say|https://www.bbc.co.uk/news/articles/cme3xl8ln2vko",
+    "title": "Thieves steal 30,000 wine bottles worth €5m in Italy, reports say",
+    "url": "https://www.bbc.co.uk/news/articles/cme3xl8ln2vko",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The heist at the Florence-based winery is believed to be one of the largest thefts of its kind in Italy.",
+    "content": "The heist at the Florence-based winery is believed to be one of the largest thefts of its kind in Italy.",
+    "published": "2026-10-09T12:39:03+03:30"
   },
   {
     "id": "The Guardian AI|openai projected to bring in $20bn less in revenue than expected|https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
@@ -118,6 +138,16 @@
     "summary": "Pete Hegseth says the execution will be public, but a legal expert says the \"unprecedented\" decision is on \"uncertain legal terrain\".",
     "content": "Pete Hegseth says the execution will be public, but a legal expert says the \"unprecedented\" decision is on \"uncertain legal terrain\".",
     "published": "2026-10-09T07:06:12+03:30"
+  },
+  {
+    "id": "BBC World|christa pike has 'profound' health turnaround after botched execution, lawyers say|https://www.bbc.co.uk/news/articles/c6dxw90kdp5yo",
+    "title": "Christa Pike has 'profound' health turnaround after botched execution, lawyers say",
+    "url": "https://www.bbc.co.uk/news/articles/c6dxw90kdp5yo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Pike's lawyers say her recovery is \"remarkable\" as they give an update on her condition after she survived an execution attempt by lethal injection.",
+    "content": "Pike's lawyers say her recovery is \"remarkable\" as they give an update on her condition after she survived an execution attempt by lethal injection.",
+    "published": "2026-10-09T05:39:45+03:30"
   },
   {
     "id": "The Guardian AI|anthropic bans users from ‘needless abusive or cruel behavior’ towards claude|https://www.theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude",
@@ -1968,35 +1998,5 @@
     "summary": "Scientists say such rapid melting is no longer surprising given the pace of climate change.",
     "content": "Scientists say such rapid melting is no longer surprising given the pace of climate change.",
     "published": "2026-10-01T03:38:23+03:30"
-  },
-  {
-    "id": "BBC World|cornell case spotlights 'confusing' web of systems for reporting campus assaults|https://www.bbc.co.uk/news/articles/crpd0wdnlgxno",
-    "title": "Cornell case spotlights 'confusing' web of systems for reporting campus assaults",
-    "url": "https://www.bbc.co.uk/news/articles/crpd0wdnlgxno",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Victims often have to navigate both university and local law enforcement processes to find justice.",
-    "content": "Victims often have to navigate both university and local law enforcement processes to find justice.",
-    "published": "2026-10-01T03:23:54+03:30"
-  },
-  {
-    "id": "BBC World|the children dying in india's remote tribal heartland|https://www.bbc.co.uk/news/articles/cmn9wr84v1qno",
-    "title": "The children dying in India's remote tribal heartland",
-    "url": "https://www.bbc.co.uk/news/articles/cmn9wr84v1qno",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "At least 32 children have died in India's Balaghat district since May amid outbreaks of measles and malaria.",
-    "content": "At least 32 children have died in India's Balaghat district since May amid outbreaks of measles and malaria.",
-    "published": "2026-10-01T03:11:34+03:30"
-  },
-  {
-    "id": "BBC World|inside india's forest villages, where a dangerous mix of crises led to 32 child deaths|https://www.bbc.co.uk/news/articles/cmn9wr84v1qno",
-    "title": "Inside India's forest villages, where a dangerous mix of crises led to 32 child deaths",
-    "url": "https://www.bbc.co.uk/news/articles/cmn9wr84v1qno",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "At least 32 children have died in India's Balaghat district since May amid outbreaks of measles and malaria.",
-    "content": "At least 32 children have died in India's Balaghat district since May amid outbreaks of measles and malaria.",
-    "published": "2026-10-01T03:11:34+03:30"
   }
 ]
