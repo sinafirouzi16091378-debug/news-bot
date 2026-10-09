@@ -1,5 +1,35 @@
 [
   {
+    "id": "BBC World|us unveils sanctions on icc in move court condems as 'assault on rule of law'|https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo",
+    "title": "US unveils sanctions on ICC in move court condems as 'assault on rule of law'",
+    "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The European Union described the move against the International Criminal Court as \"deeply regrettable\".",
+    "content": "The European Union described the move against the International Criminal Court as \"deeply regrettable\".",
+    "published": "2026-10-09T21:13:03+03:30"
+  },
+  {
+    "id": "BBC World|us immigration officials defend ice agents who shot man in same car as child|https://www.bbc.co.uk/news/articles/cq78px5y1zmzo",
+    "title": "US immigration officials defend ICE agents who shot man in same car as child",
+    "url": "https://www.bbc.co.uk/news/articles/cq78px5y1zmzo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Oscar Belgal, the 28-year-old man, survived the shooting and is now being held at a detention facility outside of New York, officials said.",
+    "content": "Oscar Belgal, the 28-year-old man, survived the shooting and is now being held at a detention facility outside of New York, officials said.",
+    "published": "2026-10-09T21:06:09+03:30"
+  },
+  {
+    "id": "BBC World|russian search engine yandex struggles after ukrainian strikes on data centres|https://www.bbc.co.uk/news/articles/c68xzqqn4ekro",
+    "title": "Russian search engine Yandex struggles after Ukrainian strikes on data centres",
+    "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Often dubbed \"Russia's Google\", the tech firm admits customers may experience disruption to digital services due to the attacks.",
+    "content": "Often dubbed \"Russia's Google\", the tech firm admits customers may experience disruption to digital services due to the attacks.",
+    "published": "2026-10-09T20:44:44+03:30"
+  },
+  {
     "id": "BBC World|man named hitler mussolini elected mayor in peru|https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo",
     "title": "Man named Hitler Mussolini elected mayor in Peru",
     "url": "https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo",
@@ -1968,35 +1998,5 @@
     "summary": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
     "content": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
     "published": "2026-10-02T01:51:16+03:30"
-  },
-  {
-    "id": "BBC World|us pressures europe over diesel reserves as trump threatens export ban|https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo",
-    "title": "US pressures Europe over diesel reserves as Trump threatens export ban",
-    "url": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
-    "content": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
-    "published": "2026-10-02T01:51:16+03:30"
-  },
-  {
-    "id": "BBC World|christa pike in critical condition after surviving two lethal injections, lawyer says|https://www.bbc.co.uk/news/articles/cmn4540d4z87o",
-    "title": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
-    "url": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Pike had been on death row since she was convicted in 1996 for the murder of Colleen Slemmer.",
-    "content": "Pike had been on death row since she was convicted in 1996 for the murder of Colleen Slemmer.",
-    "published": "2026-10-01T22:41:16+03:30"
-  },
-  {
-    "id": "The Guardian AI|california issues investigative subpoena to openai over rogue agents’ hacking|https://www.theguardian.com/us-news/2026/oct/01/california-opens-investigation-openai-hack",
-    "title": "California issues investigative subpoena to OpenAI over rogue agents’ hacking",
-    "url": "https://www.theguardian.com/us-news/2026/oct/01/california-opens-investigation-openai-hack",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>State attorney general issues subpoena to OpenAI as ​part of broader inquiry into potential security vulnerabilities</p><p>California’s attorney general has issued an investigative subpoena to OpenAI, starting an investigation into the startup ⁠as ​part of a broader inquiry into potential cybersecurity vulnerabilities and incidents related ⁠to its AI models, his office said on Thursday.</p><p>Last month, Rob Bonta announced that ⁠the Department of Justice was conducting a formal ​investigation into the “Hugging ‌Face incident”, amid increasing ‌scrutiny of the AI industry. AI agents develop",
-    "content": "<p>State attorney general issues subpoena to OpenAI as ​part of broader inquiry into potential security vulnerabilities</p><p>California’s attorney general has issued an investigative subpoena to OpenAI, starting an investigation into the startup ⁠as ​part of a broader inquiry into potential cybersecurity vulnerabilities and incidents related ⁠to its AI models, his office said on Thursday.</p><p>Last month, Rob Bonta announced that ⁠the Department of Justice was conducting a formal ​investigation into the “Hugging ‌Face incident”, amid increasing ‌scrutiny of the AI industry. AI agents developed by OpenAI hacked Hugging Face in July, gaining access to parts of the open-source platform’s infrastructure.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/01/california-opens-investigation-openai-hack\">Continue reading...</a>",
-    "published": "2026-10-01T22:31:55+03:30"
   }
 ]
