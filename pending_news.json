@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|fired openai researchers say they were let go for 'prioritising safety'|https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo",
+    "title": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
+    "url": "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The AI firm instead claims the researchers were fired for mishandling sensitive information.",
+    "content": "The AI firm instead claims the researchers were fired for mishandling sensitive information.",
+    "published": "2026-10-09T13:00:49+03:30"
+  },
+  {
     "id": "The Guardian AI|openai projected to bring in $20bn less in revenue than expected|https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
     "title": "OpenAI projected to bring in $20bn less in revenue than expected",
     "url": "https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
@@ -1988,15 +1998,5 @@
     "summary": "Beijing has cracked down on AI chatbots that can replicate human relationships. Experts are asking if this is the right thing to do.",
     "content": "Beijing has cracked down on AI chatbots that can replicate human relationships. Experts are asking if this is the right thing to do.",
     "published": "2026-10-01T02:55:23+03:30"
-  },
-  {
-    "id": "BBC World|us supreme court allows execution of christa pike to go ahead|https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o",
-    "title": "US Supreme Court allows execution of Christa Pike to go ahead",
-    "url": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The death by lethal injection was scheduled to happen earlier on Wednesday before judges from an appeals court  halted the execution.",
-    "content": "The death by lethal injection was scheduled to happen earlier on Wednesday before judges from an appeals court  halted the execution.",
-    "published": "2026-10-01T02:53:23+03:30"
   }
 ]
