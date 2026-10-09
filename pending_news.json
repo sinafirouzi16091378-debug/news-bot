@@ -10,6 +10,16 @@
     "published": "2026-10-09T20:02:22+03:30"
   },
   {
+    "id": "BBC World|watch: 'i am jane doe' protests across us call for end to sexual violence|https://www.bbc.co.uk/news/videos/cmy83pp3904vo",
+    "title": "Watch: 'I am Jane Doe' protests across US call for end to sexual violence",
+    "url": "https://www.bbc.co.uk/news/videos/cmy83pp3904vo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Protests against sexual violence took place across more than 40 US states on 8 October.",
+    "content": "Protests against sexual violence took place across more than 40 US states on 8 October.",
+    "published": "2026-10-09T19:49:36+03:30"
+  },
+  {
     "id": "BBC World|us imposes sanctions on international criminal court|https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo",
     "title": "US imposes sanctions on International Criminal Court",
     "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo",
@@ -1988,15 +1998,5 @@
     "summary": "<p>State attorney general issues subpoena to OpenAI as ​part of broader inquiry into potential security vulnerabilities</p><p>California’s attorney general has issued an investigative subpoena to OpenAI, starting an investigation into the startup ⁠as ​part of a broader inquiry into potential cybersecurity vulnerabilities and incidents related ⁠to its AI models, his office said on Thursday.</p><p>Last month, Rob Bonta announced that ⁠the Department of Justice was conducting a formal ​investigation into the “Hugging ‌Face incident”, amid increasing ‌scrutiny of the AI industry. AI agents develop",
     "content": "<p>State attorney general issues subpoena to OpenAI as ​part of broader inquiry into potential security vulnerabilities</p><p>California’s attorney general has issued an investigative subpoena to OpenAI, starting an investigation into the startup ⁠as ​part of a broader inquiry into potential cybersecurity vulnerabilities and incidents related ⁠to its AI models, his office said on Thursday.</p><p>Last month, Rob Bonta announced that ⁠the Department of Justice was conducting a formal ​investigation into the “Hugging ‌Face incident”, amid increasing ‌scrutiny of the AI industry. AI agents developed by OpenAI hacked Hugging Face in July, gaining access to parts of the open-source platform’s infrastructure.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/01/california-opens-investigation-openai-hack\">Continue reading...</a>",
     "published": "2026-10-01T22:31:55+03:30"
-  },
-  {
-    "id": "BBC World|netanyahu says flydubai attacker had 'islamist radical indoctrination'|https://www.bbc.co.uk/news/articles/crje8edqyej9o",
-    "title": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
-    "url": "https://www.bbc.co.uk/news/articles/crje8edqyej9o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
-    "content": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
-    "published": "2026-10-01T21:49:14+03:30"
   }
 ]
