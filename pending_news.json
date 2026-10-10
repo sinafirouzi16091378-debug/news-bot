@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|russian glide bomb attack on zaporizhzhia kills at least 15 people|https://www.bbc.co.uk/news/articles/cwvgdpv642g5o",
+    "title": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people",
+    "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Children are among the victims, authorities say, and more victims could still be buried in the rubble of a large apartment block that was destroyed.",
+    "content": "Children are among the victims, authorities say, and more victims could still be buried in the rubble of a large apartment block that was destroyed.",
+    "published": "2026-10-10T14:47:15+03:30"
+  },
+  {
     "id": "BBC World|rogue anthropic ai agent gave police fake tip in unsolved murder case|https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo",
     "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
     "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo",
@@ -1988,15 +1998,5 @@
     "summary": "",
     "content": "",
     "published": "2026-10-02T15:00:00+03:30"
-  },
-  {
-    "id": "BBC World|a 'dark cloud' and 'dismal' mood: how it feels on cornell campus right now|https://www.bbc.co.uk/news/articles/cm0e3ed1er1yo",
-    "title": "A 'dark cloud' and 'dismal' mood: How it feels on Cornell campus right now",
-    "url": "https://www.bbc.co.uk/news/articles/cm0e3ed1er1yo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Students tell the BBC that the tension on campus has become palpable since allegations from 2024 resurfaced.",
-    "content": "Students tell the BBC that the tension on campus has become palpable since allegations from 2024 resurfaced.",
-    "published": "2026-10-02T13:30:24+03:30"
   }
 ]
