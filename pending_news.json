@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|several injured as saudi capital airport reportedly hit again|https://www.bbc.co.uk/news/articles/cw33x4y8k82no",
+    "title": "Several injured as Saudi capital airport reportedly hit again",
+    "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The suspected attack comes a day after Yemen's Houthi rebels claimed two deadly attacks on the Riyadh airport.",
+    "content": "The suspected attack comes a day after Yemen's Houthi rebels claimed two deadly attacks on the Riyadh airport.",
+    "published": "2026-10-10T19:35:18+03:30"
+  },
+  {
     "id": "BBC World|christa pike discharged from hospital and returned to prison, her lawyers say|https://www.bbc.co.uk/news/articles/cmlyle97pqd7o",
     "title": "Christa Pike discharged from hospital and returned to prison, her lawyers say",
     "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o",
@@ -1988,15 +1998,5 @@
     "summary": "<p>Greg Lui allegedly used false paperwork to smuggle export-controlled gear from US to third countries and then China</p><p>US authorities have arrested a man accused of smuggling more than $300m worth of computer servers to <a href=\"https://www.theguardian.com/world/china\">China</a>, the Department of Justice announced.</p><p>Greg Lui, 38, of <a href=\"https://www.theguardian.com/us-news/california\">California</a>, also known as “Yiu Kong Lui”, allegedly used false paperwork and shipments through third countries to smuggle the export-controlled computer servers to China, the justice departmen",
     "content": "<p>Greg Lui allegedly used false paperwork to smuggle export-controlled gear from US to third countries and then China</p><p>US authorities have arrested a man accused of smuggling more than $300m worth of computer servers to <a href=\"https://www.theguardian.com/world/china\">China</a>, the Department of Justice announced.</p><p>Greg Lui, 38, of <a href=\"https://www.theguardian.com/us-news/california\">California</a>, also known as “Yiu Kong Lui”, allegedly used false paperwork and shipments through third countries to smuggle the export-controlled computer servers to China, the justice department said in a statement on Thursday.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/02/arrest-smuggled-computer-servers-china\">Continue reading...</a>",
     "published": "2026-10-02T22:16:29+03:30"
-  },
-  {
-    "id": "The Guardian AI|ai could expose how georgia voters cast their ballot, researchers warn|https://www.theguardian.com/us-news/2026/oct/02/midterms-ai-ballot-privacy",
-    "title": "AI could expose how Georgia voters cast their ballot, researchers warn",
-    "url": "https://www.theguardian.com/us-news/2026/oct/02/midterms-ai-ballot-privacy",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>A Princeton researcher found that publicly available election records could be combined with AI to link voters to their ballots</p><p>When voters cast their ballots, their votes are supposed to remain secret: from their family, their neighbors, and the government.</p><p>But what if artificial evidence could make secret votes visible?</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/02/midterms-ai-ballot-privacy\">Continue reading...</a>",
-    "content": "<p>A Princeton researcher found that publicly available election records could be combined with AI to link voters to their ballots</p><p>When voters cast their ballots, their votes are supposed to remain secret: from their family, their neighbors, and the government.</p><p>But what if artificial evidence could make secret votes visible?</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/02/midterms-ai-ballot-privacy\">Continue reading...</a>",
-    "published": "2026-10-02T22:02:05+03:30"
   }
 ]
