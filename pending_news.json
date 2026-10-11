@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|poland detains man suspected of planning assassination of pm tusk|https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o",
+    "title": "Poland detains man suspected of planning assassination of PM Tusk",
+    "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
+    "content": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
+    "published": "2026-10-11T20:57:24+03:30"
+  },
+  {
     "id": "BBC World|saudi capital airport hit by second strike in two days|https://www.bbc.co.uk/news/articles/cr93znyk44e1o",
     "title": "Saudi capital airport hit by second strike in two days",
     "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o",
@@ -1988,15 +1998,5 @@
     "summary": "With neither candidate getting more than 50% of the vote, the election will go to a run-off on 25 October.",
     "content": "With neither candidate getting more than 50% of the vote, the election will go to a run-off on 25 October.",
     "published": "2026-10-05T03:45:27+03:30"
-  },
-  {
-    "id": "BBC World|rescuers suspend search for survivors after plane went missing off us coast|https://www.bbc.co.uk/news/articles/cme3x85013llo",
-    "title": "Rescuers suspend search for survivors after plane went missing off US coast",
-    "url": "https://www.bbc.co.uk/news/articles/cme3x85013llo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
-    "content": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
-    "published": "2026-10-05T02:59:18+03:30"
   }
 ]
