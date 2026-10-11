@@ -1,5 +1,25 @@
 [
   {
+    "id": "BBC World|pope leo to have surgery after lump found on lung|https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo",
+    "title": "Pope Leo to have surgery after lump found on lung",
+    "url": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The 71-year-old pontiff said the nodule was identified \"at a very early stage\".",
+    "content": "The 71-year-old pontiff said the nodule was identified \"at a very early stage\".",
+    "published": "2026-10-11T14:36:02+03:30"
+  },
+  {
+    "id": "The Guardian AI|us’s reagan-era economic promises return as trump’s ai-fueled growth fantasy|https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan",
+    "title": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
+    "url": "https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’</p><p>Back through political history to the age of <a href=\"https://www.theguardian.com/us-news/ronald-reagan\">Ronald Reagan</a>, Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s coffers.</p><p>The promise never really panned out. From the Gipper’s day on, the Republicans’ tax cuts inevitably increased the budget deficit. Despite its failure, though, the promise is back, coated in a fine new layer of <a",
+    "content": "<p>‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’</p><p>Back through political history to the age of <a href=\"https://www.theguardian.com/us-news/ronald-reagan\">Ronald Reagan</a>, Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s coffers.</p><p>The promise never really panned out. From the Gipper’s day on, the Republicans’ tax cuts inevitably increased the budget deficit. Despite its failure, though, the promise is back, coated in a fine new layer of <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">artificial intelligence</a> pixie dust. It will fail again.</p> <a href=\"https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan\">Continue reading...</a>",
+    "published": "2026-10-11T14:30:25+03:30"
+  },
+  {
     "id": "The Guardian AI|fixated on ai, the world has forgotten what is staring it in the face: nuclear annihilation | simon tisdall|https://www.theguardian.com/commentisfree/2026/oct/11/ai-annihilation-advanced-nuclear-weapons",
     "title": "Fixated on AI, the world has forgotten what is staring it in the face: nuclear annihilation | Simon Tisdall",
     "url": "https://www.theguardian.com/commentisfree/2026/oct/11/ai-annihilation-advanced-nuclear-weapons",
@@ -1978,25 +1998,5 @@
     "summary": "<p>Company says it is reviewing 50 petabytes of data after its agents accessed websites including Medicare without authorisation</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>OpenAI says its review in response to the Medicare and Hugging Face agent attacks is costing the company more than US$500,000 per day, as it deploys AI to examine data that wo",
     "content": "<p>Company says it is reviewing 50 petabytes of data after its agents accessed websites including Medicare without authorisation</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>OpenAI says its review in response to the Medicare and Hugging Face agent attacks is costing the company more than US$500,000 per day, as it deploys AI to examine data that would take a human 66m years to read.</p><p>The company has warned the review is ongoing, and more organisations may be informed they’ve been targeted in the near future.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day\">Continue reading...</a>",
     "published": "2026-10-03T09:09:22+03:30"
-  },
-  {
-    "id": "BBC World|g7 to release millions of barrels of oil and diesel after trump threat|https://www.bbc.co.uk/news/articles/ck87zg8jnwngo",
-    "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-    "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
-    "content": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
-    "published": "2026-10-03T08:08:31+03:30"
-  },
-  {
-    "id": "Federal Reserve|federal reserve board announces approval of application by fleur capital corporation|https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
-    "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-    "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
-    "source": "Federal Reserve",
-    "category": "اقتصاد و بازارها",
-    "summary": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-    "content": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-    "published": "2026-10-03T00:15:00+03:30"
   }
 ]
