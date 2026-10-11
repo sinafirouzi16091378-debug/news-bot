@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|saudi capital airport hit by second strike in two days|https://www.bbc.co.uk/news/articles/cr93znyk44e1o",
+    "title": "Saudi capital airport hit by second strike in two days",
+    "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Yemen's Houthi rebels claimed responsibility for attacks on the airport over the weekend, which have killed at least 13.",
+    "content": "Yemen's Houthi rebels claimed responsibility for attacks on the airport over the weekend, which have killed at least 13.",
+    "published": "2026-10-11T20:11:37+03:30"
+  },
+  {
     "id": "The Guardian AI|feelgood factor of human interaction | brief letters|https://www.theguardian.com/science/2026/oct/11/feelgood-factor-of-human-interaction",
     "title": "Feelgood factor of human interaction | Brief letters",
     "url": "https://www.theguardian.com/science/2026/oct/11/feelgood-factor-of-human-interaction",
@@ -98,6 +108,16 @@
     "summary": "<p>‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’</p><p>Back through political history to the age of <a href=\"https://www.theguardian.com/us-news/ronald-reagan\">Ronald Reagan</a>, Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s coffers.</p><p>The promise never really panned out. From the Gipper’s day on, the Republicans’ tax cuts inevitably increased the budget deficit. Despite its failure, though, the promise is back, coated in a fine new layer of <a",
     "content": "<p>‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’</p><p>Back through political history to the age of <a href=\"https://www.theguardian.com/us-news/ronald-reagan\">Ronald Reagan</a>, Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s coffers.</p><p>The promise never really panned out. From the Gipper’s day on, the Republicans’ tax cuts inevitably increased the budget deficit. Despite its failure, though, the promise is back, coated in a fine new layer of <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">artificial intelligence</a> pixie dust. It will fail again.</p> <a href=\"https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan\">Continue reading...</a>",
     "published": "2026-10-11T14:30:25+03:30"
+  },
+  {
+    "id": "BBC World|buildings swept away as flash floods hit central nepal|https://www.bbc.co.uk/news/videos/cwzrdnljedx0o",
+    "title": "Buildings swept away as flash floods hit central Nepal",
+    "url": "https://www.bbc.co.uk/news/videos/cwzrdnljedx0o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "A flash flood at the Budhi Gandaki River has swept away several buildings and bridges, two months after catastrophic floods hit the country.",
+    "content": "A flash flood at the Budhi Gandaki River has swept away several buildings and bridges, two months after catastrophic floods hit the country.",
+    "published": "2026-10-11T14:04:02+03:30"
   },
   {
     "id": "The Guardian AI|fixated on ai, the world has forgotten what is staring it in the face: nuclear annihilation | simon tisdall|https://www.theguardian.com/commentisfree/2026/oct/11/ai-annihilation-advanced-nuclear-weapons",
@@ -1978,25 +1998,5 @@
     "summary": "The BBC spoke to one of three residents at a care home who were sexually assaulted by a staff member.",
     "content": "The BBC spoke to one of three residents at a care home who were sexually assaulted by a staff member.",
     "published": "2026-10-05T01:41:33+03:30"
-  },
-  {
-    "id": "BBC World|polls close in brazil as lula and flávio bolsonaro remain neck and neck|https://www.bbc.co.uk/news/articles/ck1l34ed592no",
-    "title": "Polls close in Brazil as Lula and Flávio Bolsonaro remain neck and neck",
-    "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "If no candidate gets more than 50% of the vote, the election will go to a run-off on 25 October.",
-    "content": "If no candidate gets more than 50% of the vote, the election will go to a run-off on 25 October.",
-    "published": "2026-10-05T00:41:49+03:30"
-  },
-  {
-    "id": "The Guardian AI|trump names intelligence chief jay clayton as new white house ai czar|https://www.theguardian.com/us-news/2026/oct/04/trump-jay-clayton-white-house-ai-czar",
-    "title": "Trump names intelligence chief Jay Clayton as new White House AI czar",
-    "url": "https://www.theguardian.com/us-news/2026/oct/04/trump-jay-clayton-white-house-ai-czar",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Calyton said AI was a ‘gamechanger’ but it also posed ‘a threat’ during his DNI Senate confirmation hearing </p><p>Donald Trump on Sunday named <a href=\"https://www.theguardian.com/us-news/2026/aug/04/jay-clayton-sworn-in-director-of-national-intelligence\">Jay Clayton, the director of national intelligence</a>, to serve also as the new White House AI czar.</p><p>Clayton, <a href=\"https://www.theguardian.com/us-news/2026/jun/11/trump-jay-clayton-director-of-national-intelligence\">who leads the US’s 18 intelligence agencies</a>, previously served as the top federal prosecutor in Manhattan and",
-    "content": "<p>Calyton said AI was a ‘gamechanger’ but it also posed ‘a threat’ during his DNI Senate confirmation hearing </p><p>Donald Trump on Sunday named <a href=\"https://www.theguardian.com/us-news/2026/aug/04/jay-clayton-sworn-in-director-of-national-intelligence\">Jay Clayton, the director of national intelligence</a>, to serve also as the new White House AI czar.</p><p>Clayton, <a href=\"https://www.theguardian.com/us-news/2026/jun/11/trump-jay-clayton-director-of-national-intelligence\">who leads the US’s 18 intelligence agencies</a>, previously served as the top federal prosecutor in Manhattan and led the Securities and Exchange Commission during Trump’s first term.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/04/trump-jay-clayton-white-house-ai-czar\">Continue reading...</a>",
-    "published": "2026-10-04T21:15:28+03:30"
   }
 ]
