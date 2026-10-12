@@ -1,5 +1,35 @@
 [
   {
+    "id": "BBC World|south africa's deputy police chief resigns after being charged with sexual offences|https://www.bbc.co.uk/news/articles/c8wy9d940pyko",
+    "title": "South Africa's deputy police chief resigns after being charged with sexual offences",
+    "url": "https://www.bbc.co.uk/news/articles/c8wy9d940pyko",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Shadrack Sibiya had denied grooming a 16-year-old and raping an 18-year-old.",
+    "content": "Shadrack Sibiya had denied grooming a 16-year-old and raping an 18-year-old.",
+    "published": "2026-10-12T17:48:50+03:30"
+  },
+  {
+    "id": "BBC World|tom cruise film digger forecast to become one of hollywood's biggest flops|https://www.bbc.co.uk/news/articles/cke8re5v1pgmo",
+    "title": "Tom Cruise film Digger forecast to become one of Hollywood's biggest flops",
+    "url": "https://www.bbc.co.uk/news/articles/cke8re5v1pgmo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The film dropped by around 60% in its second weekend, and could become one of Hollywood's biggest flops.",
+    "content": "The film dropped by around 60% in its second weekend, and could become one of Hollywood's biggest flops.",
+    "published": "2026-10-12T17:41:27+03:30"
+  },
+  {
+    "id": "The Guardian AI|dystopian and dehumanising: that’s what it felt like when i was interviewed by an ai assistant|https://www.theguardian.com/commentisfree/2026/oct/13/dystopian-and-dehumanising-thats-what-it-felt-like-when-i-was-interviewed-by-an-ai-assistant",
+    "title": "Dystopian and dehumanising: that’s what it felt like when I was interviewed by an AI assistant",
+    "url": "https://www.theguardian.com/commentisfree/2026/oct/13/dystopian-and-dehumanising-thats-what-it-felt-like-when-i-was-interviewed-by-an-ai-assistant",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Outsourcing the essential task of interviewing job applicants to a machine seems lazy at best, negligent at worst. I want better for all of us</p><p>Over the past 15 years of my working life, I’ve done a lot of interviews for a lot of different jobs and industries: call centre operator, social media manager, bookseller, copywriter, library worker. Recently, after completing my first year of a masters degree in early childhood and primary teaching, I applied for a preschool education role and experienced a first: being interviewed by AI.</p><p>I’d heard of this practice and was aware of its ",
+    "content": "<p>Outsourcing the essential task of interviewing job applicants to a machine seems lazy at best, negligent at worst. I want better for all of us</p><p>Over the past 15 years of my working life, I’ve done a lot of interviews for a lot of different jobs and industries: call centre operator, social media manager, bookseller, copywriter, library worker. Recently, after completing my first year of a masters degree in early childhood and primary teaching, I applied for a preschool education role and experienced a first: being interviewed by AI.</p><p>I’d heard of this practice and was aware of its shortcomings, from how <a href=\"https://www.theguardian.com/commentisfree/2024/oct/17/job-hunting-ai-robot-interview-personality-test-ntwnfb\">demoralising</a> it is to the <a href=\"https://www.theguardian.com/australia-news/2025/may/14/people-interviewed-by-ai-for-jobs-face-discrimination-risks-australian-study-warns\">risk of discrimination</a>.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/oct/13/dystopian-and-dehumanising-thats-what-it-felt-like-when-i-was-interviewed-by-an-ai-assistant\">Continue reading...</a>",
+    "published": "2026-10-12T17:30:57+03:30"
+  },
+  {
     "id": "The Guardian AI|burnham accepts brexit result ‘legitimate’ despite russian interference, says no 10 – uk politics live|https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
     "title": "Burnham accepts Brexit result ‘legitimate’ despite Russian interference, says No 10 – UK politics live",
     "url": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
@@ -20,8 +50,28 @@
     "published": "2026-10-12T17:22:55+03:30"
   },
   {
+    "id": "BBC World|us detains man accused in multi-billion venezuelan money laundering scheme|https://www.bbc.co.uk/news/articles/crp3gy0x0dd1o",
+    "title": "US detains man accused in multi-billion Venezuelan money laundering scheme",
+    "url": "https://www.bbc.co.uk/news/articles/crp3gy0x0dd1o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "US officials had been offering a reward of $10m (£7.5m) for information leading to Álvaro Pulido's arrest.",
+    "content": "US officials had been offering a reward of $10m (£7.5m) for information leading to Álvaro Pulido's arrest.",
+    "published": "2026-10-12T17:19:05+03:30"
+  },
+  {
     "id": "BBC World|who are the houthis, and why are they so hard to fight?|https://www.bbc.co.uk/news/videos/cmy56nzd6y69o",
     "title": "Who are the Houthis, and why are they so hard to fight?",
+    "url": "https://www.bbc.co.uk/news/videos/cmy56nzd6y69o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Security correspondent Frank Gardner explains how the Iran-backed Houthis' precision strikes and guerrilla tactics have made it difficult for Saudi forces to gain the upper hand.",
+    "content": "Security correspondent Frank Gardner explains how the Iran-backed Houthis' precision strikes and guerrilla tactics have made it difficult for Saudi forces to gain the upper hand.",
+    "published": "2026-10-12T15:45:01+03:30"
+  },
+  {
+    "id": "BBC World|why is it so hard to fight the houthis?|https://www.bbc.co.uk/news/videos/cmy56nzd6y69o",
+    "title": "Why is it so hard to fight the Houthis?",
     "url": "https://www.bbc.co.uk/news/videos/cmy56nzd6y69o",
     "source": "BBC World",
     "category": "جهان",
@@ -1948,55 +1998,5 @@
     "summary": "Saudi-backed forces say they seized the port city of Mocha, near the Bab al-Mandab Strait, at the start of an offensive against the Houthis.",
     "content": "Saudi-backed forces say they seized the port city of Mocha, near the Bab al-Mandab Strait, at the start of an offensive against the Houthis.",
     "published": "2026-10-05T21:19:59+03:30"
-  },
-  {
-    "id": "The Guardian AI|the guardian view on sexual abuse in schools: teachers cannot deal with this alone | editorial|https://www.theguardian.com/commentisfree/2026/oct/05/the-guardian-view-on-sexual-abuse-in-schools-teachers-cannot-deal-with-this-alone",
-    "title": "The Guardian view on sexual abuse in schools: teachers cannot deal with this alone | Editorial",
-    "url": "https://www.theguardian.com/commentisfree/2026/oct/05/the-guardian-view-on-sexual-abuse-in-schools-teachers-cannot-deal-with-this-alone",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Politicians must redouble their efforts to tackle a disturbing pattern of pupils assaulting classmates</p><p>The Guardian’s findings about the <a href=\"https://www.theguardian.com/education/2026/oct/04/child-on-child-sexual-abuse-schools-england-and-wales\">extent of sexual abuse in schools</a> require an urgent, calibrated response. Data revealing multiple rapes committed each year on school premises in England and Wales is hard to comprehend. Yet this is what freedom of information requests to police forces, covering the period from 2021 until last year, have revealed. As well as the sever",
-    "content": "<p>Politicians must redouble their efforts to tackle a disturbing pattern of pupils assaulting classmates</p><p>The Guardian’s findings about the <a href=\"https://www.theguardian.com/education/2026/oct/04/child-on-child-sexual-abuse-schools-england-and-wales\">extent of sexual abuse in schools</a> require an urgent, calibrated response. Data revealing multiple rapes committed each year on school premises in England and Wales is hard to comprehend. Yet this is what freedom of information requests to police forces, covering the period from 2021 until last year, have revealed. As well as the severity of the offences, the youth of many of the victims is disturbing. More than 8,500 sexual offences at or near schools were committed against under-13s, most of them girls.</p><p>Data about perpetrators contains gaps, including their age and sex. While the overwhelming majority of&nbsp;such acts are carried out by <a href=\"https://www.theguardian.com/education/2026/oct/04/children-schools-struggle-cope-sexual-abuse-england-wales\">boys</a>, we don’t know the&nbsp;exact proportion, nor if there is an age gap between those carrying out abuse and those being targeted. Only 33 out of 43 police for",
-    "published": "2026-10-05T21:15:41+03:30"
-  },
-  {
-    "id": "BBC World|pentagon stops using anthropic ai tools after blacklisting company, bbc told|https://www.bbc.co.uk/news/articles/c5j9x9pr0240o",
-    "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
-    "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "It labelled Anthropic a \"supply chain risk\" in February after the firm refused to remove safety guardrails from its tools.",
-    "content": "It labelled Anthropic a \"supply chain risk\" in February after the firm refused to remove safety guardrails from its tools.",
-    "published": "2026-10-05T19:43:21+03:30"
-  },
-  {
-    "id": "BBC World|teenager's hand blown off during confrontation between france school protesters and police|https://www.bbc.co.uk/news/articles/c9zrdmxp4vy6o",
-    "title": "Teenager's hand blown off during confrontation between France school protesters and police",
-    "url": "https://www.bbc.co.uk/news/articles/c9zrdmxp4vy6o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The prefect of Pas-de-Calais says the teenager's life is \"not in danger\" after the \"very serious\" incident on Monday.",
-    "content": "The prefect of Pas-de-Calais says the teenager's life is \"not in danger\" after the \"very serious\" incident on Monday.",
-    "published": "2026-10-05T15:59:45+03:30"
-  },
-  {
-    "id": "The Guardian AI|accept ‘bad things’ in return for benefits of ai, says sam altman|https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
-    "title": "Accept ‘bad things’ in return for benefits of AI, says Sam Altman",
-    "url": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Boss of OpenAI calls for a regulatory light touch because of the ‘good stuff’ the technology can deliver</p><p>Sam Altman says he believes the world should accept “bad things” happening with AI in exchange for the benefits of the technology.</p><p>The chief executive of OpenAI cited hacks, scams and “other bad things that will happen” in an interview that sparked an instant backlash from critics of the major AI companies. His comments came after one of his company’s safety experts <a href=\"https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-cult",
-    "content": "<p>Boss of OpenAI calls for a regulatory light touch because of the ‘good stuff’ the technology can deliver</p><p>Sam Altman says he believes the world should accept “bad things” happening with AI in exchange for the benefits of the technology.</p><p>The chief executive of OpenAI cited hacks, scams and “other bad things that will happen” in an interview that sparked an instant backlash from critics of the major AI companies. His comments came after one of his company’s safety experts <a href=\"https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken\">resigned</a>, saying at the weekend that its “culture is broken”.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks\">Continue reading...</a>",
-    "published": "2026-10-05T15:43:36+03:30"
-  },
-  {
-    "id": "BBC World|georgia officials hunt for suspect in shooting that killed two and injured 35|https://www.bbc.co.uk/news/articles/c6e9lj5r3ej7o",
-    "title": "Georgia officials hunt for suspect in shooting that killed two and injured 35",
-    "url": "https://www.bbc.co.uk/news/articles/c6e9lj5r3ej7o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "A homecoming celebration turned into a scene of deadly violence, as dozens of shots were fired into a crowd.",
-    "content": "A homecoming celebration turned into a scene of deadly violence, as dozens of shots were fired into a crowd.",
-    "published": "2026-10-05T15:38:21+03:30"
   }
 ]
