@@ -1,5 +1,35 @@
 [
   {
+    "id": "BBC World|pupil arrested after two teachers shot at french school|https://www.bbc.co.uk/news/articles/cm2keg7910gvo",
+    "title": "Pupil arrested after two teachers shot at French school",
+    "url": "https://www.bbc.co.uk/news/articles/cm2keg7910gvo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "A 14-year-old was detained after the middle-school principal and teacher were injured.",
+    "content": "A 14-year-old was detained after the middle-school principal and teacher were injured.",
+    "published": "2026-10-12T14:03:28+03:30"
+  },
+  {
+    "id": "BBC World|saudi minister vows 'serious response' to houthi attacks on airports|https://www.bbc.co.uk/news/articles/cjly0zqq27e4o",
+    "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+    "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "It comes after the armed group hit Riyadh's international airport and another facility, killing 13 people, in a significant escalation.",
+    "content": "It comes after the armed group hit Riyadh's international airport and another facility, killing 13 people, in a significant escalation.",
+    "published": "2026-10-12T13:58:47+03:30"
+  },
+  {
+    "id": "BBC World|women's billion-dollar boom leaves players behind, says fifpro|https://www.bbc.co.uk/sport/football/articles/cmd7qn1g0xrxo",
+    "title": "Women's billion-dollar boom leaves players behind, says Fifpro",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmd7qn1g0xrxo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Women's football is on course to become a billion-dollar industry, but many professional players are still earning low wages, working on insecure contracts and experiencing rising psychological stress, a Fifpro survey indicates.",
+    "content": "Women's football is on course to become a billion-dollar industry, but many professional players are still earning low wages, working on insecure contracts and experiencing rising psychological stress, a Fifpro survey indicates.",
+    "published": "2026-10-12T13:34:50+03:30"
+  },
+  {
     "id": "The Guardian AI|‘i’ve become significantly more cautious’: six parents on limiting their kids’ social media and ai use|https://www.theguardian.com/us-news/2026/oct/12/parents-limiting-social-media-ai-use",
     "title": "‘I’ve become significantly more cautious’: six parents on limiting their kids’ social media and AI use",
     "url": "https://www.theguardian.com/us-news/2026/oct/12/parents-limiting-social-media-ai-use",
@@ -18,6 +48,16 @@
     "summary": "<p>Brad Smith adds to calls for tougher rules for AI, including ‘kill switches’ and legal obligation to victims of rogue agents</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>Artificial intelligence is less regulated than milk and washing machines, the president of Microsoft has said, as the tech industry warns over the safety of AI.</p><p>Brad Smith said there should be more safety rules to govern ",
     "content": "<p>Brad Smith adds to calls for tougher rules for AI, including ‘kill switches’ and legal obligation to victims of rogue agents</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>Artificial intelligence is less regulated than milk and washing machines, the president of Microsoft has said, as the tech industry warns over the safety of AI.</p><p>Brad Smith said there should be more safety rules to govern the technology including a legal obligation to a “victim” if their system was breached by rogue AI agents.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules\">Continue reading...</a>",
     "published": "2026-10-12T11:22:46+03:30"
+  },
+  {
+    "id": "BBC World|indian opposition leaders march to top court to demand election chief resign|https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo",
+    "title": "Indian opposition leaders march to top court to demand election chief resign",
+    "url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The march follows a chaotic weekend in Delhi which saw thousands of protesters being detained by police.",
+    "content": "The march follows a chaotic weekend in Delhi which saw thousands of protesters being detained by police.",
+    "published": "2026-10-12T10:12:35+03:30"
   },
   {
     "id": "BBC World|watch: how did roman abramovich's advisors help hide his wealth?|https://www.bbc.co.uk/news/videos/c9rkynp1m01mo",
@@ -1958,15 +1998,5 @@
     "summary": "India’s toy shops provide an unlikely barometer by which to measure its economic relationship with China.",
     "content": "India’s toy shops provide an unlikely barometer by which to measure its economic relationship with China.",
     "published": "2026-10-05T05:12:11+03:30"
-  },
-  {
-    "id": "BBC World|brazil election goes to run-off as right-wing flávio bolsonaro wins first round|https://www.bbc.co.uk/news/articles/ck1l34ed592no",
-    "title": "Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round",
-    "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "With neither candidate getting more than 50% of the vote, the election will go to a run-off on 25 October.",
-    "content": "With neither candidate getting more than 50% of the vote, the election will go to a run-off on 25 October.",
-    "published": "2026-10-05T03:45:27+03:30"
   }
 ]
