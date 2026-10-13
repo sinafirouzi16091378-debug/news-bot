@@ -1,5 +1,25 @@
 [
   {
+    "id": "The Guardian AI|apple unveils new smart home devices that showcase upgraded siri ai|https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai",
+    "title": "Apple unveils new smart home devices that showcase upgraded Siri AI",
+    "url": "https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>New products from Apple include the HomeView, an iPad-like device that acts as a hub for other smart home gadgets</p><p>Apple on Tuesday began showing off a ⁠new round of smart home products, including an iPad-like device dubbed the HomeView, meant to hang on walls or perch on tabletops ⁠and act as a hub for other smart home devices.</p><p>The HomeView device starts at $299 and will begin shipping next month. It will feature a 7in screen and face recognition, will help users ⁠control doorbells, thermostats and smart locks in a market where Apple has tinkered for a decade without major succe",
+    "content": "<p>New products from Apple include the HomeView, an iPad-like device that acts as a hub for other smart home gadgets</p><p>Apple on Tuesday began showing off a ⁠new round of smart home products, including an iPad-like device dubbed the HomeView, meant to hang on walls or perch on tabletops ⁠and act as a hub for other smart home devices.</p><p>The HomeView device starts at $299 and will begin shipping next month. It will feature a 7in screen and face recognition, will help users ⁠control doorbells, thermostats and smart locks in a market where Apple has tinkered for a decade without major success. The device will also showcase Apple’s AI-upgraded Siri virtual ​assistant.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai\">Continue reading...</a>",
+    "published": "2026-10-13T19:55:22+03:30"
+  },
+  {
+    "id": "BBC World|pope admitted to hospital for surgery to remove lump on his lung|https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o",
+    "title": "Pope admitted to hospital for surgery to remove lump on his lung",
+    "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Pope Leo has said the growth is \"contained\" and had been found \"at a very early stage\".",
+    "content": "Pope Leo has said the growth is \"contained\" and had been found \"at a very early stage\".",
+    "published": "2026-10-13T19:51:15+03:30"
+  },
+  {
     "id": "BBC World|horrified witnesses recount fatal rollercoaster incident at six flags|https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o",
     "title": "Horrified witnesses recount fatal rollercoaster incident at Six Flags",
     "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o",
@@ -78,6 +98,16 @@
     "summary": "LGBTQ and human rights activists warmly welcomed the move, but call for changes to other Orbán-era laws.",
     "content": "LGBTQ and human rights activists warmly welcomed the move, but call for changes to other Orbán-era laws.",
     "published": "2026-10-13T16:53:45+03:30"
+  },
+  {
+    "id": "BBC World|bbc fm radio transmissions suspended in afghanistan|https://www.bbc.co.uk/news/articles/cm8ezp4g7p6po",
+    "title": "BBC FM radio transmissions suspended in Afghanistan",
+    "url": "https://www.bbc.co.uk/news/articles/cm8ezp4g7p6po",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "BBC programming is still reaching audiences on shortwave, medium wave, via satellite and online.",
+    "content": "BBC programming is still reaching audiences on shortwave, medium wave, via satellite and online.",
+    "published": "2026-10-13T15:43:57+03:30"
   },
   {
     "id": "BBC World|watch: emergency calls from botched christa pike execution released|https://www.bbc.co.uk/news/videos/cqpvgrkp0xpyo",
@@ -1968,35 +1998,5 @@
     "summary": "Opposition leaders have alleged that CEC Gyanesh Kumar manipulated voter rolls to favour Prime Minister Narendra Modi's party during elections.",
     "content": "Opposition leaders have alleged that CEC Gyanesh Kumar manipulated voter rolls to favour Prime Minister Narendra Modi's party during elections.",
     "published": "2026-10-06T13:35:22+03:30"
-  },
-  {
-    "id": "BBC World|fear and disruption for ukraine's rail passengers as russia escalates drone attacks|https://www.bbc.co.uk/news/articles/cr4g1qxzwyj1o",
-    "title": "Fear and disruption for Ukraine's rail passengers as Russia escalates drone attacks",
-    "url": "https://www.bbc.co.uk/news/articles/cr4g1qxzwyj1o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Ukrainians travelling by train are increasingly caught in the crosshairs of Russia's attacks.",
-    "content": "Ukrainians travelling by train are increasingly caught in the crosshairs of Russia's attacks.",
-    "published": "2026-10-06T13:18:37+03:30"
-  },
-  {
-    "id": "BBC World|kenya confirms its first ebola death as outbreak spreads|https://www.bbc.co.uk/news/articles/cqzrd7v1j163o",
-    "title": "Kenya confirms its first Ebola death as outbreak spreads",
-    "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The patient has been living in DR Congo for the past seven years.",
-    "content": "The patient has been living in DR Congo for the past seven years.",
-    "published": "2026-10-06T12:19:20+03:30"
-  },
-  {
-    "id": "BBC World|mass school protests begin in france after days of clashes|https://www.bbc.co.uk/news/articles/cr4g1q1elxnjo",
-    "title": "Mass school protests begin in France after days of clashes",
-    "url": "https://www.bbc.co.uk/news/articles/cr4g1q1elxnjo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Students who have been demanding more investment in education are being joined by parents and some big unions.",
-    "content": "Students who have been demanding more investment in education are being joined by parents and some big unions.",
-    "published": "2026-10-06T12:09:09+03:30"
   }
 ]
