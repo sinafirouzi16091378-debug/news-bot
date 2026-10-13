@@ -40,6 +40,16 @@
     "published": "2026-10-13T12:22:48+03:30"
   },
   {
+    "id": "BBC World|ex-president named leader of new dr congo rebel coalition|https://www.bbc.co.uk/news/articles/c8y56re7ldqyo",
+    "title": "Ex-president named leader of new DR Congo rebel coalition",
+    "url": "https://www.bbc.co.uk/news/articles/c8y56re7ldqyo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Joseph Kabila had previously denied having links to the M23 rebels, which control much of eastern DR Congo.",
+    "content": "Joseph Kabila had previously denied having links to the M23 rebels, which control much of eastern DR Congo.",
+    "published": "2026-10-13T11:51:16+03:30"
+  },
+  {
     "id": "The Guardian AI|chip stocks slide after broadcom boss likens ai investing to ‘casino’|https://www.theguardian.com/business/2026/oct/13/chip-stocks-broadcom-ai-samsung-shares-cxmt",
     "title": "Chip stocks slide after Broadcom boss likens AI investing to ‘casino’",
     "url": "https://www.theguardian.com/business/2026/oct/13/chip-stocks-broadcom-ai-samsung-shares-cxmt",
@@ -1988,15 +1998,5 @@
     "summary": "Nidal Malik Hasan killed 13 unarmed US soldiers and injured another 32 and his execution will be the first by the US military since 1961.",
     "content": "Nidal Malik Hasan killed 13 unarmed US soldiers and injured another 32 and his execution will be the first by the US military since 1961.",
     "published": "2026-10-06T05:52:24+03:30"
-  },
-  {
-    "id": "BBC World|trump says he will stop using taxpayer funds for ads after bipartisan pushback|https://www.bbc.co.uk/news/articles/cm9qzlvpqex9o",
-    "title": "Trump says he will stop using taxpayer funds for ads after bipartisan pushback",
-    "url": "https://www.bbc.co.uk/news/articles/cm9qzlvpqex9o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The ads, which tout Trump and his policies, could have violated US laws barring public government funds being spent on political advertising.",
-    "content": "The ads, which tout Trump and his policies, could have violated US laws barring public government funds being spent on political advertising.",
-    "published": "2026-10-06T05:28:29+03:30"
   }
 ]
