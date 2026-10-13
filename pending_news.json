@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|super el niño sets another record as it strengthens to 'unprecedented levels'|https://www.bbc.co.uk/weather/articles/cmlye0d7q7zno",
+    "title": "Super El Niño sets another record as it strengthens to 'unprecedented levels'",
+    "url": "https://www.bbc.co.uk/weather/articles/cmlye0d7q7zno",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "El Niño has continued to strengthen, with several key measures now in record territory. Simon King explores how it compares to previous events.",
+    "content": "El Niño has continued to strengthen, with several key measures now in record territory. Simon King explores how it compares to previous events.",
+    "published": "2026-10-13T14:48:44+03:30"
+  },
+  {
     "id": "The Guardian AI|as a pediatrician, loss of human connection is the biggest threat to kids, not ai|https://www.theguardian.com/technology/2026/oct/13/human-connection-threat-children-ai-technology",
     "title": "As a pediatrician, loss of human connection is the biggest threat to kids, not AI",
     "url": "https://www.theguardian.com/technology/2026/oct/13/human-connection-threat-children-ai-technology",
@@ -42,6 +52,16 @@
   {
     "id": "The Guardian AI|ai godfather geoffrey hinton: ‘we’re creating alien beings. i’m willing to be selfish and choose humans’|https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
     "title": "AI godfather Geoffrey Hinton: ‘We’re creating alien beings. I’m willing to be selfish and choose humans’",
+    "url": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Pioneering computer scientist on why Trump is using ‘superintelligence’ wrong, whether AI could wipe out humanity – and how our biggest challenge will be accepting we’re not the only intelligent beings</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> is a “corrupt, senile felon” whose fixation on the term <a href=\"https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence\">superintelligence</a> proves he knows nothing about <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a>, said <a href=\"https://ww",
+    "content": "<p>Pioneering computer scientist on why Trump is using ‘superintelligence’ wrong, whether AI could wipe out humanity – and how our biggest challenge will be accepting we’re not the only intelligent beings</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> is a “corrupt, senile felon” whose fixation on the term <a href=\"https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence\">superintelligence</a> proves he knows nothing about <a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a>, said <a href=\"https://www.theguardian.com/technology/2023/may/05/geoffrey-hinton-godfather-of-ai-fears-for-humanity\">Geoffrey Hinton</a>, “godfather” of the technology, in a wide-ranging interview where he doubled down on recent warnings that AI models pose an existential threat to humanity and scoffed at claims the industry could regulate itself.</p><p>The pioneering computer scientist, whose work helped lay the foundations of modern AI, has since become one of the technology’s most vocal critics. His latest remarks come after a tumultuous month during which a growing list of senior AI scientists and researchers <a ",
+    "published": "2026-10-13T12:30:20+03:30"
+  },
+  {
+    "id": "The Guardian AI|ai godfather geoffrey hinton: trump is ‘corrupt, senile felon’ who knows nothing about ai|https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
+    "title": "AI godfather Geoffrey Hinton: Trump is ‘corrupt, senile felon’ who knows nothing about AI",
     "url": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
     "source": "The Guardian AI",
     "category": "هوش مصنوعی و فناوری",
@@ -1978,25 +1998,5 @@
     "summary": "<p>During a joint parliamentary hearing on artificial intelligence, Anthropic’s head of safeguards, Dave Orr, says that investigations of hundreds of millions of transcripts reveal no unauthorised interactions with Australian government systems. However, Orr acknowledges Anthropic has limited visibility into customer usage due to standard ‘zero data retention’ policies</p><ul><li><p><a href=\"https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon\">Anthropic tells AI inquiry it ‘never tried to dictate’ Australian copyright rules</a></p></li></ul> <a href=\"ht",
     "content": "<p>During a joint parliamentary hearing on artificial intelligence, Anthropic’s head of safeguards, Dave Orr, says that investigations of hundreds of millions of transcripts reveal no unauthorised interactions with Australian government systems. However, Orr acknowledges Anthropic has limited visibility into customer usage due to standard ‘zero data retention’ policies</p><ul><li><p><a href=\"https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon\">Anthropic tells AI inquiry it ‘never tried to dictate’ Australian copyright rules</a></p></li></ul> <a href=\"https://www.theguardian.com/media/video/2026/oct/06/anthropic-ai-australia-parliament-inquiry-government-websites-breach-video\">Continue reading...</a>",
     "published": "2026-10-06T08:22:12+03:30"
-  },
-  {
-    "id": "BBC World|separatist party projected to win quebec election, adding new test to canada's unity|https://www.bbc.co.uk/news/articles/crly09gz7ew4o",
-    "title": "Separatist party projected to win Quebec election, adding new test to Canada's unity",
-    "url": "https://www.bbc.co.uk/news/articles/crly09gz7ew4o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The Parti Québécois, which secured a minority, has vowed to hold an independence referendum in the years to come.",
-    "content": "The Parti Québécois, which secured a minority, has vowed to hold an independence referendum in the years to come.",
-    "published": "2026-10-06T06:07:46+03:30"
-  },
-  {
-    "id": "BBC World|samoa leader apologises for nazi salute after video from 2007 emerges|https://www.bbc.co.uk/news/articles/c862ylle91k7o",
-    "title": "Samoa leader apologises for Nazi salute after video from 2007 emerges",
-    "url": "https://www.bbc.co.uk/news/articles/c862ylle91k7o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Schmidt acknowledged that his actions \"were inappropriate and capable of causing offence and hurt\".",
-    "content": "Schmidt acknowledged that his actions \"were inappropriate and capable of causing offence and hurt\".",
-    "published": "2026-10-06T06:06:21+03:30"
   }
 ]
