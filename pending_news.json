@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|russian strikes hit key power plant in kyiv, zelensky says|https://www.bbc.co.uk/news/articles/ck20r9qpw505o",
+    "title": "Russian strikes hit key power plant in Kyiv, Zelensky says",
+    "url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The Ukrainian president says the ballistic missile strikes came with \"no early warning from our partners\".",
+    "content": "The Ukrainian president says the ballistic missile strikes came with \"no early warning from our partners\".",
+    "published": "2026-10-14T01:44:33+03:30"
+  },
+  {
     "id": "The Guardian AI|openai employee arrested after recording device found in office|https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device",
     "title": "OpenAI employee arrested after recording device found in office",
     "url": "https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device",
@@ -1988,15 +1998,5 @@
     "summary": "Belgian physicist Prof Francis Halzen has won for his pioneering work on an observatory that detects particles from space.",
     "content": "Belgian physicist Prof Francis Halzen has won for his pioneering work on an observatory that detects particles from space.",
     "published": "2026-10-06T13:53:59+03:30"
-  },
-  {
-    "id": "BBC World|former german spy chief arrested for espionage and treason|https://www.bbc.co.uk/news/articles/c58jzyer1kr0o",
-    "title": "Former German spy chief arrested for espionage and treason",
-    "url": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "August Hanning is accused of obtaining classified information for a foreign power.",
-    "content": "August Hanning is accused of obtaining classified information for a foreign power.",
-    "published": "2026-10-06T13:35:42+03:30"
   }
 ]
