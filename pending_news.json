@@ -1,5 +1,55 @@
 [
   {
+    "id": "The Guardian AI|openai employee arrested after recording device found in office|https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device",
+    "title": "OpenAI employee arrested after recording device found in office",
+    "url": "https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Discovery of ‘sophisticated’ gadget adds to company’s list of privacy concerns after hackings by rogue agents</p><p>OpenAI said it has found a hidden recording device in one of its offices and has referred the matter to the FBI. One of its employees has been arrested.</p><p>In a <a href=\"https://x.com/OpenAINewsroom/status/2110095403198849132?s=20\">statement </a>on Tuesday, the San Francisco-based AI company said it discovered the “sophisticated recording device” and used one of its “models to understand the device and where it had come from”.</p> <a href=\"https://www.theguardian.com/techno",
+    "content": "<p>Discovery of ‘sophisticated’ gadget adds to company’s list of privacy concerns after hackings by rogue agents</p><p>OpenAI said it has found a hidden recording device in one of its offices and has referred the matter to the FBI. One of its employees has been arrested.</p><p>In a <a href=\"https://x.com/OpenAINewsroom/status/2110095403198849132?s=20\">statement </a>on Tuesday, the San Francisco-based AI company said it discovered the “sophisticated recording device” and used one of its “models to understand the device and where it had come from”.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device\">Continue reading...</a>",
+    "published": "2026-10-14T01:38:48+03:30"
+  },
+  {
+    "id": "BBC World|pakistan has locked down imran khan's stronghold - but it could backfire|https://www.bbc.co.uk/news/articles/crgqwv4vl24jo",
+    "title": "Pakistan has locked down Imran Khan's stronghold - but it could backfire",
+    "url": "https://www.bbc.co.uk/news/articles/crgqwv4vl24jo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Some fear the government's standoff with the former PM's supporters could bring more instability, not less.",
+    "content": "Some fear the government's standoff with the former PM's supporters could bring more instability, not less.",
+    "published": "2026-10-14T01:37:40+03:30"
+  },
+  {
+    "id": "BBC World|'i'd talk to the tv': the paid companions bringing warmth to china's lonely|https://www.bbc.co.uk/news/articles/cm5ynwpzkgk1o",
+    "title": "'I'd talk to the TV': The paid companions bringing warmth to China's lonely",
+    "url": "https://www.bbc.co.uk/news/articles/cm5ynwpzkgk1o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "As loneliness grows in China, a new industry is emerging to provide companionship and support.",
+    "content": "As loneliness grows in China, a new industry is emerging to provide companionship and support.",
+    "published": "2026-10-14T01:32:09+03:30"
+  },
+  {
+    "id": "BBC World|who's to blame for the toxic smog choking south east asia?|https://www.bbc.co.uk/news/articles/ckreyq9re0n0o",
+    "title": "Who's to blame for the toxic smog choking South East Asia?",
+    "url": "https://www.bbc.co.uk/news/articles/ckreyq9re0n0o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Anger is mounting at the companies accused of burning land in Indonesia and the authorities who have failed to stop them.",
+    "content": "Anger is mounting at the companies accused of burning land in Indonesia and the authorities who have failed to stop them.",
+    "published": "2026-10-14T01:31:43+03:30"
+  },
+  {
+    "id": "BBC World|why the lonely in china are hiring 'temporary children'|https://www.bbc.co.uk/news/videos/cm8xkxn8lqkeo",
+    "title": "Why the lonely in China are hiring 'temporary children'",
+    "url": "https://www.bbc.co.uk/news/videos/cm8xkxn8lqkeo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "A new industry being dubbed the “loneliness economy” has emerged in China, with people hiring themselves out as companions to help the elderly.",
+    "content": "A new industry being dubbed the “loneliness economy” has emerged in China, with people hiring themselves out as companions to help the elderly.",
+    "published": "2026-10-14T01:30:20+03:30"
+  },
+  {
     "id": "BBC World|saudi man charged with planting 'sophisticated' recording device in openai office|https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo",
     "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
     "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo",
@@ -1948,15 +1998,5 @@
     "summary": "August Hanning is accused of obtaining classified information for a foreign power.",
     "content": "August Hanning is accused of obtaining classified information for a foreign power.",
     "published": "2026-10-06T13:35:42+03:30"
-  },
-  {
-    "id": "BBC World|indian opposition mps detained in protest against election chief|https://www.bbc.co.uk/news/articles/crpdgvx82831o",
-    "title": "Indian opposition MPs detained in protest against election chief",
-    "url": "https://www.bbc.co.uk/news/articles/crpdgvx82831o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Opposition leaders have alleged that CEC Gyanesh Kumar manipulated voter rolls to favour Prime Minister Narendra Modi's party during elections.",
-    "content": "Opposition leaders have alleged that CEC Gyanesh Kumar manipulated voter rolls to favour Prime Minister Narendra Modi's party during elections.",
-    "published": "2026-10-06T13:35:22+03:30"
   }
 ]
