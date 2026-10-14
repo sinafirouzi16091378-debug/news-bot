@@ -1,5 +1,15 @@
 [
   {
+    "id": "BBC World|russian strikes leave 600,000 without power in ukraine, zelensky says|https://www.bbc.co.uk/news/articles/cm2d6e62p49do",
+    "title": "Russian strikes leave 600,000 without power in Ukraine, Zelensky says",
+    "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Ukraine's president says \"critical\" infrastructure was hit overnight, while emergency services say at least three were killed.",
+    "content": "Ukraine's president says \"critical\" infrastructure was hit overnight, while emergency services say at least three were killed.",
+    "published": "2026-10-14T10:51:50+03:30"
+  },
+  {
     "id": "BBC World|russia arrests japanese journalist on spying charges|https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo",
     "title": "Russia arrests Japanese journalist on spying charges",
     "url": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo",
@@ -212,6 +222,16 @@
   {
     "id": "BBC World|saudi man charged with planting 'sophisticated' recording device in openai office|https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo",
     "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+    "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room.",
+    "content": "Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room.",
+    "published": "2026-10-14T01:12:49+03:30"
+  },
+  {
+    "id": "BBC World|saudi employee charged with planting recording device in openai office|https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo",
+    "title": "Saudi employee charged with planting recording device in OpenAI office",
     "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo",
     "source": "BBC World",
     "category": "جهان",
@@ -1978,25 +1998,5 @@
     "summary": "The BBC speaks to experts about current US state sexual assault laws and why some believe changing them will help alleged victims.",
     "content": "The BBC speaks to experts about current US state sexual assault laws and why some believe changing them will help alleged victims.",
     "published": "2026-10-07T00:10:01+03:30"
-  },
-  {
-    "id": "BBC World|drinking and consent - cornell rape allegations expose 'loopholes' in laws|https://www.bbc.co.uk/news/articles/c9e8l0ep8d1mo",
-    "title": "Drinking and consent - Cornell rape allegations expose 'loopholes' in laws",
-    "url": "https://www.bbc.co.uk/news/articles/c9e8l0ep8d1mo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "The BBC speaks to experts about current US state sexual assault laws and why some believe changing them will help alleged victims.",
-    "content": "The BBC speaks to experts about current US state sexual assault laws and why some believe changing them will help alleged victims.",
-    "published": "2026-10-07T00:10:01+03:30"
-  },
-  {
-    "id": "BBC World|tear gas in paris and marseille as school protests grow across france|https://www.bbc.co.uk/news/articles/c8x23706pvz3o",
-    "title": "Tear gas in Paris and Marseille as school protests grow across France",
-    "url": "https://www.bbc.co.uk/news/articles/c8x23706pvz3o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Crowds of mainly teenagers called for more resources for schools and an end to what they called police repression.",
-    "content": "Crowds of mainly teenagers called for more resources for schools and an end to what they called police repression.",
-    "published": "2026-10-06T21:33:19+03:30"
   }
 ]
