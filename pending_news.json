@@ -1,5 +1,95 @@
 [
   {
+    "id": "BBC World|us church on frontline of battle against drug known as 'tranq'|https://www.bbc.co.uk/news/videos/cqd097z3epvno",
+    "title": "US church on frontline of battle against drug known as 'tranq'",
+    "url": "https://www.bbc.co.uk/news/videos/cqd097z3epvno",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Synthetic opioids like fentanyl are more powerful and in plentiful supply, and they have transformed the drugs landscape.",
+    "content": "Synthetic opioids like fentanyl are more powerful and in plentiful supply, and they have transformed the drugs landscape.",
+    "published": "2026-10-20T03:32:32+03:30"
+  },
+  {
+    "id": "BBC World|morocco's first female prime minister caught between the king, clerics, and feminists|https://www.bbc.co.uk/news/articles/cmqxn4gggdw4o",
+    "title": "Morocco's first female prime minister caught between the king, clerics, and feminists",
+    "url": "https://www.bbc.co.uk/news/articles/cmqxn4gggdw4o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Will Fatima El Mansouri advance women’s rights amid religious and political barriers?",
+    "content": "Will Fatima El Mansouri advance women’s rights amid religious and political barriers?",
+    "published": "2026-10-20T03:00:03+03:30"
+  },
+  {
+    "id": "BBC World|five ways el niño is affecting the weather around the world|https://www.bbc.co.uk/weather/articles/c6dx07dznpyyo",
+    "title": "Five ways El Niño is affecting the weather around the world",
+    "url": "https://www.bbc.co.uk/weather/articles/c6dx07dznpyyo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "As the strongest El Niño on record continues to intensify, what impacts on weather patterns are already being felt across the globe? Sarah Keith-Lucas looks at the evidence.",
+    "content": "As the strongest El Niño on record continues to intensify, what impacts on weather patterns are already being felt across the globe? Sarah Keith-Lucas looks at the evidence.",
+    "published": "2026-10-20T02:38:25+03:30"
+  },
+  {
+    "id": "BBC World|in pictures: dussehra celebrated across india as triumph of good over evil|https://www.bbc.co.uk/news/articles/c98rzynj6e1yo",
+    "title": "In pictures: Dussehra celebrated across India as triumph of good over evil",
+    "url": "https://www.bbc.co.uk/news/articles/c98rzynj6e1yo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The festival, which commemorates the triumph of good over evil, is celebrated with different rituals across India.",
+    "content": "The festival, which commemorates the triumph of good over evil, is celebrated with different rituals across India.",
+    "published": "2026-10-20T02:34:08+03:30"
+  },
+  {
+    "id": "The Guardian AI|new ai tool can predict cancer survival by a single patient selfie, study suggests|https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+    "title": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
+    "url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>System can estimate a person’s biological age and predict chances of cancer survival from a single photograph</p><p>Doctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face.</p><p>The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-",
+    "content": "<p>System can estimate a person’s biological age and predict chances of cancer survival from a single photograph</p><p>Doctors have developed an artificial intelligence tool that can predict a cancer patient’s chances of survival from a single photograph of their face.</p><p>The AI system was custom-built by experts at Mass General Brigham, a nonprofit, integrated academic healthcare system in Massachusetts, to estimate biological age and directly predict survival outcomes in patients diagnosed with cancer.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie\">Continue reading...</a>",
+    "published": "2026-10-20T02:00:08+03:30"
+  },
+  {
+    "id": "BBC World|clean up begins after french riots but police remain|https://www.bbc.co.uk/news/videos/cwr7y0e57r50o",
+    "title": "Clean up begins after French riots but police remain",
+    "url": "https://www.bbc.co.uk/news/videos/cwr7y0e57r50o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Outside of Paris, Marseille saw some of the worst damage, with shop owners reporting more than 600 premises having been looted.",
+    "content": "Outside of Paris, Marseille saw some of the worst damage, with shop owners reporting more than 600 premises having been looted.",
+    "published": "2026-10-20T01:00:08+03:30"
+  },
+  {
+    "id": "BBC World|curfew imposed in parts of central paris and other cities after rioting across france|https://www.bbc.co.uk/news/articles/cx30ez03djyqo",
+    "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+    "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "It comes after the country's interior minister admits that police \"lost control\" in some cities.",
+    "content": "It comes after the country's interior minister admits that police \"lost control\" in some cities.",
+    "published": "2026-10-20T00:44:53+03:30"
+  },
+  {
+    "id": "BBC World|ex-openai worker accused of planting device had saudi support, says court filing|https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo",
+    "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
+    "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The Saudi government did not immediately respond to BBC requests for comment.",
+    "content": "The Saudi government did not immediately respond to BBC requests for comment.",
+    "published": "2026-10-20T00:42:30+03:30"
+  },
+  {
+    "id": "BBC World|tennis star svitolina says emotional toll of ukraine war led to monfils separation|https://www.bbc.co.uk/news/articles/ckd7qy12j148o",
+    "title": "Tennis star Svitolina says emotional toll of Ukraine war led to Monfils separation",
+    "url": "https://www.bbc.co.uk/news/articles/ckd7qy12j148o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The two top tennis pros married in 2021 and have one child together.",
+    "content": "The two top tennis pros married in 2021 and have one child together.",
+    "published": "2026-10-20T00:32:33+03:30"
+  },
+  {
     "id": "BBC World|kenya pastor accused of ordering parents to starve their children to death faces verdict|https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo",
     "title": "Kenya pastor accused of ordering parents to starve their children to death faces verdict",
     "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo",
