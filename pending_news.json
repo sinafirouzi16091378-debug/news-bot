@@ -1,5 +1,35 @@
 [
   {
+    "id": "BBC World|two rescued after nairobi building collapse with five still missing|https://www.bbc.co.uk/news/articles/c317kxyknwp2o",
+    "title": "Two rescued after Nairobi building collapse with five still missing",
+    "url": "https://www.bbc.co.uk/news/articles/c317kxyknwp2o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Police have launched a manhunt for the building's owner and contractor after the multi-storey building collapsed while still under construction.",
+    "content": "Police have launched a manhunt for the building's owner and contractor after the multi-storey building collapsed while still under construction.",
+    "published": "2026-10-24T20:55:46+03:30"
+  },
+  {
+    "id": "BBC World|palestinian families displaced as israeli forces demolish hebron homes, local officials say|https://www.bbc.co.uk/news/articles/cqd09k1k7532o",
+    "title": "Palestinian families displaced as Israeli forces demolish Hebron homes, local officials say",
+    "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
+    "content": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
+    "published": "2026-10-24T20:51:42+03:30"
+  },
+  {
+    "id": "BBC World|watch as fire engulfs hitler's mountaintop eagle's nest retreat|https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o",
+    "title": "Watch as fire engulfs Hitler's mountaintop Eagle's Nest retreat",
+    "url": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Police in the southern German state of Bavaria have detained a 33-year-old German man following the fire.",
+    "content": "Police in the southern German state of Bavaria have detained a 33-year-old German man following the fire.",
+    "published": "2026-10-24T19:26:48+03:30"
+  },
+  {
     "id": "BBC World|vanessa trump says she is cancer-free six months after revealing diagnosis|https://www.bbc.co.uk/news/articles/cm1dwzvn6227o",
     "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
     "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o",
@@ -1968,35 +1998,5 @@
     "summary": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
     "content": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
     "published": "2026-10-15T00:25:24+03:30"
-  },
-  {
-    "id": "BBC World|why zelensky's meeting with burnham matters|https://www.bbc.co.uk/news/videos/c65yngxdzdd5o",
-    "title": "Why Zelensky's meeting with Burnham matters",
-    "url": "https://www.bbc.co.uk/news/videos/c65yngxdzdd5o",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Prime Minister Andy Burnham welcomed President Zelensky to Downing Street on Wednesday, as Ukraine's leader looks to shore up his European allies five years into Russia's war on Ukraine.",
-    "content": "Prime Minister Andy Burnham welcomed President Zelensky to Downing Street on Wednesday, as Ukraine's leader looks to shore up his European allies five years into Russia's war on Ukraine.",
-    "published": "2026-10-15T00:11:03+03:30"
-  },
-  {
-    "id": "The Guardian AI|openai accuses employee who left for apple of leaking plans for unreleased device|https://www.theguardian.com/technology/2026/oct/14/openai-apple-employee-leak-lawsuit",
-    "title": "OpenAI accuses employee who left for Apple of leaking plans for unreleased device",
-    "url": "https://www.theguardian.com/technology/2026/oct/14/openai-apple-employee-leak-lawsuit",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Hours before Apple and the ChatGPT maker were due to face off in court, a new allegation delayed the showdown </p><p>An ⁠<a href=\"https://www.theguardian.com/technology/openai\">OpenAI</a> employee who left the <a href=\"https://www.theguardian.com/technology/chatgpt\">ChatGPT</a> maker for <a href=\"https://www.theguardian.com/technology/apple\">Apple</a> sent more than 100 files about an unreleased product to a personal ⁠account and later ⁠made a presentation ​about the unreleased product to senior Apple leadership, a new filing in the lawsuit between OpenAI and Apple alleges.</p><p>In the fil",
-    "content": "<p>Hours before Apple and the ChatGPT maker were due to face off in court, a new allegation delayed the showdown </p><p>An ⁠<a href=\"https://www.theguardian.com/technology/openai\">OpenAI</a> employee who left the <a href=\"https://www.theguardian.com/technology/chatgpt\">ChatGPT</a> maker for <a href=\"https://www.theguardian.com/technology/apple\">Apple</a> sent more than 100 files about an unreleased product to a personal ⁠account and later ⁠made a presentation ​about the unreleased product to senior Apple leadership, a new filing in the lawsuit between OpenAI and Apple alleges.</p><p>In the filing ⁠in US federal court in San Jose, California, OpenAI alleged that the presentation happened months ago and that Apple is now making ⁠AI products of its own, citing the release of Apple’s HomeView product this week.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/14/openai-apple-employee-leak-lawsuit\">Continue reading...</a>",
-    "published": "2026-10-15T00:01:15+03:30"
-  },
-  {
-    "id": "The Guardian AI|openai’s london staff receive average of £2.3m per person annually|https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person",
-    "title": "OpenAI’s London staff receive average of £2.3m per person annually",
-    "url": "https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person",
-    "source": "The Guardian AI",
-    "category": "هوش مصنوعی و فناوری",
-    "summary": "<p>Accounts for the Westminster-based company behind ChatGPT show that 110 staff shared £87m in salaries and £168m in shares last year</p><p>OpenAI’s London staff each received £2,318,181 on average last year, as the ChatGPT-maker poured Premier League football salaries into its bid to dominate the global AI race.</p><p>Accounts for OpenAI UK Ltd, which is based in Westminster but is opening a new HQ in London’s King’s Cross area, showed that 110 staff shared £87m in salaries and £168m in shares in the company, which is aiming to list on the stock market at a valuation of about $1tn.</p> <a hr",
-    "content": "<p>Accounts for the Westminster-based company behind ChatGPT show that 110 staff shared £87m in salaries and £168m in shares last year</p><p>OpenAI’s London staff each received £2,318,181 on average last year, as the ChatGPT-maker poured Premier League football salaries into its bid to dominate the global AI race.</p><p>Accounts for OpenAI UK Ltd, which is based in Westminster but is opening a new HQ in London’s King’s Cross area, showed that 110 staff shared £87m in salaries and £168m in shares in the company, which is aiming to list on the stock market at a valuation of about $1tn.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person\">Continue reading...</a>",
-    "published": "2026-10-14T22:45:14+03:30"
   }
 ]
