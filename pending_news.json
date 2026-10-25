@@ -1,5 +1,25 @@
 [
   {
+    "id": "BBC World|death toll in nigeria village raided by gunmen rises to 48, police say|https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do",
+    "title": "Death toll in Nigeria village raided by gunmen rises to 48, police say",
+    "url": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do",
+    "source": "BBC World",
+    "category": "جهان",
+    "summary": "Unidentified gunmen on motorcycles swooped on a remote village on Friday, looting shops and setting houses ablaze.",
+    "content": "Unidentified gunmen on motorcycles swooped on a remote village on Friday, looting shops and setting houses ablaze.",
+    "published": "2026-10-25T22:44:27+03:30"
+  },
+  {
+    "id": "The Guardian AI|anthropic sued for allegedly using 274 elvis presley songs to train ai models|https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music",
+    "title": "Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models",
+    "url": "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music",
+    "source": "The Guardian AI",
+    "category": "هوش مصنوعی و فناوری",
+    "summary": "<p>Authentic Brands Group says AI company infringed on rights of songs by the King such as Can’t Help Falling in Love</p><p>The owners of <a href=\"https://www.theguardian.com/music/elvispresley\">Elvis Presley</a>’s music catalogue are suing artificial intelligence (<a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a>) company <a href=\"https://www.theguardian.com/technology/anthropic\">Anthropic</a> for allegedly using Presley’s songs to train their models without permission.</p><p>Authentic Brands Group, the licensing organization that has ownership of both Presley’s",
+    "content": "<p>Authentic Brands Group says AI company infringed on rights of songs by the King such as Can’t Help Falling in Love</p><p>The owners of <a href=\"https://www.theguardian.com/music/elvispresley\">Elvis Presley</a>’s music catalogue are suing artificial intelligence (<a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a>) company <a href=\"https://www.theguardian.com/technology/anthropic\">Anthropic</a> for allegedly using Presley’s songs to train their models without permission.</p><p>Authentic Brands Group, the licensing organization that has ownership of both Presley’s music and likeness, is accusing Anthropic of infringing on the rights of 274 songs by Presley. The lawsuit, first reported by <a href=\"https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/\">Billboard</a>, was filed on Friday.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music\">Continue reading...</a>",
+    "published": "2026-10-25T21:55:59+03:30"
+  },
+  {
     "id": "BBC World|venezuelan opposition leader maría machado returns after months in exile|https://www.bbc.co.uk/news/articles/cq8ez592pp0eo",
     "title": "Venezuelan opposition leader María Machado returns after months in exile",
     "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo",
@@ -1978,25 +1998,5 @@
     "summary": "Livestreaming the execution of Nidal Hasan \"will taint the honor of the military that employs it, and a nation that allows it,\" 72 former officers said in a letter.",
     "content": "Livestreaming the execution of Nidal Hasan \"will taint the honor of the military that employs it, and a nation that allows it,\" 72 former officers said in a letter.",
     "published": "2026-10-15T05:56:07+03:30"
-  },
-  {
-    "id": "BBC World|india and china aren't friends - but nepal wants to unite them against climate threats|https://www.bbc.co.uk/news/articles/cvy0rd1j2kzlo",
-    "title": "India and China aren't friends - but Nepal wants to unite them against climate threats",
-    "url": "https://www.bbc.co.uk/news/articles/cvy0rd1j2kzlo",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Can Nepal bring the two regional giants together to confront a shared climate threat in the Himalayas?",
-    "content": "Can Nepal bring the two regional giants together to confront a shared climate threat in the Himalayas?",
-    "published": "2026-10-15T03:02:11+03:30"
-  },
-  {
-    "id": "BBC World|how backlash against data centres could shape the us midterm elections|https://www.bbc.co.uk/news/articles/c0rezqpnekro",
-    "title": "How backlash against data centres could shape the US midterm elections",
-    "url": "https://www.bbc.co.uk/news/articles/c0rezqpnekro",
-    "source": "BBC World",
-    "category": "جهان",
-    "summary": "Democrats and Republicans alike are coming out against data centre development, amid growing backlash across the US.",
-    "content": "Democrats and Republicans alike are coming out against data centre development, amid growing backlash across the US.",
-    "published": "2026-10-15T02:32:57+03:30"
   }
 ]
